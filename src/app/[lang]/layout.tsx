@@ -19,22 +19,22 @@ export async function generateMetadata({
   const { lang } = await params;
   const activeLang = VALID.includes(lang) ? lang : 'pl';
   const titles: Record<string, string> = {
-    pl: 'Wynajem Autokarów Kielce | Busy, Autokary, Transfer',
-    en: 'Coach Rental Kielce | Buses, Coach Hire, Airport Transfer',
-    de: 'Busmiete Kielce | Reisebusse, Flughafentransfer',
-    ru: 'Аренда автобусов Кельце | Автобусы, Трансфер в аэропорт',
-    ar: 'تأجير الحافلات كيلتسه | حافلات، نقل المطار',
-    es: 'Alquiler de autobuses Kielce | Autobuses, Traslado al aeropuerto',
-    fr: 'Location de bus Kielce | Bus, Transfert aéroport',
+    pl: 'Autokar Busko | Busy, Autokary, Transfer – Ponidzie',
+    en: 'Coach Rental Busko-Zdrój | Buses, Coach Hire, Airport Transfer',
+    de: 'Busmiete Busko-Zdrój | Reisebusse, Flughafentransfer',
+    ru: 'Аренда автобусов Буско-Здруй | Автобусы, Трансфер в аэропорт',
+    ar: 'تأجير الحافلات بوسكو-زدروي | حافلات، نقل المطار',
+    es: 'Alquiler de autobuses Busko-Zdrój | Autobuses, Traslado al aeropuerto',
+    fr: 'Location de bus Busko-Zdrój | Bus, Transfert aéroport',
   };
   const descs: Record<string, string> = {
-    pl: 'Profesjonalny wynajem autokarów w Kielcach. Transport na wycieczki szkolne, wesela, targi MSPO, transfer lotnisko.',
-    en: 'Professional coach rental in Kielce. School trips, weddings, MSPO trade fairs, airport transfer.',
-    de: 'Professionelle Busmiete in Kielce. Schulausflüge, Hochzeiten, MSPO Messe, Flughafentransfer.',
-    ru: 'Профессиональная аренда автобусов в Кельце. Школьные поездки, свадьбы, выставки MSPO и трансфер в аэропорт.',
-    ar: 'تأجير حافلات احترافي في كيلتسه. رحلات مدرسية، حفلات زفاف، معارض MSPO، ونقل إلى المطار.',
-    es: 'Alquiler profesional de autobuses en Kielce. Excursiones escolares, bodas, ferias MSPO y traslado al aeropuerto.',
-    fr: 'Location professionnelle de bus à Kielce. Sorties scolaires, mariages, salons MSPO et transfert aéroport.',
+    pl: 'Profesjonalny wynajem autokarów w Busku-Zdroju. Transport na wycieczki szkolne, wesela, pielgrzymki Ponidzie, transfer lotnisko.',
+    en: 'Professional coach rental in Busko-Zdrój. School trips, weddings, pilgrimages, airport transfer.',
+    de: 'Professionelle Busmiete in Busko-Zdrój. Schulausflüge, Hochzeiten, Pilgerfahrten, Flughafentransfer.',
+    ru: 'Профессиональная аренда автобусов в Буско-Здруй. Школьные поездки, свадьбы, паломничества и трансфер в аэропорт.',
+    ar: 'تأجير حافلات احترافي في بوسكو-زدروي. رحلات مدرسية، حفلات زفاف، حج، ونقل إلى المطار.',
+    es: 'Alquiler profesional de autobuses en Busko-Zdrój. Excursiones escolares, bodas, peregrinaciones y traslado al aeropuerto.',
+    fr: 'Location professionnelle de bus à Busko-Zdrój. Sorties scolaires, mariages, pèlerinages et transfert aéroport.',
   };
 
   const ogLocaleByLang: Record<string, string> = {
@@ -49,8 +49,8 @@ export async function generateMetadata({
 
   const title = titles[activeLang] || titles.pl;
   const description = descs[activeLang] || descs.pl;
-  const pageUrl = `https://wynajem-autobus.pl/${activeLang}`;
-  const ogImage = 'https://wynajem-autobus.pl/images/wesele.jpg';
+  const pageUrl = `https://www.autokar-busko.pl/${activeLang}`;
+  const ogImage = 'https://www.autokar-busko.pl/images/wesele.jpg';
 
   return {
     title,
@@ -59,7 +59,7 @@ export async function generateMetadata({
       type: 'website',
       locale: ogLocaleByLang[activeLang] || 'pl_PL',
       url: pageUrl,
-      siteName: 'Wynajem Autokar Kielce',
+      siteName: 'Autokar Busko',
       title,
       description,
       images: [
@@ -67,7 +67,7 @@ export async function generateMetadata({
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: 'Wynajem Autokar Kielce - 23 lata doswiadczenia, 180 pojazdow',
+          alt: 'Autokar Busko – wynajem autokarów Busko-Zdrój, Ponidzie',
         },
       ],
     },
@@ -80,13 +80,13 @@ export async function generateMetadata({
     alternates: {
       canonical: pageUrl,
       languages: {
-        'pl-PL': 'https://wynajem-autobus.pl/pl',
-        'en-US': 'https://wynajem-autobus.pl/en',
-        'de-DE': 'https://wynajem-autobus.pl/de',
-        'ru-RU': 'https://wynajem-autobus.pl/ru',
-        'ar-SA': 'https://wynajem-autobus.pl/ar',
-        'es-ES': 'https://wynajem-autobus.pl/es',
-        'fr-FR': 'https://wynajem-autobus.pl/fr',
+        'pl-PL': 'https://www.autokar-busko.pl/pl',
+        'en-US': 'https://www.autokar-busko.pl/en',
+        'de-DE': 'https://www.autokar-busko.pl/de',
+        'ru-RU': 'https://www.autokar-busko.pl/ru',
+        'ar-SA': 'https://www.autokar-busko.pl/ar',
+        'es-ES': 'https://www.autokar-busko.pl/es',
+        'fr-FR': 'https://www.autokar-busko.pl/fr',
       },
     },
   };

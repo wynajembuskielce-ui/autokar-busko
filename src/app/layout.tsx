@@ -19,8 +19,8 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Wynajem Autokar Kielce | Busy i Autokary",
-  description: "Profesjonalny wynajem autokarów w Kielcach. Zadzwoń: +48 601 076 652",
+  title: "Autokar Busko | Busy i Autokary Ponidzie",
+  description: "Profesjonalny wynajem autokarów w Busku-Zdroju. Zadzwoń: +48 41 345 32 25",
 };
 
 export default function RootLayout({
