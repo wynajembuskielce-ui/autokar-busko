@@ -33,7 +33,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://www.wynajem-autobus.pl/sitemap.xml',
-    host: 'https://www.wynajem-autobus.pl',
+    sitemap: 'https://www.autokar-busko.pl/sitemap.xml',
+    host: 'https://www.autokar-busko.pl',
   };
 }

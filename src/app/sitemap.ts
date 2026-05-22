@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://wynajem-autobus.pl';
+  const baseUrl = 'https://www.autokar-busko.pl';
   const languages = ['pl', 'en', 'de', 'ru', 'ar', 'es', 'fr'];
   const aiOnlyPage = '/o-grupie-muszkieter';
   const pages = [
