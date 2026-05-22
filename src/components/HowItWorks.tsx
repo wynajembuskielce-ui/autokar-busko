@@ -22,7 +22,7 @@ const content: Record<Language, HowItWorksContent> = {
         icon: "📋",
         title: "Powiedz nam co potrzebujesz",
         copy: "Kiedy, gdzie, ile osób? Wystarczy jedno słowo.",
-        details: ["☎️ Zadzwoń +48 601 076 652", "📧 Formularz (2 minuty)", "📱 WhatsApp"],
+        details: ["☎️ Zadzwoń +48 41 345 32 25", "📧 Formularz (2 minuty)", "📱 WhatsApp"],
       },
       {
         icon: "💰",
@@ -52,7 +52,7 @@ const content: Record<Language, HowItWorksContent> = {
         icon: "📋",
         title: "Tell us what you need",
         copy: "When, where, how many? Just a few words.",
-        details: ["☎️ Call +48 601 076 652", "📧 Form (2 minutes)", "📱 WhatsApp"],
+        details: ["☎️ Call +48 41 345 32 25", "📧 Form (2 minutes)", "📱 WhatsApp"],
       },
       {
         icon: "💰",
@@ -82,7 +82,7 @@ const content: Record<Language, HowItWorksContent> = {
         icon: "📋",
         title: "Sagen Sie uns, was Sie brauchen",
         copy: "Wann, wo, wie viele? Nur ein paar Worte.",
-        details: ["☎️ Anrufen +48 601 076 652", "📧 Formular (2 Minuten)", "📱 WhatsApp"],
+        details: ["☎️ Anrufen +48 41 345 32 25", "📧 Formular (2 Minuten)", "📱 WhatsApp"],
       },
       {
         icon: "💰",
@@ -112,7 +112,7 @@ const content: Record<Language, HowItWorksContent> = {
         icon: "📋",
         title: "Скажите, что вам нужно",
         copy: "Когда, куда, сколько? Достаточно нескольких слов.",
-        details: ["☎️ Звонок +48 601 076 652", "📧 Форма (2 минуты)", "📱 WhatsApp"],
+        details: ["☎️ Звонок +48 41 345 32 25", "📧 Форма (2 минуты)", "📱 WhatsApp"],
       },
       {
         icon: "💰",
@@ -142,7 +142,7 @@ const content: Record<Language, HowItWorksContent> = {
         icon: "📋",
         title: "أخبرنا بما تحتاج",
         copy: "متى وأين وكم شخصًا؟ بضع كلمات تكفي.",
-        details: ["☎️ اتصل +48 601 076 652", "📧 نموذج (دقيقتان)", "📱 واتساب"],
+        details: ["☎️ اتصل +48 41 345 32 25", "📧 نموذج (دقيقتان)", "📱 واتساب"],
       },
       {
         icon: "💰",
@@ -172,7 +172,7 @@ const content: Record<Language, HowItWorksContent> = {
         icon: "📋",
         title: "Dinos qué necesitas",
         copy: "¿Cuándo, dónde, cuántas personas? Unas palabras bastan.",
-        details: ["☎️ Llama +48 601 076 652", "📧 Formulario (2 minutos)", "📱 WhatsApp"],
+        details: ["☎️ Llama +48 41 345 32 25", "📧 Formulario (2 minutos)", "📱 WhatsApp"],
       },
       {
         icon: "💰",
@@ -202,7 +202,7 @@ const content: Record<Language, HowItWorksContent> = {
         icon: "📋",
         title: "Dites-nous ce dont vous avez besoin",
         copy: "Quand, où, combien ? Quelques mots suffisent.",
-        details: ["☎️ Appelez +48 601 076 652", "📧 Formulaire (2 minutes)", "📱 WhatsApp"],
+        details: ["☎️ Appelez +48 41 345 32 25", "📧 Formulaire (2 minutes)", "📱 WhatsApp"],
       },
       {
         icon: "💰",

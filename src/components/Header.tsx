@@ -18,13 +18,13 @@ const LANGUAGES = [
 type Lang = "pl" | "en" | "de" | "ru" | "ar" | "es" | "fr";
 
 const UI: Record<Lang, { services: string; fleet: string; gallery: string; contact: string; phone: string; menu: string; close: string }> = {
-  pl: { services: "Usługi", fleet: "Flota", gallery: "Galeria", contact: "Kontakt", phone: "+48 601 076 652", menu: "Menu", close: "Zamknij" },
-  en: { services: "Services", fleet: "Fleet", gallery: "Gallery", contact: "Contact", phone: "+48 601 076 652", menu: "Menu", close: "Close" },
-  de: { services: "Leistungen", fleet: "Flotte", gallery: "Galerie", contact: "Kontakt", phone: "+48 601 076 652", menu: "Menü", close: "Schließen" },
-  ru: { services: "Услуги", fleet: "Автопарк", gallery: "Галерея", contact: "Контакт", phone: "+48 601 076 652", menu: "Меню", close: "Закрыть" },
-  ar: { services: "الخدمات", fleet: "الأسطول", gallery: "معرض الصور", contact: "اتصل بنا", phone: "+48 601 076 652", menu: "القائمة", close: "إغلاق" },
-  es: { services: "Servicios", fleet: "Flota", gallery: "Galería", contact: "Contacto", phone: "+48 601 076 652", menu: "Menú", close: "Cerrar" },
-  fr: { services: "Services", fleet: "Flotte", gallery: "Galerie", contact: "Contact", phone: "+48 601 076 652", menu: "Menu", close: "Fermer" },
+  pl: { services: "Usługi", fleet: "Flota", gallery: "Galeria", contact: "Kontakt", phone: "+48 41 345 32 25", menu: "Menu", close: "Zamknij" },
+  en: { services: "Services", fleet: "Fleet", gallery: "Gallery", contact: "Contact", phone: "+48 41 345 32 25", menu: "Menu", close: "Close" },
+  de: { services: "Leistungen", fleet: "Flotte", gallery: "Galerie", contact: "Kontakt", phone: "+48 41 345 32 25", menu: "Menü", close: "Schließen" },
+  ru: { services: "Услуги", fleet: "Автопарк", gallery: "Галерея", contact: "Контакт", phone: "+48 41 345 32 25", menu: "Меню", close: "Закрыть" },
+  ar: { services: "الخدمات", fleet: "الأسطول", gallery: "معرض الصور", contact: "اتصل بنا", phone: "+48 41 345 32 25", menu: "القائمة", close: "إغلاق" },
+  es: { services: "Servicios", fleet: "Flota", gallery: "Galería", contact: "Contacto", phone: "+48 41 345 32 25", menu: "Menú", close: "Cerrar" },
+  fr: { services: "Services", fleet: "Flotte", gallery: "Galerie", contact: "Contact", phone: "+48 41 345 32 25", menu: "Menu", close: "Fermer" },
 };
 
 const SERVICE_LABELS: Record<Lang, { weddings: string; schools: string; business: string; pilgrimage: string; ski: string; airport: string; hotelTransfer: string }> = {
@@ -62,7 +62,7 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 text-gray-900 shadow-sm whitespace-nowrap">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
         <Link href={`/${lang}`} className="flex items-center gap-2" aria-label="Strona glowna">
-          <span className="text-brand-gold text-2xl font-black tracking-tight">Wynajem Autokar Kielce</span>
+          <span className="text-brand-gold text-2xl font-black tracking-tight">Autokar Busko</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold" role="navigation" aria-label="Primary navigation">
@@ -125,7 +125,7 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
           </div>
 
           <a
-            href="https://wa.me/48601076652"
+            href="https://wa.me/48609691912"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp kontakt"
@@ -135,8 +135,8 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
           </a>
 
           <a
-            href="tel:601076652"
-            aria-label="Zadzwon +48 601 076 652"
+            href="tel:413453225"
+            aria-label="Zadzwoń +48 41 345 32 25"
             className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-brand-gold px-4 py-2 text-sm font-black text-white shadow-lg transition-all duration-200 hover:bg-brand-gold-dark hover:shadow-xl"
           >
             📞 {ui.phone}

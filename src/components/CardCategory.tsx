@@ -71,7 +71,7 @@ const cardsData: CardData[] = [
       { label: { pl: "Hotel transfer", en: "Hotel Transfer", de: "Hoteltransfer", ru: "Трансфер в отель", ar: "نقل فندقي", es: "Transfer hotel", fr: "Transfert hôtel" }, slug: "hotel-transfer" },
     ],
     backgroundImage: "/images/wesele/wesele-autokar-elegancki-krakow-03.jpg",
-    imageAlt: "Autokar na wesele Krakow, elegancki transport gosci weselnych Muszkieter",
+    imageAlt: "Autokar na wesele Busko-Zdroj, elegancki transport gosci weselnych Autokar Busko",
   },
   {
     icon: "🏫",
@@ -183,7 +183,7 @@ const cardsData: CardData[] = [
       { label: { pl: "Kalkulator", en: "Calculator", de: "Kalkulator", ru: "Калькулятор", ar: "الآلة الحاسبة", es: "Calculadora", fr: "Calculateur" }, slug: "kalkulator" },
     ],
     backgroundImage: "/images/flota/flota-autokar-14.jpg",
-    imageAlt: "Flota autokarow i busow Krakow, wynajem autokaru Muszkieter",
+    imageAlt: "Flota autokarow i busow Busko-Zdroj, wynajem autokaru Autokar Busko",
   },
 ];
 

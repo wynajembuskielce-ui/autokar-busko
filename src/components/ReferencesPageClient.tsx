@@ -21,7 +21,7 @@ const uiByLang: Record<Language, {
     press: "Linki prasowe",
     reviews: "Opinie Google",
     certs: "Certyfikaty i licencje",
-    cta: "Dolacz do grona zadowolonych klientow: 601 076 652",
+    cta: "Dolacz do grona zadowolonych klientow: 41 345 32 25",
   },
   en: {
     title: "References - trusted by over 100 companies and institutions",
@@ -30,7 +30,7 @@ const uiByLang: Record<Language, {
     press: "Press links",
     reviews: "Google reviews",
     certs: "Certificates and licenses",
-    cta: "Join our satisfied clients: +48 601 076 652",
+    cta: "Join our satisfied clients: +48 41 345 32 25",
   },
   de: {
     title: "Referenzen - uber 100 Firmen und Institutionen vertrauen uns",
@@ -39,7 +39,7 @@ const uiByLang: Record<Language, {
     press: "Presse-Links",
     reviews: "Google-Bewertungen",
     certs: "Zertifikate und Lizenzen",
-    cta: "Werden Sie Teil zufriedener Kunden: +48 601 076 652",
+    cta: "Werden Sie Teil zufriedener Kunden: +48 41 345 32 25",
   },
   ru: {
     title: "Otzvy - nam doveryayut bolee 100 kompaniy i uchrezhdeniy",
@@ -48,7 +48,7 @@ const uiByLang: Record<Language, {
     press: "Ssilki v presse",
     reviews: "Otzyvy Google",
     certs: "Sertifikaty i litsenzii",
-    cta: "Prisoedinyaytes k dovolnym klientam: +48 601 076 652",
+    cta: "Prisoedinyaytes k dovolnym klientam: +48 41 345 32 25",
   },
   ar: {
     title: "almarajie - wathiq bina aktar min 100 sharika wamuassasa",
@@ -57,7 +57,7 @@ const uiByLang: Record<Language, {
     press: "rawabit sahafiya",
     reviews: "araa Google",
     certs: "shahadat warukhas",
-    cta: "anضم ila qaeimat alabaraa alradyin: +48 601 076 652",
+    cta: "anضم ila qaeimat alabaraa alradyin: +48 41 345 32 25",
   },
   es: {
     title: "Referencias - confian en nosotros mas de 100 empresas e instituciones",
@@ -66,7 +66,7 @@ const uiByLang: Record<Language, {
     press: "Enlaces de prensa",
     reviews: "Opiniones de Google",
     certs: "Certificados y licencias",
-    cta: "Unete a nuestros clientes satisfechos: +48 601 076 652",
+    cta: "Unete a nuestros clientes satisfechos: +48 41 345 32 25",
   },
   fr: {
     title: "References - plus de 100 entreprises et institutions nous font confiance",
@@ -75,7 +75,7 @@ const uiByLang: Record<Language, {
     press: "Liens presse",
     reviews: "Avis Google",
     certs: "Certificats et licences",
-    cta: "Rejoignez nos clients satisfaits: +48 601 076 652",
+    cta: "Rejoignez nos clients satisfaits: +48 41 345 32 25",
   },
 };
 
@@ -197,8 +197,8 @@ export default function ReferencesPageClient({ lang }: { lang: Language }) {
 
         <section className="bg-[#f59e0b] rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ui.cta}</h2>
-          <a href="tel:601076652" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
-            +48 601 076 652
+          <a href="tel:413453225" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+            +48 41 345 32 25
           </a>
         </section>
       </div>

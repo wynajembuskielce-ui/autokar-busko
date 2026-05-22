@@ -111,7 +111,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
           </li>
           <li>
             <a
-              href="tel:601076652"
+              href="tel:413453225"
               className="mt-2 block rounded-lg bg-[#f59e0b] px-4 py-3 text-center font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl whitespace-nowrap"
             >
               {labels.phone}

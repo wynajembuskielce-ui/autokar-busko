@@ -403,7 +403,7 @@ export default function HeroSlider({ lang }: { lang: Language }) {
           >
             <Image
               src={slide.image}
-              alt={`${slide.title} - wynajem autokarow Krakow, Muszkieter`}
+              alt={`${slide.title} - wynajem autokarow Busko-Zdroj, Autokar Busko`}
               fill
               className="absolute inset-0 scale-105 object-cover"
               priority={index === 0}

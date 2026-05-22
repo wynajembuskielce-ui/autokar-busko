@@ -20,7 +20,7 @@ const uiByLang: Record<Language, { title: string; subtitle: string; teamTitle: s
     subtitle: "Realne zdjecia pojazdow i realizacji z wyjazdow grupowych. Kliknij, aby powiekszyc.",
     teamTitle: "Nasz zespol kierowcow",
     teamSubtitle: "Doswiadczeni kierowcy, ktorzy dbaja o bezpieczenstwo i punktualnosc kazdego kursu.",
-    cta: "Chcesz zobaczyc pojazd na zywo? Umow ogledziny: 601 076 652",
+    cta: "Chcesz zobaczyc pojazd na zywo? Umow ogledziny: 41 345 32 25",
     ctaButton: "Zadzwon teraz",
   },
   en: {
@@ -28,7 +28,7 @@ const uiByLang: Record<Language, { title: string; subtitle: string; teamTitle: s
     subtitle: "Real photos from vehicles and completed group trips. Click to enlarge.",
     teamTitle: "Our driving team",
     teamSubtitle: "Experienced drivers focused on safety and punctuality on every route.",
-    cta: "Want to inspect a vehicle live? Book a viewing: +48 601 076 652",
+    cta: "Want to inspect a vehicle live? Book a viewing: +48 41 345 32 25",
     ctaButton: "Call now",
   },
   de: {
@@ -36,7 +36,7 @@ const uiByLang: Record<Language, { title: string; subtitle: string; teamTitle: s
     subtitle: "Echte Fotos von Fahrzeugen und Einsatzen. Klicken zum Vergrossern.",
     teamTitle: "Unser Fahrerteam",
     teamSubtitle: "Erfahrene Fahrer fur sichere und punktliche Fahrten.",
-    cta: "Mochten Sie ein Fahrzeug live sehen? Termin vereinbaren: +48 601 076 652",
+    cta: "Mochten Sie ein Fahrzeug live sehen? Termin vereinbaren: +48 41 345 32 25",
     ctaButton: "Jetzt anrufen",
   },
   ru: {
@@ -44,7 +44,7 @@ const uiByLang: Record<Language, { title: string; subtitle: string; teamTitle: s
     subtitle: "Realnye foto mashin i vypolnennykh poezdok. Nazhmite dlya uvelicheniya.",
     teamTitle: "Nasha komanda voditeley",
     teamSubtitle: "Opytnye voditeli dlya bezopasnoy i punktualnoy poezdki.",
-    cta: "Hotite posmotret transport v zhivuyu? Dogovorites: +48 601 076 652",
+    cta: "Hotite posmotret transport v zhivuyu? Dogovorites: +48 41 345 32 25",
     ctaButton: "Pozvonit",
   },
   ar: {
@@ -52,7 +52,7 @@ const uiByLang: Record<Language, { title: string; subtitle: string; teamTitle: s
     subtitle: "suwar haqiqiya lilmurakabat walrahilat. adghat littakbir.",
     teamTitle: "fariq alsaeiqin",
     teamSubtitle: "saequn mukhtasun lilaman waliltizam bialmawaeid.",
-    cta: "turid mushahadat almurkaba mubasharatan? ihjuz maweidan: +48 601 076 652",
+    cta: "turid mushahadat almurkaba mubasharatan? ihjuz maweidan: +48 41 345 32 25",
     ctaButton: "ittasil alaan",
   },
   es: {
@@ -60,7 +60,7 @@ const uiByLang: Record<Language, { title: string; subtitle: string; teamTitle: s
     subtitle: "Fotos reales de vehiculos y servicios completados. Haz clic para ampliar.",
     teamTitle: "Nuestro equipo",
     teamSubtitle: "Conductores con experiencia en seguridad y puntualidad.",
-    cta: "Quieres ver el vehiculo en vivo? Reserva visita: +48 601 076 652",
+    cta: "Quieres ver el vehiculo en vivo? Reserva visita: +48 41 345 32 25",
     ctaButton: "Llamar ahora",
   },
   fr: {
@@ -68,7 +68,7 @@ const uiByLang: Record<Language, { title: string; subtitle: string; teamTitle: s
     subtitle: "Photos reelles des vehicules et missions realisees. Cliquez pour agrandir.",
     teamTitle: "Notre equipe",
     teamSubtitle: "Des chauffeurs experimentes pour des trajets sures et ponctuels.",
-    cta: "Vous voulez voir un vehicule en direct ? Prenez rendez-vous: +48 601 076 652",
+    cta: "Vous voulez voir un vehicule en direct ? Prenez rendez-vous: +48 41 345 32 25",
     ctaButton: "Appeler",
   },
 };
@@ -201,7 +201,7 @@ export default function GalleryPageClient({ lang }: { lang: Language }) {
 
         <section className="mt-12 bg-[#f59e0b] rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ui.cta}</h2>
-          <a href="tel:601076652" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+          <a href="tel:413453225" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
             {ui.ctaButton}
           </a>
         </section>

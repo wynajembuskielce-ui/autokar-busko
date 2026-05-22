@@ -9,8 +9,8 @@ interface HeroSectionProps {
 export default function HeroSection({
   title,
   subtitle,
-  ctaText = "Zadzwoń teraz – +48 601 076 652 lub ",
-  ctaHref = "tel:601076652",
+  ctaText = "Zadzwoń teraz – +48 41 345 32 25 lub ",
+  ctaHref = "tel:413453225",
   backgroundImage,
 }: HeroSectionProps) {
   return (

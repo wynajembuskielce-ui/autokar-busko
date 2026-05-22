@@ -75,8 +75,8 @@ export default function PriceTable({ rows, heading = "Cennik wynajmu", lang = "p
         </div>
         <p className="text-center text-gray-500 text-xs mt-4">
           {note}{" "}
-          <a href="tel:601076652" className="text-amber-text underline transition-colors duration-200 hover:text-amber-700">
-            +48 601 076 652 lub 
+          <a href="tel:413453225" className="text-amber-text underline transition-colors duration-200 hover:text-amber-700">
+            +48 41 345 32 25
           </a>
         </p>
       </div>

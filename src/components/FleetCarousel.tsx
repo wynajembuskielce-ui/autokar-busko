@@ -4,12 +4,12 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 const fleetImages = [
-  { src: '/images/flota/flota-autokar-5.jpg', alt: 'Autokar turystyczny 50 osob, Krakow, Muszkieter, wynajem na wesele i wycieczki' },
-  { src: '/images/flota/flota-autokar-3.jpg', alt: 'Autokar 35 osob na transport grupowy, Krakow, Muszkieter Przewozy' },
-  { src: '/images/flota/flota-bus-7.jpg', alt: 'Minibus VIP 17 osob, transport grupowy Krakow, klimatyzacja i komfort' },
-  { src: '/images/flota/flota-bus-3.jpg', alt: 'Bus 9 osob, szybki transfer lotniskowy z Krakowa, Muszkieter' },
-  { src: '/images/flota/flota-bus-8.jpg', alt: 'Minibus VIP dla firm i delegacji, wynajem busa Krakow' },
-  { src: '/images/flota/flota-autokar-10.jpg', alt: 'Autokar na transfer lotnisko Warszawa Krakow Katowice z Krakowa' },
+  { src: '/images/flota/flota-autokar-5.jpg', alt: 'Autokar turystyczny 50 osob, Busko-Zdroj, Autokar Busko, wynajem na wesele i wycieczki' },
+  { src: '/images/flota/flota-autokar-3.jpg', alt: 'Autokar 35 osob na transport grupowy, Busko-Zdroj, Autokar Busko' },
+  { src: '/images/flota/flota-bus-7.jpg', alt: 'Minibus VIP 17 osob, transport grupowy Ponidzie, klimatyzacja i komfort' },
+  { src: '/images/flota/flota-bus-3.jpg', alt: 'Autokar transfer Warszawa-Busko-Zdrój z Buska' },
+  { src: '/images/flota/flota-bus-8.jpg', alt: 'Autokar transfer Katowice-Busko-Zdrój z Buska' },
+  { src: '/images/flota/flota-autokar-10.jpg', alt: 'Autokar transfer Kraków-Busko-Zdrój z Buska' },
 ];
 
 export default function FleetCarousel() {

@@ -24,7 +24,7 @@ export default function ImageSlider() {
           opacity: i === cur ? 1 : 0,
           transition: 'opacity 1s ease'
         }}>
-          <Image src={src} alt={`Autokar Muszkieter Krakow ${i + 1}`}
+          <Image src={src} alt={`Autokar Busko-Zdroj Autokar Busko ${i + 1}`}
             fill style={{ objectFit: 'cover' }} />
         </div>
       ))}

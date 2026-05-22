@@ -20,10 +20,11 @@ type FooterLang = {
 };
 
 const CONTACT_ITEMS = [
-  { label: '📞 +48 601 076 652', href: 'tel:+48601076652' },
-  { label: '📱 WhatsApp', href: 'https://wa.me/48601076652' },
-  { label: '📧 biuro@muszkieter.pl', href: 'mailto:biuro@muszkieter.pl' },
-  { label: '📍 ul. Kolberga 9, 25-516 Kielce' },
+  { label: '📞 +48 41 345 32 25', href: 'tel:+48413453225' },
+  { label: '📱 +48 609 69 19 12', href: 'tel:+48609691912' },
+  { label: '📱 WhatsApp', href: 'https://wa.me/48609691912' },
+  { label: '📧 biuro@autokar-busko.pl', href: 'mailto:biuro@autokar-busko.pl' },
+  { label: '📍 ul. Poprzeczna 1, 28-100 Busko-Zdrój' },
 ];
 
 const footerByLang: Record<Lang, FooterLang> = {
@@ -374,7 +375,7 @@ export default function Footer({ lang }: { lang?: Lang }) {
               ))}
             </div>
             <a
-              href="https://www.google.com/search?q=Wynajem+Autokar+Kielce+opinie"
+              href="https://www.google.com/search?q=Autokar+Busko+opinie"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs text-[#f59e0b] transition-colors hover:text-amber-400"
@@ -395,7 +396,7 @@ export default function Footer({ lang }: { lang?: Lang }) {
             f
           </a>
           <a
-            href="https://wa.me/48601076652"
+            href="https://wa.me/48609691912"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl transition-colors hover:text-[#f59e0b]"
@@ -411,9 +412,9 @@ export default function Footer({ lang }: { lang?: Lang }) {
 
       <div className="bg-black/50 px-4 py-4 text-center text-xs text-gray-500 md:px-8">
         <p className="mb-2 space-y-1">
-          <span className="block">© 2026 MUSZKIETER — wynajem autokarów Kielce</span>
-          <span className="block">Marka MUSZKIETER skupia: UHT Anna Chmiel (CEIDG) oraz Alfa Bus Sp. z o.o. (KRS)</span>
-          <span className="block">ul. Kolberga 9, 25-516 Kielce • +48 601 076 652 • biuro@muszkieter.pl</span>
+          <span className="block">© 2026 Autokar Busko — wynajem autokarów Ponidzie</span>
+          <span className="block">Autokar Busko — UHT Anna Chmiel (CEIDG)</span>
+          <span className="block">ul. Poprzeczna 1, 28-100 Busko-Zdrój • +48 41 345 32 25 • biuro@autokar-busko.pl</span>
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link href="/regulamin" className="transition-colors hover:text-[#f59e0b]">
