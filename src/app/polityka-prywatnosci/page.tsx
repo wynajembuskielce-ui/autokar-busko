@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Polityka prywatnosci | Wynajem-autobus.pl',
-  description: 'Informacje o przetwarzaniu danych osobowych na wynajem-autobus.pl.',
+  description: 'Informacje o przetwarzaniu danych osobowych na www.autokar-busko.pl.',
 };
 
 export default function PrivacyPolicyPage() {

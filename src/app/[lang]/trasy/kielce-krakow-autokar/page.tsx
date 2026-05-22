@@ -233,7 +233,7 @@ const schemaObject = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.wynajem-autobus.pl/pl/trasy/krakow-krakow-autokar#service",
+      "@id": "https://www.autokar-busko.pl/pl/trasy/krakow-krakow-autokar#service",
       name: "Wynajem autokaru Krakow → Kraków",
       description:
         "Wynajem autokaru lub busa na trasie Krakow-Kraków. 115 km, czas przejazdu 1h 40min autostradą A4. Pojazdy 16-50 osób. Stałe ceny od 750 zł.",
@@ -369,19 +369,19 @@ const schemaObject = {
           "@type": "ListItem",
           position: 1,
           name: "Strona główna",
-          item: "https://www.wynajem-autobus.pl/pl",
+          item: "https://www.autokar-busko.pl/pl",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Trasy",
-          item: "https://www.wynajem-autobus.pl/pl/trasy",
+          item: "https://www.autokar-busko.pl/pl/trasy",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Krakow → Kraków",
-          item: "https://www.wynajem-autobus.pl/pl/trasy/krakow-krakow-autokar",
+          item: "https://www.autokar-busko.pl/pl/trasy/krakow-krakow-autokar",
         },
       ],
     },
@@ -535,7 +535,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const l = toLang(lang);
-  const currentUrl = `https://www.wynajem-autobus.pl/${l}/trasy/krakow-krakow-autokar`;
+  const currentUrl = `https://www.autokar-busko.pl/${l}/trasy/krakow-krakow-autokar`;
 
   return {
     title: metaTitles[l],

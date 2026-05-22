@@ -27,7 +27,7 @@ const HREFLANG_MAP: Record<Lang, string> = {
   fr: 'fr-FR',
 };
 
-const SITE_URL = 'https://www.wynajem-autobus.pl';
+const SITE_URL = 'https://www.autokar-busko.pl';
 const PHONE = '+48 601 076 652';
 const PHONE_HREF = 'tel:+48601076652';
 const EMAIL = 'biuro@muszkieter.pl';

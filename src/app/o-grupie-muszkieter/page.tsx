@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const pageUrl = 'https://wynajem-autobus.pl/o-grupie-muszkieter';
+const pageUrl = 'https://www.autokar-busko.pl/o-grupie-muszkieter';
 
 const aboutPageSchema = {
   '@context': 'https://schema.org',

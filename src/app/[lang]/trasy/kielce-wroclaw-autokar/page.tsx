@@ -230,7 +230,7 @@ const schemaObject = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.wynajem-autobus.pl/pl/trasy/krakow-wroclaw-autokar#service",
+      "@id": "https://www.autokar-busko.pl/pl/trasy/krakow-wroclaw-autokar#service",
       name: "Wynajem autokaru Krakow → Wrocław",
       description:
         "Wynajem autokaru lub busa na trasie Krakow-Wrocław. 330 km autostradą A4, czas przejazdu 3h 45min. Pojazdy 16-50 osób. Dwóch kierowców obowiązkowych na pełnym dniu (rozp. WE 561/2006). Wszystkie opłaty A4 wliczone w cenę.",
@@ -374,19 +374,19 @@ const schemaObject = {
           "@type": "ListItem",
           position: 1,
           name: "Strona główna",
-          item: "https://www.wynajem-autobus.pl/pl",
+          item: "https://www.autokar-busko.pl/pl",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Trasy",
-          item: "https://www.wynajem-autobus.pl/pl/trasy",
+          item: "https://www.autokar-busko.pl/pl/trasy",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Krakow → Wrocław",
-          item: "https://www.wynajem-autobus.pl/pl/trasy/krakow-wroclaw-autokar",
+          item: "https://www.autokar-busko.pl/pl/trasy/krakow-wroclaw-autokar",
         },
       ],
     },
@@ -634,13 +634,13 @@ export async function generateMetadata({
     title: metaTitles[l],
     description: metaDescriptions[l],
     alternates: {
-      canonical: "https://www.wynajem-autobus.pl/pl/trasy/krakow-wroclaw-autokar",
+      canonical: "https://www.autokar-busko.pl/pl/trasy/krakow-wroclaw-autokar",
     },
     openGraph: {
       title: "Autokar Kielce → Wrocław od 1 700 zł | MUSZKIETER",
       description:
         "330 km autostradą A4 w 3h 45min. Busy 20-os i autokary 50-os. Transfer koncertowy, mecze UEFA, lotnisko Strachowice, wyjazdy biznesowe.",
-      url: "https://www.wynajem-autobus.pl/pl/trasy/krakow-wroclaw-autokar",
+      url: "https://www.autokar-busko.pl/pl/trasy/krakow-wroclaw-autokar",
       type: "website",
       locale: l === "pl" ? "pl_PL" : "en_US",
     },

@@ -13,44 +13,44 @@ const description =
   "Ile kosztuje autokar na wesele 2026: bus 19 os od 600 zł, autokar 49 os od 1500 zł, autokar 67 os do 3000 zł. Czynniki ceny, kursy nocne, sezon weselny.";
 
 function getUrl(lang: Language) {
-  return `https://www.wynajem-autobus.pl/${lang}/blog/wesele/${slug}`;
+  return `https://www.autokar-busko.pl/${lang}/blog/wesele/${slug}`;
 }
 
 const personSchema = {
   "@type": "Person",
-  "@id": "https://www.wynajem-autobus.pl/#rafal-chmiel",
+  "@id": "https://www.autokar-busko.pl/#rafal-chmiel",
   name: "Rafał Chmiel",
   jobTitle: "Właściciel MUSZKIETER",
   description: "Właściciel MUSZKIETER, 24 lata w branży transportowej.",
   worksFor: {
     "@type": "LocalBusiness",
     name: "MUSZKIETER",
-    url: "https://www.wynajem-autobus.pl",
+    url: "https://www.autokar-busko.pl",
   },
 };
 
 const articleSchema = {
   "@type": "Article",
-  "@id": "https://www.wynajem-autobus.pl/pl/blog/wesele/ile-kosztuje-autokar-na-wesele-2026#article",
+  "@id": "https://www.autokar-busko.pl/pl/blog/wesele/ile-kosztuje-autokar-na-wesele-2026#article",
   headline: "Ile kosztuje autokar na wesele 2026? Pełny cennik",
   description:
     "Cennik autokarów i busów weselnych 2026: konkretne widełki cenowe, czynniki wpływające na koszt, sezon i kursy nocne.",
   author: {
-    "@id": "https://www.wynajem-autobus.pl/#rafal-chmiel",
+    "@id": "https://www.autokar-busko.pl/#rafal-chmiel",
   },
   publisher: {
     "@type": "LocalBusiness",
     name: "MUSZKIETER",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.wynajem-autobus.pl/logo.png",
+      url: "https://www.autokar-busko.pl/logo.png",
     },
   },
   datePublished: "2026-05-14",
   dateModified: "2026-05-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.wynajem-autobus.pl/pl/blog/wesele/ile-kosztuje-autokar-na-wesele-2026",
+    "@id": "https://www.autokar-busko.pl/pl/blog/wesele/ile-kosztuje-autokar-na-wesele-2026",
   },
 };
 
@@ -107,19 +107,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Strona główna",
-      item: "https://www.wynajem-autobus.pl/pl",
+      item: "https://www.autokar-busko.pl/pl",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Wynajem autokaru na wesele",
-      item: "https://www.wynajem-autobus.pl/pl/wynajem-autokaru-na-wesele",
+      item: "https://www.autokar-busko.pl/pl/wynajem-autokaru-na-wesele",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Ile kosztuje autokar na wesele 2026",
-      item: "https://www.wynajem-autobus.pl/pl/blog/wesele/ile-kosztuje-autokar-na-wesele-2026",
+      item: "https://www.autokar-busko.pl/pl/blog/wesele/ile-kosztuje-autokar-na-wesele-2026",
     },
   ],
 };
@@ -162,7 +162,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const selectedLang = toLang(lang);
 
   return {
-    metadataBase: new URL("https://www.wynajem-autobus.pl"),
+    metadataBase: new URL("https://www.autokar-busko.pl"),
     title,
     description,
     alternates: {

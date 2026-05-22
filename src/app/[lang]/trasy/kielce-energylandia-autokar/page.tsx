@@ -222,7 +222,7 @@ const schemaObject = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.wynajem-autobus.pl/pl/trasy/krakow-energylandia-autokar#service",
+      "@id": "https://www.autokar-busko.pl/pl/trasy/krakow-energylandia-autokar#service",
       name: "Wynajem autokaru Krakow → Energylandia (Zator)",
       description:
         "Wynajem autokaru lub busa na wycieczkę szkolną lub urodziny do Energylandii w Zatorze. 155 km autostradą A4 i ekspresową S52, czas przejazdu 2h 10min. Pojazdy 16-50 osób z WC i mikrofonem dla nauczyciela. Parking autokarów w Energylandii darmowy. Pomoc z grupową rezerwacją biletów.",
@@ -372,19 +372,19 @@ const schemaObject = {
           "@type": "ListItem",
           position: 1,
           name: "Strona główna",
-          item: "https://www.wynajem-autobus.pl/pl",
+          item: "https://www.autokar-busko.pl/pl",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Trasy",
-          item: "https://www.wynajem-autobus.pl/pl/trasy",
+          item: "https://www.autokar-busko.pl/pl/trasy",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Krakow → Energylandia",
-          item: "https://www.wynajem-autobus.pl/pl/trasy/krakow-energylandia-autokar",
+          item: "https://www.autokar-busko.pl/pl/trasy/krakow-energylandia-autokar",
         },
       ],
     },
@@ -575,13 +575,13 @@ export async function generateMetadata({
     title: metaTitles[l],
     description: metaDescriptions[l],
     alternates: {
-      canonical: "https://www.wynajem-autobus.pl/pl/trasy/krakow-energylandia-autokar",
+      canonical: "https://www.autokar-busko.pl/pl/trasy/krakow-energylandia-autokar",
     },
     openGraph: {
       title: "Wycieczka do Energylandii z Krakowa — autokar od 1 700 zł | MUSZKIETER",
       description:
         "155 km A4+S52 w 2h 10min. Wycieczki szkolne, urodziny, grupy rodzinne. Parking autokarów GRATIS w parku. Ubezpieczenie szkolne na piśmie.",
-      url: "https://www.wynajem-autobus.pl/pl/trasy/krakow-energylandia-autokar",
+      url: "https://www.autokar-busko.pl/pl/trasy/krakow-energylandia-autokar",
       type: "website",
       locale: l === "pl" ? "pl_PL" : "en_US",
     },

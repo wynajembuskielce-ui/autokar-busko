@@ -240,7 +240,7 @@ const schemaObject = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.wynajem-autobus.pl/pl/trasy/krakow-warszawa-autokar#service",
+      "@id": "https://www.autokar-busko.pl/pl/trasy/krakow-warszawa-autokar#service",
       name: "Wynajem autokaru Krakow → Warszawa",
       description:
         "Wynajem autokaru lub busa na trasie Krakow-Warszawa. 180 km, czas przejazdu 2h 30min ekspresową S7. Pojazdy 16-50 osób. Stałe ceny od 1 050 zł.",
@@ -384,19 +384,19 @@ const schemaObject = {
           "@type": "ListItem",
           position: 1,
           name: "Strona główna",
-          item: "https://www.wynajem-autobus.pl/pl",
+          item: "https://www.autokar-busko.pl/pl",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Trasy",
-          item: "https://www.wynajem-autobus.pl/pl/trasy",
+          item: "https://www.autokar-busko.pl/pl/trasy",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Krakow → Warszawa",
-          item: "https://www.wynajem-autobus.pl/pl/trasy/krakow-warszawa-autokar",
+          item: "https://www.autokar-busko.pl/pl/trasy/krakow-warszawa-autokar",
         },
       ],
     },
@@ -575,7 +575,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const l = toLang(lang);
-  const currentUrl = `https://www.wynajem-autobus.pl/${l}/trasy/krakow-warszawa-autokar`;
+  const currentUrl = `https://www.autokar-busko.pl/${l}/trasy/krakow-warszawa-autokar`;
 
   return {
     title: metaTitles[l],

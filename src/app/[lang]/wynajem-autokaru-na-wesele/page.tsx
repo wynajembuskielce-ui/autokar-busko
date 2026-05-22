@@ -9,7 +9,7 @@ function toLang(lang: string): Language {
 
 const title = "Wynajem autokaru na wesele - 500+ wesel, kursy nocne | MUSZKIETER";
 const description = "Wynajem autokaru na wesele z kierowcą. 500+ wesel obsłużonych, bus 19 lub autokar 49-67 os, kursy nocne, biały autokar na życzenie. Tel: 601 076 652 lub 41 345 32 25.";
-const canonical = "https://www.wynajem-autobus.pl/pl/wynajem-autokaru-na-wesele";
+const canonical = "https://www.autokar-busko.pl/pl/wynajem-autokaru-na-wesele";
 
 const breadcrumbSchema = {
   "@type": "BreadcrumbList",
@@ -18,7 +18,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Strona główna",
-      item: "https://www.wynajem-autobus.pl/pl",
+      item: "https://www.autokar-busko.pl/pl",
     },
     {
       "@type": "ListItem",
@@ -31,14 +31,14 @@ const breadcrumbSchema = {
 
 const serviceSchema = {
   "@type": "Service",
-  "@id": "https://www.wynajem-autobus.pl/pl/wynajem-autokaru-na-wesele#service",
+  "@id": "https://www.autokar-busko.pl/pl/wynajem-autokaru-na-wesele#service",
   name: "Wynajem autokaru na wesele",
   description:
     "Transport gości weselnych. Bus 19-30 osób lub autokar 49-67 osób. Kursy nocne, biały autokar na życzenie, kierowca w odpowiednim stroju. 500+ wesel od 2003.",
   serviceType: "Wedding transport",
   provider: {
     "@type": "LocalBusiness",
-    "@id": "https://www.wynajem-autobus.pl/#organization",
+    "@id": "https://www.autokar-busko.pl/#organization",
     name: "MUSZKIETER",
     legalName: "Alfa Bus Sp. z o.o.",
     telephone: "+48601076652",
@@ -50,7 +50,7 @@ const serviceSchema = {
       postalCode: "25-516",
       addressCountry: "PL",
     },
-    url: "https://www.wynajem-autobus.pl",
+    url: "https://www.autokar-busko.pl",
     contactPoint: [
       {
         "@type": "ContactPoint",
@@ -346,7 +346,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   toLang(lang);
 
   return {
-    metadataBase: new URL("https://www.wynajem-autobus.pl"),
+    metadataBase: new URL("https://www.autokar-busko.pl"),
     title,
     description,
     alternates: {

@@ -275,7 +275,7 @@ export default async function CityPage({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "MUSZKIETER Group — Coach Rental Kielce",
-            url: "https://wynajem-autobus.pl",
+            url: "https://www.autokar-busko.pl",
             telephone: "+48601076652",
             address: {
               "@type": "PostalAddress",

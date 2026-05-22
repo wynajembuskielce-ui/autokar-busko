@@ -237,7 +237,7 @@ const schemaObject = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.wynajem-autobus.pl/pl/trasy/krakow-czestochowa-autokar#service",
+      "@id": "https://www.autokar-busko.pl/pl/trasy/krakow-czestochowa-autokar#service",
       name: "Wynajem autokaru Krakow → Częstochowa (Jasna Góra)",
       description:
         "Wynajem autokaru lub busa na pielgrzymkę z Krakowa do Częstochowy na Jasną Górę. 130 km, czas przejazdu 1h 50min drogą krajową DK78. Pojazdy 16-50 osób z mikrofonem dla różańca. Faktura proforma dla parafii. Stałe ceny od 700 zł.",
@@ -381,19 +381,19 @@ const schemaObject = {
           "@type": "ListItem",
           position: 1,
           name: "Strona główna",
-          item: "https://www.wynajem-autobus.pl/pl",
+          item: "https://www.autokar-busko.pl/pl",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Trasy",
-          item: "https://www.wynajem-autobus.pl/pl/trasy",
+          item: "https://www.autokar-busko.pl/pl/trasy",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Krakow → Częstochowa",
-          item: "https://www.wynajem-autobus.pl/pl/trasy/krakow-czestochowa-autokar",
+          item: "https://www.autokar-busko.pl/pl/trasy/krakow-czestochowa-autokar",
         },
       ],
     },
@@ -571,7 +571,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const l = toLang(lang);
-  const currentUrl = `https://www.wynajem-autobus.pl/${l}/trasy/krakow-czestochowa-autokar`;
+  const currentUrl = `https://www.autokar-busko.pl/${l}/trasy/krakow-czestochowa-autokar`;
 
   return {
     title: metaTitles[l],

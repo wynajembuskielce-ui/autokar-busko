@@ -9,7 +9,7 @@ function toLang(lang: string): Language {
 
 const title = "Autokar na pogrzeb - dyskretny transport rodziny | MUSZKIETER";
 const description = "Wynajem autokaru i busa na pogrzeb. 100+ pogrzebów obsłużonych dyskretnie. Bus 19 os lub autokar 49 os. Pomoc w 24h. Tel: 601 076 652.";
-const canonical = "https://www.wynajem-autobus.pl/pl/autokar-na-pogrzeb";
+const canonical = "https://www.autokar-busko.pl/pl/autokar-na-pogrzeb";
 
 const breadcrumbSchema = {
   "@type": "BreadcrumbList",
@@ -18,7 +18,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Strona główna",
-      item: "https://www.wynajem-autobus.pl/pl",
+      item: "https://www.autokar-busko.pl/pl",
     },
     {
       "@type": "ListItem",
@@ -31,14 +31,14 @@ const breadcrumbSchema = {
 
 const serviceSchema = {
   "@type": "Service",
-  "@id": "https://www.wynajem-autobus.pl/pl/autokar-na-pogrzeb#service",
+  "@id": "https://www.autokar-busko.pl/pl/autokar-na-pogrzeb#service",
   name: "Wynajem autokaru na pogrzeb",
   description:
     "Dyskretny transport rodziny i przyjaciół na pogrzeb oraz stypę. Bus 19-30 osób lub autokar 49-67 osób. Pomoc w 24 godziny.",
   serviceType: "Funeral transport",
   provider: {
     "@type": "LocalBusiness",
-    "@id": "https://www.wynajem-autobus.pl/#organization",
+    "@id": "https://www.autokar-busko.pl/#organization",
     name: "MUSZKIETER",
     legalName: "Alfa Bus 26 Sp. z o.o.",
     telephone: "+48601076652",
@@ -50,7 +50,7 @@ const serviceSchema = {
       postalCode: "25-611",
       addressCountry: "PL",
     },
-    url: "https://www.wynajem-autobus.pl",
+    url: "https://www.autokar-busko.pl",
   },
   areaServed: {
     "@type": "Country",
@@ -322,7 +322,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   await params;
 
   return {
-    metadataBase: new URL("https://www.wynajem-autobus.pl"),
+    metadataBase: new URL("https://www.autokar-busko.pl"),
     title,
     description,
     alternates: {

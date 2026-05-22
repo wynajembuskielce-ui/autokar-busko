@@ -9,7 +9,7 @@ function toLang(lang: string): Language {
 
 const title = "Autokar na przysięgę wojskową - transport rodzin | MUSZKIETER";
 const description = "Wynajem autokaru na przysięgę wojskową. 30+ przysięg obsłużonych, pełna trasa: dom - jednostka - restauracja - odwóz. Bus 19 lub autokar 49-67 os. Tel: 601 076 652.";
-const canonical = "https://www.wynajem-autobus.pl/pl/przysiega-wojskowa";
+const canonical = "https://www.autokar-busko.pl/pl/przysiega-wojskowa";
 
 const breadcrumbSchema = {
   "@type": "BreadcrumbList",
@@ -18,7 +18,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Strona główna",
-      item: "https://www.wynajem-autobus.pl/pl",
+      item: "https://www.autokar-busko.pl/pl",
     },
     {
       "@type": "ListItem",
@@ -31,14 +31,14 @@ const breadcrumbSchema = {
 
 const serviceSchema = {
   "@type": "Service",
-  "@id": "https://www.wynajem-autobus.pl/pl/przysiega-wojskowa#service",
+  "@id": "https://www.autokar-busko.pl/pl/przysiega-wojskowa#service",
   name: "Wynajem autokaru na przysięgę wojskową",
   description:
     "Transport rodziny żołnierza na przysięgę wojskową. Pełna trasa: dom - jednostka - restauracja - odwóz. Bus 19-30 osób lub autokar 49-67 osób.",
   serviceType: "Military oath ceremony transport",
   provider: {
     "@type": "LocalBusiness",
-    "@id": "https://www.wynajem-autobus.pl/#organization",
+    "@id": "https://www.autokar-busko.pl/#organization",
     name: "MUSZKIETER",
     legalName: "Alfa Bus Sp. z o.o.",
     telephone: "+48601076652",
@@ -50,7 +50,7 @@ const serviceSchema = {
       postalCode: "25-516",
       addressCountry: "PL",
     },
-    url: "https://www.wynajem-autobus.pl",
+    url: "https://www.autokar-busko.pl",
   },
   areaServed: {
     "@type": "Country",
@@ -318,7 +318,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   toLang(lang);
 
   return {
-    metadataBase: new URL("https://www.wynajem-autobus.pl"),
+    metadataBase: new URL("https://www.autokar-busko.pl"),
     title,
     description,
     alternates: {

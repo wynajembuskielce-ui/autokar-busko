@@ -13,44 +13,44 @@ const description =
   "Praktyczny przewodnik dla rodziny: jak zorganizować transport na pogrzeb w 24-48h, ile kosztuje bus lub autokar, kogo wozimy, jak zaplanować trasę dom-kościół-cmentarz-stypa.";
 
 function getUrl(lang: Language) {
-  return `https://www.wynajem-autobus.pl/${lang}/blog/pogrzeb/${slug}`;
+  return `https://www.autokar-busko.pl/${lang}/blog/pogrzeb/${slug}`;
 }
 
 const personSchema = {
   "@type": "Person",
-  "@id": "https://www.wynajem-autobus.pl/#rafal-chmiel",
+  "@id": "https://www.autokar-busko.pl/#rafal-chmiel",
   name: "Rafał Chmiel",
   jobTitle: "Właściciel MUSZKIETER",
   description: "Właściciel MUSZKIETER, 24 lata w branży transportowej.",
   worksFor: {
     "@type": "LocalBusiness",
     name: "MUSZKIETER",
-    url: "https://www.wynajem-autobus.pl",
+    url: "https://www.autokar-busko.pl",
   },
 };
 
 const articleSchema = {
   "@type": "Article",
-  "@id": "https://www.wynajem-autobus.pl/pl/blog/pogrzeb/transport-rodziny-na-pogrzeb-jak-zorganizowac#article",
+  "@id": "https://www.autokar-busko.pl/pl/blog/pogrzeb/transport-rodziny-na-pogrzeb-jak-zorganizowac#article",
   headline: "Transport rodziny na pogrzeb - jak zorganizować bez stresu",
   description:
     "Praktyczny przewodnik dla rodziny: jak zorganizować transport na pogrzeb w 24-48h, ile kosztuje, kogo wozimy, jak zaplanować trasę.",
   author: {
-    "@id": "https://www.wynajem-autobus.pl/#rafal-chmiel",
+    "@id": "https://www.autokar-busko.pl/#rafal-chmiel",
   },
   publisher: {
     "@type": "LocalBusiness",
     name: "MUSZKIETER",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.wynajem-autobus.pl/logo.png",
+      url: "https://www.autokar-busko.pl/logo.png",
     },
   },
   datePublished: "2026-05-14",
   dateModified: "2026-05-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.wynajem-autobus.pl/pl/blog/pogrzeb/transport-rodziny-na-pogrzeb-jak-zorganizowac",
+    "@id": "https://www.autokar-busko.pl/pl/blog/pogrzeb/transport-rodziny-na-pogrzeb-jak-zorganizowac",
   },
 };
 
@@ -107,19 +107,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Strona główna",
-      item: "https://www.wynajem-autobus.pl/pl",
+      item: "https://www.autokar-busko.pl/pl",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Autokar na pogrzeb",
-      item: "https://www.wynajem-autobus.pl/pl/autokar-na-pogrzeb",
+      item: "https://www.autokar-busko.pl/pl/autokar-na-pogrzeb",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Transport rodziny na pogrzeb - jak zorganizować",
-      item: "https://www.wynajem-autobus.pl/pl/blog/pogrzeb/transport-rodziny-na-pogrzeb-jak-zorganizowac",
+      item: "https://www.autokar-busko.pl/pl/blog/pogrzeb/transport-rodziny-na-pogrzeb-jak-zorganizowac",
     },
   ],
 };
@@ -162,7 +162,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const selectedLang = toLang(lang);
 
   return {
-    metadataBase: new URL("https://www.wynajem-autobus.pl"),
+    metadataBase: new URL("https://www.autokar-busko.pl"),
     title,
     description,
     alternates: {

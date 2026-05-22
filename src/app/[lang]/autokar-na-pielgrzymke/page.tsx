@@ -9,7 +9,7 @@ function toLang(lang: string): Language {
 
 const title = "Autokar na pielgrzymkę - Jasna Góra, Watykan, Medjugorje | MUSZKIETER";
 const description = "Wynajem autokaru na pielgrzymkę krajową i zagraniczną. 200+ parafii obsłużonych od 2003, Jasna Góra, Licheń, Watykan, Medjugorje. Tel: 601 076 652 lub 41 345 32 25.";
-const canonical = "https://www.wynajem-autobus.pl/pl/autokar-na-pielgrzymke";
+const canonical = "https://www.autokar-busko.pl/pl/autokar-na-pielgrzymke";
 
 const breadcrumbSchema = {
   "@type": "BreadcrumbList",
@@ -18,7 +18,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Strona główna",
-      item: "https://www.wynajem-autobus.pl/pl",
+      item: "https://www.autokar-busko.pl/pl",
     },
     {
       "@type": "ListItem",
@@ -31,14 +31,14 @@ const breadcrumbSchema = {
 
 const serviceSchema = {
   "@type": "Service",
-  "@id": "https://www.wynajem-autobus.pl/pl/autokar-na-pielgrzymke#service",
+  "@id": "https://www.autokar-busko.pl/pl/autokar-na-pielgrzymke#service",
   name: "Wynajem autokaru na pielgrzymkę",
   description:
     "Autokar na pielgrzymkę krajową i zagraniczną. 200+ parafii od 2003. Jasna Góra, Licheń, Watykan, Medjugorje. Kierowca rozumiejący tradycję, miejsce dla księdza, ołtarz polowy.",
   serviceType: "Religious pilgrimage transport",
   provider: {
     "@type": "LocalBusiness",
-    "@id": "https://www.wynajem-autobus.pl/#organization",
+    "@id": "https://www.autokar-busko.pl/#organization",
     name: "MUSZKIETER",
     legalName: "Alfa Bus Sp. z o.o.",
     telephone: "+48601076652",
@@ -50,7 +50,7 @@ const serviceSchema = {
       postalCode: "25-516",
       addressCountry: "PL",
     },
-    url: "https://www.wynajem-autobus.pl",
+    url: "https://www.autokar-busko.pl",
     contactPoint: [
       {
         "@type": "ContactPoint",
@@ -352,7 +352,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   toLang(lang);
 
   return {
-    metadataBase: new URL("https://www.wynajem-autobus.pl"),
+    metadataBase: new URL("https://www.autokar-busko.pl"),
     title,
     description,
     alternates: {

@@ -221,7 +221,7 @@ const schemaObject = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.wynajem-autobus.pl/pl/trasy/krakow-chorzow-autokar#service",
+      "@id": "https://www.autokar-busko.pl/pl/trasy/krakow-chorzow-autokar#service",
       name: "Wynajem autokaru Krakow → Chorzów (Park Śląski, Legendia, Stadion Śląski)",
       description:
         "Wynajem autokaru lub busa na wycieczkę do Chorzowa: Park Śląski (wstęp gratis, 5 km², największy park miejski w Polsce), Legendia (wesołe miasteczko, klasa europejska), Stadion Śląski (mecze reprezentacji Polski, koncerty), ZOO Śląskie, Planetarium. 170 km autostradą A4 + DK86, czas przejazdu 2h 15min. Parking w Parku DARMOWY do 12h. Pojazdy 16-50 osób z WC i mikrofonem kierowcy. Wycieczki szkolne, imprezy firmowe, mecze, koncerty.",
@@ -365,19 +365,19 @@ const schemaObject = {
           "@type": "ListItem",
           position: 1,
           name: "Strona główna",
-          item: "https://www.wynajem-autobus.pl/pl",
+          item: "https://www.autokar-busko.pl/pl",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Trasy",
-          item: "https://www.wynajem-autobus.pl/pl/trasy",
+          item: "https://www.autokar-busko.pl/pl/trasy",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Krakow → Chorzów",
-          item: "https://www.wynajem-autobus.pl/pl/trasy/krakow-chorzow-autokar",
+          item: "https://www.autokar-busko.pl/pl/trasy/krakow-chorzow-autokar",
         },
       ],
     },
@@ -690,13 +690,13 @@ export async function generateMetadata({
     title: metaTitles[l],
     description: metaDescriptions[l],
     alternates: {
-      canonical: "https://www.wynajem-autobus.pl/pl/trasy/krakow-chorzow-autokar",
+      canonical: "https://www.autokar-busko.pl/pl/trasy/krakow-chorzow-autokar",
     },
     openGraph: {
       title: "Autokar Kielce → Chorzów od 1 900 zł | Park Śląski, Legendia, Stadion",
       description:
         "170 km autostradą A4 w 2h 15min. Park Śląski (parking gratis 12h), Legendia, Stadion Śląski, ZOO. Wycieczki szkolne, imprezy, mecze.",
-      url: "https://www.wynajem-autobus.pl/pl/trasy/krakow-chorzow-autokar",
+      url: "https://www.autokar-busko.pl/pl/trasy/krakow-chorzow-autokar",
       type: "website",
       locale: l === "pl" ? "pl_PL" : "en_US",
     },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Polityka cookies | Wynajem-autobus.pl",
-  description: "Zasady wykorzystywania plików cookies na wynajem-autobus.pl.",
+  description: "Zasady wykorzystywania plików cookies na www.autokar-busko.pl.",
 };
 
 const updatedAt = "27.04.2026";

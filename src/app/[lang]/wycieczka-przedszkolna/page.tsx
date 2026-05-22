@@ -9,7 +9,7 @@ function toLang(lang: string): Language {
 
 const title = "Autokar na wycieczkę przedszkolną - bezpieczna podróż | MUSZKIETER";
 const description = "Wynajem autokaru na wycieczkę przedszkolną. 80+ przedszkoli rocznie, kierowcy z psychotechniką, ubezpieczenie OC+NW każdego pasażera. Tel: 601 076 652.";
-const canonical = "https://www.wynajem-autobus.pl/pl/wycieczka-przedszkolna";
+const canonical = "https://www.autokar-busko.pl/pl/wycieczka-przedszkolna";
 
 const breadcrumbSchema = {
   "@type": "BreadcrumbList",
@@ -18,7 +18,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Strona główna",
-      item: "https://www.wynajem-autobus.pl/pl",
+      item: "https://www.autokar-busko.pl/pl",
     },
     {
       "@type": "ListItem",
@@ -31,14 +31,14 @@ const breadcrumbSchema = {
 
 const serviceSchema = {
   "@type": "Service",
-  "@id": "https://www.wynajem-autobus.pl/pl/wycieczka-przedszkolna#service",
+  "@id": "https://www.autokar-busko.pl/pl/wycieczka-przedszkolna#service",
   name: "Wynajem autokaru na wycieczkę przedszkolną",
   description:
     "Bezpieczny transport dzieci w wieku 3-6 lat na wycieczki przedszkolne. Kierowcy z psychotechniką, ITD co 6 miesięcy, ubezpieczenie OC + NW każdego pasażera.",
   serviceType: "Kindergarten field trip transport",
   provider: {
     "@type": "LocalBusiness",
-    "@id": "https://www.wynajem-autobus.pl/#organization",
+    "@id": "https://www.autokar-busko.pl/#organization",
     name: "MUSZKIETER",
     legalName: "Alfa Bus Sp. z o.o.",
     telephone: "+48601076652",
@@ -50,7 +50,7 @@ const serviceSchema = {
       postalCode: "25-516",
       addressCountry: "PL",
     },
-    url: "https://www.wynajem-autobus.pl",
+    url: "https://www.autokar-busko.pl",
   },
   areaServed: {
     "@type": "Country",
@@ -318,7 +318,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   toLang(lang);
 
   return {
-    metadataBase: new URL("https://www.wynajem-autobus.pl"),
+    metadataBase: new URL("https://www.autokar-busko.pl"),
     title,
     description,
     alternates: {
