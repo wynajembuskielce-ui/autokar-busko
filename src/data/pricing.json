@@ -1,0 +1,62 @@
+{
+  "vehicles": [
+    {
+      "name": "Bus 9-osobowy",
+      "capacity": 9,
+      "pricePerKm": 3.5,
+      "minPrice": 250,
+      "dailyRate": 800,
+      "description": "Idealny na transfery lotniskowe i małe grupy"
+    },
+    {
+      "name": "Minibus 17-osobowy",
+      "capacity": 17,
+      "pricePerKm": 4.5,
+      "minPrice": 350,
+      "dailyRate": 1100,
+      "description": "Doskonały wybór na wycieczki i imprezy firmowe"
+    },
+    {
+      "name": "Autokar 35-osobowy",
+      "capacity": 35,
+      "pricePerKm": 6.0,
+      "minPrice": 600,
+      "dailyRate": 2000,
+      "description": "Wygodny autokar na większe grupy"
+    },
+    {
+      "name": "Autokar 50-osobowy",
+      "capacity": 50,
+      "pricePerKm": 7.5,
+      "minPrice": 800,
+      "dailyRate": 2800,
+      "description": "Luksusowy autokar z klimatyzacją i TV"
+    }
+  ],
+  "routes": [
+    {
+      "name": "Krakow – Warszawa Lotnisko (Okęcie)",
+      "distance": 185,
+      "price": 900,
+      "vehicle": "Bus 9-osobowy"
+    },
+    {
+      "name": "Krakow – Kraków Lotnisko (Balice)",
+      "distance": 120,
+      "price": 650,
+      "vehicle": "Bus 9-osobowy"
+    },
+    {
+      "name": "Krakow – Zakopane (wyjazd narciarski)",
+      "distance": 160,
+      "price": 1400,
+      "vehicle": "Minibus 17-osobowy"
+    },
+    {
+      "name": "Krakow – Częstochowa (pielgrzymka)",
+      "distance": 100,
+      "price": 800,
+      "vehicle": "Autokar 35-osobowy"
+    }
+  ]
+}

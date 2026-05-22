@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "version": "2.0-multilang",
+    "languages": ["pl", "en", "de"],
+    "last_updated": "2026-04-21"
+  },
+  "common": {
+    "company_name": {
+      "pl": "Wynajem Autokarów Kielce",
+      "en": "Coach Rental Kielce",
+      "de": "Busmiete Kielce"
+    },
+    "phone": {
+      "pl": "+48 601 076 652 lub +48 41 345 32 25",
+      "en": "+48 601 076 652 lub +48 41 345 32 25",
+      "de": "+48 601 076 652 lub +48 41 345 32 25"
+    },
+    "phone1": "+48 601 076 652",
+    "phone2": "+48 41 345 32 25",
+    "email": {
+      "pl": "biuro@muszkieter.pl",
+      "en": "biuro@muszkieter.pl",
+      "de": "biuro@muszkieter.pl"
+    },
+    "address": {
+      "pl": "ul. Kolberga 9, 25-516 Kielce",
+      "en": "ul. Kolberga 9, 25-516 Kielce",
+      "de": "ul. Kolberga 9, 25-516 Kielce"
+    },
+    "experience": {
+      "pl": "23 lata doświadczenia",
+      "en": "23 years of experience",
+      "de": "23 Jahre Erfahrung"
+    },
+    "fleet_size": {
+      "pl": "180 pojazdów",
+      "en": "180 vehicles",
+      "de": "180 Fahrzeuge"
+    }
+  },
+  "navigation": {
+    "home": {
+      "pl": "Strona główna",
+      "en": "Home",
+      "de": "Startseite"
+    },
+    "school_trips": {
+      "pl": "Wycieczki szkolne",
+      "en": "School Trips",
+      "de": "Schulausflüge"
+    },
+    "weddings": {
+      "pl": "Wesela",
+      "en": "Weddings",
+      "de": "Hochzeiten"
+    },
+    "corporate": {
+      "pl": "Imprezy firmowe",
+      "en": "Corporate Events",
+      "de": "Firmenfeiern"
+    },
+    "pilgrimages": {
+      "pl": "Pielgrzymki",
+      "en": "Pilgrimages",
+      "de": "Wallfahrten"
+    },
+    "skiing": {
+      "pl": "Narty",
+      "en": "Skiing",
+      "de": "Skifahren"
+    },
+    "airport_transfer": {
+      "pl": "Transfer lotnisko",
+      "en": "Airport Transfer",
+      "de": "Flughafentransfer"
+    },
+    "pricing": {
+      "pl": "Cennik",
+      "en": "Pricing",
+      "de": "Preise"
+    },
+    "fleet": {
+      "pl": "Nasza flota",
+      "en": "Our Fleet",
+      "de": "Unsere Flotte"
+    },
+    "contact": {
+      "pl": "Kontakt",
+      "en": "Contact",
+      "de": "Kontakt"
+    }
+  },
+  "hero": {
+    "title": {
+      "pl": "Wynajem autokarów Kielce — Komfort i Niezawodność",
+      "en": "Coach Rental Kielce — Comfort & Reliability",
+      "de": "Busmiete Kielce — Komfort und Zuverlässigkeit"
+    },
+    "subtitle": {
+      "pl": "Busy, minibusy i autokary na wesela, wycieczki szkolne, pielgrzymki, imprezy firmowe i transfery",
+      "en": "Buses, minibuses and coaches for weddings, school trips, pilgrimages, corporate events and transfers",
+      "de": "Busse, Minibus und Reisebusse für Hochzeiten, Schulausflüge, Wallfahrten, Firmenfeiern und Transfers"
+    },
+    "cta_button": {
+      "pl": "Zarezerwuj teraz — +48 601 076 652 lub +48 41 345 32 25",
+      "en": "Book now — +48 601 076 652 lub +48 41 345 32 25",
+      "de": "Jetzt buchen — +48 601 076 652 lub +48 41 345 32 25"
+    }
+  },
+  "features": {
+    "experience_title": {
+      "pl": "23 lata doświadczenia",
+      "en": "23 years of Experience",
+      "de": "23 Jahre Erfahrung"
+    },
+    "experience_desc": {
+      "pl": "Od 1997 roku przewozimy tysiące pasażerów bezpiecznie i punktualnie",
+      "en": "Since 1997, we transport thousands of passengers safely and punctually",
+      "de": "Seit 1997 befördern wir Tausende von Passagieren sicher und pünktlich"
+    },
+    "fleet_title": {
+      "pl": "Nowoczesna flota",
+      "en": "Modern Fleet",
+      "de": "Moderne Flotte"
+    },
+    "fleet_desc": {
+      "pl": "180 pojazdów 9-48 osobowych, klimatyzowanych, z WiFi i najwyższymi standardami bezpieczeństwa",
+      "en": "180 vehicles from 9-48 seats, air-conditioned, with WiFi and highest safety standards",
+      "de": "180 Fahrzeuge für 9-48 Personen, klimatisiert, mit WiFi und höchsten Sicherheitsstandards"
+    },
+    "reliability_title": {
+      "pl": "Niezawodność 100%",
+      "en": "100% Reliability",
+      "de": "100% Zuverlässigkeit"
+    },
+    "reliability_desc": {
+      "pl": "Monitorujemy każdą trasę, punktualność gwarantowana. Zero opóźnień, zero kompromisów.",
+      "en": "We monitor every route, punctuality guaranteed. Zero delays, zero compromises.",
+      "de": "Wir überwachen jede Route, Pünktlichkeit ist garantiert. Null Verzögerungen, null Kompromisse."
+    },
+    "professional_title": {
+      "pl": "Kierowcy przeszkoleni",
+      "en": "Professional Drivers",
+      "de": "Fachkräfte Fahrer"
+    },
+    "professional_desc": {
+      "pl": "Każdy kierowca przeszkolony, uprzejmy, dyspozycyjny. Twoja bezpieczeństwo to nasz priorytet.",
+      "en": "Every driver trained, courteous, responsive. Your safety is our priority.",
+      "de": "Jeder Fahrer geschult, höflich, reaktionsschnell. Ihre Sicherheit ist unsere Priorität."
+    }
+  },
+  "segments": {
+    "school_trips": {
+      "title_pl": "Wycieczki szkolne",
+      "title_en": "School Trips",
+      "title_de": "Schulausflüge",
+      "subtitle_pl": "Transport dla klas szkolnych",
+      "subtitle_en": "Transport for school classes",
+      "subtitle_de": "Transport für Schulklassen",
+      "description_pl": "Bezpieczny transport na wycieczki edukacyjne i integracyjne dla uczniów wszystkich klas. Autokary wyposażone w klimatyzację, WiFi i systemy bezpieczeństwa.",
+      "description_en": "Safe transportation for educational and integration trips for students of all grades. Coaches equipped with air-conditioning, WiFi and safety systems.",
+      "description_de": "Sicherer Transport zu Lehr- und Integrationsfahrten für Schüler aller Klassen. Busse mit Klimaanlage, WiFi und Sicherheitssystemen ausgestattet.",
+      "cta_pl": "REZERWUJ WYCIECZKĘ",
+      "cta_en": "BOOK SCHOOL TRIP",
+      "cta_de": "SCHULAUSFLUG BUCHEN"
+    },
+    "weddings": {
+      "title_pl": "Wesela",
+      "title_en": "Weddings",
+      "title_de": "Hochzeiten",
+      "subtitle_pl": "Transport gości weselnych",
+      "subtitle_en": "Wedding guest transportation",
+      "subtitle_de": "Hochzeitsgasttransport",
+      "description_pl": "Eleganckie autokary do transportu gości na ceremonie ślubne. Czystość, punktualność i profesjonalizm gwarantowane.",
+      "description_en": "Elegant coaches for wedding guest transportation. Cleanliness, punctuality and professionalism guaranteed.",
+      "description_de": "Elegante Busse für den Hochzeitsgasttransport. Sauberkeit, Pünktlichkeit und Professionalität garantiert.",
+      "cta_pl": "REZERWUJ WESELE",
+      "cta_en": "BOOK WEDDING",
+      "cta_de": "HOCHZEIT BUCHEN"
+    },
+    "skiing": {
+      "title_pl": "Narty",
+      "title_en": "Skiing",
+      "title_de": "Skifahren",
+      "subtitle_pl": "Wyjazdy na narty z Kielc",
+      "subtitle_en": "Ski trips from Kielce",
+      "subtitle_de": "Skiausflüge von Kielce",
+      "description_pl": "Wyjazdy narciarskie do Zakopane, Białki, Wisły. Specjalne przystosowanie dla sprzętu narciarskiego. Gwarancja bezpieczeństwa.",
+      "description_en": "Ski trips to Zakopane, Białka, Wisła. Special accommodation for ski equipment. Safety guaranteed.",
+      "description_de": "Skiausflüge nach Zakopane, Białka, Wisła. Spezielle Unterbringung für Skiausrüstung. Sicherheit garantiert.",
+      "cta_pl": "REZERWUJ NARTY",
+      "cta_en": "BOOK SKI TRIP",
+      "cta_de": "SKIAUSFLUG BUCHEN"
+    },
+    "corporate": {
+      "title_pl": "Imprezy firmowe",
+      "title_en": "Corporate Events",
+      "title_de": "Firmenfeiern",
+      "subtitle_pl": "Transport dla firm",
+      "subtitle_en": "Business transportation",
+      "subtitle_de": "Geschäftstransport",
+      "description_pl": "Transport pracowników na konferencje, integracje, team building. Profesjonalna obsługa dla biznesu.",
+      "description_en": "Employee transportation for conferences, integration events, team building. Professional business service.",
+      "description_de": "Mitarbeitertransport zu Konferenzen, Integrationsereignissen, Teambuilding. Professioneller Geschäftsdienst.",
+      "cta_pl": "REZERWUJ IMPREZĘ",
+      "cta_en": "BOOK CORPORATE EVENT",
+      "cta_de": "BETRIEBSFEST BUCHEN"
+    },
+    "pilgrimages": {
+      "title_pl": "Pielgrzymki",
+      "title_en": "Pilgrimages",
+      "title_de": "Wallfahrten",
+      "subtitle_pl": "Transport pielgrzymów",
+      "subtitle_en": "Pilgrimage transportation",
+      "subtitle_de": "Wallfahrtstransport",
+      "description_pl": "Transport pielgrzymów do Lichenia, Częstochowy, Gietrzwałdu, Kalwarii Zebrzydowskiej. Spokojne, bezpieczne podróże.",
+      "description_en": "Pilgrimage transportation to Licheń, Częstochowa, Gietrzwałd, Kalwaria Zebrzydowska. Peaceful, safe travels.",
+      "description_de": "Wallfahrtstransport zu Licheń, Częstochowa, Gietrzwałd, Kalwaria Zebrzydowska. Friedliche, sichere Reisen.",
+      "cta_pl": "REZERWUJ PIELGRZYMKĘ",
+      "cta_en": "BOOK PILGRIMAGE",
+      "cta_de": "WALLFAHRT BUCHEN"
+    },
+    "airport_transfer": {
+      "title_pl": "Transfer na lotnisko",
+      "title_en": "Airport Transfer",
+      "title_de": "Flughafentransfer",
+      "subtitle_pl": "Przewóz do lotniska i z lotniska",
+      "subtitle_en": "To and from airport transport",
+      "subtitle_de": "Transport zum und vom Flughafen",
+      "description_pl": "Niezawodny transport na lotniska — Kraków Balice, Radom i Warszawa. Punktualne, bezpieczne przewozy dla indywidualnych pasażerów i grup.",
+      "description_en": "Reliable transport to airports — Kraków Balice, Radom and Warsaw. Punctual, safe transportation for individual passengers and groups.",
+      "description_de": "Zuverlässiger Transport zu Flughäfen — Kraków Balice, Radom und Warschau. Pünktliche, sichere Beförderung für Einzelpersonen und Gruppen.",
+      "cta_pl": "REZERWUJ TRANSFER",
+      "cta_en": "BOOK TRANSFER",
+      "cta_de": "TRANSFER BUCHEN"
+    }
+  },
+  "faq": {
+    "q1_pl": "Ile kosztuje wynajem autokaru?",
+    "a1_pl": "Ceny zaczynają się od 1200 zł za dzień (transport lokalny). Dla dłuższych tras cena jest negocjowana indywidualnie. Zaproś nas na wycenę — +48 601 076 652 lub +48 41 345 32 25.",
+    "q1_en": "How much does coach rental cost?",
+    "a1_en": "Prices start from 1200 PLN per day (local transport). For longer routes, pricing is negotiated individually. Request a quote — +48 601 076 652 lub +48 41 345 32 25.",
+    "q1_de": "Wie viel kostet die Busmiete?",
+    "a1_de": "Die Preise beginnen bei 1200 PLN pro Tag (Lokalverkehr). Bei längeren Strecken wird der Preis individuell ausgehandelt. Angebot anfordern — +48 601 076 652 lub +48 41 345 32 25.",
+    
+    "q2_pl": "Czy autokary są klimatyzowane?",
+    "a2_pl": "Tak! Wszystkie nasze autokary wyposażone są w nowoczesną klimatyzację, WiFi, toalety i panoramiczne okna.",
+    "q2_en": "Are the coaches air-conditioned?",
+    "a2_en": "Yes! All our coaches are equipped with modern air conditioning, WiFi, toilets and panoramic windows.",
+    "q2_de": "Sind die Busse klimatisiert?",
+    "a2_de": "Ja! Alle unsere Busse sind mit moderner Klimaanlage, WiFi, Toiletten und Panoramafenstern ausgestattet.",
+    
+    "q3_pl": "Jakie są zasady anulacji?",
+    "a3_pl": "Anulacja do 7 dni przed wylotem — zwrot 50%. Anulacja do 3 dni — zwrot 25%. Anulacja w ostatniej chwili — brak zwrotu. Kontakt: +48 601 076 652 lub +48 41 345 32 25.",
+    "q3_en": "What are the cancellation terms?",
+    "a3_en": "Cancellation up to 7 days before departure — 50% refund. Cancellation up to 3 days — 25% refund. Last-minute cancellation — no refund. Contact: +48 601 076 652 lub +48 41 345 32 25.",
+    "q3_de": "Was sind die Stornobedingungen?",
+    "a3_de": "Stornierung bis 7 Tage vor Abreise — 50% Rückerstattung. Stornierung bis 3 Tage — 25% Rückerstattung. Last-Minute-Stornierung — keine Rückerstattung. Kontakt: +48 601 076 652 lub +48 41 345 32 25.",
+    
+    "q4_pl": "Czy kierowca jest zawarty w cenie?",
+    "a4_pl": "Tak! Doświadczony, przeszkolony kierowca zawsze zawarty. Dodatkowo oferujemy opcję dwóch kierowców dla tras powyżej 8 godzin.",
+    "q4_en": "Is the driver included in the price?",
+    "a4_en": "Yes! An experienced, trained driver is always included. We also offer the option of two drivers for routes over 8 hours.",
+    "q4_de": "Ist der Fahrer im Preis inbegriffen?",
+    "a4_de": "Ja! Ein erfahrener, geschulter Fahrer ist immer inbegriffen. Wir bieten auch die Möglichkeit von zwei Fahrern für Strecken über 8 Stunden.",
+    
+    "q5_pl": "Jak zarezerwować autokar?",
+    "a5_pl": "Zadzwoń: +48 601 076 652 lub +48 41 345 32 25 | Email: biuro@muszkieter.pl | Lub wypełnij formularz kontaktowy. Gwarancja najszybszej odpowiedzi w 2 godziny.",
+    "q5_en": "How to book a coach?",
+    "a5_en": "Call: +48 601 076 652 lub +48 41 345 32 25 | Email: biuro@muszkieter.pl | Or fill out the contact form. We guarantee the fastest response within 2 hours.",
+    "q5_de": "Wie buche ich einen Bus?",
+    "a5_de": "Anrufen: +48 601 076 652 lub +48 41 345 32 25 | E-Mail: biuro@muszkieter.pl | Oder füllen Sie das Kontaktformular aus. Wir garantieren die schnellste Antwort innerhalb von 2 Stunden."
+  },
+  "cta_buttons": {
+    "book_now_pl": "Zarezerwuj teraz",
+    "book_now_en": "Book Now",
+    "book_now_de": "Jetzt Buchen",
+    "call_us_pl": "Zadzwoń do nas",
+    "call_us_en": "Call Us",
+    "call_us_de": "Rufen Sie uns an",
+    "get_quote_pl": "Poproś wycenę",
+    "get_quote_en": "Get Quote",
+    "get_quote_de": "Angebot Anfordern",
+    "contact_form_pl": "Formularz kontaktu",
+    "contact_form_en": "Contact Form",
+    "contact_form_de": "Kontaktformular"
+  },
+  "faq_wesele": [
+    {
+      "question": "كم تكلفة استئجار حافلة للزفاف في كيلتسه؟",
+      "answer": "السعر يعتمد على المسار وعدد الضيوف. حافلة صغيرة 20 شخصاً: 400–700 زلوتي. حافلة كبيرة 40 شخصاً: 800–1500 زلوتي. اتصل للحصول على سعر: +48 601 076 652."
+    },
+    {
+      "question": "هل يمكن تزيين الحافلة للزفاف؟",
+      "answer": "نعم — نزين مقدمة الحافلة والمرايا بالأشرطة والزهور. يبدو رائعاً في صور حفل الزفاف. أخبرنا قبل 3 أيام على الأقل."
+    },
+    {
+      "question": "هل الضيوف مؤمن عليهم في الحافلة؟",
+      "answer": "نعم — تأمين المسؤولية المدنية وتأمين الحوادث الشخصية. جميع مركباتنا لديها تأمين سارٍ وفحص تقني محدّث."
+    },
+    {
+      "question": "كيف أحجز حافلة للزفاف؟",
+      "answer": "اتصل أو راسلنا على واتساب: +48 601 076 652. البريد الإلكتروني: biuro@muszkieter.pl. العنوان: شارع Kolberga 9، كيلتسه، بولندا."
+    }
+  ],
+  "footer": {
+    "copyright_pl": "© 2026 Wynajem Autokarów Kielce. Wszystkie prawa zastrzeżone.",
+    "copyright_en": "© 2026 Coach Rental Kielce. All rights reserved.",
+    "copyright_de": "© 2026 Busmiete Kielce. Alle Rechte vorbehalten.",
+    "privacy_pl": "Polityka prywatności",
+    "privacy_en": "Privacy Policy",
+    "privacy_de": "Datenschutzrichtlinie",
+    "terms_pl": "Warunki usługi",
+    "terms_en": "Terms of Service",
+    "terms_de": "Nutzungsbedingungen"
+  }
+}
+

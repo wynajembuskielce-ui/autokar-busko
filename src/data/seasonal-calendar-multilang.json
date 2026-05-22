@@ -1,0 +1,597 @@
+{
+  "metadata": {
+    "company": "wynajem-autobus.pl",
+    "version": "2.0-multilang",
+    "languages": ["pl", "en", "de"],
+    "updated": "2026-04-21",
+    "segments_count": 12,
+    "periods_count": 24
+  },
+  "calendar": [
+    {
+      "month": "STYCZEŃ",
+      "month_en": "JANUARY",
+      "month_de": "JANUAR",
+      "periods": [
+        {
+          "period": "1-15 stycznia",
+          "period_en": "1-15 January",
+          "period_de": "1-15 Januar",
+          "segments": {
+            "primary": "narty-zakopane",
+            "secondary": "ferie-zimowe",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["ferie zimowe transport", "wynajem autokaru narty", "transfer lotnisko Krakow"],
+          "keywords_en": ["winter break transport", "ski trip coach rental", "airport transfer Krakow"],
+          "keywords_de": ["Winterferien Transport", "Skiausflug Busmiete", "Flughafentransfer Krakow"],
+          "featured_cta_pl": "REZERWUJ NARTY",
+          "featured_cta_en": "BOOK SKI TRIP",
+          "featured_cta_de": "SKIAUSFLUG BUCHEN",
+          "search_volume_estimate": 8900,
+          "seasonality": "HIGH 🔥"
+        },
+        {
+          "period": "16-31 stycznia",
+          "period_en": "16-31 January",
+          "period_de": "16-31 Januar",
+          "segments": {
+            "primary": "narty-zakopane",
+            "secondary": "ferie-zimowe",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["autokar na narty last minute", "transport grupowy ferie", "szybka rezerwacja narty"],
+          "keywords_en": ["ski trip last minute", "group winter break transport", "urgent ski booking"],
+          "keywords_de": ["Skitrip Last Minute", "Gruppenwinterferien", "schnelle Skibuchung"],
+          "featured_cta_pl": "OSTATNIA SZANSA NARTY",
+          "featured_cta_en": "LAST MINUTE SKIING",
+          "featured_cta_de": "LETZTE CHANCE SKI",
+          "search_volume_estimate": 6200,
+          "seasonality": "HIGH 🔥"
+        }
+      ]
+    },
+    {
+      "month": "LUTY",
+      "month_en": "FEBRUARY",
+      "month_de": "FEBRUAR",
+      "periods": [
+        {
+          "period": "1-15 lutego",
+          "period_en": "1-15 February",
+          "period_de": "1-15 Februar",
+          "segments": {
+            "primary": "kulig",
+            "secondary": "narty-zakopane",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["kulig transport", "wyjazd zimowy autokar", "kulig Krakow"],
+          "keywords_en": ["sleigh ride transport", "winter getaway coach", "sleigh ride Krakow"],
+          "keywords_de": ["Schlittenfahrt Transport", "Winterausflug Bus", "Schlittenfahrt Krakow"],
+          "featured_cta_pl": "ZAREZERWUJ KULIG",
+          "featured_cta_en": "BOOK SLEIGH RIDE",
+          "featured_cta_de": "SCHLITTENFAHRT BUCHEN",
+          "search_volume_estimate": 5100,
+          "seasonality": "MEDIUM 🟠"
+        },
+        {
+          "period": "16-28 lutego",
+          "period_en": "16-28 February",
+          "period_de": "16-28 Februar",
+          "segments": {
+            "primary": "wycieczki-szkolne",
+            "secondary": "narty-zakopane",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["transport grupowy narty", "wycieczki szkolne autokar pierwsze zapytania", "ferie szkolne transport"],
+          "keywords_en": ["ski group transport", "school trip coach early bookings", "school break transport"],
+          "keywords_de": ["Ski Gruppentransport", "Schulausflug Bus Frühbuchung", "Schulferien Transport"],
+          "featured_cta_pl": "REZERWUJ WYCIECZKĘ SZKOLNĄ",
+          "featured_cta_en": "BOOK SCHOOL TRIP",
+          "featured_cta_de": "SCHULAUSFLUG BUCHEN",
+          "search_volume_estimate": 4800,
+          "seasonality": "MEDIUM 🟠"
+        }
+      ]
+    },
+    {
+      "month": "MARZEC",
+      "month_en": "MARCH",
+      "month_de": "MÄRZ",
+      "periods": [
+        {
+          "period": "1-15 marca",
+          "period_en": "1-15 March",
+          "period_de": "1-15 März",
+          "segments": {
+            "primary": "wycieczki-szkolne",
+            "secondary": "transfer-lotnisko",
+            "tertiary": "impreza-firmowa"
+          },
+          "keywords_pl": ["wycieczki szkolne autokar", "transport dzieci szkoła wycieczka", "autokar szkolny Krakow"],
+          "keywords_en": ["school trip coach rental", "school excursion transport", "children transport Krakow"],
+          "keywords_de": ["Schulausflug Busmiete", "Schulausflug Transport", "Kindertransport Krakow"],
+          "featured_cta_pl": "REZERWUJ WYCIECZKĘ",
+          "featured_cta_en": "BOOK SCHOOL TRIP",
+          "featured_cta_de": "SCHULAUSFLUG BUCHEN",
+          "search_volume_estimate": 7200,
+          "seasonality": "HIGH 🔥"
+        },
+        {
+          "period": "16-31 marca",
+          "period_en": "16-31 March",
+          "period_de": "16-31 März",
+          "segments": {
+            "primary": "wycieczki-szkolne",
+            "secondary": "zielona-szkoła",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["zielona szkoła transport", "autokar na wycieczkę szkolną", "kwatera dla klasy Krakow"],
+          "keywords_en": ["green school program transport", "coach for school trip", "school accommodation Krakow"],
+          "keywords_de": ["Grüne Schule Transport", "Schulausflug Bus", "Klassenunterkunft Krakow"],
+          "featured_cta_pl": "REZERWUJ ZIELONĄ SZKOŁĘ",
+          "featured_cta_en": "BOOK GREEN SCHOOL",
+          "featured_cta_de": "GRÜNE SCHULE BUCHEN",
+          "search_volume_estimate": 6800,
+          "seasonality": "HIGH 🔥"
+        }
+      ]
+    },
+    {
+      "month": "KWIECIEŃ",
+      "month_en": "APRIL",
+      "month_de": "APRIL",
+      "periods": [
+        {
+          "period": "1-15 kwietnia",
+          "period_en": "1-15 April",
+          "period_de": "1-15 April",
+          "segments": {
+            "primary": "wycieczki-szkolne",
+            "secondary": "komunie-chrzcinki",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["autokar na wycieczkę szkolną", "transport na komunię", "majówka autokar"],
+          "keywords_en": ["coach for school trip", "communion party transport", "may holiday coach"],
+          "keywords_de": ["Bus für Schulausflug", "Kommunionstransport", "Maiferien Bus"],
+          "featured_cta_pl": "REZERWUJ MAJÓWKĘ",
+          "featured_cta_en": "BOOK MAY HOLIDAY",
+          "featured_cta_de": "MAIFERIEN BUCHEN",
+          "search_volume_estimate": 6500,
+          "seasonality": "MEDIUM 🟠"
+        },
+        {
+          "period": "16-30 kwietnia",
+          "period_en": "16-30 April",
+          "period_de": "16-30 April",
+          "segments": {
+            "primary": "komunie-chrzcinki",
+            "secondary": "wycieczki-szkolne",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["wynajem autokaru majówka", "autokar dla grupy wycieczka", "transport na majówkę"],
+          "keywords_en": ["coach rental may holiday", "group coach rental", "may trip transport"],
+          "keywords_de": ["Busmiete Maiferien", "Gruppenbusmiete", "Maireisen Transport"],
+          "featured_cta_pl": "REZERWUJ GRUPOWĄ WYCIECZKĘ",
+          "featured_cta_en": "BOOK GROUP TRIP",
+          "featured_cta_de": "GRUPPENTOUR BUCHEN",
+          "search_volume_estimate": 7100,
+          "seasonality": "HIGH 🔥"
+        }
+      ]
+    },
+    {
+      "month": "MAJ",
+      "month_en": "MAY",
+      "month_de": "MAI",
+      "periods": [
+        {
+          "period": "1-15 maja",
+          "period_en": "1-15 May",
+          "period_de": "1-15 Mai",
+          "segments": {
+            "primary": "wycieczki-szkolne",
+            "secondary": "komunie-chrzcinki",
+            "tertiary": "targi-mspo"
+          },
+          "keywords_pl": ["autokar wycieczka szkolna", "transport na komunię", "wycieczka szkolna maj PEAK", "MSPO Krakow transport"],
+          "keywords_en": ["coach school trip", "communion transport", "school trip may peak", "MSPO Krakow transportation"],
+          "keywords_de": ["Schulausflug Bus", "Kommunionstransport", "Schulausflug Mai Peak", "MSPO Krakow Transport"],
+          "featured_cta_pl": "REZERWUJ WYCIECZKĘ / KOMUNIĘ",
+          "featured_cta_en": "BOOK TRIP / COMMUNION",
+          "featured_cta_de": "AUSFLUG / KOMMUNION BUCHEN",
+          "search_volume_estimate": 12400,
+          "seasonality": "PEAK 🔥🔥"
+        },
+        {
+          "period": "16-31 maja",
+          "period_en": "16-31 May",
+          "period_de": "16-31 Mai",
+          "segments": {
+            "primary": "wesele",
+            "secondary": "wyjazd-firmowy",
+            "tertiary": "targi-mspo"
+          },
+          "keywords_pl": ["wynajem autokaru wesele", "wyjazd firmowy transport", "transfer do hotelu targi", "MSPO delegacja transport"],
+          "keywords_en": ["wedding coach rental", "corporate trip transport", "hotel transfer trade fair", "MSPO delegation transport"],
+          "keywords_de": ["Hochzeitsbusmiete", "Firmenwagen Transport", "Hoteltransfer Handelsmesse", "MSPO Delegationstransport"],
+          "featured_cta_pl": "REZERWUJ WESELE / TARGI",
+          "featured_cta_en": "BOOK WEDDING / TRADE FAIR",
+          "featured_cta_de": "HOCHZEIT / HANDELSMESSE BUCHEN",
+          "search_volume_estimate": 11800,
+          "seasonality": "PEAK 🔥🔥"
+        }
+      ]
+    },
+    {
+      "month": "CZERWIEC",
+      "month_en": "JUNE",
+      "month_de": "JUNI",
+      "periods": [
+        {
+          "period": "1-15 czerwca",
+          "period_en": "1-15 June",
+          "period_de": "1-15 Juni",
+          "segments": {
+            "primary": "wycieczki-szkolne",
+            "secondary": "wesele",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["autokar na wycieczkę szkolną ostatni peak", "transport grupowy nad wodę", "wycieczka szkolna czerwiec"],
+          "keywords_en": ["school trip coach last peak", "group water transport", "school trip june"],
+          "keywords_de": ["Schulausflug Bus letzter Peak", "Gruppentransport Wasser", "Schulausflug Juni"],
+          "featured_cta_pl": "OSTATNIA SZANSA WYCIECZKA",
+          "featured_cta_en": "LAST SCHOOL TRIP",
+          "featured_cta_de": "LETZTE SCHULAUSFLUG",
+          "search_volume_estimate": 8900,
+          "seasonality": "HIGH 🔥"
+        },
+        {
+          "period": "16-30 czerwca",
+          "period_en": "16-30 June",
+          "period_de": "16-30 Juni",
+          "segments": {
+            "primary": "wesele",
+            "secondary": "kolonijne",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["autokar wesele", "transport na kolonie", "wynajęcie busa na wesele Krakow"],
+          "keywords_en": ["wedding coach", "summer camp transport", "wedding bus rental Krakow"],
+          "keywords_de": ["Hochzeitsbus", "Ferienlagertransport", "Hochzeitsbusmiete Krakow"],
+          "featured_cta_pl": "REZERWUJ WESELE",
+          "featured_cta_en": "BOOK WEDDING",
+          "featured_cta_de": "HOCHZEIT BUCHEN",
+          "search_volume_estimate": 9600,
+          "seasonality": "HIGH 🔥"
+        }
+      ]
+    },
+    {
+      "month": "LIPIEC",
+      "month_en": "JULY",
+      "month_de": "JULI",
+      "periods": [
+        {
+          "period": "1-15 lipca",
+          "period_en": "1-15 July",
+          "period_de": "1-15 Juli",
+          "segments": {
+            "primary": "kolonijne",
+            "secondary": "nad-wodę",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["transport na kolonie", "wynajem busa wakacje", "transfer nad wodę"],
+          "keywords_en": ["camp transport", "vacation bus rental", "water resort transfer"],
+          "keywords_de": ["Ferienlagertransport", "Urlaubsbusmiete", "Wassertransfer"],
+          "featured_cta_pl": "REZERWUJ KOLONIE",
+          "featured_cta_en": "BOOK SUMMER CAMP",
+          "featured_cta_de": "FERIENLAGER BUCHEN",
+          "search_volume_estimate": 8200,
+          "seasonality": "HIGH 🔥"
+        },
+        {
+          "period": "16-31 lipca",
+          "period_en": "16-31 July",
+          "period_de": "16-31 Juli",
+          "segments": {
+            "primary": "nad-wodę",
+            "secondary": "kolonijne",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["autokar na wyjazd wakacyjny", "transport grupa nad morze", "wakacyjny wyjazd autokar"],
+          "keywords_en": ["vacation coach trip", "group seaside transport", "holiday coach rental"],
+          "keywords_de": ["Urlaubsbusausflug", "Gruppenmeertransport", "Urlaubsbusmiete"],
+          "featured_cta_pl": "REZERWUJ WAKACJE",
+          "featured_cta_en": "BOOK VACATION",
+          "featured_cta_de": "URLAUB BUCHEN",
+          "search_volume_estimate": 9100,
+          "seasonality": "HIGH 🔥"
+        }
+      ]
+    },
+    {
+      "month": "SIERPIEŃ",
+      "month_en": "AUGUST",
+      "month_de": "AUGUST",
+      "periods": [
+        {
+          "period": "1-15 sierpnia",
+          "period_en": "1-15 August",
+          "period_de": "1-15 August",
+          "segments": {
+            "primary": "nad-wodę",
+            "secondary": "transport-wakacyjny",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["transport na wyjazd wakacyjny", "wynajem autokaru grupa", "urlop autokar"],
+          "keywords_en": ["vacation transport", "group coach rental", "holiday bus rental"],
+          "keywords_de": ["Urlaubstransport", "Gruppenbusmiete", "Urlaubsbusmiete"],
+          "featured_cta_pl": "OSTATNIE WAKACJE",
+          "featured_cta_en": "LAST CHANCE VACATION",
+          "featured_cta_de": "LETZTE URLAUBSCHANCE",
+          "search_volume_estimate": 7800,
+          "seasonality": "MEDIUM 🟠"
+        },
+        {
+          "period": "16-31 sierpnia",
+          "period_en": "16-31 August",
+          "period_de": "16-31 August",
+          "segments": {
+            "primary": "grzyby",
+            "secondary": "powrót-do-szkoły",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["wyjazd na grzyby transport", "dowóz dzieci szkoła", "powrót do szkoły transport"],
+          "keywords_en": ["mushroom foraging trip", "school start transport", "back to school transport"],
+          "keywords_de": ["Pilzausflug Transport", "Schulstart Transport", "Zurück zur Schule Transport"],
+          "featured_cta_pl": "REZERWUJ GRZYBY / SZKOLĘ",
+          "featured_cta_en": "BOOK MUSHROOMS / SCHOOL",
+          "featured_cta_de": "PILZE / SCHULE BUCHEN",
+          "search_volume_estimate": 6400,
+          "seasonality": "MEDIUM 🟠"
+        }
+      ]
+    },
+    {
+      "month": "WRZESIEŃ",
+      "month_en": "SEPTEMBER",
+      "month_de": "SEPTEMBER",
+      "periods": [
+        {
+          "period": "1-15 września",
+          "period_en": "1-15 September",
+          "period_de": "1-15 September",
+          "segments": {
+            "primary": "powrót-do-szkoły",
+            "secondary": "wyjazd-integracyjny",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["transport dzieci do szkoły", "wyjazd integracyjny autokar", "powrót szkoły transport"],
+          "keywords_en": ["children school transport", "team integration trip", "school start transport"],
+          "keywords_de": ["Kindertransport Schule", "Integrationswagen Trip", "Schulstart Transport"],
+          "featured_cta_pl": "REZERWUJ TRANSPORT SZKOLNY",
+          "featured_cta_en": "BOOK SCHOOL TRANSPORT",
+          "featured_cta_de": "SCHULTRANSPORT BUCHEN",
+          "search_volume_estimate": 5600,
+          "seasonality": "MEDIUM 🟠"
+        },
+        {
+          "period": "16-30 września",
+          "period_en": "16-30 September",
+          "period_de": "16-30 September",
+          "segments": {
+            "primary": "grzyby",
+            "secondary": "wycieczki-szkolne",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["wyjazd na grzyby autokar PEAK", "wycieczki szkolne jesienne", "grzyby Krakow transport"],
+          "keywords_en": ["mushroom trip coach PEAK", "autumn school trips", "mushroom foraging Krakow"],
+          "keywords_de": ["Pilzausflug Bus PEAK", "Herbstschulausflüge", "Pilzsuche Krakow"],
+          "featured_cta_pl": "REZERWUJ GRZYBY PEAK",
+          "featured_cta_en": "BOOK MUSHROOM PEAK",
+          "featured_cta_de": "PILZE PEAK BUCHEN",
+          "search_volume_estimate": 10200,
+          "seasonality": "PEAK 🔥🔥"
+        }
+      ]
+    },
+    {
+      "month": "PAŹDZIERNIK",
+      "month_en": "OCTOBER",
+      "month_de": "OKTOBER",
+      "periods": [
+        {
+          "period": "1-15 października",
+          "period_en": "1-15 October",
+          "period_de": "1-15 Oktober",
+          "segments": {
+            "primary": "sylwester-planning",
+            "secondary": "wyjazd-firmowy",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["autokar sylwester planowanie", "wyjazd firmowy transport", "planowanie sylwestra"],
+          "keywords_en": ["new year coach planning", "corporate trip transport", "new year planning"],
+          "keywords_de": ["Neujahrsbus Planung", "Firmenwagen Transport", "Silvesterplanung"],
+          "featured_cta_pl": "ZAREZERWUJ SYLWESTRA",
+          "featured_cta_en": "BOOK NEW YEAR EVE",
+          "featured_cta_de": "SILVESTER BUCHEN",
+          "search_volume_estimate": 7500,
+          "seasonality": "HIGH 🔥"
+        },
+        {
+          "period": "16-31 października",
+          "period_en": "16-31 October",
+          "period_de": "16-31 Oktober",
+          "segments": {
+            "primary": "narty-planning",
+            "secondary": "impreza-firmowa",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["wynajem autokaru narty start sezonu", "transport na imprezę firmową", "narty planowanie"],
+          "keywords_en": ["ski coach rental season start", "corporate event transport", "ski planning"],
+          "keywords_de": ["Skibusvermietung Saisonstart", "Firmeneventtransport", "Skiplanung"],
+          "featured_cta_pl": "REZERWUJ NARTY",
+          "featured_cta_en": "BOOK SKI SEASON",
+          "featured_cta_de": "SKISAISON BUCHEN",
+          "search_volume_estimate": 8900,
+          "seasonality": "HIGH 🔥"
+        }
+      ]
+    },
+    {
+      "month": "LISTOPAD",
+      "month_en": "NOVEMBER",
+      "month_de": "NOVEMBER",
+      "periods": [
+        {
+          "period": "1-15 listopada",
+          "period_en": "1-15 November",
+          "period_de": "1-15 November",
+          "segments": {
+            "primary": "narty",
+            "secondary": "sylwester-planning",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["autokar na narty duży spike", "transport sylwester wyjazd", "narty listopad"],
+          "keywords_en": ["ski coach big spike", "new year trip transport", "november skiing"],
+          "keywords_de": ["Skibusvermietung großer Anstieg", "Silvesterreise Transport", "November Ski"],
+          "featured_cta_pl": "REZERWUJ NARTY LISTOPAD",
+          "featured_cta_en": "BOOK NOVEMBER SKI",
+          "featured_cta_de": "NOVEMBER SKI BUCHEN",
+          "search_volume_estimate": 10100,
+          "seasonality": "PEAK 🔥🔥"
+        },
+        {
+          "period": "16-30 listopada",
+          "period_en": "16-30 November",
+          "period_de": "16-30 November",
+          "segments": {
+            "primary": "sylwester",
+            "secondary": "narty",
+            "tertiary": "ferie-zimowe-planning"
+          },
+          "keywords_pl": ["wynajem autokaru sylwester PEAK", "transport ferie zimowe planowanie", "sylwester szczyt rezerwacji"],
+          "keywords_en": ["new year eve coach PEAK", "winter holiday transport planning", "new year peak booking"],
+          "keywords_de": ["Silvesterbus PEAK", "Winterferienstransport Planung", "Silvester Spitzenbuchung"],
+          "featured_cta_pl": "SYLWESTER PEAK",
+          "featured_cta_en": "NEW YEAR PEAK",
+          "featured_cta_de": "SILVESTER PEAK",
+          "search_volume_estimate": 13200,
+          "seasonality": "PEAK 🔥🔥"
+        }
+      ]
+    },
+    {
+      "month": "GRUDZIEŃ",
+      "month_en": "DECEMBER",
+      "month_de": "DEZEMBER",
+      "periods": [
+        {
+          "period": "1-15 grudnia",
+          "period_en": "1-15 December",
+          "period_de": "1-15 Dezember",
+          "segments": {
+            "primary": "wigilie-firmowe",
+            "secondary": "narty",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["transport wigilia firmowa", "autokar na narty ostatni", "wigilia grudzień transport"],
+          "keywords_en": ["christmas party transport", "last chance ski", "christmas transport"],
+          "keywords_de": ["Weihnachtsfesttransport", "letzte Skichance", "Weihnachtstransport"],
+          "featured_cta_pl": "REZERWUJ WYGIELĘ",
+          "featured_cta_en": "BOOK CHRISTMAS PARTY",
+          "featured_cta_de": "WEIHNACHTSFEST BUCHEN",
+          "search_volume_estimate": 11400,
+          "seasonality": "HIGH 🔥"
+        },
+        {
+          "period": "16-31 grudnia",
+          "period_en": "16-31 December",
+          "period_de": "16-31 Dezember",
+          "segments": {
+            "primary": "sylwester-lastminute",
+            "secondary": "ferie-zimowe",
+            "tertiary": "transfer-lotnisko"
+          },
+          "keywords_pl": ["transport sylwester last minute", "autokar ferie zimowe", "sylwester rezerwacja ostatnia"],
+          "keywords_en": ["new year last minute transport", "winter holiday coach", "new year last booking"],
+          "keywords_de": ["Silvester Last-Minute Transport", "Winterferien Bus", "Silvester letzte Buchung"],
+          "featured_cta_pl": "SYLWESTER LAST MINUTE",
+          "featured_cta_en": "NEW YEAR LAST MINUTE",
+          "featured_cta_de": "SILVESTER LAST MINUTE",
+          "search_volume_estimate": 12800,
+          "seasonality": "PEAK 🔥🔥"
+        }
+      ]
+    }
+  ],
+  "evergreen_segments": [
+    {
+      "slug": "transfer-lotnisko",
+      "name_pl": "Transfer na lotnisko",
+      "name_en": "Airport Transfer",
+      "name_de": "Flughafentransfer",
+      "seasonality": "CAŁY ROK",
+      "seasonality_en": "YEAR-ROUND",
+      "seasonality_de": "GANZJÄHRIG",
+      "monthly_search_volume": "4200-5800",
+      "description_pl": "Niezawodny transport z Krakowa na lotnisko w Krakowie lub Warszawie",
+      "description_en": "Reliable transport from Krakow to Krakow or Warsaw airport",
+      "description_de": "Zuverlässiger Transport von Krakow zum Flughafen Krakau oder Warschau"
+    },
+    {
+      "slug": "wycieczki-klasowe",
+      "name_pl": "Wycieczki klasowe",
+      "name_en": "School Class Trips",
+      "name_de": "Klassenfahrten",
+      "seasonality": "CAŁY ROK (PEAK: MAJ, CZERWIEC)",
+      "seasonality_en": "YEAR-ROUND (PEAK: MAY, JUNE)",
+      "seasonality_de": "GANZJÄHRIG (SPITZE: MAI, JUNI)",
+      "monthly_search_volume": "6500-12400",
+      "description_pl": "Transport dla klas szkolnych na wycieczki edukacyjne i integracyjne",
+      "description_en": "Transport for school classes on educational and integration trips",
+      "description_de": "Transport für Schulklassen bei Lehr- und Integrationsfahrten"
+    }
+  ],
+  "b2b_segments": [
+    {
+      "slug": "targi-mspo",
+      "name_pl": "Targi MSPO",
+      "name_en": "MSPO Trade Fair",
+      "name_de": "MSPO Handelsmesse",
+      "seasonality": "MAJ (PEAK PERIOD)",
+      "seasonality_en": "MAY (PEAK PERIOD)",
+      "seasonality_de": "MAI (SPITZENZEIT)",
+      "peak_months": ["kwiecień-planowanie", "maj-realizacja"],
+      "target_audience_pl": "Międzynarodowe delegacje biznesowe, firmy uczestniczące w targach",
+      "target_audience_en": "International business delegations, participating companies",
+      "target_audience_de": "Internationale Geschäftsdelegationen, teilnehmende Unternehmen",
+      "services_pl": [
+        "Transfer lotnisko → hotel",
+        "Hotel → targi",
+        "Transfer między hotelami",
+        "Wynajęcie busa dla delegacji"
+      ],
+      "services_en": [
+        "Airport → hotel transfer",
+        "Hotel → trade fair transfer",
+        "Transfer between hotels",
+        "Bus rental for delegations"
+      ],
+      "services_de": [
+        "Flughafen → Hotel Transfer",
+        "Hotel → Handelsmesse Transfer",
+        "Transfer zwischen Hotels",
+        "Busvermietung für Delegationen"
+      ],
+      "expected_monthly_volume": "2800-3600",
+      "languages": ["pl", "en", "de"],
+      "b2b_contact_required": true
+    }
+  ],
+  "notes": {
+    "pl": "Calendar oparty na Google Trends + praktyka biznesowa Rafała Chmielewskiego. Aktualizacja co 2 tygodnie.",
+    "en": "Calendar based on Google Trends + business practice. Updated every 2 weeks.",
+    "de": "Kalender basierend auf Google Trends + Geschäftspraxis. Aktualisierung alle 2 Wochen."
+  }
+}

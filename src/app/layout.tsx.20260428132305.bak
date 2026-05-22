@@ -1,0 +1,163 @@
+﻿import type { Metadata } from "next";
+import { Noto_Sans, Noto_Sans_Arabic } from "next/font/google";
+import Script from "next/script";
+import { StickyCallButton } from "@/components/StickyCallButton";
+import "./globals.css";
+
+const notoSans = Noto_Sans({
+  variable: "--font-main",
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  display: "swap",
+});
+
+const notoSansArabic = Noto_Sans_Arabic({
+  variable: "--font-arabic",
+  subsets: ["arabic"],
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Wynajem Autokaru Kielce | Busy i Autokary na Wynajem – +48 601 076 652 lub +48 41 345 32 25",
+  description:
+    "Profesjonalny wynajem autokaru w Kielcach. Busy, autokary i minibusy na wesela, wycieczki, pielgrzymki i transfery lotniskowe. Zadzwoń: +48 601 076 652 lub +48 41 345 32 25",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  const cookieYesId = process.env.NEXT_PUBLIC_COOKIEYES_ID;
+  const tawkPropertyId = process.env.NEXT_PUBLIC_TAWK_PROPERTY_ID ?? "69e93b2e47b9821c343cb65c";
+  const tawkWidgetId = process.env.NEXT_PUBLIC_TAWK_WIDGET_ID ?? "1jmrguc2j";
+
+  return (
+    <html lang="pl" className={`${notoSans.variable} ${notoSansArabic.variable} h-full antialiased`}>
+      <head>
+        {cookieYesId ? <Script id="cookieyes" strategy="beforeInteractive" src={`https://cdn-cookieyes.com/client_data/${cookieYesId}/script.js`} /> : null}
+        <Script id="consent-mode-v2" strategy="beforeInteractive">
+          {`(function () {
+  var gaId = ${JSON.stringify(gaId ?? "")};
+  var tawkPropertyId = ${JSON.stringify(tawkPropertyId)};
+  var tawkWidgetId = ${JSON.stringify(tawkWidgetId)};
+
+  function isGranted(value) {
+    if (value === true || value === 1) return true;
+    if (typeof value === 'string') {
+      var normalized = value.toLowerCase();
+      return normalized === 'granted' || normalized === 'yes' || normalized === 'true' || normalized === 'accepted';
+    }
+    if (value && typeof value === 'object') {
+      return isGranted(value.accepted) || isGranted(value.status) || isGranted(value.value) || isGranted(value.consent);
+    }
+    return false;
+  }
+
+  function includesCategory(source, category) {
+    if (!Array.isArray(source)) return false;
+    return source.indexOf(category) !== -1;
+  }
+
+  function readConsentState(event) {
+    var detail = event && event.detail ? event.detail : {};
+    var categories = detail.acceptedCategories || detail.accepted || detail.categories || [];
+    var cookieYesConsent =
+      (window.CookieYes && window.CookieYes.consent) ||
+      (window.cookieyes && window.cookieyes.consent) ||
+      (window.cookieYes && window.cookieYes.consent) ||
+      {};
+
+    var analytics = includesCategory(categories, 'analytics') || isGranted(cookieYesConsent.analytics);
+    var functional =
+      includesCategory(categories, 'functional') ||
+      includesCategory(categories, 'functionality') ||
+      isGranted(cookieYesConsent.functional) ||
+      isGranted(cookieYesConsent.functionality);
+
+    return { analytics: analytics, functional: functional };
+  }
+
+  function ensureDataLayer() {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  }
+
+  function loadGaIfAllowed() {
+    if (!gaId || window.__gaLoaded) return;
+    window.__gaLoaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaId);
+    document.head.appendChild(script);
+    ensureDataLayer();
+    window.gtag('js', new Date());
+    window.gtag('config', gaId);
+  }
+
+  function loadTawkIfAllowed() {
+    if (window.__tawkLoaded) return;
+    window.__tawkLoaded = true;
+    var tawkScript = document.createElement('script');
+    tawkScript.async = true;
+    tawkScript.src = 'https://embed.tawk.to/' + tawkPropertyId + '/' + tawkWidgetId;
+    tawkScript.charset = 'UTF-8';
+    tawkScript.setAttribute('crossorigin', '*');
+    document.head.appendChild(tawkScript);
+  }
+
+  function applyConsent(event) {
+    var consent = readConsentState(event);
+
+    if (gaId) {
+      ensureDataLayer();
+      window.gtag('consent', 'update', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: consent.analytics ? 'granted' : 'denied',
+        functionality_storage: consent.functional ? 'granted' : 'denied',
+        security_storage: 'granted'
+      });
+    }
+
+    if (consent.analytics) {
+      loadGaIfAllowed();
+    }
+
+    if (consent.functional) {
+      loadTawkIfAllowed();
+    }
+  }
+
+  if (gaId) {
+    ensureDataLayer();
+    window.gtag('consent', 'default', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'denied',
+      functionality_storage: 'denied',
+      security_storage: 'granted',
+      wait_for_update: 500
+    });
+  }
+
+  document.addEventListener('cookieyes_consent_update', applyConsent);
+  document.addEventListener('cookieyes_consent_accept', applyConsent);
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      applyConsent();
+    }, 0);
+  });
+})();`}
+        </Script>
+      </head>
+      <body className="min-h-full bg-white text-[#1a1a1a]">
+        {children}
+        <StickyCallButton />
+      </body>
+    </html>
+  );
+}
+

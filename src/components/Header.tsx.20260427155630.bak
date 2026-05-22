@@ -1,0 +1,169 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
+import MobileMenu from "./MobileMenu";
+
+const LANGUAGES = [
+  { code: "pl", label: "🇵🇱 PL" },
+  { code: "en", label: "🇬🇧 EN" },
+  { code: "de", label: "🇩🇪 DE" },
+  { code: "ru", label: "🇷🇺 RU" },
+  { code: "ar", label: "🇸🇦 AR" },
+  { code: "es", label: "🇪🇸 ES" },
+  { code: "fr", label: "🇫🇷 FR" },
+ ] as const;
+
+type Lang = "pl" | "en" | "de" | "ru" | "ar" | "es" | "fr";
+
+const UI: Record<Lang, { services: string; fleet: string; gallery: string; contact: string; phone: string; menu: string; close: string }> = {
+  pl: { services: "Usługi", fleet: "Flota", gallery: "Galeria", contact: "Kontakt", phone: "+48 601 076 652", menu: "Menu", close: "Zamknij" },
+  en: { services: "Services", fleet: "Fleet", gallery: "Gallery", contact: "Contact", phone: "+48 601 076 652", menu: "Menu", close: "Close" },
+  de: { services: "Leistungen", fleet: "Flotte", gallery: "Galerie", contact: "Kontakt", phone: "+48 601 076 652", menu: "Menü", close: "Schließen" },
+  ru: { services: "Услуги", fleet: "Автопарк", gallery: "Галерея", contact: "Контакт", phone: "+48 601 076 652", menu: "Меню", close: "Закрыть" },
+  ar: { services: "الخدمات", fleet: "الأسطول", gallery: "معرض الصور", contact: "اتصل بنا", phone: "+48 601 076 652", menu: "القائمة", close: "إغلاق" },
+  es: { services: "Servicios", fleet: "Flota", gallery: "Galería", contact: "Contacto", phone: "+48 601 076 652", menu: "Menú", close: "Cerrar" },
+  fr: { services: "Services", fleet: "Flotte", gallery: "Galerie", contact: "Contact", phone: "+48 601 076 652", menu: "Menu", close: "Fermer" },
+};
+
+const SERVICE_LABELS: Record<Lang, { weddings: string; schools: string; business: string; pilgrimage: string; ski: string; airport: string; hotelTransfer: string }> = {
+  pl: { weddings: "Wesela", schools: "Wycieczki szkolne", business: "Imprezy firmowe", pilgrimage: "Pielgrzymki", ski: "Narty Zakopane", airport: "Transfer lotnisko", hotelTransfer: "Hotel transfer" },
+  en: { weddings: "Weddings", schools: "School Trips", business: "Corporate Events", pilgrimage: "Pilgrimages", ski: "Ski Trips", airport: "Airport Transfer", hotelTransfer: "Hotel Transfer" },
+  de: { weddings: "Hochzeiten", schools: "Schulausflüge", business: "Firmenevents", pilgrimage: "Pilgerfahrten", ski: "Skiausflüge", airport: "Flughafentransfer", hotelTransfer: "Hoteltransfer" },
+  ru: { weddings: "Свадьбы", schools: "Школьные поездки", business: "Корпоративы", pilgrimage: "Паломничества", ski: "Лыжи", airport: "Аэропорт", hotelTransfer: "Трансфер в отель" },
+  ar: { weddings: "حفلات الزفاف", schools: "الرحلات المدرسية", business: "الفعاليات", pilgrimage: "الحج والعمرة", ski: "رحلات التزلج", airport: "نقل المطار", hotelTransfer: "نقل الفندق" },
+  es: { weddings: "Bodas", schools: "Excursiones escolares", business: "Eventos corporativos", pilgrimage: "Peregrinaciones", ski: "Esquí", airport: "Transfer aeropuerto", hotelTransfer: "Traslado al hotel" },
+  fr: { weddings: "Mariages", schools: "Sorties scolaires", business: "Événements d'entreprise", pilgrimage: "Pèlerinages", ski: "Voyages ski", airport: "Transfert aéroport", hotelTransfer: "Transfert hôtel" },
+};
+
+export default function Header({ lang = "pl" }: { lang?: Lang }) {
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const pathname = usePathname();
+  const ui = UI[lang] ?? UI.pl;
+  const services = SERVICE_LABELS[lang] ?? SERVICE_LABELS.pl;
+
+  const serviceLinks = [
+    { href: `/${lang}/wesele`, label: services.weddings },
+    { href: `/${lang}/wycieczki-szkolne`, label: services.schools },
+    { href: `/${lang}/pielgrzymki`, label: services.pilgrimage },
+    { href: `/${lang}/narty-zakopane`, label: services.ski },
+    { href: `/${lang}/lotnisko`, label: services.airport },
+    { href: `/${lang}/hotel-transfer`, label: services.hotelTransfer },
+    { href: `/${lang}/impreza-firmowa`, label: services.business },
+  ];
+
+  const isServicePath = serviceLinks.some((item) => pathname?.startsWith(item.href)) || pathname?.startsWith(`/${lang}/cennik`);
+  const isFleetPath = pathname?.startsWith(`/${lang}/flota`);
+  const isGalleryPath = pathname?.startsWith(`/${lang}/galeria`);
+  const isContactPath = pathname?.startsWith(`/${lang}/kontakt`);
+
+  return (
+    <header className="sticky top-0 z-50 bg-[#1a1a1a] text-white shadow-lg whitespace-nowrap">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+        <Link href={`/${lang}`} className="flex items-center gap-2" aria-label="Strona glowna">
+          <span className="text-[#f59e0b] text-2xl font-black tracking-tight">AUTOKAR</span>
+          <span className="text-white text-sm font-medium hidden sm:block">Kielce</span>
+        </Link>
+
+        <nav className="hidden md:flex items-center gap-6 text-sm font-semibold" role="navigation" aria-label="Primary navigation">
+          <div className="group relative">
+            <Link
+              href={`/${lang}/cennik`}
+              aria-label={ui.services}
+              aria-haspopup="true"
+              className={`transition-colors duration-200 ${isServicePath ? "text-[#f59e0b]" : "hover:text-[#f59e0b]"}`}
+            >
+              {ui.services} ▼
+            </Link>
+            <div className="absolute left-0 top-full z-[100] w-52 pt-2 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity duration-200">
+              <div className="rounded-lg border border-gray-700 bg-[#1a1a1a] py-2 shadow-2xl">
+                {serviceLinks.map((item) => (
+                  <Link key={item.href} href={item.href} className="block px-4 py-2 text-sm text-white hover:text-[#f59e0b] hover:bg-black/20 transition-colors duration-200">
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+          <Link
+            href={`/${lang}/flota`}
+            aria-label={ui.fleet}
+            className={`transition-colors duration-200 ${isFleetPath ? "text-[#f59e0b]" : "hover:text-[#f59e0b]"}`}
+          >
+            {ui.fleet}
+          </Link>
+          <Link
+            href={`/${lang}/galeria`}
+            aria-label={ui.gallery}
+            className={`transition-colors duration-200 ${isGalleryPath ? "text-[#f59e0b]" : "hover:text-[#f59e0b]"}`}
+          >
+            {ui.gallery}
+          </Link>
+          <Link
+            href={`/${lang}/kontakt`}
+            aria-label={ui.contact}
+            className={`transition-colors duration-200 ${isContactPath ? "text-[#f59e0b]" : "hover:text-[#f59e0b]"}`}
+          >
+            {ui.contact}
+          </Link>
+        </nav>
+
+        <div className="flex items-center gap-2">
+          <div className="hidden lg:flex items-center rounded-lg border border-gray-700 overflow-hidden">
+            {LANGUAGES.map((item) => (
+              <Link
+                key={item.code}
+                href={`/${item.code}`}
+                aria-label={`Switch language to ${item.code}`}
+                className={`px-2 py-1 text-xs font-semibold transition-colors duration-200 ${
+                  lang === item.code ? "bg-[#f59e0b] text-[#1a1a1a]" : "bg-[#1a1a1a] text-white hover:bg-gray-800"
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+
+          <a
+            href="https://wa.me/48601076652"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp kontakt"
+            className="hidden sm:inline-flex h-10 w-10 items-center justify-center rounded-lg border border-[#f59e0b] text-[#f59e0b] hover:bg-[#f59e0b] hover:text-[#1a1a1a] transition-all duration-200"
+          >
+            💬
+          </a>
+
+          <a
+            href="tel:601076652"
+            aria-label="Zadzwon +48 601 076 652"
+            className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-[#f59e0b] px-4 py-2 text-sm font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl"
+          >
+            📞 {ui.phone}
+          </a>
+
+          <button
+            type="button"
+            aria-label={ui.menu}
+            onClick={() => setIsMobileOpen((prev) => !prev)}
+            className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-gray-700 text-white hover:text-[#f59e0b] hover:border-[#f59e0b] transition-all duration-200"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+
+      <MobileMenu
+        lang={lang}
+        isOpen={isMobileOpen}
+        onClose={() => setIsMobileOpen(false)}
+        labels={{ services: ui.services, fleet: ui.fleet, gallery: ui.gallery, contact: ui.contact, phone: `📞 ${ui.phone}`, close: ui.close }}
+        services={serviceLinks}
+        languages={[...LANGUAGES]}
+        currentPath={pathname ?? ""}
+      />
+    </header>
+  );
+}
+

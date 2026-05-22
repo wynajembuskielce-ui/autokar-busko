@@ -1,0 +1,51 @@
+[
+  {
+    "key": "hero-landing",
+    "filename": "hero-landing.jpg",
+    "photographer": "Phil Hearing",
+    "description": "A white tour bus parked outdoors on a sunny day.",
+    "score": 7
+  },
+  {
+    "key": "wycieczka-szkolna",
+    "filename": "wycieczka-szkolna.jpg",
+    "photographer": "Aman Shrivastava",
+    "description": "grayscale photography of two boys hugging while laughing",
+    "score": 7
+  },
+  {
+    "key": "wesele",
+    "filename": "wesele.jpg",
+    "photographer": "Seljan Salimova",
+    "description": "Groom poses as bride waits inside the car.",
+    "score": 7
+  },
+  {
+    "key": "impreza-firmowa",
+    "filename": "impreza-firmowa.jpg",
+    "photographer": "Vitaly Gariev",
+    "description": "Two business professionals discuss near a bicycle.",
+    "score": 6
+  },
+  {
+    "key": "pielgrzymki",
+    "filename": "pielgrzymki.jpg",
+    "photographer": "Eyestetix Studio",
+    "description": "People in traditional attire walking in a procession outdoors.",
+    "score": 7
+  },
+  {
+    "key": "narty",
+    "filename": "narty.jpg",
+    "photographer": "Jake Green",
+    "description": "person in black jacket and green helmet on snow covered mountain during daytime",
+    "score": 7
+  },
+  {
+    "key": "lotnisko",
+    "filename": "lotnisko.jpg",
+    "photographer": "Chris Zhang",
+    "description": "silhouette of 2 men walking on the sidewalk",
+    "score": 7
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "fuel_price_pln": 6.50,
+  "fuel_note": "Aktualizuj ręcznie wg ceny ON na Orlen. Data: 2026-04-22",
+  "vehicles": [
+    {
+      "id": "osobowa",
+      "name_pl": "Osobówka 5-7 os.",
+      "name_en": "Car 5-7 pax",
+      "name_ar": "سيارة 5-7 أشخاص",
+      "fuel_per_100km": 8,
+      "driver_day": 300,
+      "margin_standard": 350,
+      "margin_biznes": 850,
+      "margin_vip": 1150,
+      "vip_note": "Mercedes S-Klasa",
+      "eksploatacja_per_km": 0.5
+    },
+    {
+      "id": "van9",
+      "name_pl": "Van / Bus 9 os.",
+      "name_en": "Minibus 9 pax",
+      "name_ar": "ميكروباص 9 أشخاص",
+      "fuel_per_100km": 10,
+      "driver_day": 300,
+      "margin_standard": 600,
+      "margin_biznes": 600,
+      "margin_vip": 900,
+      "vip_note": "Mercedes Vito/V-Klasa",
+      "eksploatacja_per_km": 0.5
+    },
+    {
+      "id": "bus23",
+      "name_pl": "Bus 23 os.",
+      "name_en": "Minibus 23 pax",
+      "name_ar": "باص 23 شخصاً",
+      "fuel_per_100km": 14,
+      "driver_day": 350,
+      "margin_standard": 900,
+      "margin_biznes": 900,
+      "margin_vip": 900,
+      "vip_note": "",
+      "eksploatacja_per_km": 0.7
+    },
+    {
+      "id": "autobus30",
+      "name_pl": "Autokar 30+ os.",
+      "name_en": "Coach 30+ pax",
+      "name_ar": "حافلة 30+ شخصاً",
+      "fuel_per_100km": 20,
+      "driver_day": 400,
+      "margin_standard": 1100,
+      "margin_biznes": 1100,
+      "margin_vip": 1100,
+      "vip_note": "",
+      "eksploatacja_per_km": 1.0
+    },
+    {
+      "id": "autobus50",
+      "name_pl": "Autokar 50 os.",
+      "name_en": "Coach 50 pax",
+      "name_ar": "حافلة 50 شخصاً",
+      "fuel_per_100km": 28,
+      "driver_day": 400,
+      "margin_standard": 1300,
+      "margin_biznes": 1300,
+      "margin_vip": 1300,
+      "vip_note": "",
+      "eksploatacja_per_km": 1.0
+    }
+  ],
+  "surcharges": {
+    "female_driver": 200,
+    "female_driver_note": "Kierowca kobieta — dla grup kobiecych",
+    "arabic_driver": 300,
+    "arabic_driver_note": "Kierowca mówiący po arabsku",
+    "arabic_female_driver": 600,
+    "arabic_female_driver_note": "Kierowca kobieta mówiąca po arabsku — PREMIUM",
+    "women_only_policy": "Grupy kobiet arabskich — WYŁĄCZNIE kierowca kobieta. Mężczyzna nie jedzie.",
+    "night_surcharge": 150,
+    "night_surcharge_note": "Wyjazd między 22:00-06:00"
+  },
+  "routes": [
+    { "id": "krakow_krakow_krk", "name": "Krakow → Kraków KRK", "km": 120 },
+    { "id": "krakow_warszawa_waw", "name": "Krakow → Warszawa WAW", "km": 185 },
+    { "id": "krakow_katowice_ktw", "name": "Krakow → Katowice KTW", "km": 130 },
+    { "id": "krakow_zakopane", "name": "Kraków → Zakopane", "km": 100 },
+    { "id": "krakow_zakopane", "name": "Krakow → Zakopane", "km": 220 },
+    { "id": "warszawa_zakopane", "name": "Warszawa → Zakopane", "km": 370 },
+    { "id": "custom", "name": "Trasa własna", "km": 0 }
+  ],
+  "vat_rate": 0.08,
+  "last_updated": "2026-04-22",
+  "updated_by": "Rafał"
+}

@@ -1,0 +1,22 @@
+[
+  { "slug": "kielce", "name": "Kielce", "region": "świętokrzyskie", "lat": 50.8661, "lng": 20.6286 },
+  { "slug": "busko-zdroj", "name": "Busko-Zdrój", "region": "świętokrzyskie", "lat": 50.4697, "lng": 20.7147 },
+  { "slug": "sandomierz", "name": "Sandomierz", "region": "świętokrzyskie", "lat": 50.6810, "lng": 21.7490 },
+  { "slug": "ostrowiec-swietokrzyski", "name": "Ostrowiec Świętokrzyski", "region": "świętokrzyskie", "lat": 50.9286, "lng": 21.3847 },
+  { "slug": "starachowice", "name": "Starachowice", "region": "świętokrzyskie", "lat": 51.0333, "lng": 21.0667 },
+  { "slug": "warszawa", "name": "Warszawa", "region": "mazowieckie", "lat": 52.2297, "lng": 21.0122 },
+  { "slug": "krakow", "name": "Kraków", "region": "małopolskie", "lat": 50.0647, "lng": 19.9450 },
+  { "slug": "czestochowa", "name": "Częstochowa", "region": "śląskie", "lat": 50.8118, "lng": 19.1203 },
+  { "slug": "zakopane", "name": "Zakopane", "region": "małopolskie", "lat": 49.2992, "lng": 19.9496 },
+  { "slug": "radom", "name": "Radom", "region": "mazowieckie", "lat": 51.4027, "lng": 21.1471 },
+  { "slug": "lodz", "name": "Łódź", "region": "łódzkie", "lat": 51.7592, "lng": 19.4560 },
+  { "slug": "wroclaw", "name": "Wrocław", "region": "dolnośląskie", "lat": 51.1079, "lng": 17.0385 },
+  { "slug": "poznan", "name": "Poznań", "region": "wielkopolskie", "lat": 52.4064, "lng": 16.9252 },
+  { "slug": "gdansk", "name": "Gdańsk", "region": "pomorskie", "lat": 54.3520, "lng": 18.6466 },
+  { "slug": "lublin", "name": "Lublin", "region": "lubelskie", "lat": 51.2465, "lng": 22.5684 },
+  { "slug": "bialystok", "name": "Białystok", "region": "podlaskie", "lat": 53.1325, "lng": 23.1688 },
+  { "slug": "rzeszow", "name": "Rzeszów", "region": "podkarpackie", "lat": 50.0412, "lng": 21.9991 },
+  { "slug": "tarnow", "name": "Tarnów", "region": "małopolskie", "lat": 50.0121, "lng": 20.9858 },
+  { "slug": "wieliczka", "name": "Wieliczka", "region": "małopolskie", "lat": 49.9840, "lng": 20.0650 },
+  { "slug": "oswiecim", "name": "Oświęcim (Auschwitz)", "region": "małopolskie", "lat": 50.0341, "lng": 19.2112 }
+]
