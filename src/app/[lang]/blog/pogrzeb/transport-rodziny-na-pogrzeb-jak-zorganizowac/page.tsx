@@ -8,7 +8,7 @@ function toLang(lang: string): Language {
 }
 
 const slug = "transport-rodziny-na-pogrzeb-jak-zorganizowac";
-const title = "Transport rodziny na pogrzeb - jak zorganizować bez stresu | MUSZKIETER";
+const title = "Transport rodziny na pogrzeb - jak zorganizować bez stresu | Autokar Busko";
 const description =
   "Praktyczny przewodnik dla rodziny: jak zorganizować transport na pogrzeb w 24-48h, ile kosztuje bus lub autokar, kogo wozimy, jak zaplanować trasę dom-kościół-cmentarz-stypa.";
 
@@ -20,11 +20,11 @@ const personSchema = {
   "@type": "Person",
   "@id": "https://www.autokar-busko.pl/#rafal-chmiel",
   name: "Rafał Chmiel",
-  jobTitle: "Właściciel MUSZKIETER",
-  description: "Właściciel MUSZKIETER, 24 lata w branży transportowej.",
+  jobTitle: "Właściciel Autokar Busko",
+  description: "Właściciel Autokar Busko, 24 lata w branży transportowej.",
   worksFor: {
     "@type": "LocalBusiness",
-    name: "MUSZKIETER",
+    name: "Autokar Busko",
     url: "https://www.autokar-busko.pl",
   },
 };
@@ -40,7 +40,7 @@ const articleSchema = {
   },
   publisher: {
     "@type": "LocalBusiness",
-    name: "MUSZKIETER",
+    name: "Autokar Busko",
     logo: {
       "@type": "ImageObject",
       url: "https://www.autokar-busko.pl/logo.png",
@@ -208,8 +208,8 @@ export default async function TransportRodzinyNaPogrzebJakZorganizowacPage({ par
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="tel:+48601076652" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">
-                +48 601 076 652
+              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">
+                +48 41 345 32 25
               </a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-gray-300 px-5 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">
                 
@@ -362,17 +362,17 @@ export default async function TransportRodzinyNaPogrzebJakZorganizowacPage({ par
             </p>
             <div className="mt-6 space-y-2 text-base">
               <p>
-                Telefon główny: <a href="tel:+48601076652" className="text-amber-400">+48 601 076 652</a>
+                Telefon główny: <a href="tel:+48413453225" className="text-amber-400">+48 41 345 32 25</a>
               </p>
               <p>
                 Telefon zapasowy: <a href="tel:+48413453225" className="text-amber-400"></a>
               </p>
               <p>
-                Email: <a href="mailto:biuro@muszkieter.pl" className="text-amber-400">biuro@muszkieter.pl</a>
+                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-amber-400">biuro@autokar-busko.pl</a>
               </p>
             </div>
             <p className="mt-6 text-sm text-gray-400">
-              Autor: Rafał Chmiel, właściciel MUSZKIETER. 24 lata w branży, ponad 100 pogrzebów obsłużonych dyskretnie.
+              Autor: Rafał Chmiel, właściciel Autokar Busko. 24 lata w branży, ponad 100 pogrzebów obsłużonych dyskretnie.
             </p>
           </div>
         </section>

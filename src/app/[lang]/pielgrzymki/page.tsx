@@ -51,13 +51,13 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Zarezerwuj pielgrzymkę - +48 601 076 652 lub ",
-  en: "Book pilgrimage transport - +48 601 076 652 lub ",
-  de: "Pilgerfahrt buchen - +48 601 076 652 lub ",
-  ru: "Забронировать транспорт - +48 601 076 652 lub ",
-  ar: "احجز النقل - +48 601 076 652 lub ",
-  es: "Reservar transporte - +48 601 076 652 lub ",
-  fr: "Reserver transport - +48 601 076 652 lub ",
+  pl: "Zarezerwuj pielgrzymkę - +48 41 345 32 25 lub ",
+  en: "Book pilgrimage transport - +48 41 345 32 25 lub ",
+  de: "Pilgerfahrt buchen - +48 41 345 32 25 lub ",
+  ru: "Забронировать транспорт - +48 41 345 32 25 lub ",
+  ar: "احجز النقل - +48 41 345 32 25 lub ",
+  es: "Reservar transporte - +48 41 345 32 25 lub ",
+  fr: "Reserver transport - +48 41 345 32 25 lub ",
 };
 
 const featureHeadings: Record<Language, string> = {
@@ -147,12 +147,12 @@ export default async function PielgrzymkiPage({ params }: { params: Promise<{ la
 
   return (
     <>
-      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:601076652" backgroundImage="/images/pielgrzymki/pielgrzymka-autokar-krakow-1.jpg" />
+      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:413453225" backgroundImage="/images/pielgrzymki/pielgrzymka-autokar-krakow-1.jpg" />
       <FeatureBox features={featuresByLang[l]} heading={featureHeadings[l]} />
       {l === "pl" && <FAQAccordion items={faqItems} heading={faqHeadings[l]} />}
       <section className="py-12 px-4 bg-[#f59e0b] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
-        <CTAButton href="https://wa.me/48601076652" variant="secondary">💬 WhatsApp: +48 601 076 652 lub </CTAButton>
+        <CTAButton href="https://wa.me/48413453225" variant="secondary">💬 WhatsApp: +48 41 345 32 25 lub </CTAButton>
       </section>
     </>
   );

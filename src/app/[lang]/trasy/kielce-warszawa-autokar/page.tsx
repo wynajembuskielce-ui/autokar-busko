@@ -22,13 +22,13 @@ const metaTitles: Record<Language, string> = {
 };
 
 const metaDescriptions: Record<Language, string> = {
-  pl: "Autokar Kielce-Warszawa: cennik dla 20/35/50 osób, dojazd do PGE Narodowego, Pałacu Kultury, Lotniska Chopina i Modlin. Trasa S7. Wycena 15 min. Tel. 601 076 652.",
-  en: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 601 076 652.",
-  de: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 601 076 652.",
-  ru: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 601 076 652.",
-  ar: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 601 076 652.",
-  es: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 601 076 652.",
-  fr: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 601 076 652.",
+  pl: "Autokar Kielce-Warszawa: cennik dla 20/35/50 osób, dojazd do PGE Narodowego, Pałacu Kultury, Lotniska Chopina i Modlin. Trasa S7. Wycena 15 min. Tel. 41 345 32 25.",
+  en: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  de: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  ru: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  ar: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  es: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  fr: "Coach from Krakow to Warsaw with pricing tables for 20/35/50 passengers. Fast quote in 15 minutes. Call +48 41 345 32 25.",
 };
 
 const heroTitles: Record<Language, string> = {
@@ -52,7 +52,7 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Sprawdź dostępność — 601 076 652",
+  pl: "Sprawdź dostępność — 41 345 32 25",
   en: "Check availability now",
   de: "Check availability now",
   ru: "Check availability now",
@@ -149,7 +149,7 @@ const groupVehicleRows = [
 ];
 
 const pickupPoints = [
-  "ul. Kolberga 9 (nasza baza)",
+  "ul. Poprzeczna 1 (nasza baza)",
   "Galeria Echo",
   "PKP Krakow",
   "Plaza Krakow",
@@ -246,12 +246,12 @@ const schemaObject = {
         "Wynajem autokaru lub busa na trasie Krakow-Warszawa. 180 km, czas przejazdu 2h 30min ekspresową S7. Pojazdy 16-50 osób. Stałe ceny od 1 050 zł.",
       provider: {
         "@type": "LocalBusiness",
-        name: "MUSZKIETER — Wynajem Autobus",
-        telephone: "+48601076652",
-        email: "biuro@muszkieter.pl",
+        name: "Autokar Busko",
+        telephone: "+48413453225",
+        email: "biuro@autokar-busko.pl",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "ul. Kolberga 9",
+          streetAddress: "ul. Poprzeczna 1",
           addressLocality: "Krakow",
           postalCode: "25-516",
           addressCountry: "PL",
@@ -560,7 +560,7 @@ function CTABlock() {
       <h3 className="mb-2 text-2xl font-black text-[#1a1a1a]">Sprawdź dostępność na Twoją datę</h3>
       <p className="mb-6 text-[#1a1a1a]">Odpowiadamy w 15-30 min w godzinach biurowych. Wycena pisemna, bez zobowiązań.</p>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <CTAButton href="tel:+48601076652">📞 Zadzwoń: 601 076 652</CTAButton>
+        <CTAButton href="tel:+48413453225">📞 Zadzwoń: 41 345 32 25</CTAButton>
         <CTAButton href="https://wa.me/48693440585" variant="secondary">💬 WhatsApp</CTAButton>
         <CTAButton href="/pl/kontakt" variant="secondary">✉️ Formularz wyceny</CTAButton>
       </div>
@@ -584,7 +584,7 @@ export async function generateMetadata({
       canonical: currentUrl,
     },
     openGraph: {
-      title: l === "pl" ? "Autokar Kielce → Warszawa od 1 050 zł | MUSZKIETER" : metaTitles[l],
+      title: l === "pl" ? "Autokar Kielce → Warszawa od 1 050 zł | Autokar Busko" : metaTitles[l],
       description:
         l === "pl"
           ? "180 km S7 w 2h 30min. Busy 20-os i autokary 50-os. Stałe ceny, bez opłat autostradowych."
@@ -611,19 +611,19 @@ export default async function KrakowWarszawaRoutePage({
           title={heroTitles[l]}
           subtitle={heroSubtitles[l]}
           ctaText={ctaTexts[l]}
-          ctaHref="tel:+48601076652"
+          ctaHref="tel:+48413453225"
           backgroundImage="/images/transfer/transfer-autokar-krakow-6.jpg"
         />
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-3xl rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6 text-center">
             <p className="text-lg leading-relaxed text-gray-300">
-              This route page is available in full only in Polish. For English-language booking, please call +48 601 076 652,
-              WhatsApp +48 693 440 585, or email biuro@muszkieter.pl.
+              This route page is available in full only in Polish. For English-language booking, please call +48 41 345 32 25,
+              WhatsApp +48 693 440 585, or email biuro@autokar-busko.pl.
             </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
-              <CTAButton href="tel:+48601076652">Call now</CTAButton>
+              <CTAButton href="tel:+48413453225">Call now</CTAButton>
               <CTAButton href="https://wa.me/48693440585" variant="secondary">WhatsApp</CTAButton>
-              <CTAButton href="mailto:biuro@muszkieter.pl" variant="secondary">Email</CTAButton>
+              <CTAButton href="mailto:biuro@autokar-busko.pl" variant="secondary">Email</CTAButton>
             </div>
           </div>
         </section>
@@ -637,7 +637,7 @@ export default async function KrakowWarszawaRoutePage({
         title={heroTitles[l]}
         subtitle={heroSubtitles[l]}
         ctaText={ctaSectionHeadings[l]}
-        ctaHref="tel:+48601076652"
+        ctaHref="tel:+48413453225"
         backgroundImage="/images/transfer/transfer-autokar-krakow-6.jpg"
       />
 
@@ -802,7 +802,7 @@ export default async function KrakowWarszawaRoutePage({
         <div className="mx-auto max-w-5xl rounded-2xl border border-[#2a2a2a] bg-[#111111] p-8">
           <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować</h2>
           <ol className="space-y-3 text-gray-300">
-            <li>1. Zadzwoń (601 076 652) lub wyślij formularz z trasą, datą i liczbą osób.</li>
+            <li>1. Zadzwoń (41 345 32 25) lub wyślij formularz z trasą, datą i liczbą osób.</li>
             <li>2. Otrzymujesz wycenę w 15-30 minut (pn-pt 7:00-18:00, sob 8:00-14:00) — e-mail lub WhatsApp.</li>
             <li>3. Zaliczka 20-30% potwierdza rezerwację.</li>
             <li>4. Pełna płatność dzień przed wyjazdem lub po przejeździe (B2B odroczenie 7 dni).</li>
@@ -813,7 +813,7 @@ export default async function KrakowWarszawaRoutePage({
         </div>
       </section>
 
-      <FeatureBox features={whyUsFeatures} heading="Dlaczego MUSZKIETER" />
+      <FeatureBox features={whyUsFeatures} heading="Dlaczego Autokar Busko" />
 
       <FAQAccordion items={faqItems} heading="Najczęściej zadawane pytania" />
       <CTABlock />
@@ -887,7 +887,7 @@ export default async function KrakowWarszawaRoutePage({
           Wybierz dogodny kanał kontaktu i otrzymaj pisemną wycenę bez zobowiązań.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <CTAButton href="tel:+48601076652">📞 601 076 652</CTAButton>
+          <CTAButton href="tel:+48413453225">📞 41 345 32 25</CTAButton>
           <CTAButton href="https://wa.me/48693440585" variant="secondary">💬 WhatsApp</CTAButton>
           <CTAButton href="/pl/cennik" variant="secondary">Zobacz pełen cennik</CTAButton>
         </div>

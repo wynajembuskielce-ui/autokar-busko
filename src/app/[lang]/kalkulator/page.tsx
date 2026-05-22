@@ -197,7 +197,7 @@ export default function KalkulatorPage() {
             </div>
           </div>
           <p className="text-xs text-gray-500 mb-4">* Cena orientacyjna. Paliwo wg {pricingConfig.fuel_price_pln} zł/l ({pricingConfig.fuel_note})</p>
-          <a href="https://wa.me/48601076652" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/48413453225" target="_blank" rel="noopener noreferrer"
             className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] transition-all duration-200 hover:bg-[#f59e0b] hover:text-black">
             💬 Potwierdź wycenę na WhatsApp
           </a>

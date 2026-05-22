@@ -51,13 +51,13 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Zadzwoń po wycenę - +48 601 076 652 lub ",
-  en: "Call for quote - +48 601 076 652 lub ",
-  de: "Anrufen fur Angebot - +48 601 076 652 lub ",
-  ru: "Позвонить за расчетом - +48 601 076 652 lub ",
-  ar: "اتصل لطلب عرض السعر - +48 601 076 652 lub ",
-  es: "Llamar para presupuesto - +48 601 076 652 lub ",
-  fr: "Appeler pour devis - +48 601 076 652 lub ",
+  pl: "Zadzwoń po wycenę - +48 41 345 32 25 lub ",
+  en: "Call for quote - +48 41 345 32 25 lub ",
+  de: "Anrufen fur Angebot - +48 41 345 32 25 lub ",
+  ru: "Позвонить за расчетом - +48 41 345 32 25 lub ",
+  ar: "اتصل لطلب عرض السعر - +48 41 345 32 25 lub ",
+  es: "Llamar para presupuesto - +48 41 345 32 25 lub ",
+  fr: "Appeler pour devis - +48 41 345 32 25 lub ",
 };
 
 const featureHeadings: Record<Language, string> = {
@@ -196,7 +196,7 @@ export default async function CennikPage({ params }: { params: Promise<{ lang: s
 
   return (
     <>
-      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:601076652" backgroundImage="/images/flota/flota-autokar-5.jpg" />
+      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:413453225" backgroundImage="/images/flota/flota-autokar-5.jpg" />
       <FeatureBox features={featuresByLang[l]} heading={featureHeadings[l]} />
 
       <section className="py-16 px-4 bg-white">
@@ -235,7 +235,7 @@ export default async function CennikPage({ params }: { params: Promise<{ lang: s
                     <span className="font-semibold">{card.dailyRate}</span>
                   </div>
                 </div>
-                <CTAButton href="tel:601076652" variant="secondary" className="mt-auto w-full justify-center">
+                <CTAButton href="tel:413453225" variant="secondary" className="mt-auto w-full justify-center">
                   {vehicleCardLabels[l].cta}
                 </CTAButton>
               </div>
@@ -247,7 +247,7 @@ export default async function CennikPage({ params }: { params: Promise<{ lang: s
       {l === "pl" && <FAQAccordion items={faqItems} heading={faqHeadings[l]} />}
       <section className="py-12 px-4 bg-[#f59e0b] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
-        <CTAButton href="https://wa.me/48601076652" variant="secondary">💬 WhatsApp: +48 601 076 652 lub </CTAButton>
+        <CTAButton href="https://wa.me/48413453225" variant="secondary">💬 WhatsApp: +48 41 345 32 25 lub </CTAButton>
       </section>
     </>
   );

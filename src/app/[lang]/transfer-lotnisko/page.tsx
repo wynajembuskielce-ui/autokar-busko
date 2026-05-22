@@ -43,14 +43,14 @@ export default function TransferLotnikskoPage() {
         '👔 Kierowca w mundurze — profesjonalna obsługa',
         '🗣️ Angielski, arabski, niemiecki na życzenie',
       ],
-      cta: 'Zarezerwuj transfer — +48 601 076 652 lub ',
-      whatsapp: 'WhatsApp: +48 601 076 652 lub ',
+      cta: 'Zarezerwuj transfer — +48 41 345 32 25 lub ',
+      whatsapp: 'WhatsApp: +48 41 345 32 25 lub ',
       faq_title: 'Często zadawane pytania',
       faqs: [
         { q: 'Ile kosztuje transfer z Krakowa na lotnisko w Krakowie?', a: 'Cena transferu Krakow → Kraków Balice zaczyna się od 280 zł dla 1-3 osób. Dla grup cena przeliczana jest per osoba.' },
         { q: 'Co jeśli samolot się spóźni?', a: 'Monitorujemy wszystkie loty. Jeśli samolot się opóźni, kierowca czeka bez dodatkowych kosztów do 60 minut.' },
         { q: 'Czy można zabrać narty lub rowery?', a: 'Tak! Nasze pojazdy mają duże przestrzenie bagażowe. Prosimy poinformować przy rezerwacji.' },
-        { q: 'Jak zarezerwować transfer?', a: 'Zadzwoń lub napisz WhatsApp: +48 601 076 652 lub . Odpowiadamy w ciągu 30 minut.' },
+        { q: 'Jak zarezerwować transfer?', a: 'Zadzwoń lub napisz WhatsApp: +48 41 345 32 25 lub . Odpowiadamy w ciągu 30 minut.' },
       ],
     },
     en: {
@@ -75,14 +75,14 @@ export default function TransferLotnikskoPage() {
         '👔 Driver in uniform — professional service',
         '🗣️ English, Arabic, German on request',
       ],
-      cta: 'Book transfer — +48 601 076 652 lub ',
-      whatsapp: 'WhatsApp: +48 601 076 652 lub ',
+      cta: 'Book transfer — +48 41 345 32 25 lub ',
+      whatsapp: 'WhatsApp: +48 41 345 32 25 lub ',
       faq_title: 'Frequently Asked Questions',
       faqs: [
         { q: 'How much does transfer from Krakow to Krakow Airport cost?', a: 'Transfer Krakow → Krakow Balice starts from 280 PLN for 1-3 persons. For groups, price is calculated per person.' },
         { q: 'What if my flight is delayed?', a: 'We monitor all flights. If your flight is delayed, the driver waits at no extra cost for up to 60 minutes.' },
         { q: 'Can I bring skis or bicycles?', a: 'Yes! Our vehicles have large luggage areas. Please inform us at booking.' },
-        { q: 'How to book a transfer?', a: 'Call or WhatsApp: +48 601 076 652 lub . We respond within 30 minutes.' },
+        { q: 'How to book a transfer?', a: 'Call or WhatsApp: +48 41 345 32 25 lub . We respond within 30 minutes.' },
       ],
     },
     de: {
@@ -107,14 +107,14 @@ export default function TransferLotnikskoPage() {
         '👔 Fahrer in Uniform — professioneller Service',
         '🗣️ Englisch, Arabisch, Deutsch auf Anfrage',
       ],
-      cta: 'Transfer buchen — +48 601 076 652 lub ',
-      whatsapp: 'WhatsApp: +48 601 076 652 lub ',
+      cta: 'Transfer buchen — +48 41 345 32 25 lub ',
+      whatsapp: 'WhatsApp: +48 41 345 32 25 lub ',
       faq_title: 'Häufig gestellte Fragen',
       faqs: [
         { q: 'Was kostet der Transfer von Krakow zum Flughafen Krakau?', a: 'Transfer Krakow → Krakau Balice ab 280 PLN für 1-3 Personen. Für Gruppen wird der Preis pro Person berechnet.' },
         { q: 'Was passiert bei Flugverspätung?', a: 'Wir überwachen alle Flüge. Bei Verspätung wartet der Fahrer kostenlos bis zu 60 Minuten.' },
         { q: 'Kann ich Ski oder Fahrräder mitbringen?', a: 'Ja! Unsere Fahrzeuge haben große Gepäckräume. Bitte bei der Buchung angeben.' },
-        { q: 'Wie buche ich einen Transfer?', a: 'Anrufen oder WhatsApp: +48 601 076 652 lub . Wir antworten innerhalb von 30 Minuten.' },
+        { q: 'Wie buche ich einen Transfer?', a: 'Anrufen oder WhatsApp: +48 41 345 32 25 lub . Wir antworten innerhalb von 30 Minuten.' },
       ],
     },
     ar: {
@@ -139,14 +139,14 @@ export default function TransferLotnikskoPage() {
         '👔 سائق بزي رسمي',
         '🗣️ الإنجليزية والعربية والألمانية عند الطلب',
       ],
-      cta: 'احجز النقل — +48 601 076 652 lub  48+',
-      whatsapp: 'واتساب: +48 601 076 652 lub  48+',
+      cta: 'احجز النقل — +48 41 345 32 25 lub  48+',
+      whatsapp: 'واتساب: +48 41 345 32 25 lub  48+',
       faq_title: 'أسئلة شائعة',
       faqs: [
         { q: 'كم تكلفة النقل من كيلتسه إلى مطار كراكوف؟', a: 'يبدأ السعر من 280 زلوتي لـ 1-3 أشخاص. للمجموعات يُحسب السعر للشخص.' },
         { q: 'ماذا لو تأخرت الرحلة؟', a: 'نراقب جميع الرحلات. عند التأخير ينتظر السائق مجاناً حتى 60 دقيقة.' },
         { q: 'هل يمكن إحضار معدات التزلج؟', a: 'نعم! مركباتنا لديها مساحة أمتعة كبيرة. يرجى الإخبار عند الحجز.' },
-        { q: 'كيف أحجز؟', a: 'اتصل أو واتساب: +48 601 076 652 lub  48+. نرد خلال 30 دقيقة.' },
+        { q: 'كيف أحجز؟', a: 'اتصل أو واتساب: +48 41 345 32 25 lub  48+. نرد خلال 30 دقيقة.' },
       ],
     },
   };
@@ -217,13 +217,13 @@ export default function TransferLotnikskoPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#1a1a1a] mb-6">{c.cta}</h2>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="https://wa.me/48601076652" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/48413453225" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] transition-all duration-200 hover:bg-[#f59e0b] hover:text-black">
               💬 {c.whatsapp}
             </a>
-            <a href="tel:+48601076652"
+            <a href="tel:+48413453225"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
-              📞 +48 601 076 652 lub 
+              📞 +48 41 345 32 25 lub 
             </a>
           </div>
         </div>

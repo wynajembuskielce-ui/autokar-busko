@@ -176,8 +176,8 @@ export default async function BlogPostPage({
         <div className="my-12 bg-[#1a1a1a] text-white rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-black mb-2">{ui.ctaTitle}</h3>
           <p className="text-gray-300 mb-6">{ui.ctaDescription}</p>
-          <a href="tel:601076652" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
-            📞 +48 601 076 652 lub 
+          <a href="tel:413453225" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+            📞 +48 41 345 32 25 lub 
           </a>
         </div>
 

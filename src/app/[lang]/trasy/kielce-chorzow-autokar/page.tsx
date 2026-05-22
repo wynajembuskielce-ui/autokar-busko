@@ -22,13 +22,13 @@ const metaTitles: Record<Language, string> = {
 };
 
 const metaDescriptions: Record<Language, string> = {
-  pl: "Autokar Kielce-Chorzów: Park Śląski (parking gratis 12h), Legendia, Stadion Śląski (mecze, koncerty), ZOO, Planetarium. Wycieczki szkolne, imprezy firmowe. Tel. 601 076 652.",
-  en: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 601 076 652.",
-  de: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 601 076 652.",
-  ru: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 601 076 652.",
-  ar: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 601 076 652.",
-  es: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 601 076 652.",
-  fr: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 601 076 652.",
+  pl: "Autokar Kielce-Chorzów: Park Śląski (parking gratis 12h), Legendia, Stadion Śląski (mecze, koncerty), ZOO, Planetarium. Wycieczki szkolne, imprezy firmowe. Tel. 41 345 32 25.",
+  en: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 41 345 32 25.",
+  de: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 41 345 32 25.",
+  ru: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 41 345 32 25.",
+  ar: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 41 345 32 25.",
+  es: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 41 345 32 25.",
+  fr: "Coach from Krakow to Chorzów with pricing for 20/35/50 passengers. Silesian Park (free parking 12h), Legendia, Stadium. School trips, corporate events. Call +48 41 345 32 25.",
 };
 
 const heroTitles: Record<Language, string> = {
@@ -52,7 +52,7 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Zaplanuj wycieczkę — 601 076 652",
+  pl: "Zaplanuj wycieczkę — 41 345 32 25",
   en: "Plan your trip now",
   de: "Plan your trip now",
   ru: "Plan your trip now",
@@ -131,7 +131,7 @@ const groupVehicleRows = [
 
 const pickupPoints = [
   "Szkoła — dla wycieczek szkolnych, w obrębie 30 km bez dopłaty",
-  "ul. Kolberga 9 (nasza baza)",
+  "ul. Poprzeczna 1 (nasza baza)",
   "Galeria Echo — dla grup 40+",
   "PKP Krakow — Plac Niepodległości",
   "Plaza Krakow",
@@ -227,12 +227,12 @@ const schemaObject = {
         "Wynajem autokaru lub busa na wycieczkę do Chorzowa: Park Śląski (wstęp gratis, 5 km², największy park miejski w Polsce), Legendia (wesołe miasteczko, klasa europejska), Stadion Śląski (mecze reprezentacji Polski, koncerty), ZOO Śląskie, Planetarium. 170 km autostradą A4 + DK86, czas przejazdu 2h 15min. Parking w Parku DARMOWY do 12h. Pojazdy 16-50 osób z WC i mikrofonem kierowcy. Wycieczki szkolne, imprezy firmowe, mecze, koncerty.",
       provider: {
         "@type": "LocalBusiness",
-        name: "MUSZKIETER — Wynajem Autobus",
-        telephone: "+48601076652",
-        email: "biuro@muszkieter.pl",
+        name: "Autokar Busko",
+        telephone: "+48413453225",
+        email: "biuro@autokar-busko.pl",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "ul. Kolberga 9",
+          streetAddress: "ul. Poprzeczna 1",
           addressLocality: "Krakow",
           postalCode: "25-516",
           addressCountry: "PL",
@@ -725,7 +725,7 @@ export default async function KrakowChorzowPage({
         title={heroTitles[l]}
         subtitle={heroSubtitles[l]}
         ctaText={ctaTexts[l]}
-        ctaHref="tel:+48601076652"
+        ctaHref="tel:+48413453225"
       />
 
       {/* PRICING TABLE */}
@@ -740,8 +740,8 @@ export default async function KrakowChorzowPage({
               Wycena pisemna w 15-30 min. Park Śląski darmowy do 12h. Pomagamy z biletami Legendii (rabat 30 zł/dziecko). Bez ukrytych kosztów.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <CTAButton href="tel:+48601076652" variant="primary">
-                Zadzwoń: 601 076 652
+              <CTAButton href="tel:+48413453225" variant="primary">
+                Zadzwoń: 41 345 32 25
               </CTAButton>
               <CTAButton href="https://wa.me/48693440585" variant="secondary">
                 WhatsApp
@@ -823,7 +823,7 @@ export default async function KrakowChorzowPage({
             <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować</h2>
             <ol className="space-y-4">
               {[
-                { step: "1", text: "Zadzwoń (601 076 652) lub wyślij formularz z datą + liczbą osób + sygna ł em atrakcji (Park / Legendia / ZOO / Stadion). Pn-pt 7-18, sob 8-14." },
+                { step: "1", text: "Zadzwoń (41 345 32 25) lub wyślij formularz z datą + liczbą osób + sygna ł em atrakcji (Park / Legendia / ZOO / Stadion). Pn-pt 7-18, sob 8-14." },
                 { step: "2", text: "Otrzymujesz wycenę w 15-30 min z sugestią godzin wyjazdu i propozycją schematu wycieczki." },
                 { step: "3", text: "Dla szkoły: faktura proforma bez zaliczki (pismo z pieczęcią dyrektora). Dla rodziców: zaliczka 30% przelewem." },
                 { step: "4", text: "2 tygodnie przed: pomagamy z grupową rezerwacją biletów Legendii (rabat szkolny 65 zł/osoba, oszczędzacie 30 zł/dziecko)." },
@@ -852,7 +852,7 @@ export default async function KrakowChorzowPage({
 
       {/* WHY US */}
       <FeatureBox
-        heading={l === "pl" ? "Dlaczego MUSZKIETER — konkretnie dla Chorzowa" : undefined}
+        heading={l === "pl" ? "Dlaczego Autokar Busko — konkretnie dla Chorzowa" : undefined}
         features={whyUsFeatures}
       />
 
@@ -898,8 +898,8 @@ export default async function KrakowChorzowPage({
             </p>
           )}
           <div className="flex flex-wrap justify-center gap-4">
-            <CTAButton href="tel:+48601076652" variant="primary">
-              {l === "pl" ? "Zadzwoń: 601 076 652" : "Call +48 601 076 652"}
+            <CTAButton href="tel:+48413453225" variant="primary">
+              {l === "pl" ? "Zadzwoń: 41 345 32 25" : "Call +48 41 345 32 25"}
             </CTAButton>
             <CTAButton href={`/${l}/wycieczki-szkolne`} variant="secondary">
               {l === "pl" ? "Wycieczki szkolne — pełna oferta" : "School trips"}

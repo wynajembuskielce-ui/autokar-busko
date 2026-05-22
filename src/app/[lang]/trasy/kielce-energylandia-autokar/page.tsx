@@ -22,13 +22,13 @@ const metaTitles: Record<Language, string> = {
 };
 
 const metaDescriptions: Record<Language, string> = {
-  pl: "Wynajem autokaru z Krakowa do Energylandii: cennik dla 20/35/50 osób, parking autokarów GRATIS, ubezpieczenie szkolne, godziny otwarcia parku 2026. Tel. 601 076 652.",
-  en: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 601 076 652.",
-  de: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 601 076 652.",
-  ru: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 601 076 652.",
-  ar: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 601 076 652.",
-  es: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 601 076 652.",
-  fr: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 601 076 652.",
+  pl: "Wynajem autokaru z Krakowa do Energylandii: cennik dla 20/35/50 osób, parking autokarów GRATIS, ubezpieczenie szkolne, godziny otwarcia parku 2026. Tel. 41 345 32 25.",
+  en: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  de: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  ru: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  ar: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  es: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  fr: "Coach from Krakow to Energylandia with pricing tables for 20/35/50 passengers. Free coach parking. Fast quote in 15 minutes. Call +48 41 345 32 25.",
 };
 
 const heroTitles: Record<Language, string> = {
@@ -52,7 +52,7 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Zaplanuj wycieczkę — 601 076 652",
+  pl: "Zaplanuj wycieczkę — 41 345 32 25",
   en: "Check availability now",
   de: "Check availability now",
   ru: "Check availability now",
@@ -130,7 +130,7 @@ const groupVehicleRows = [
 
 const pickupPoints = [
   "Szkoła (parking szkolny lub przed wejściem) — najwygodniejsza opcja dla dzieci i rodziców",
-  "ul. Kolberga 9 (nasza baza)",
+  "ul. Poprzeczna 1 (nasza baza)",
   "Galeria Echo — dla grup mieszanych z kilku szkół",
   "PKP Krakow — dla wycieczek rodzinnych z dziećmi przyjeżdżających z mniejszych miejscowości",
   "Plaza Krakow — popularna dla grup urodzinowych (rodzice z innych dzielnic dowożą dzieci)",
@@ -228,12 +228,12 @@ const schemaObject = {
         "Wynajem autokaru lub busa na wycieczkę szkolną lub urodziny do Energylandii w Zatorze. 155 km autostradą A4 i ekspresową S52, czas przejazdu 2h 10min. Pojazdy 16-50 osób z WC i mikrofonem dla nauczyciela. Parking autokarów w Energylandii darmowy. Pomoc z grupową rezerwacją biletów.",
       provider: {
         "@type": "LocalBusiness",
-        name: "MUSZKIETER — Wynajem Autobus",
-        telephone: "+48601076652",
-        email: "biuro@muszkieter.pl",
+        name: "Autokar Busko",
+        telephone: "+48413453225",
+        email: "biuro@autokar-busko.pl",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "ul. Kolberga 9",
+          streetAddress: "ul. Poprzeczna 1",
           addressLocality: "Krakow",
           postalCode: "25-516",
           addressCountry: "PL",
@@ -578,7 +578,7 @@ export async function generateMetadata({
       canonical: "https://www.autokar-busko.pl/pl/trasy/krakow-energylandia-autokar",
     },
     openGraph: {
-      title: "Wycieczka do Energylandii z Krakowa — autokar od 1 700 zł | MUSZKIETER",
+      title: "Wycieczka do Energylandii z Krakowa — autokar od 1 700 zł | Autokar Busko",
       description:
         "155 km A4+S52 w 2h 10min. Wycieczki szkolne, urodziny, grupy rodzinne. Parking autokarów GRATIS w parku. Ubezpieczenie szkolne na piśmie.",
       url: "https://www.autokar-busko.pl/pl/trasy/krakow-energylandia-autokar",
@@ -610,7 +610,7 @@ export default async function KrakowEnergylandiaPage({
         title={heroTitles[l]}
         subtitle={heroSubtitles[l]}
         ctaText={ctaTexts[l]}
-        ctaHref="tel:+48601076652"
+        ctaHref="tel:+48413453225"
       />
 
       {/* PRICING TABLE */}
@@ -625,8 +625,8 @@ export default async function KrakowEnergylandiaPage({
               Faktura proforma dla szkoły / rady rodziców bez zaliczki. Parking w parku gratis. Pomoc z rezerwacją biletów grupowych (-20-40%).
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <CTAButton href="tel:+48601076652" variant="primary">
-                Zadzwoń: 601 076 652
+              <CTAButton href="tel:+48413453225" variant="primary">
+                Zadzwoń: 41 345 32 25
               </CTAButton>
               <CTAButton href="https://wa.me/48693440585" variant="secondary">
                 WhatsApp
@@ -823,7 +823,7 @@ export default async function KrakowEnergylandiaPage({
             <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować — wycieczka do Energylandii</h2>
             <ol className="space-y-4">
               {[
-                { step: "1", text: "Zadzwoń (601 076 652) lub wyślij formularz z datą + liczbą dzieci/dorosłych + sygnałem czy chcecie wjazd na otwarcie 10:00, czy później." },
+                { step: "1", text: "Zadzwoń (41 345 32 25) lub wyślij formularz z datą + liczbą dzieci/dorosłych + sygnałem czy chcecie wjazd na otwarcie 10:00, czy później." },
                 { step: "2", text: "Otrzymujesz wycenę w 15-30 min + sugestie godzin wyjazdu z Krakowa (mamy doświadczenie z 47 wycieczek 2025)." },
                 { step: "3", text: "Dla szkoły / rady rodziców: faktura proforma bez zaliczki — pismo z pieczęcią dyrektora wystarcza. Dla urodzin: zaliczka 30%." },
                 { step: "4", text: "2 tygodnie przed wycieczką: my pomagamy zgłosić grupową rezerwację w Energylandii (zniżki -20-40%) — gratis dla naszych klientów." },
@@ -853,7 +853,7 @@ export default async function KrakowEnergylandiaPage({
 
       {/* WHY US */}
       <FeatureBox
-        heading={l === "pl" ? "Dlaczego MUSZKIETER — konkretnie dla wycieczek dziecięcych" : undefined}
+        heading={l === "pl" ? "Dlaczego Autokar Busko — konkretnie dla wycieczek dziecięcych" : undefined}
         features={whyUsFeatures}
       />
 
@@ -922,8 +922,8 @@ export default async function KrakowEnergylandiaPage({
             </p>
           )}
           <div className="flex flex-wrap justify-center gap-4">
-            <CTAButton href="tel:+48601076652" variant="primary">
-              {l === "pl" ? "Zadzwoń: 601 076 652" : "Call +48 601 076 652"}
+            <CTAButton href="tel:+48413453225" variant="primary">
+              {l === "pl" ? "Zadzwoń: 41 345 32 25" : "Call +48 41 345 32 25"}
             </CTAButton>
             <CTAButton href={`/${l}/wycieczki-szkolne`} variant="secondary">
               {l === "pl" ? "Wycieczki szkolne — pełna oferta" : "School trips"}

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import pricingConfig from '@/data/pricing-config.json';
 
-const HASLO = 'muszkieter2026';
+const HASLO = 'busko2026';
 
 export default function AdminWycenaPage() {
   const [haslo, setHaslo] = useState('');

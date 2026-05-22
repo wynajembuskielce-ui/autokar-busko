@@ -8,7 +8,7 @@ function toLang(lang: string): Language {
 }
 
 const slug = "wycieczka-maturalna-autokar-czy-pociag-porownanie";
-const title = "Wycieczka maturalna: autokar czy pociąg? Porównanie 2026 | MUSZKIETER";
+const title = "Wycieczka maturalna: autokar czy pociąg? Porównanie 2026 | Autokar Busko";
 const description =
   "Wycieczka maturalna - autokar czy pociąg? Porównanie kosztów, czasu i elastyczności na trasach Trójmiasto, Tatry i Praga dla grupy 43 osób.";
 
@@ -20,11 +20,11 @@ const personSchema = {
   "@type": "Person",
   "@id": "https://www.autokar-busko.pl/#rafal-chmiel",
   name: "Rafał Chmiel",
-  jobTitle: "Właściciel MUSZKIETER",
-  description: "Właściciel MUSZKIETER, 24 lata w branży transportowej.",
+  jobTitle: "Właściciel Autokar Busko",
+  description: "Właściciel Autokar Busko, 24 lata w branży transportowej.",
   worksFor: {
     "@type": "LocalBusiness",
-    name: "MUSZKIETER",
+    name: "Autokar Busko",
     url: "https://www.autokar-busko.pl",
   },
 };
@@ -40,7 +40,7 @@ const articleSchema = {
   },
   publisher: {
     "@type": "LocalBusiness",
-    name: "MUSZKIETER",
+    name: "Autokar Busko",
     logo: {
       "@type": "ImageObject",
       url: "https://www.autokar-busko.pl/logo.png",
@@ -207,8 +207,8 @@ export default async function WycieczkaMaturalnaAutokarCzyPociagPage({ params }:
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="tel:+48601076652" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">
-                +48 601 076 652
+              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">
+                +48 41 345 32 25
               </a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-gray-300 px-5 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">
                 
@@ -369,16 +369,16 @@ export default async function WycieczkaMaturalnaAutokarCzyPociagPage({ params }:
             </p>
             <div className="mt-6 space-y-2 text-base">
               <p>
-                Telefon główny: <a href="tel:+48601076652" className="text-amber-400">+48 601 076 652</a>
+                Telefon główny: <a href="tel:+48413453225" className="text-amber-400">+48 41 345 32 25</a>
               </p>
               <p>
                 Telefon zapasowy: <a href="tel:+48413453225" className="text-amber-400"></a>
               </p>
               <p>
-                Email: <a href="mailto:biuro@muszkieter.pl" className="text-amber-400">biuro@muszkieter.pl</a>
+                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-amber-400">biuro@autokar-busko.pl</a>
               </p>
             </div>
-            <p className="mt-6 text-sm text-gray-400">Autor: Rafał Chmiel, MUSZKIETER. 40+ liceów rocznie.</p>
+            <p className="mt-6 text-sm text-gray-400">Autor: Rafał Chmiel, Autokar Busko. 40+ liceów rocznie.</p>
           </div>
         </section>
       </main>

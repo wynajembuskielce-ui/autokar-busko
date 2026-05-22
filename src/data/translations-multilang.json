@@ -11,21 +11,21 @@
       "de": "Busmiete Kielce"
     },
     "phone": {
-      "pl": "+48 601 076 652 lub +48 41 345 32 25",
-      "en": "+48 601 076 652 lub +48 41 345 32 25",
-      "de": "+48 601 076 652 lub +48 41 345 32 25"
+      "pl": "+48 41 345 32 25 lub +48 609 69 19 12",
+      "en": "+48 41 345 32 25 lub +48 609 69 19 12",
+      "de": "+48 41 345 32 25 lub +48 609 69 19 12"
     },
-    "phone1": "+48 601 076 652",
+    "phone1": "+48 41 345 32 25",
     "phone2": "+48 41 345 32 25",
     "email": {
-      "pl": "biuro@muszkieter.pl",
-      "en": "biuro@muszkieter.pl",
-      "de": "biuro@muszkieter.pl"
+      "pl": "biuro@autokar-busko.pl",
+      "en": "biuro@autokar-busko.pl",
+      "de": "biuro@autokar-busko.pl"
     },
     "address": {
-      "pl": "ul. Kolberga 9, 25-516 Kielce",
-      "en": "ul. Kolberga 9, 25-516 Kielce",
-      "de": "ul. Kolberga 9, 25-516 Kielce"
+      "pl": "ul. Poprzeczna 1, 28-100 Busko-Zdrój",
+      "en": "ul. Poprzeczna 1, 28-100 Busko-Zdrój",
+      "de": "ul. Poprzeczna 1, 28-100 Busko-Zdrój"
     },
     "experience": {
       "pl": "23 lata doświadczenia",
@@ -102,9 +102,9 @@
       "de": "Busse, Minibus und Reisebusse für Hochzeiten, Schulausflüge, Wallfahrten, Firmenfeiern und Transfers"
     },
     "cta_button": {
-      "pl": "Zarezerwuj teraz — +48 601 076 652 lub +48 41 345 32 25",
-      "en": "Book now — +48 601 076 652 lub +48 41 345 32 25",
-      "de": "Jetzt buchen — +48 601 076 652 lub +48 41 345 32 25"
+      "pl": "Zarezerwuj teraz — +48 41 345 32 25 lub +48 609 69 19 12",
+      "en": "Book now — +48 41 345 32 25 lub +48 609 69 19 12",
+      "de": "Jetzt buchen — +48 41 345 32 25 lub +48 609 69 19 12"
     }
   },
   "features": {
@@ -237,11 +237,11 @@
   },
   "faq": {
     "q1_pl": "Ile kosztuje wynajem autokaru?",
-    "a1_pl": "Ceny zaczynają się od 1200 zł za dzień (transport lokalny). Dla dłuższych tras cena jest negocjowana indywidualnie. Zaproś nas na wycenę — +48 601 076 652 lub +48 41 345 32 25.",
+    "a1_pl": "Ceny zaczynają się od 1200 zł za dzień (transport lokalny). Dla dłuższych tras cena jest negocjowana indywidualnie. Zaproś nas na wycenę — +48 41 345 32 25 lub +48 609 69 19 12.",
     "q1_en": "How much does coach rental cost?",
-    "a1_en": "Prices start from 1200 PLN per day (local transport). For longer routes, pricing is negotiated individually. Request a quote — +48 601 076 652 lub +48 41 345 32 25.",
+    "a1_en": "Prices start from 1200 PLN per day (local transport). For longer routes, pricing is negotiated individually. Request a quote — +48 41 345 32 25 lub +48 609 69 19 12.",
     "q1_de": "Wie viel kostet die Busmiete?",
-    "a1_de": "Die Preise beginnen bei 1200 PLN pro Tag (Lokalverkehr). Bei längeren Strecken wird der Preis individuell ausgehandelt. Angebot anfordern — +48 601 076 652 lub +48 41 345 32 25.",
+    "a1_de": "Die Preise beginnen bei 1200 PLN pro Tag (Lokalverkehr). Bei längeren Strecken wird der Preis individuell ausgehandelt. Angebot anfordern — +48 41 345 32 25 lub +48 609 69 19 12.",
     
     "q2_pl": "Czy autokary są klimatyzowane?",
     "a2_pl": "Tak! Wszystkie nasze autokary wyposażone są w nowoczesną klimatyzację, WiFi, toalety i panoramiczne okna.",
@@ -251,11 +251,11 @@
     "a2_de": "Ja! Alle unsere Busse sind mit moderner Klimaanlage, WiFi, Toiletten und Panoramafenstern ausgestattet.",
     
     "q3_pl": "Jakie są zasady anulacji?",
-    "a3_pl": "Anulacja do 7 dni przed wylotem — zwrot 50%. Anulacja do 3 dni — zwrot 25%. Anulacja w ostatniej chwili — brak zwrotu. Kontakt: +48 601 076 652 lub +48 41 345 32 25.",
+    "a3_pl": "Anulacja do 7 dni przed wylotem — zwrot 50%. Anulacja do 3 dni — zwrot 25%. Anulacja w ostatniej chwili — brak zwrotu. Kontakt: +48 41 345 32 25 lub +48 609 69 19 12.",
     "q3_en": "What are the cancellation terms?",
-    "a3_en": "Cancellation up to 7 days before departure — 50% refund. Cancellation up to 3 days — 25% refund. Last-minute cancellation — no refund. Contact: +48 601 076 652 lub +48 41 345 32 25.",
+    "a3_en": "Cancellation up to 7 days before departure — 50% refund. Cancellation up to 3 days — 25% refund. Last-minute cancellation — no refund. Contact: +48 41 345 32 25 lub +48 609 69 19 12.",
     "q3_de": "Was sind die Stornobedingungen?",
-    "a3_de": "Stornierung bis 7 Tage vor Abreise — 50% Rückerstattung. Stornierung bis 3 Tage — 25% Rückerstattung. Last-Minute-Stornierung — keine Rückerstattung. Kontakt: +48 601 076 652 lub +48 41 345 32 25.",
+    "a3_de": "Stornierung bis 7 Tage vor Abreise — 50% Rückerstattung. Stornierung bis 3 Tage — 25% Rückerstattung. Last-Minute-Stornierung — keine Rückerstattung. Kontakt: +48 41 345 32 25 lub +48 609 69 19 12.",
     
     "q4_pl": "Czy kierowca jest zawarty w cenie?",
     "a4_pl": "Tak! Doświadczony, przeszkolony kierowca zawsze zawarty. Dodatkowo oferujemy opcję dwóch kierowców dla tras powyżej 8 godzin.",
@@ -265,11 +265,11 @@
     "a4_de": "Ja! Ein erfahrener, geschulter Fahrer ist immer inbegriffen. Wir bieten auch die Möglichkeit von zwei Fahrern für Strecken über 8 Stunden.",
     
     "q5_pl": "Jak zarezerwować autokar?",
-    "a5_pl": "Zadzwoń: +48 601 076 652 lub +48 41 345 32 25 | Email: biuro@muszkieter.pl | Lub wypełnij formularz kontaktowy. Gwarancja najszybszej odpowiedzi w 2 godziny.",
+    "a5_pl": "Zadzwoń: +48 41 345 32 25 lub +48 609 69 19 12 | Email: biuro@autokar-busko.pl | Lub wypełnij formularz kontaktowy. Gwarancja najszybszej odpowiedzi w 2 godziny.",
     "q5_en": "How to book a coach?",
-    "a5_en": "Call: +48 601 076 652 lub +48 41 345 32 25 | Email: biuro@muszkieter.pl | Or fill out the contact form. We guarantee the fastest response within 2 hours.",
+    "a5_en": "Call: +48 41 345 32 25 lub +48 609 69 19 12 | Email: biuro@autokar-busko.pl | Or fill out the contact form. We guarantee the fastest response within 2 hours.",
     "q5_de": "Wie buche ich einen Bus?",
-    "a5_de": "Anrufen: +48 601 076 652 lub +48 41 345 32 25 | E-Mail: biuro@muszkieter.pl | Oder füllen Sie das Kontaktformular aus. Wir garantieren die schnellste Antwort innerhalb von 2 Stunden."
+    "a5_de": "Anrufen: +48 41 345 32 25 lub +48 609 69 19 12 | E-Mail: biuro@autokar-busko.pl | Oder füllen Sie das Kontaktformular aus. Wir garantieren die schnellste Antwort innerhalb von 2 Stunden."
   },
   "cta_buttons": {
     "book_now_pl": "Zarezerwuj teraz",
@@ -288,7 +288,7 @@
   "faq_wesele": [
     {
       "question": "كم تكلفة استئجار حافلة للزفاف في كيلتسه؟",
-      "answer": "السعر يعتمد على المسار وعدد الضيوف. حافلة صغيرة 20 شخصاً: 400–700 زلوتي. حافلة كبيرة 40 شخصاً: 800–1500 زلوتي. اتصل للحصول على سعر: +48 601 076 652."
+      "answer": "السعر يعتمد على المسار وعدد الضيوف. حافلة صغيرة 20 شخصاً: 400–700 زلوتي. حافلة كبيرة 40 شخصاً: 800–1500 زلوتي. اتصل للحصول على سعر: +48 41 345 32 25."
     },
     {
       "question": "هل يمكن تزيين الحافلة للزفاف؟",
@@ -300,7 +300,7 @@
     },
     {
       "question": "كيف أحجز حافلة للزفاف؟",
-      "answer": "اتصل أو راسلنا على واتساب: +48 601 076 652. البريد الإلكتروني: biuro@muszkieter.pl. العنوان: شارع Kolberga 9، كيلتسه، بولندا."
+      "answer": "اتصل أو راسلنا على واتساب: +48 41 345 32 25. البريد الإلكتروني: biuro@autokar-busko.pl. العنوان: شارع Kolberga 9، كيلتسه، بولندا."
     }
   ],
   "footer": {

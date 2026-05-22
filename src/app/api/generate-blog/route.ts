@@ -129,7 +129,7 @@ const TOPICS_QUEUE: Topic[] = [
     category: 'poradnik',
     lang: 'pl',
     context:
-      'Sprawdź: 1) licencja, 2) OC+NNW, 3) wiek pojazdów, 4) pasy bezpieczeństwa, 5) opinie Google, 6) jawny cennik, 7) dyspozytornia weekendowa. Muszkieter ma wszystko.',
+      'Sprawdź: 1) licencja, 2) OC+NNW, 3) wiek pojazdów, 4) pasy bezpieczeństwa, 5) opinie Google, 6) jawny cennik, 7) dyspozytornia weekendowa. Autokar Busko ma wszystko.',
   },
   {
     id: 11,
@@ -267,9 +267,9 @@ async function generateWithClaude(topic: Topic): Promise<GeneratedArticle> {
     es: 'Escriba en español. Tono: profesional, cálido.',
   };
 
-  const prompt = `Jesteś copywriterem firmy transportowej Muszkieter z Krakowa, Polska.
+  const prompt = `Jesteś copywriterem firmy transportowej Autokar Busko z Krakowa, Polska.
 Firma: 24 lata doświadczenia, 180 pojazdów (8-57 miejsc), CASCO, NNW, licencja ITD.
-Telefon: +48 601 076 652. Adres: ul. Kolberga 9, Krakow.
+Telefon: +48 41 345 32 25. Adres: ul. Poprzeczna 1, Krakow.
 
 Napisz artykuł blogowy:
 Temat: "${topic.topic}"
@@ -285,7 +285,7 @@ ZASADY:
 - Pierwszy akapit = problem/potrzeba klienta (NIE opis firmy)
 - 3-5 śródtytułów H2
 - Na końcu sekcja FAQ (3 pytania z odpowiedziami)
-- Ostatnie zdanie = CTA z numerem telefonu 601 076 652
+- Ostatnie zdanie = CTA z numerem telefonu 41 345 32 25
 - Pisz oryginalnie, NIE kopiuj z internetu
 - Brak emoji w treści (profesjonalnie)
 

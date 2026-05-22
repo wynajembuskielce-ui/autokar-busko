@@ -51,13 +51,13 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Sprawdź dostępność floty - +48 601 076 652 lub ",
-  en: "Check fleet availability - +48 601 076 652 lub ",
-  de: "Flottenverfugbarkeit prufen - +48 601 076 652 lub ",
-  ru: "Проверить доступность - +48 601 076 652 lub ",
-  ar: "تحقق من التوفر - +48 601 076 652 lub ",
-  es: "Consultar disponibilidad - +48 601 076 652 lub ",
-  fr: "Verifier disponibilite - +48 601 076 652 lub ",
+  pl: "Sprawdź dostępność floty - +48 41 345 32 25 lub ",
+  en: "Check fleet availability - +48 41 345 32 25 lub ",
+  de: "Flottenverfugbarkeit prufen - +48 41 345 32 25 lub ",
+  ru: "Проверить доступность - +48 41 345 32 25 lub ",
+  ar: "تحقق من التوفر - +48 41 345 32 25 lub ",
+  es: "Consultar disponibilidad - +48 41 345 32 25 lub ",
+  fr: "Verifier disponibilite - +48 41 345 32 25 lub ",
 };
 
 const featureHeadings: Record<Language, string> = {
@@ -194,12 +194,12 @@ export default async function FlotaPage({ params }: { params: Promise<{ lang: st
 
   return (
     <>
-      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:601076652" backgroundImage="/images/flota/flota-autokar-1.jpg" />
+      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:413453225" backgroundImage="/images/flota/flota-autokar-1.jpg" />
       <FeatureBox features={featuresByLang[l]} heading={featureHeadings[l]} />
       {l === "pl" && <FAQAccordion items={faqByLang[l]} heading={faqHeadings[l]} />}
       <section className="py-12 px-4 bg-[#f59e0b] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
-        <CTAButton href="https://wa.me/48601076652" variant="secondary">💬 WhatsApp: +48 601 076 652 lub </CTAButton>
+        <CTAButton href="https://wa.me/48413453225" variant="secondary">💬 WhatsApp: +48 41 345 32 25 lub </CTAButton>
       </section>
     </>
   );

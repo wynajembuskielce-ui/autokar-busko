@@ -51,13 +51,13 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Poproś o wycenę B2B - +48 601 076 652 lub ",
-  en: "Get B2B quote - +48 601 076 652 lub ",
-  de: "B2B Angebot anfragen - +48 601 076 652 lub ",
-  ru: "Запросить B2B расчет - +48 601 076 652 lub ",
-  ar: "اطلب عرض B2B - +48 601 076 652 lub ",
-  es: "Pedir presupuesto B2B - +48 601 076 652 lub ",
-  fr: "Demander devis B2B - +48 601 076 652 lub ",
+  pl: "Poproś o wycenę B2B - +48 41 345 32 25 lub ",
+  en: "Get B2B quote - +48 41 345 32 25 lub ",
+  de: "B2B Angebot anfragen - +48 41 345 32 25 lub ",
+  ru: "Запросить B2B расчет - +48 41 345 32 25 lub ",
+  ar: "اطلب عرض B2B - +48 41 345 32 25 lub ",
+  es: "Pedir presupuesto B2B - +48 41 345 32 25 lub ",
+  fr: "Demander devis B2B - +48 41 345 32 25 lub ",
 };
 
 const featureHeadings: Record<Language, string> = {
@@ -147,12 +147,12 @@ export default async function ImprezaFirmowaPage({ params }: { params: Promise<{
 
   return (
     <>
-      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:601076652" backgroundImage="/images/flota/flota-bus-1.jpg" />
+      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:413453225" backgroundImage="/images/flota/flota-bus-1.jpg" />
       <FeatureBox features={featuresByLang[l]} heading={featureHeadings[l]} />
       {l === "pl" && <FAQAccordion items={faqItems} heading={faqHeadings[l]} />}
       <section className="py-12 px-4 bg-[#f59e0b] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
-        <CTAButton href="https://wa.me/48601076652" variant="secondary">💬 WhatsApp: +48 601 076 652 lub </CTAButton>
+        <CTAButton href="https://wa.me/48413453225" variant="secondary">💬 WhatsApp: +48 41 345 32 25 lub </CTAButton>
       </section>
     </>
   );

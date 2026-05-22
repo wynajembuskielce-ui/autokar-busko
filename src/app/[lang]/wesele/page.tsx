@@ -23,13 +23,13 @@ const metaTitles: Record<Language, string> = {
 };
 
 const metaDescriptions: Record<Language, string> = {
-  pl: "Wynajem busa lub autokaru na wesele w Krakowie. Bezpieczny transport gości weselnych. Tel: +48 601 076 652 lub ",
-  en: "Wedding bus and coach hire in Krakow. Safe transport for wedding guests. Tel: +48 601 076 652 lub ",
-  de: "Hochzeitsbus- und Reisebusmiete in Krakow. Sicherer Transport für Hochzeitsgäste. Tel: +48 601 076 652 lub ",
-  ru: "Аренда автобуса на свадьбу в Кельце. Безопасный транспорт для гостей. Тел: +48 601 076 652 lub ",
-  ar: "تأجير حافلات لحفلات الزفاف في كيلتسه. نقل آمن للضيوف. هاتف: +48 601 076 652 lub  48+",
-  es: "Alquiler de autobús para bodas en Krakow. Transporte seguro para invitados. Tel: +48 601 076 652 lub ",
-  fr: "Location de bus pour mariage à Krakow. Transport sûr des invités. Tél: +48 601 076 652 lub ",
+  pl: "Wynajem busa lub autokaru na wesele w Krakowie. Bezpieczny transport gości weselnych. Tel: +48 41 345 32 25 lub ",
+  en: "Wedding bus and coach hire in Krakow. Safe transport for wedding guests. Tel: +48 41 345 32 25 lub ",
+  de: "Hochzeitsbus- und Reisebusmiete in Krakow. Sicherer Transport für Hochzeitsgäste. Tel: +48 41 345 32 25 lub ",
+  ru: "Аренда автобуса на свадьбу в Кельце. Безопасный транспорт для гостей. Тел: +48 41 345 32 25 lub ",
+  ar: "تأجير حافلات لحفلات الزفاف في كيلتسه. نقل آمن للضيوف. هاتف: +48 41 345 32 25 lub  48+",
+  es: "Alquiler de autobús para bodas en Krakow. Transporte seguro para invitados. Tel: +48 41 345 32 25 lub ",
+  fr: "Location de bus pour mariage à Krakow. Transport sûr des invités. Tél: +48 41 345 32 25 lub ",
 };
 
 const heroTitles: Record<Language, string> = {
@@ -53,13 +53,13 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Zarezerwuj bus na wesele — +48 601 076 652 lub ",
-  en: "Book wedding bus — +48 601 076 652 lub ",
-  de: "Hochzeitsbus buchen — +48 601 076 652 lub ",
-  ru: "Забронировать автобус — +48 601 076 652 lub ",
-  ar: "احجز الحافلة — +48 601 076 652 lub  48+",
-  es: "Reservar bus boda — +48 601 076 652 lub ",
-  fr: "Réserver bus mariage — +48 601 076 652 lub ",
+  pl: "Zarezerwuj bus na wesele — +48 41 345 32 25 lub ",
+  en: "Book wedding bus — +48 41 345 32 25 lub ",
+  de: "Hochzeitsbus buchen — +48 41 345 32 25 lub ",
+  ru: "Забронировать автобус — +48 41 345 32 25 lub ",
+  ar: "احجز الحافلة — +48 41 345 32 25 lub  48+",
+  es: "Reservar bus boda — +48 41 345 32 25 lub ",
+  fr: "Réserver bus mariage — +48 41 345 32 25 lub ",
 };
 
 const featureHeadings: Record<Language, string> = {
@@ -161,14 +161,14 @@ export default async function WeselePage({
         title={heroTitles[l]}
         subtitle={heroSubtitles[l]}
         ctaText={ctaTexts[l]}
-        ctaHref="tel:601076652"
+        ctaHref="tel:413453225"
         backgroundImage="/images/wesele/wesele-autokar-elegancki-krakow-01.jpg"
       />
       <FeatureBox features={featuresByLang[l]} heading={featureHeadings[l]} />
       {l === "pl" && <FAQAccordion items={faqItems} heading={faqHeadings[l]} />}
       <section className="py-12 px-4 bg-[#f59e0b] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
-        <CTAButton href="tel:601076652" variant="secondary">📞 +48 601 076 652 lub </CTAButton>
+        <CTAButton href="tel:413453225" variant="secondary">📞 +48 41 345 32 25 lub </CTAButton>
       </section>
     </>
   );

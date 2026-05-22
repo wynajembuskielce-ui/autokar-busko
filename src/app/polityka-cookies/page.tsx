@@ -57,7 +57,7 @@ export default function CookiePolicyPage() {
 
       <section className="mt-8 space-y-4">
         <h2 className="text-xl font-bold">6. Kontakt</h2>
-        <p>W sprawach dotyczących cookies napisz: biuro@muszkieter.pl.</p>
+        <p>W sprawach dotyczących cookies napisz: biuro@autokar-busko.pl.</p>
       </section>
     </main>
   );

@@ -22,13 +22,13 @@ const metaTitles: Record<Language, string> = {
 };
 
 const metaDescriptions: Record<Language, string> = {
-  pl: "Autokar Kielce-Wrocław: cennik dla 20/35/50 osób, dojazd do Stadionu Wrocław, Hali Stulecia, Rynku, lotniska Strachowice. Trasa A4. Tel. 601 076 652.",
-  en: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 601 076 652.",
-  de: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 601 076 652.",
-  ru: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 601 076 652.",
-  ar: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 601 076 652.",
-  es: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 601 076 652.",
-  fr: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 601 076 652.",
+  pl: "Autokar Kielce-Wrocław: cennik dla 20/35/50 osób, dojazd do Stadionu Wrocław, Hali Stulecia, Rynku, lotniska Strachowice. Trasa A4. Tel. 41 345 32 25.",
+  en: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  de: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  ru: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  ar: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  es: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 41 345 32 25.",
+  fr: "Coach from Krakow to Wrocław with pricing tables for 20/35/50 passengers. Motorway A4. Fast quote in 15 minutes. Call +48 41 345 32 25.",
 };
 
 const heroTitles: Record<Language, string> = {
@@ -52,7 +52,7 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Sprawdź dostępność — 601 076 652",
+  pl: "Sprawdź dostępność — 41 345 32 25",
   en: "Check availability now",
   de: "Check availability now",
   ru: "Check availability now",
@@ -140,7 +140,7 @@ const groupVehicleRows = [
 ];
 
 const pickupPoints = [
-  "ul. Kolberga 9 (nasza baza)",
+  "ul. Poprzeczna 1 (nasza baza)",
   "Galeria Echo — dla grup 40+",
   "PKP Krakow — Plac Niepodległości",
   "Plaza Krakow",
@@ -236,12 +236,12 @@ const schemaObject = {
         "Wynajem autokaru lub busa na trasie Krakow-Wrocław. 330 km autostradą A4, czas przejazdu 3h 45min. Pojazdy 16-50 osób. Dwóch kierowców obowiązkowych na pełnym dniu (rozp. WE 561/2006). Wszystkie opłaty A4 wliczone w cenę.",
       provider: {
         "@type": "LocalBusiness",
-        name: "MUSZKIETER — Wynajem Autobus",
-        telephone: "+48601076652",
-        email: "biuro@muszkieter.pl",
+        name: "Autokar Busko",
+        telephone: "+48413453225",
+        email: "biuro@autokar-busko.pl",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "ul. Kolberga 9",
+          streetAddress: "ul. Poprzeczna 1",
           addressLocality: "Krakow",
           postalCode: "25-516",
           addressCountry: "PL",
@@ -637,7 +637,7 @@ export async function generateMetadata({
       canonical: "https://www.autokar-busko.pl/pl/trasy/krakow-wroclaw-autokar",
     },
     openGraph: {
-      title: "Autokar Kielce → Wrocław od 1 700 zł | MUSZKIETER",
+      title: "Autokar Kielce → Wrocław od 1 700 zł | Autokar Busko",
       description:
         "330 km autostradą A4 w 3h 45min. Busy 20-os i autokary 50-os. Transfer koncertowy, mecze UEFA, lotnisko Strachowice, wyjazdy biznesowe.",
       url: "https://www.autokar-busko.pl/pl/trasy/krakow-wroclaw-autokar",
@@ -669,7 +669,7 @@ export default async function KrakowWroclawPage({
         title={heroTitles[l]}
         subtitle={heroSubtitles[l]}
         ctaText={ctaTexts[l]}
-        ctaHref="tel:+48601076652"
+        ctaHref="tel:+48413453225"
       />
 
       {/* PRICING TABLE */}
@@ -684,8 +684,8 @@ export default async function KrakowWroclawPage({
               Wycena pisemna w 15-30 min. Wszystkie opłaty A4 wliczone, dwóch kierowców w cenie pełnego dnia. Bez ukrytych kosztów.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <CTAButton href="tel:+48601076652" variant="primary">
-                Zadzwoń: 601 076 652
+              <CTAButton href="tel:+48413453225" variant="primary">
+                Zadzwoń: 41 345 32 25
               </CTAButton>
               <CTAButton href="https://wa.me/48693440585" variant="secondary">
                 WhatsApp
@@ -847,7 +847,7 @@ export default async function KrakowWroclawPage({
             <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować</h2>
             <ol className="space-y-4">
               {[
-                { step: "1", text: "Zadzwoń (601 076 652) lub wyślij formularz z trasą + datą + liczbą osób. Pn-pt 7-18, sob 8-14." },
+                { step: "1", text: "Zadzwoń (41 345 32 25) lub wyślij formularz z trasą + datą + liczbą osób. Pn-pt 7-18, sob 8-14." },
                 { step: "2", text: "Otrzymujesz wycenę w 15-30 min z uwzględnieniem wariantu (1-dniowy / 2-dniowy A lub B) oraz szacunkiem opłat A4." },
                 { step: "3", text: "Zaliczka 20-30% przelewem (dla firm z odroczeniem 7 dni po wystawieniu faktury). Dla wycieczek szkolnych — faktura proforma z pieczęcią dyrektora, bez zaliczki." },
                 { step: "4", text: "Pełna płatność dzień przed lub po przejeździe (B2B z odroczeniem 14 dni)." },
@@ -876,7 +876,7 @@ export default async function KrakowWroclawPage({
 
       {/* WHY US */}
       <FeatureBox
-        heading={l === "pl" ? "Dlaczego MUSZKIETER — konkretnie" : undefined}
+        heading={l === "pl" ? "Dlaczego Autokar Busko — konkretnie" : undefined}
         features={whyUsFeatures}
       />
 
@@ -944,8 +944,8 @@ export default async function KrakowWroclawPage({
             </p>
           )}
           <div className="flex flex-wrap justify-center gap-4">
-            <CTAButton href="tel:+48601076652" variant="primary">
-              {l === "pl" ? "Zadzwoń: 601 076 652" : "Call +48 601 076 652"}
+            <CTAButton href="tel:+48413453225" variant="primary">
+              {l === "pl" ? "Zadzwoń: 41 345 32 25" : "Call +48 41 345 32 25"}
             </CTAButton>
             <CTAButton href={`/${l}/impreza-firmowa`} variant="secondary">
               {l === "pl" ? "Wyjazdy firmowe — pełna oferta" : "Corporate trips"}
