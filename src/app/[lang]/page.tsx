@@ -12,23 +12,23 @@ import { faqData } from "@/data/faq-seo-data";
 type Language = "pl" | "en" | "de" | "ru" | "ar" | "es" | "fr";
 
 const metaTitles: Record<Language, string> = {
-  pl: "Wynajem Autokaru Kielce | Busy i Autokary na Wynajem - +48 601 076 652 lub +48 41 345 32 25",
-  en: "Coach Rental Kielce | Buses and Coaches for Hire - +48 601 076 652 lub +48 41 345 32 25",
-  de: "Busmiete Kielce | Busse und Reisebusse zur Miete - +48 601 076 652 lub +48 41 345 32 25",
-  ru: "Аренда автобуса Кельце | Автобусы и микроавтобусы - +48 601 076 652 lub +48 41 345 32 25",
-  ar: "تأجير حافلات كيلتسه | حافلات وميني باص - +48 601 076 652 lub +48 41 345 32 25",
-  es: "Alquiler de autobús Kielce | Autobuses y minibuses - +48 601 076 652 lub +48 41 345 32 25",
-  fr: "Location de bus Kielce | Bus et minibus - +48 601 076 652 lub +48 41 345 32 25",
+  pl: "Autokar Busko | Busy i Autokary na Wynajem – Ponidzie – +48 41 345 32 25",
+  en: "Coach Rental Busko-Zdrój | Buses and Coaches for Hire – +48 41 345 32 25",
+  de: "Busmiete Busko-Zdrój | Busse und Reisebusse zur Miete – +48 41 345 32 25",
+  ru: "Аренда автобуса Буско-Здруй | Автобусы и микроавтобусы – +48 41 345 32 25",
+  ar: "تأجير حافلات بوسكو-زدروي | حافلات وميني باص – +48 41 345 32 25",
+  es: "Alquiler de autobús Busko-Zdrój | Autobuses y minibuses – +48 41 345 32 25",
+  fr: "Location de bus Busko-Zdrój | Bus et minibus – +48 41 345 32 25",
 };
 
 const metaDescriptions: Record<Language, string> = {
-  pl: "Profesjonalny wynajem autokaru w Kielcach. Busy, autokary i minibusy na wesela, wycieczki, pielgrzymki i transfery lotniskowe.",
-  en: "Professional coach rental in Kielce for weddings, school trips, pilgrimages, corporate events and airport transfers.",
-  de: "Professionelle Busmiete in Kielce für Hochzeiten, Schulausflüge, Wallfahrten, Firmenevents und Flughafentransfers.",
-  ru: "Профессиональная аренда автобусов в Кельце для свадеб, школьных поездок, паломничеств и трансферов в аэропорт.",
-  ar: "تأجير حافلات احترافي في كيلتسه للأعراس والرحلات المدرسية والحج ونقل المطار.",
-  es: "Alquiler profesional de autobuses en Kielce para bodas, excursiones escolares, peregrinaciones, eventos y traslados al aeropuerto.",
-  fr: "Location professionnelle de bus à Kielce pour mariages, sorties scolaires, pèlerinages, événements et transferts aéroport.",
+  pl: "Profesjonalny wynajem autokaru w Busku-Zdroju. Busy, autokary i minibusy na wesela, wycieczki, pielgrzymki i transfery lotniskowe.",
+  en: "Professional coach rental in Busko-Zdrój for weddings, school trips, pilgrimages, corporate events and airport transfers.",
+  de: "Professionelle Busmiete in Busko-Zdrój für Hochzeiten, Schulausflüge, Wallfahrten, Firmenevents und Flughafentransfers.",
+  ru: "Профессиональная аренда автобусов в Буско-Здруй для свадеб, школьных поездок, паломничеств и трансферов в аэропорт.",
+  ar: "تأجير حافلات احترافي في بوسكو-زدروي للأعراس والرحلات المدرسية والحج ونقل المطار.",
+  es: "Alquiler profesional de autobuses en Busko-Zdrój para bodas, excursiones escolares, peregrinaciones, eventos y traslados al aeropuerto.",
+  fr: "Location professionnelle de bus à Busko-Zdrój pour mariages, sorties scolaires, pèlerinages, événements et transferts aéroport.",
 };
 
 const quickHeading: Record<Language, string> = {
@@ -102,13 +102,13 @@ const finalBody: Record<Language, string> = {
 };
 
 const finalCta: Record<Language, string> = {
-  pl: "📞 Zadzwoń: +48 601 076 652 lub +48 41 345 32 25",
-  en: "📞 Call: +48 601 076 652 lub +48 41 345 32 25",
-  de: "📞 Anrufen: +48 601 076 652 lub +48 41 345 32 25",
-  ru: "📞 Позвонить: +48 601 076 652 lub +48 41 345 32 25",
-  ar: "📞 اتصل: +48 601 076 652 lub +48 41 345 32 25",
-  es: "📞 Llamar: +48 601 076 652 lub +48 41 345 32 25",
-  fr: "📞 Appeler: +48 601 076 652 lub +48 41 345 32 25",
+  pl: "📞 Zadzwoń: +48 41 345 32 25 lub +48 609 69 19 12",
+  en: "📞 Call: +48 41 345 32 25 or +48 609 69 19 12",
+  de: "📞 Anrufen: +48 41 345 32 25 oder +48 609 69 19 12",
+  ru: "📞 Позвонить: +48 41 345 32 25 или +48 609 69 19 12",
+  ar: "📞 اتصل: +48 41 345 32 25 أو +48 609 69 19 12",
+  es: "📞 Llamar: +48 41 345 32 25 o +48 609 69 19 12",
+  fr: "📞 Appeler: +48 41 345 32 25 ou +48 609 69 19 12",
 };
 
 const companyIntroByLang: Record<
@@ -119,121 +119,121 @@ const companyIntroByLang: Record<
   }
 > = {
   pl: {
-    h2: "Od linii autobusowych w Kielcach. Historia rodziny Chmiel.",
+    h2: "Od linii autobusowych w Busku-Zdroju. Historia rodziny Chmiel.",
     sections: [
       {
         h3: "Skąd jesteśmy i dokąd zmierzamy",
-        p: "MUSZKIETER Group to rodzinna firma Anny i Rafała Chmiel, założona w 1997 roku. Przewozy pasażerskie rozpoczęliśmy w 2001 roku — wtedy otrzymaliśmy pierwszą licencję przewozową. Zaczęliśmy od regularnych linii autobusowych w województwie świętokrzyskim: Busko-Zdrój – Kielce – Radom – Warszawa, Busko – Kielce – Piotrków – Łódź, Kielce – Sandomierz – Tarnobrzeg, Kielce – Busko-Zdrój – Kazimierza Wielka. Woziłem ludzi, którzy potrzebowali dojechać — nie turystów, nie korporacje. Zwykłych ludzi.",
+        p: "Autokar Busko to rodzinna firma Anny i Rafała Chmiel, założona w 1997 roku. Przewozy pasażerskie rozpoczęliśmy w 2001 roku — wtedy otrzymaliśmy pierwszą licencję przewozową. Zaczęliśmy od regularnych linii autobusowych na Ponidziu: Busko-Zdrój – Kielce – Radom – Warszawa, Busko – Kielce – Piotrków – Łódź, Kielce – Sandomierz – Tarnobrzeg, Kielce – Busko-Zdrój – Kazimierza Wielka. Woziłem ludzi, którzy potrzebowali dojechać — nie turystów, nie korporacje. Zwykłych ludzi.",
       },
       {
         h3: "Jak rośliśmy",
         p: "Z czasem pojawiły się zlecenia na wycieczki, wesela, pielgrzymki. Flota rosła. Dziś dysponujemy 180 pojazdami — autokarami VDL, Scania, Mercedes-Benz, Irisbus, minibusami i pojazdami przystosowanymi do przewozu osób niepełnosprawnych. Mamy własny serwis techniczny, licencję krajową i międzynarodową WITD, potwierdzone referencje od gmin, szkół i instytucji.",
       },
       {
-        h3: "Dlaczego MUSZKIETER w Kielcach",
-        p: "Kielce to nasza baza od 2001 roku. Stąd zaczynaliśmy, tu jesteśmy.",
+        h3: "Dlaczego Autokar Busko w Busku-Zdroju",
+        p: "Busko-Zdrój to nasza baza od 2001 roku. Stąd zaczynaliśmy, tu jesteśmy.",
       },
     ],
   },
   en: {
-    h2: "From scheduled bus lines in Kielce. The Chmiel family story.",
+    h2: "From scheduled bus lines in Busko-Zdrój. The Chmiel family story.",
     sections: [
       {
         h3: "Where we come from and where we are going",
-        p: "MUSZKIETER Group is a family business founded by Anna and Rafał Chmiel in 1997. We started passenger transport operations in 2001, when we received our first carrier licence. We began with scheduled bus routes across the Świętokrzyskie region: Busko-Zdrój – Kielce – Radom – Warsaw, Busko – Kielce – Piotrków – Łódź, Kielce – Sandomierz – Tarnobrzeg, Kielce – Busko-Zdrój – Kazimierza Wielka. We carried ordinary people who needed to get somewhere — not tourists, not corporations.",
+        p: "Autokar Busko is a family business founded by Anna and Rafał Chmiel in 1997. We started passenger transport operations in 2001, when we received our first carrier licence. We began with scheduled bus routes across the Ponidzie region: Busko-Zdrój – Kielce – Radom – Warsaw, Busko – Kielce – Piotrków – Łódź, Kielce – Sandomierz – Tarnobrzeg, Kielce – Busko-Zdrój – Kazimierza Wielka. We carried ordinary people who needed to get somewhere — not tourists, not corporations.",
       },
       {
         h3: "How we grew",
         p: "Over time, bookings for day trips, weddings and pilgrimages started coming in. The fleet expanded. Today we operate 180 vehicles — VDL, Scania, Mercedes-Benz and Irisbus coaches, minibuses, and vehicles adapted for passengers with disabilities. We run our own service workshop, hold domestic and international WITD licences, and carry verified references from municipalities, schools and public institutions.",
       },
       {
-        h3: "Why MUSZKIETER in Kielce",
-        p: "Kielce is our home base since 2001. This is where we started, this is where we are.",
+        h3: "Why Autokar Busko in Busko-Zdrój",
+        p: "Busko-Zdrój is our home base since 2001. This is where we started, this is where we are.",
       },
     ],
   },
   de: {
-    h2: "MUSZKIETER Group — das größte Personenbeförderungsunternehmen in der Region Świętokrzyskie (Polen)",
+    h2: "Autokar Busko — Ihr Reisebusunternehmen in Busko-Zdrój, Ponidzie (Polen)",
     sections: [
       {
         h3: "Wer wir sind und über welche Flotte wir verfügen",
-        p: "Wynajem-Autobus.pl ist die offizielle Website von MUSZKIETER Group — einem familiengeführten Busreiseunternehmen aus Kielce in Polen, das seit 1997 ununterbrochen tätig ist. Wir sind spezialisiert auf die Vermietung von Reisebussen, Bussen und Kleinbussen für Privatkunden, Unternehmen und Institutionen in Kielce, der Region Świętokrzyskie und in ganz Polen. Wir betreiben die größte Flotte der Region — 180 Fahrzeuge der Euro-6-Klasse, darunter Reisebusse mit 50 Sitzplätzen, Midibusse mit 35 Sitzplätzen, VIP-Kleinbusse für 17 Personen und 9-sitzige Transferfahrzeuge (Volkswagen Transporter). Wir betreiben eine eigene Werkstatt, was uns erlaubt, mehrere Gruppen gleichzeitig zu betreuen und jedes Fahrzeug in dauerhaft hohem Zustand zu halten.",
+        p: "autokar-busko.pl ist die offizielle Website von Autokar Busko — einem familiengeführten Busreiseunternehmen aus Busko-Zdrój in Polen, das seit 1997 ununterbrochen tätig ist. Wir sind spezialisiert auf die Vermietung von Reisebussen, Bussen und Kleinbussen für Privatkunden, Unternehmen und Institutionen in Busko-Zdrój, der Region Ponidzie und in ganz Polen. Wir betreiben die größte Flotte der Region — 180 Fahrzeuge der Euro-6-Klasse, darunter Reisebusse mit 50 Sitzplätzen, Midibusse mit 35 Sitzplätzen, VIP-Kleinbusse für 17 Personen und 9-sitzige Transferfahrzeuge (Volkswagen Transporter). Wir betreiben eine eigene Werkstatt, was uns erlaubt, mehrere Gruppen gleichzeitig zu betreuen und jedes Fahrzeug in dauerhaft hohem Zustand zu halten.",
       },
       {
         h3: "Welche Transporte wir durchführen",
-        p: "Jährlich vertrauen uns mehr als 500 Firmen und Familien. Wir bieten Busvermietung für Hochzeiten (Transport der Hochzeitsgäste in Kielce und Umgebung), Klassenfahrten (im In- und Ausland), Wallfahrten (Tschenstochau, Licheń, Vatikan, Medjugorje, Lourdes, Fátima), Flughafentransfers (Warschau-Chopin, Warschau-Modlin, Krakau-Balice, Katowice-Pyrzowice, Breslau), Skifahrten ins Tatra-Gebirge nach Zakopane, Białka Tatrzańska und Bukowina Tatrzańska, Firmentransporte und Delegationsreisen sowie Fahrten zu Konzerten, Sportveranstaltungen und Konferenzen. Jedes Fahrzeug ist mit Klimaanlage, verstellbaren Sitzen und Multimedia-System ausgestattet, in ausgewählten Modellen auch mit Toilette und WLAN. Jede Reservierung umfasst einen erfahrenen Fahrer mit Führerschein der Klasse D — Fahrzeuge ohne Fahrer vermieten wir nicht.",
+        p: "Jährlich vertrauen uns mehr als 500 Firmen und Familien. Wir bieten Busvermietung für Hochzeiten (Transport der Hochzeitsgäste in Busko-Zdrój und Umgebung), Klassenfahrten (im In- und Ausland), Wallfahrten (Tschenstochau, Licheń, Vatikan, Medjugorje, Lourdes, Fátima), Flughafentransfers (Warschau-Chopin, Warschau-Modlin, Krakau-Balice, Katowice-Pyrzowice, Breslau), Skifahrten ins Tatra-Gebirge nach Zakopane, Białka Tatrzańska und Bukowina Tatrzańska, Firmentransporte und Delegationsreisen sowie Fahrten zu Konzerten, Sportveranstaltungen und Konferenzen. Jedes Fahrzeug ist mit Klimaanlage, verstellbaren Sitzen und Multimedia-System ausgestattet, in ausgewählten Modellen auch mit Toilette und WLAN. Jede Reservierung umfasst einen erfahrenen Fahrer mit Führerschein der Klasse D — Fahrzeuge ohne Fahrer vermieten wir nicht.",
       },
       {
         h3: "Was uns auszeichnet",
-        p: "Was uns auszeichnet: 28 Jahre ununterbrochene Erfahrung im Personenverkehr (seit 1997), eigene Werkstatt und Diagnosestation, ausgebildete Fahrer mit Führerschein der Klasse D und CPR-Zertifikaten, volle Insassenversicherung, nationale und internationale WITD-Lizenz sowie eine Bewertung von 4,8/5 bei Google auf Basis von über 250 verifizierten Kundenrezensionen. Die Buchung dauert 30 Minuten, und Sie erhalten Ihr Angebot noch am selben Tag. Rufen Sie an unter +48 601 076 652 oder , schreiben Sie uns auf WhatsApp, füllen Sie das Kontaktformular aus oder besuchen Sie uns persönlich. Sitz: ul. Kolberga 9, 25-620 Kielce, Polen, geöffnet Montag–Freitag 8:00–18:00 Uhr und Samstag 9:00–15:00 Uhr. E-Mail: biuro@muszkieter.pl. MUSZKIETER Group — Busvermietung in Kielce, auf die Sie sich von der ersten Anfrage bis zum letzten Kilometer verlassen können.",
+        p: "Was uns auszeichnet: 28 Jahre ununterbrochene Erfahrung im Personenverkehr (seit 1997), eigene Werkstatt und Diagnosestation, ausgebildete Fahrer mit Führerschein der Klasse D und CPR-Zertifikaten, volle Insassenversicherung, nationale und internationale WITD-Lizenz sowie eine Bewertung von 4,8/5 bei Google auf Basis von über 250 verifizierten Kundenrezensionen. Die Buchung dauert 30 Minuten, und Sie erhalten Ihr Angebot noch am selben Tag. Rufen Sie an unter +48 41 345 32 25, schreiben Sie uns auf WhatsApp, füllen Sie das Kontaktformular aus oder besuchen Sie uns persönlich. Sitz: ul. Poprzeczna 1, 28-100 Busko-Zdrój, Polen, geöffnet Montag–Freitag 8:00–18:00 Uhr und Samstag 9:00–15:00 Uhr. E-Mail: biuro@autokar-busko.pl. Autokar Busko — Busvermietung in Busko-Zdrój, auf die Sie sich von der ersten Anfrage bis zum letzten Kilometer verlassen können.",
       },
     ],
   },
   ru: {
-    h2: "MUSZKIETER Group — крупнейшая транспортная компания Свентокшиского воеводства (Польша)",
+    h2: "Autokar Busko — ваш перевозчик в Буско-Здруй, Понидзе (Польша)",
     sections: [
       {
         h3: "Кто мы и каким автопарком располагаем",
-        p: "Wynajem-Autobus.pl — официальный сайт MUSZKIETER Group, семейного транспортного предприятия из города Кельце (Польша), непрерывно работающего с 1997 года. Мы специализируемся на аренде туристических автобусов, автобусов и микроавтобусов для частных клиентов, фирм и организаций в Кельце, Свентокшиском воеводстве и по всей Польше. У нас самый большой автопарк в регионе — 180 автомобилей класса Евро 6, в том числе туристические автобусы на 50 мест, мидибусы на 35 мест, VIP-микроавтобусы на 17 пассажиров и 9-местные трансферные машины (Volkswagen Transporter). У нас собственный сервисный центр, что позволяет нам одновременно обслуживать несколько групп и поддерживать каждый автомобиль в неизменно высоком техническом состоянии.",
+        p: "autokar-busko.pl — официальный сайт Autokar Busko, семейного транспортного предприятия из Буско-Здруй (Польша), непрерывно работающего с 1997 года. Мы специализируемся на аренде туристических автобусов, автобусов и микроавтобусов для частных клиентов, фирм и организаций в Буско-Здруй, регионе Понидзе и по всей Польше. У нас самый большой автопарк в регионе — 180 автомобилей класса Евро 6, в том числе туристические автобусы на 50 мест, мидибусы на 35 мест, VIP-микроавтобусы на 17 пассажиров и 9-местные трансферные машины (Volkswagen Transporter). У нас собственный сервисный центр, что позволяет нам одновременно обслуживать несколько групп и поддерживать каждый автомобиль в неизменно высоком техническом состоянии.",
       },
       {
         h3: "Какие перевозки мы выполняем",
-        p: "Нам ежегодно доверяют более 500 компаний и семей. Мы предоставляем аренду автобусов для свадеб (перевозка гостей по Кельце и окрестностям), школьных экскурсий (внутри страны и за рубежом), религиозных паломничеств (Ченстохова, Лихень, Ватикан, Меджугорье, Лурд, Фатима), трансферов в аэропорты (Варшава-Шопен, Варшава-Модлин, Краков-Балице, Катовице-Пыжовице, Вроцлав), горнолыжных поездок в Закопане, Бялку Татшаньску и Буковину Татшаньску в Татрах, корпоративных перевозок и служебных делегаций, а также поездок на концерты, спортивные мероприятия и конференции. Каждый автомобиль оснащён кондиционером, регулируемыми креслами и мультимедийной системой; в избранных моделях также есть туалет и Wi-Fi. Каждое бронирование включает опытного водителя категории D — автомобили без водителя мы не сдаём.",
+        p: "Нам ежегодно доверяют более 500 компаний и семей. Мы предоставляем аренду автобусов для свадеб (перевозка гостей по Буско-Здруй и окрестностям), школьных экскурсий (внутри страны и за рубежом), религиозных паломничеств (Ченстохова, Лихень, Ватикан, Меджугорье, Лурд, Фатима), трансферов в аэропорты (Варшава-Шопен, Варшава-Модлин, Краков-Балице, Катовице-Пыжовице, Вроцлав), горнолыжных поездок в Закопане, Бялку Татшаньску и Буковину Татшаньску в Татрах, корпоративных перевозок и служебных делегаций, а также поездок на концерты, спортивные мероприятия и конференции. Каждый автомобиль оснащён кондиционером, регулируемыми креслами и мультимедийной системой; в избранных моделях также есть туалет и Wi-Fi. Каждое бронирование включает опытного водителя категории D — автомобили без водителя мы не сдаём.",
       },
       {
         h3: "Что нас отличает",
-        p: "Что нас отличает: 28 лет непрерывного опыта в пассажирских перевозках (с 1997 года), собственная станция технического обслуживания, сертифицированные водители категории D с подготовкой по СЛР, полное страхование пассажиров, национальная и международная лицензия WITD, рейтинг 4,8/5 в Google на основе более 250 проверенных отзывов клиентов. Бронирование занимает 30 минут, расчёт стоимости вы получите в тот же день. Позвоните по номеру +48 601 076 652 или , напишите в WhatsApp, заполните контактную форму или приезжайте лично. Офис: ul. Kolberga 9, 25-620 Kielce, Польша, открыт с понедельника по пятницу с 8:00 до 18:00 и в субботу с 9:00 до 15:00. Электронная почта: biuro@muszkieter.pl. MUSZKIETER Group — аренда автобусов в Кельце, на которую вы можете положиться от первого запроса до последнего километра.",
+        p: "Что нас отличает: 28 лет непрерывного опыта в пассажирских перевозках (с 1997 года), собственная станция технического обслуживания, сертифицированные водители категории D с подготовкой по СЛР, полное страхование пассажиров, национальная и международная лицензия WITD, рейтинг 4,8/5 в Google на основе более 250 проверенных отзывов клиентов. Бронирование занимает 30 минут, расчёт стоимости вы получите в тот же день. Позвоните по номеру +48 41 345 32 25 или +48 609 69 19 12, напишите в WhatsApp, заполните контактную форму или приезжайте лично. Офис: ul. Poprzeczna 1, 28-100 Busko-Zdrój, Польша, открыт с понедельника по пятницу с 8:00 до 18:00 и в субботу с 9:00 до 15:00. Электронная почта: biuro@autokar-busko.pl. Autokar Busko — аренда автобусов в Буско-Здруй, на которую вы можете положиться от первого запроса до последнего километра.",
       },
     ],
   },
   ar: {
-    h2: "MUSZKIETER Group — أكبر شركة لنقل الركاب في إقليم شفينتوكشيسكي بولندا",
+    h2: "Autokar Busko — شركتكم للنقل في بوسكو-زدروي، بونيدزه (بولندا)",
     sections: [
       {
         h3: "من نحن وما هو أسطولنا",
-        p: "Wynajem-Autobus.pl هو الموقع الرسمي لشركة MUSZKIETER Group — شركة نقل عائلية من مدينة كيلتسه البولندية، تعمل بشكل مستمر منذ عام 1997. نحن متخصصون في تأجير الحافلات السياحية والحافلات الكبيرة والصغيرة للعملاء الأفراد والشركات والمؤسسات في كيلتسه وإقليم شفينتوكشيسكي وجميع أنحاء بولندا. نمتلك أكبر أسطول في المنطقة — 180 مركبة من فئة Euro 6، بما في ذلك الحافلات السياحية بسعة 50 مقعدًا، والحافلات المتوسطة بسعة 35 مقعدًا، والحافلات الصغيرة VIP لـ 17 راكبًا، وحافلات النقل بسعة 9 مقاعد (فولكس فاجن ترانسبورتر). نحن نُشغّل ورشتنا الخاصة، مما يسمح لنا بخدمة عدة مجموعات في وقت واحد والحفاظ على كل مركبة في حالة فنية ممتازة باستمرار.",
+        p: "autokar-busko.pl هو الموقع الرسمي لشركة Autokar Busko — شركة نقل عائلية من مدينة بوسكو-زدروي البولندية، تعمل بشكل مستمر منذ عام 1997. نحن متخصصون في تأجير الحافلات السياحية والحافلات الكبيرة والصغيرة للعملاء الأفراد والشركات والمؤسسات في بوسكو-زدروي وإقليم بونيدزه وجميع أنحاء بولندا. نمتلك أكبر أسطول في المنطقة — 180 مركبة من فئة Euro 6، بما في ذلك الحافلات السياحية بسعة 50 مقعدًا، والحافلات المتوسطة بسعة 35 مقعدًا، والحافلات الصغيرة VIP لـ 17 راكبًا، وحافلات النقل بسعة 9 مقاعد (فولكس فاجن ترانسبورتر). نحن نُشغّل ورشتنا الخاصة، مما يسمح لنا بخدمة عدة مجموعات في وقت واحد والحفاظ على كل مركبة في حالة فنية ممتازة باستمرار.",
       },
       {
         h3: "ما هي خدمات النقل التي نقدمها",
-        p: "يثق بنا أكثر من 500 شركة وعائلة سنويًا. نقدم تأجير الحافلات لحفلات الزفاف (نقل ضيوف الزفاف في كيلتسه والمنطقة المحيطة)، والرحلات المدرسية (المحلية والدولية)، والحج الديني (تشينستوخوفا، الفاتيكان، ميدجوغوريه، لورد، فاطمة)، ونقل المطارات (وارسو شوبان، وارسو مودلين، كراكوف باليتسه، كاتوفيتسه بيجوفيتسه، فروتسواف)، ورحلات التزلج إلى زاكوباني وبيالكا تاترزانسكا وبوكوفينا تاترزانسكا في جبال تاترا، والنقل للشركات وسفر الموظفين، وكذلك الرحلات إلى الحفلات الموسيقية والأحداث الرياضية والمؤتمرات. كل مركبة مجهزة بمكيف هواء ومقاعد قابلة للتعديل ونظام وسائط متعددة، مع توفر المرحاض وشبكة Wi-Fi في الموديلات المختارة. يشمل كل حجز سائقًا متمرسًا حاصلًا على رخصة من الفئة D — لا نُؤجّر المركبات بدون سائق.",
+        p: "يثق بنا أكثر من 500 شركة وعائلة سنويًا. نقدم تأجير الحافلات لحفلات الزفاف (نقل ضيوف الزفاف في بوسكو-زدروي والمنطقة المحيطة)، والرحلات المدرسية (المحلية والدولية)، والحج الديني (تشينستوخوفا، الفاتيكان، ميدجوغوريه، لورد، فاطمة)، ونقل المطارات (وارسو شوبان، وارسو مودلين، كراكوف باليتسه، كاتوفيتسه بيجوفيتسه، فروتسواف)، ورحلات التزلج إلى زاكوباني وبيالكا تاترزانسكا وبوكوفينا تاترزانسكا في جبال تاترا، والنقل للشركات وسفر الموظفين، وكذلك الرحلات إلى الحفلات الموسيقية والأحداث الرياضية والمؤتمرات. كل مركبة مجهزة بمكيف هواء ومقاعد قابلة للتعديل ونظام وسائط متعددة، مع توفر المرحاض وشبكة Wi-Fi في الموديلات المختارة. يشمل كل حجز سائقًا متمرسًا حاصلًا على رخصة من الفئة D — لا نُؤجّر المركبات بدون سائق.",
       },
       {
         h3: "ما الذي يميزنا",
-        p: "ما يميزنا: 28 عامًا من الخبرة المتواصلة في نقل الركاب (منذ 1997)، محطة فحص وصيانة خاصة بنا، سائقون معتمدون من الفئة D مع شهادات الإنعاش القلبي الرئوي، تأمين كامل على الركاب، تراخيص WITD المحلية والدولية، وتقييم 4.8/5 على Google بناءً على أكثر من 250 مراجعة موثقة من العملاء. يستغرق الحجز 30 دقيقة وستتلقى عرض الأسعار في نفس اليوم. اتصل على +48 601 076 652 أو ، أو راسلنا عبر WhatsApp، أو املأ نموذج الاتصال، أو قم بزيارتنا شخصيًا. المكتب: ul. Kolberga 9, 25-620 Kielce, بولندا، مفتوح من الاثنين إلى الجمعة من 8:00 إلى 18:00 والسبت من 9:00 إلى 15:00. البريد الإلكتروني: biuro@muszkieter.pl. MUSZKIETER Group — تأجير الحافلات في كيلتسه الذي يمكنك الاعتماد عليه من أول استفسار إلى آخر كيلومتر.",
+        p: "ما يميزنا: 28 عامًا من الخبرة المتواصلة في نقل الركاب (منذ 1997)، محطة فحص وصيانة خاصة بنا، سائقون معتمدون من الفئة D مع شهادات الإنعاش القلبي الرئوي، تأمين كامل على الركاب، تراخيص WITD المحلية والدولية، وتقييم 4.8/5 على Google بناءً على أكثر من 250 مراجعة موثقة من العملاء. يستغرق الحجز 30 دقيقة وستتلقى عرض الأسعار في نفس اليوم. اتصل على +48 41 345 32 25 أو +48 609 69 19 12، أو راسلنا عبر WhatsApp، أو املأ نموذج الاتصال، أو قم بزيارتنا شخصيًا. المكتب: ul. Poprzeczna 1, 28-100 Busko-Zdrój, بولندا، مفتوح من الاثنين إلى الجمعة من 8:00 إلى 18:00 والسبت من 9:00 إلى 15:00. البريد الإلكتروني: biuro@autokar-busko.pl. Autokar Busko — تأجير الحافلات في بوسكو-زدروي الذي يمكنك الاعتماد عليه من أول استفسار إلى آخر كيلومتر.",
       },
     ],
   },
   es: {
-    h2: "MUSZKIETER Group — la mayor empresa de transporte de pasajeros de la región de Świętokrzyskie (Polonia)",
+    h2: "Autokar Busko — su empresa de transporte en Busko-Zdrój, Ponidzie (Polonia)",
     sections: [
       {
         h3: "Quiénes somos y qué flota operamos",
-        p: "Wynajem-Autobus.pl es la página web oficial de MUSZKIETER Group — una empresa familiar de transporte de pasajeros con sede en Kielce (Polonia), en funcionamiento ininterrumpido desde 1997. Estamos especializados en el alquiler de autocares, autobuses y minibuses para clientes particulares, empresas e instituciones en Kielce, la región de Świętokrzyskie y toda Polonia. Operamos la mayor flota de la región — 180 vehículos clase Euro 6, incluidos autocares turísticos de 50 plazas, midibuses de 35 plazas, minibuses VIP de 17 plazas y furgonetas de transfer de 9 plazas (Volkswagen Transporter). Disponemos de nuestro propio taller mecánico, lo que nos permite atender varios grupos simultáneamente y mantener cada vehículo en un estado técnico excelente.",
+        p: "autokar-busko.pl es la página web oficial de Autokar Busko — una empresa familiar de transporte de pasajeros con sede en Busko-Zdrój (Polonia), en funcionamiento ininterrumpido desde 1997. Estamos especializados en el alquiler de autocares, autobuses y minibuses para clientes particulares, empresas e instituciones en Busko-Zdrój, la región de Ponidzie y toda Polonia. Operamos la mayor flota de la región — 180 vehículos clase Euro 6, incluidos autocares turísticos de 50 plazas, midibuses de 35 plazas, minibuses VIP de 17 plazas y furgonetas de transfer de 9 plazas (Volkswagen Transporter). Disponemos de nuestro propio taller mecánico, lo que nos permite atender varios grupos simultáneamente y mantener cada vehículo en un estado técnico excelente.",
       },
       {
         h3: "Qué servicios de transporte ofrecemos",
-        p: "Más de 500 empresas y familias confían en nosotros cada año. Ofrecemos alquiler de autocares para bodas (transporte de invitados en Kielce y alrededores), excursiones escolares (nacionales e internacionales), peregrinaciones religiosas (Częstochowa, Vaticano, Medjugorje, Lourdes, Fátima), traslados al aeropuerto (Varsovia-Chopin, Varsovia-Modlin, Cracovia-Balice, Katowice-Pyrzowice, Wrocław), viajes de esquí a Zakopane, Białka Tatrzańska y Bukowina Tatrzańska en los Tatras, transporte corporativo y delegaciones de empleados, así como viajes a conciertos, eventos deportivos y conferencias. Cada vehículo está equipado con aire acondicionado, asientos reclinables y sistema multimedia; en modelos seleccionados también hay aseo y WiFi. Cada reserva incluye un conductor experimentado con permiso de categoría D — no alquilamos vehículos sin conductor.",
+        p: "Más de 500 empresas y familias confían en nosotros cada año. Ofrecemos alquiler de autocares para bodas (transporte de invitados en Busko-Zdrój y alrededores), excursiones escolares (nacionales e internacionales), peregrinaciones religiosas (Częstochowa, Vaticano, Medjugorje, Lourdes, Fátima), traslados al aeropuerto (Varsovia-Chopin, Varsovia-Modlin, Cracovia-Balice, Katowice-Pyrzowice, Wrocław), viajes de esquí a Zakopane, Białka Tatrzańska y Bukowina Tatrzańska en los Tatras, transporte corporativo y delegaciones de empleados, así como viajes a conciertos, eventos deportivos y conferencias. Cada vehículo está equipado con aire acondicionado, asientos reclinables y sistema multimedia; en modelos seleccionados también hay aseo y WiFi. Cada reserva incluye un conductor experimentado con permiso de categoría D — no alquilamos vehículos sin conductor.",
       },
       {
         h3: "Qué nos distingue",
-        p: "Lo que nos distingue: 28 años de experiencia continua en transporte de pasajeros (desde 1997), taller propio de inspección y mantenimiento, conductores certificados con permiso categoría D y formación en RCP, seguro completo de pasajeros, licencia WITD nacional e internacional, y una valoración de 4,8/5 en Google con más de 250 reseñas verificadas. La reserva lleva 30 minutos y recibirá su presupuesto el mismo día. Llame al +48 601 076 652 o , escríbanos por WhatsApp, complete el formulario de contacto o visite nuestra oficina. Oficina: ul. Kolberga 9, 25-620 Kielce, Polonia, abierta de lunes a viernes de 8:00 a 18:00 y sábados de 9:00 a 15:00. Email: biuro@muszkieter.pl. MUSZKIETER Group — alquiler de autocares en Kielce con el que puede contar desde la primera consulta hasta el último kilómetro.",
+        p: "Lo que nos distingue: 28 años de experiencia continua en transporte de pasajeros (desde 1997), taller propio de inspección y mantenimiento, conductores certificados con permiso categoría D y formación en RCP, seguro completo de pasajeros, licencia WITD nacional e internacional, y una valoración de 4,8/5 en Google con más de 250 reseñas verificadas. La reserva lleva 30 minutos y recibirá su presupuesto el mismo día. Llame al +48 41 345 32 25 o +48 609 69 19 12, escríbanos por WhatsApp, complete el formulario de contacto o visite nuestra oficina. Oficina: ul. Poprzeczna 1, 28-100 Busko-Zdrój, Polonia, abierta de lunes a viernes de 8:00 a 18:00 y sábados de 9:00 a 15:00. Email: biuro@autokar-busko.pl. Autokar Busko — alquiler de autocares en Busko-Zdrój con el que puede contar desde la primera consulta hasta el último kilómetro.",
       },
     ],
   },
   fr: {
-    h2: "MUSZKIETER Group — la plus grande entreprise de transport de passagers de la voïvodie de Sainte-Croix (Pologne)",
+    h2: "Autokar Busko — votre transporteur à Busko-Zdrój, Ponidzie (Pologne)",
     sections: [
       {
         h3: "Qui nous sommes et quelle flotte nous exploitons",
-        p: "Wynajem-Autobus.pl est le site officiel de MUSZKIETER Group — une entreprise familiale de transport de passagers basée à Kielce, en Pologne, en activité ininterrompue depuis 1997. Nous sommes spécialisés dans la location d'autocars, d'autobus et de minibus pour les particuliers, les entreprises et les institutions à Kielce, dans la voïvodie de Sainte-Croix et dans toute la Pologne. Nous exploitons la plus grande flotte de la région — 180 véhicules de classe Euro 6, dont des autocars touristiques de 50 places, des midibus de 35 places, des minibus VIP de 17 places et des navettes de 9 places (Volkswagen Transporter). Nous disposons de notre propre atelier de service, ce qui nous permet de gérer plusieurs groupes simultanément tout en maintenant chaque véhicule dans un état technique constamment élevé.",
+        p: "autokar-busko.pl est le site officiel d'Autokar Busko — une entreprise familiale de transport de passagers basée à Busko-Zdrój, en Pologne, en activité ininterrompue depuis 1997. Nous sommes spécialisés dans la location d'autocars, d'autobus et de minibus pour les particuliers, les entreprises et les institutions à Busko-Zdrój, dans la région de Ponidzie et dans toute la Pologne. Nous exploitons la plus grande flotte de la région — 180 véhicules de classe Euro 6, dont des autocars touristiques de 50 places, des midibus de 35 places, des minibus VIP de 17 places et des navettes de 9 places (Volkswagen Transporter). Nous disposons de notre propre atelier de service, ce qui nous permet de gérer plusieurs groupes simultanément tout en maintenant chaque véhicule dans un état technique constamment élevé.",
       },
       {
         h3: "Quels services de transport nous proposons",
-        p: "Plus de 500 entreprises et familles nous font confiance chaque année. Nous proposons la location d'autocars pour les mariages (transport des invités à Kielce et dans les environs), les voyages scolaires (nationaux et internationaux), les pèlerinages religieux (Częstochowa, Vatican, Medjugorje, Lourdes, Fátima), les transferts aéroport (Varsovie-Chopin, Varsovie-Modlin, Cracovie-Balice, Katowice-Pyrzowice, Wrocław), les séjours au ski à Zakopane, Białka Tatrzańska et Bukowina Tatrzańska dans les Tatras, le transport d'entreprise et les déplacements de délégations, ainsi que les trajets vers les concerts, événements sportifs et conférences. Chaque véhicule est équipé de climatisation, de sièges inclinables et d'un système multimédia ; certains modèles disposent également de toilettes et du WiFi. Chaque réservation inclut un chauffeur expérimenté titulaire du permis catégorie D — nous ne louons pas de véhicules sans chauffeur.",
+        p: "Plus de 500 entreprises et familles nous font confiance chaque année. Nous proposons la location d'autocars pour les mariages (transport des invités à Busko-Zdrój et dans les environs), les voyages scolaires (nationaux et internationaux), les pèlerinages religieux (Częstochowa, Vatican, Medjugorje, Lourdes, Fátima), les transferts aéroport (Varsovie-Chopin, Varsovie-Modlin, Cracovie-Balice, Katowice-Pyrzowice, Wrocław), les séjours au ski à Zakopane, Białka Tatrzańska et Bukowina Tatrzańska dans les Tatras, le transport d'entreprise et les déplacements de délégations, ainsi que les trajets vers les concerts, événements sportifs et conférences. Chaque véhicule est équipé de climatisation, de sièges inclinables et d'un système multimédia ; certains modèles disposent également de toilettes et du WiFi. Chaque réservation inclut un chauffeur expérimenté titulaire du permis catégorie D — nous ne louons pas de véhicules sans chauffeur.",
       },
       {
         h3: "Ce qui nous distingue",
-        p: "Ce qui nous distingue : 28 ans d'expérience continue dans le transport de passagers (depuis 1997), atelier et station de contrôle technique propres, chauffeurs certifiés permis D avec formation RCP, assurance passagers complète, licences WITD nationale et internationale, et une note de 4,8/5 sur Google fondée sur plus de 250 avis clients vérifiés. La réservation prend 30 minutes et vous recevrez votre devis le jour même. Appelez le +48 601 076 652 ou , écrivez-nous sur WhatsApp, remplissez le formulaire de contact ou rendez-vous à notre bureau. Bureau : ul. Kolberga 9, 25-620 Kielce, Pologne, ouvert du lundi au vendredi de 8h00 à 18h00 et le samedi de 9h00 à 15h00. E-mail : biuro@muszkieter.pl. MUSZKIETER Group — location d'autocars à Kielce sur laquelle vous pouvez compter de la première demande au dernier kilomètre.",
+        p: "Ce qui nous distingue : 28 ans d'expérience continue dans le transport de passagers (depuis 1997), atelier et station de contrôle technique propres, chauffeurs certifiés permis D avec formation RCP, assurance passagers complète, licences WITD nationale et internationale, et une note de 4,8/5 sur Google fondée sur plus de 250 avis clients vérifiés. La réservation prend 30 minutes et vous recevrez votre devis le jour même. Appelez le +48 41 345 32 25 ou +48 609 69 19 12, écrivez-nous sur WhatsApp, remplissez le formulaire de contact ou rendez-vous à notre bureau. Bureau : ul. Poprzeczna 1, 28-100 Busko-Zdrój, Pologne, ouvert du lundi au vendredi de 8h00 à 18h00 et le samedi de 9h00 à 15h00. E-mail : biuro@autokar-busko.pl. Autokar Busko — location d'autocars à Busko-Zdrój sur laquelle vous pouvez compter de la première demande au dernier kilomètre.",
       },
     ],
   },
@@ -383,8 +383,8 @@ export default async function HomePage({
           <h2 className="text-3xl font-black mb-4">{quickHeading[activeLang]}</h2>
           <p className="text-gray-300 mb-8 text-lg">{quickBody[activeLang]}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="tel:601076652" variant="phone">
-              📞 +48 601 076 652 lub +48 41 345 32 25
+            <CTAButton href="tel:413453225" variant="phone">
+              📞 +48 41 345 32 25 lub +48 609 69 19 12
             </CTAButton>
             <CTAButton
               href={`/${activeLang}/kontakt`}
@@ -443,7 +443,7 @@ export default async function HomePage({
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-black mb-4">{finalHeading[activeLang]}</h2>
           <p className="text-lg mb-8 font-medium">{finalBody[activeLang]}</p>
-          <CTAButton href="tel:601076652" variant="secondary">
+          <CTAButton href="tel:413453225" variant="secondary">
             {finalCta[activeLang]}
           </CTAButton>
         </div>
