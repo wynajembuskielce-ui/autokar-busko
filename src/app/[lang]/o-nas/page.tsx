@@ -8,33 +8,33 @@ function toLang(lang: string): Language {
 }
 
 const metaTitles: Record<Language, string> = {
-  pl: "O nas — Muszkieter Krakow | Alfa Bus | Wynajem Autokarow od 1997",
-  en: "About Us — Muszkieter Krakow | Coach Hire Since 1997",
-  de: "Uber uns — Muszkieter Krakow | Busmiete seit 1997",
-  ru: "О нас — Muszkieter Krakow | Аренда автобусов с 1997",
-  ar: "من نحن — Muszkieter Krakow | تأجير الحافلات منذ 1997",
-  es: "Sobre nosotros — Muszkieter Krakow | Alquiler desde 1997",
-  fr: "A propos — Muszkieter Krakow | Location depuis 1997",
+  pl: "O nas — Autokar Busko | Alfa Bus | Wynajem Autokarow od 1997",
+  en: "About Us — Autokar Busko | Coach Hire Since 1997",
+  de: "Uber uns — Autokar Busko | Busmiete seit 1997",
+  ru: "О нас — Autokar Busko | Аренда автобусов с 1997",
+  ar: "من نحن — Autokar Busko | تأجير الحافلات منذ 1997",
+  es: "Sobre nosotros — Autokar Busko | Alquiler desde 1997",
+  fr: "A propos — Autokar Busko | Location depuis 1997",
 };
 
 const metaDescriptions: Record<Language, string> = {
-  pl: "Poznaj firme Muszkieter Krakow. 27 lat doswiadczenia, 180 pojazdow, zalozyciele Anna i Rafal Chmiel. Sprawdz nasze referencje i artykuly prasowe.",
-  en: "Meet Muszkieter Krakow. 27 years of experience, 180 vehicles, founded by Anna and Rafal Chmiel. See references and press mentions.",
-  de: "Lernen Sie Muszkieter Krakow kennen. 27 Jahre Erfahrung, 180 Fahrzeuge, gegrundet von Anna und Rafal Chmiel.",
-  ru: "Познакомьтесь с Muszkieter Krakow: 27 лет опыта, 180 машин, основана Анной и Рафалом Хмель.",
-  ar: "تعرّف على Muszkieter Krakow: 27 سنة خبرة و180 مركبة، أسسها آنا ورافاو خميل.",
-  es: "Conoce Muszkieter Krakow: 27 anos de experiencia, 180 vehiculos, fundada por Anna y Rafal Chmiel.",
-  fr: "Decouvrez Muszkieter Krakow: 27 ans d'experience, 180 vehicules, fondee par Anna et Rafal Chmiel.",
+  pl: "Poznaj firme Autokar Busko. 27 lat doswiadczenia, 180 pojazdow, zalozyciele Anna i Rafal Chmiel. Sprawdz nasze referencje i artykuly prasowe.",
+  en: "Meet Autokar Busko. 27 years of experience, 180 vehicles, founded by Anna and Rafal Chmiel. See references and press mentions.",
+  de: "Lernen Sie Autokar Busko kennen. 27 Jahre Erfahrung, 180 Fahrzeuge, gegrundet von Anna und Rafal Chmiel.",
+  ru: "Познакомьтесь с Autokar Busko: 27 лет опыта, 180 машин, основана Анной и Рафалом Хмель.",
+  ar: "تعرّف على Autokar Busko: 27 سنة خبرة و180 مركبة، أسسها آنا ورافاو خميل.",
+  es: "Conoce Autokar Busko: 27 anos de experiencia, 180 vehiculos, fundada por Anna y Rafal Chmiel.",
+  fr: "Decouvrez Autokar Busko: 27 ans d'experience, 180 vehicules, fondee par Anna et Rafal Chmiel.",
 };
 
 const heroTitles: Record<Language, string> = {
-  pl: "O nas — Muszkieter / Alfa Bus Krakow",
-  en: "About Us — Muszkieter / Alfa Bus Krakow",
-  de: "Uber uns — Muszkieter / Alfa Bus Krakow",
-  ru: "О нас — Muszkieter / Alfa Bus Krakow",
-  ar: "من نحن — Muszkieter / Alfa Bus Krakow",
-  es: "Sobre nosotros — Muszkieter / Alfa Bus Krakow",
-  fr: "A propos — Muszkieter / Alfa Bus Krakow",
+  pl: "O nas — Autokar Busko",
+  en: "About Us — Autokar Busko",
+  de: "Uber uns — Autokar Busko",
+  ru: "О нас — Autokar Busko",
+  ar: "من نحن — Autokar Busko",
+  es: "Sobre nosotros — Autokar Busko",
+  fr: "A propos — Autokar Busko",
 };
 
 const heroSubtitles: Record<Language, string> = {
@@ -48,24 +48,24 @@ const heroSubtitles: Record<Language, string> = {
 };
 
 const ctaTexts: Record<Language, string> = {
-  pl: "Zadzwon do wlasciciela — +48 601 076 652 lub ",
-  en: "Call the owner — +48 601 076 652 lub ",
-  de: "Inhaber anrufen — +48 601 076 652 lub ",
-  ru: "Позвонить владельцу — +48 601 076 652 lub ",
-  ar: "اتصل بالمالك — +48 601 076 652 lub ",
-  es: "Llamar al propietario — +48 601 076 652 lub ",
-  fr: "Appeler le proprietaire — +48 601 076 652 lub ",
+  pl: "Zadzwon do wlasciciela — +48 41 345 32 25 lub +48 609 69 19 12",
+  en: "Call the owner — +48 41 345 32 25 lub +48 609 69 19 12",
+  de: "Inhaber anrufen — +48 41 345 32 25 lub +48 609 69 19 12",
+  ru: "Позвонить владельцу — +48 41 345 32 25 lub +48 609 69 19 12",
+  ar: "اتصل بالمالك — +48 41 345 32 25 lub +48 609 69 19 12",
+  es: "Llamar al propietario — +48 41 345 32 25 lub +48 609 69 19 12",
+  fr: "Appeler le proprietaire — +48 41 345 32 25 lub +48 609 69 19 12",
 };
 
 const sectionTitles = {
   history: {
-    pl: "27 lat na rynku — historia Muszkietera",
-    en: "27 years in the market — Muszkieter story",
-    de: "27 Jahre am Markt — Geschichte von Muszkieter",
-    ru: "27 лет на рынке — история Muszkieter",
-    ar: "27 عامًا في السوق — قصة Muszkieter",
-    es: "27 anos en el mercado — historia de Muszkieter",
-    fr: "27 ans sur le marche — histoire de Muszkieter",
+    pl: "27 lat na rynku — historia Autokar Busko",
+    en: "27 years in the market — Autokar Busko story",
+    de: "27 Jahre am Markt — Geschichte von Autokar Busko",
+    ru: "27 лет на рынке — история Autokar Busko",
+    ar: "27 عامًا في السوق — قصة Autokar Busko",
+    es: "27 anos en el mercado — historia de Autokar Busko",
+    fr: "27 ans sur le marche — histoire de Autokar Busko",
   },
   owner: {
     pl: "Rafal Chmiel — wspolzalozyciel i wlasciciel",
@@ -142,23 +142,23 @@ const sectionTitles = {
 };
 
 const historyText: Record<Language, string> = {
-  pl: "Firma Muszkieter zostala zalozona w 1997 roku w Krakowie przez Anne i Rafala Chmiel. Zaczynalismy od malej lokalnej dzialalnosci i kilku kursow miesiecznie. Z roku na rok rosly wymagania klientow, a my inwestowalismy w ludzi, pojazdy i standard obslugi. Dzisiaj to stabilna marka transportowa z flota 180 pojazdow i zespolem ponad 100 pracownikow. Obslugujemy szkoly, firmy, biura podrozy, parafie i klientow indywidualnych w Polsce i Europie. Przez 27 lat najwazniejsze pozostalo niezmienne: bezpieczenstwo pasazerow, punktualnosc i uczciwa komunikacja. Posiadamy certyfikaty ITD i WITD oraz licencje przewozowa. Kazdy kurs traktujemy jak odpowiedzialnosc za ludzi, ktorzy chca po prostu spokojnie i na czas dotrzec do celu.",
-  en: "Muszkieter was founded in 1997 in Krakow by Anna and Rafal Chmiel. We started as a small local transport business with only a few trips per month. As client expectations grew, we consistently invested in people, vehicles and service quality. Today we are a stable transport brand with a fleet of 180 vehicles and a team of 100+ employees. We serve schools, companies, travel agencies, parishes and private clients across Poland and Europe. Over 27 years one principle has stayed the same: passenger safety, punctuality and honest communication. We operate with ITD and WITD certificates and official transport license. Every trip is treated as responsibility for people who simply need to arrive safely and on time.",
-  de: "Muszkieter wurde 1997 in Krakow von Anna und Rafal Chmiel gegrundet. Wir begannen als kleines lokales Unternehmen mit wenigen Fahrten pro Monat. Mit steigenden Kundenerwartungen investierten wir konsequent in Personal, Fahrzeuge und Servicequalitat. Heute sind wir eine stabile Transportmarke mit 180 Fahrzeugen und einem Team von mehr als 100 Mitarbeitenden. Wir bedienen Schulen, Unternehmen, Reiseburos, Pfarreien und Privatkunden in Polen und Europa. Seit 27 Jahren bleiben unsere Grundwerte gleich: Sicherheit, Punktlichkeit und ehrliche Kommunikation. Wir arbeiten mit ITD- und WITD-Zertifikaten sowie offizieller Transportlizenz.",
-  ru: "Компания Muszkieter была основана в 1997 году в Кельце Анной и Рафалом Хмель. Мы начинали как небольшой локальный перевозчик с несколькими рейсами в месяц. С ростом ожиданий клиентов мы последовательно инвестировали в людей, транспорт и качество сервиса. Сегодня это стабильный бренд с автопарком 180 машин и командой из 100+ сотрудников. Мы обслуживаем школы, компании, турфирмы, приходы и частных клиентов в Польше и Европе. Уже 27 лет неизменны наши принципы: безопасность, пунктуальность и честная коммуникация. Работаем с сертификатами ITD/WITD и лицензией перевозчика.",
-  ar: "تأسست شركة Muszkieter عام 1997 في كيلتسه على يد آنا ورافاو خميل. بدأنا كشركة محلية صغيرة بعدد محدود من الرحلات شهريًا. ومع نمو توقعات العملاء، استثمرنا باستمرار في الكوادر والمركبات وجودة الخدمة. اليوم نحن علامة نقل مستقرة بأسطول يضم 180 مركبة وفريق يزيد عن 100 موظف. نخدم المدارس والشركات ومكاتب السفر والرعايا والعملاء الأفراد في بولندا وأوروبا. طوال 27 عامًا بقيت مبادئنا ثابتة: السلامة والالتزام بالمواعيد والوضوح في التواصل. نعمل بشهادات ITD وWITD وترخيص نقل رسمي.",
-  es: "La empresa Muszkieter fue fundada en 1997 en Krakow por Anna y Rafal Chmiel. Empezamos como una pequena operadora local con pocos viajes al mes. Con el tiempo crecieron las expectativas de los clientes y nosotros invertimos en personas, vehiculos y calidad de servicio. Hoy somos una marca estable con una flota de 180 vehiculos y un equipo de mas de 100 empleados. Atendemos escuelas, empresas, agencias de viaje, parroquias y clientes privados en Polonia y Europa. Tras 27 anos seguimos con los mismos principios: seguridad, puntualidad y comunicacion honesta. Operamos con certificados ITD/WITD y licencia oficial.",
-  fr: "La societe Muszkieter a ete fondee en 1997 a Krakow par Anna et Rafal Chmiel. Nous avons commence comme petite entreprise locale avec peu de trajets mensuels. Avec l'evolution des attentes clients, nous avons investi dans les equipes, les vehicules et la qualite de service. Aujourd'hui, nous sommes une marque de transport stable avec 180 vehicules et plus de 100 employes. Nous servons ecoles, entreprises, agences, paroisses et clients prives en Pologne et en Europe. Depuis 27 ans, nos principes restent les memes: securite, ponctualite et communication honnete. Nous operons avec certificats ITD/WITD et licence officielle.",
+  pl: "Firma Autokar Busko zostala zalozona w 1997 roku w Krakowie przez Anne i Rafala Chmiel. Zaczynalismy od malej lokalnej dzialalnosci i kilku kursow miesiecznie. Z roku na rok rosly wymagania klientow, a my inwestowalismy w ludzi, pojazdy i standard obslugi. Dzisiaj to stabilna marka transportowa z flota 180 pojazdow i zespolem ponad 100 pracownikow. Obslugujemy szkoly, firmy, biura podrozy, parafie i klientow indywidualnych w Polsce i Europie. Przez 27 lat najwazniejsze pozostalo niezmienne: bezpieczenstwo pasazerow, punktualnosc i uczciwa komunikacja. Posiadamy certyfikaty ITD i WITD oraz licencje przewozowa. Kazdy kurs traktujemy jak odpowiedzialnosc za ludzi, ktorzy chca po prostu spokojnie i na czas dotrzec do celu.",
+  en: "Autokar Busko was founded in 1997 in Krakow by Anna and Rafal Chmiel. We started as a small local transport business with only a few trips per month. As client expectations grew, we consistently invested in people, vehicles and service quality. Today we are a stable transport brand with a fleet of 180 vehicles and a team of 100+ employees. We serve schools, companies, travel agencies, parishes and private clients across Poland and Europe. Over 27 years one principle has stayed the same: passenger safety, punctuality and honest communication. We operate with ITD and WITD certificates and official transport license. Every trip is treated as responsibility for people who simply need to arrive safely and on time.",
+  de: "Autokar Busko wurde 1997 in Krakow von Anna und Rafal Chmiel gegrundet. Wir begannen als kleines lokales Unternehmen mit wenigen Fahrten pro Monat. Mit steigenden Kundenerwartungen investierten wir konsequent in Personal, Fahrzeuge und Servicequalitat. Heute sind wir eine stabile Transportmarke mit 180 Fahrzeugen und einem Team von mehr als 100 Mitarbeitenden. Wir bedienen Schulen, Unternehmen, Reiseburos, Pfarreien und Privatkunden in Polen und Europa. Seit 27 Jahren bleiben unsere Grundwerte gleich: Sicherheit, Punktlichkeit und ehrliche Kommunikation. Wir arbeiten mit ITD- und WITD-Zertifikaten sowie offizieller Transportlizenz.",
+  ru: "Компания Autokar Busko была основана в 1997 году в Кельце Анной и Рафалом Хмель. Мы начинали как небольшой локальный перевозчик с несколькими рейсами в месяц. С ростом ожиданий клиентов мы последовательно инвестировали в людей, транспорт и качество сервиса. Сегодня это стабильный бренд с автопарком 180 машин и командой из 100+ сотрудников. Мы обслуживаем школы, компании, турфирмы, приходы и частных клиентов в Польше и Европе. Уже 27 лет неизменны наши принципы: безопасность, пунктуальность и честная коммуникация. Работаем с сертификатами ITD/WITD и лицензией перевозчика.",
+  ar: "تأسست شركة Autokar Busko عام 1997 في كيلتسه على يد آنا ورافاو خميل. بدأنا كشركة محلية صغيرة بعدد محدود من الرحلات شهريًا. ومع نمو توقعات العملاء، استثمرنا باستمرار في الكوادر والمركبات وجودة الخدمة. اليوم نحن علامة نقل مستقرة بأسطول يضم 180 مركبة وفريق يزيد عن 100 موظف. نخدم المدارس والشركات ومكاتب السفر والرعايا والعملاء الأفراد في بولندا وأوروبا. طوال 27 عامًا بقيت مبادئنا ثابتة: السلامة والالتزام بالمواعيد والوضوح في التواصل. نعمل بشهادات ITD وWITD وترخيص نقل رسمي.",
+  es: "La empresa Autokar Busko fue fundada en 1997 en Krakow por Anna y Rafal Chmiel. Empezamos como una pequena operadora local con pocos viajes al mes. Con el tiempo crecieron las expectativas de los clientes y nosotros invertimos en personas, vehiculos y calidad de servicio. Hoy somos una marca estable con una flota de 180 vehiculos y un equipo de mas de 100 empleados. Atendemos escuelas, empresas, agencias de viaje, parroquias y clientes privados en Polonia y Europa. Tras 27 anos seguimos con los mismos principios: seguridad, puntualidad y comunicacion honesta. Operamos con certificados ITD/WITD y licencia oficial.",
+  fr: "La societe Autokar Busko a ete fondee en 1997 a Krakow par Anna et Rafal Chmiel. Nous avons commence comme petite entreprise locale avec peu de trajets mensuels. Avec l'evolution des attentes clients, nous avons investi dans les equipes, les vehicules et la qualite de service. Aujourd'hui, nous sommes une marque de transport stable avec 180 vehicules et plus de 100 employes. Nous servons ecoles, entreprises, agences, paroisses et clients prives en Pologne et en Europe. Depuis 27 ans, nos principes restent les memes: securite, ponctualite et communication honnete. Nous operons avec certificats ITD/WITD et licence officielle.",
 };
 
 const ownerText: Record<Language, string> = {
-  pl: "Przedsiebiorca z Krakowa i wspolzalozyciel Muszkietera razem z Anna Chmiel. Wlasciciel Alfa Bus Sp. z o.o. i wieloletni dzialacz branzy transportowej w regionie swietokrzyskim. W 2021 roku zlozyl oferte zakupu udzialow w MPK Krakow — to wyraz skali i ambicji firmy.",
-  en: "Entrepreneur from Krakow and co-founder of Muszkieter together with Anna Chmiel. Owner of Alfa Bus Sp. z o.o. and long-term transport sector leader in the region. In 2021 he submitted an offer to acquire shares in MPK Krakow.",
-  de: "Unternehmer aus Krakow und Mitgrunder von Muszkieter zusammen mit Anna Chmiel. Inhaber von Alfa Bus Sp. z o.o. und seit Jahren in der regionalen Transportbranche aktiv. 2021 reichte er ein Angebot fur MPK Krakow ein.",
-  ru: "Предприниматель из Кельце и сооснователь Muszkieter вместе с Анной Хмель. Владелец Alfa Bus Sp. z o.o. и многолетний участник транспортной отрасли региона. В 2021 году подал предложение по MPK Krakow.",
-  ar: "رائد أعمال من كيلتسه ومؤسس مشارك لشركة Muszkieter مع آنا خميل. مالك Alfa Bus Sp. z o.o. وناشط منذ سنوات في قطاع النقل الإقليمي. في 2021 قدم عرضًا لشراء حصص في MPK Krakow.",
-  es: "Empresario de Krakow y cofundador de Muszkieter junto con Anna Chmiel. Propietario de Alfa Bus Sp. z o.o. y activo durante anos en el sector transporte regional. En 2021 presento oferta para MPK Krakow.",
-  fr: "Entrepreneur de Krakow et cofondateur de Muszkieter avec Anna Chmiel. Proprietaire de Alfa Bus Sp. z o.o. et acteur du transport regional depuis des annees. En 2021, il a soumis une offre pour MPK Krakow.",
+  pl: "Przedsiebiorca z Krakowa i wspolzalozyciel Autokar Busko razem z Anna Chmiel. Wlasciciel Alfa Bus Sp. z o.o. i wieloletni dzialacz branzy transportowej w regionie swietokrzyskim. W 2021 roku zlozyl oferte zakupu udzialow w MPK Krakow — to wyraz skali i ambicji firmy.",
+  en: "Entrepreneur from Krakow and co-founder of Autokar Busko together with Anna Chmiel. Owner of Alfa Bus Sp. z o.o. and long-term transport sector leader in the region. In 2021 he submitted an offer to acquire shares in MPK Krakow.",
+  de: "Unternehmer aus Krakow und Mitgrunder von Autokar Busko zusammen mit Anna Chmiel. Inhaber von Alfa Bus Sp. z o.o. und seit Jahren in der regionalen Transportbranche aktiv. 2021 reichte er ein Angebot fur MPK Krakow ein.",
+  ru: "Предприниматель из Кельце и сооснователь Autokar Busko вместе с Анной Хмель. Владелец Alfa Bus Sp. z o.o. и многолетний участник транспортной отрасли региона. В 2021 году подал предложение по MPK Krakow.",
+  ar: "رائد أعمال من كيلتسه ومؤسس مشارك لشركة Autokar Busko مع آنا خميل. مالك Alfa Bus Sp. z o.o. وناشط منذ سنوات في قطاع النقل الإقليمي. في 2021 قدم عرضًا لشراء حصص في MPK Krakow.",
+  es: "Empresario de Krakow y cofundador de Autokar Busko junto con Anna Chmiel. Propietario de Alfa Bus Sp. z o.o. y activo durante anos en el sector transporte regional. En 2021 presento oferta para MPK Krakow.",
+  fr: "Entrepreneur de Krakow et cofondateur de Autokar Busko avec Anna Chmiel. Proprietaire de Alfa Bus Sp. z o.o. et acteur du transport regional depuis des annees. En 2021, il a soumis une offre pour MPK Krakow.",
 };
 
 const linkedinLabels: Record<Language, string> = {
@@ -219,25 +219,25 @@ const statsByLang: Record<Language, Array<{ number: string; label: string }>> = 
 const pressLinks = [
   {
     source: "Echo Dnia",
-    title: "Muszkieter wznawia kursy — pierwsze polaczenia juz w majowke",
+    title: "Autokar Busko wznawia kursy — pierwsze polaczenia juz w majowke",
     url: "https://echodnia.eu/swietokrzyskie/muszkieter-wznawia-kursy-pierwsze-polaczenia-juz-w-majowke-zobacz-rozklad-jazdy/ar/c1-14945916",
-    description: "Echo Dnia o wznowieniu polaczen regularnych Muszkietera po przerwie",
+    description: "Echo Dnia o wznowieniu polaczen regularnych Autokar Busko po przerwie",
   },
   {
     source: "Echo Dnia",
     title: "Dramat firm transportowych ze Swietokrzyskiego",
     url: "https://echodnia.eu/swietokrzyskie/dramat-firm-transportowych-ze-swietokrzyskiego-brakuje-pieniedzy-na-pensje-zus-kredyty-leasingi/ar/c1-14933884",
-    description: "Glos wlasciciela Muszkietera w trudnym czasie dla branzy transportowej",
+    description: "Glos wlasciciela Autokar Busko w trudnym czasie dla branzy transportowej",
   },
   {
     source: "Echo Dnia — archiwum",
-    title: "Wszystkie artykuly o Muszkieter Krakow",
+    title: "Wszystkie artykuly o Autokar Busko",
     url: "https://echodnia.eu/swietokrzyskie/tag/muszkieter-krakow",
-    description: "Pelne archiwum artykulow prasowych o firmie Muszkieter w Echo Dnia",
+    description: "Pelne archiwum artykulow prasowych o firmie Autokar Busko w Echo Dnia",
   },
   {
     source: "wKrakowie.info",
-    title: "Wspolwlasciciel firmy Muszkieter chce kupic udzialy w MPK",
+    title: "Wspolwlasciciel firmy Autokar Busko chce kupic udzialy w MPK",
     url: "https://wkielcach.info/aktualnosci/wspolwlasciciel-firmy-muszkieter-chce-kupic-udzialy-w-mpk/",
     description: "Rafal Chmiel zlozyl oferte zakupu udzialow w MPK Krakow — dowod na skale ambicji",
   },
@@ -245,17 +245,17 @@ const pressLinks = [
     source: "Gazeta Wyborcza Krakow",
     title: "Komercyjna konkurencja chce wejsc do MPK Krakow",
     url: "https://krakow.wyborcza.pl/krakow/7,47262,26957351,komercyjna-konkurencja-chce-wejsc-do-mpk-krakow-przez-odkupienie.html",
-    description: "Gazeta Wyborcza o planach ekspansji Muszkietera na rynek komunikacji miejskiej",
+    description: "Gazeta Wyborcza o planach ekspansji Autokar Busko na rynek komunikacji miejskiej",
   },
   {
     source: "Radio Krakow",
-    title: "Muszkieter w Radio Krakow",
+    title: "Autokar Busko w Radio Krakow",
     url: "https://radiokrakow.pl/866558/post-3268/",
-    description: "Wywiad z przedstawicielem firmy Muszkieter w regionalnym radiu",
+    description: "Wywiad z przedstawicielem firmy Autokar Busko w regionalnym radiu",
   },
   {
     source: "Radio Krakow",
-    title: "Muszkieter w Radio Krakow (2)",
+    title: "Autokar Busko w Radio Krakow (2)",
     url: "https://radiokrakow.pl/771105/post-40317/",
     description: "Kolejny wywiad w Radio Krakow",
   },
@@ -279,7 +279,7 @@ const verificationLinks = [
     url: "https://rejestr.io/firmy/anna-chmiel-uslugi-handel-transport",
   },
   {
-    label: "Oferteo.pl — Muszkieter",
+    label: "Oferteo.pl — Autokar Busko",
     url: "https://www.oferteo.pl/muszkieter/firma/3610294",
   },
   {
@@ -295,37 +295,37 @@ const verificationLinks = [
 const placeholderReviews: Record<Language, Array<{ text: string; author: string; stars: number }>> = {
   pl: [
     { text: "Profesjonalna obsluga, kierowca punktualny, autokar czysty. Polecam dla firm.", author: "Klient korporacyjny, Krakow", stars: 5 },
-    { text: "Juz po raz trzeci korzystamy z Muszkietera na wycieczke szkolna. Zawsze bez zarzutu.", author: "Nauczyciel, Szkola Podstawowa nr 14 Krakow", stars: 5 },
+    { text: "Juz po raz trzeci korzystamy z Autokar Busko na wycieczke szkolna. Zawsze bez zarzutu.", author: "Nauczyciel, Szkola Podstawowa nr 14 Krakow", stars: 5 },
     { text: "Bus na wesele przyszedl punktualnie, kierowca bardzo uprzejmy. Goscie zadowoleni.", author: "Klient weselny, okolice Krakowa", stars: 5 },
   ],
   en: [
     { text: "Professional service, punctual driver, clean coach. Great option for business events.", author: "Corporate client, Krakow", stars: 5 },
-    { text: "We already used Muszkieter three times for school trips. Always reliable.", author: "Teacher, Primary School No. 14 Krakow", stars: 5 },
+    { text: "We already used Autokar Busko three times for school trips. Always reliable.", author: "Teacher, Primary School No. 14 Krakow", stars: 5 },
     { text: "Wedding bus arrived on time, driver was very polite. Guests were happy.", author: "Wedding client, Krakow area", stars: 5 },
   ],
   de: [
     { text: "Professioneller Service, punktlicher Fahrer, sauberer Bus. Sehr gut fur Firmen.", author: "Firmenkunde, Krakow", stars: 5 },
-    { text: "Wir haben Muszkieter bereits dreimal fur Schulausfluge gebucht. Immer zuverlassig.", author: "Lehrkraft, Grundschule Nr. 14 Krakow", stars: 5 },
+    { text: "Wir haben Autokar Busko bereits dreimal fur Schulausfluge gebucht. Immer zuverlassig.", author: "Lehrkraft, Grundschule Nr. 14 Krakow", stars: 5 },
     { text: "Der Hochzeitsbus war punktlich, der Fahrer sehr hoflich. Gaste zufrieden.", author: "Hochzeitskunde, Region Krakow", stars: 5 },
   ],
   ru: [
     { text: "Профессиональный сервис, пунктуальный водитель, чистый автобус. Отлично для компаний.", author: "Корпоративный клиент, Кельце", stars: 5 },
-    { text: "Уже третий раз едем с Muszkieter на школьную поездку. Всегда без проблем.", author: "Учитель, школа №14 Кельце", stars: 5 },
+    { text: "Уже третий раз едем с Autokar Busko на школьную поездку. Всегда без проблем.", author: "Учитель, школа №14 Кельце", stars: 5 },
     { text: "Автобус на свадьбу прибыл вовремя, водитель вежливый. Гости довольны.", author: "Свадебный клиент, окрестности Кельце", stars: 5 },
   ],
   ar: [
     { text: "خدمة احترافية وسائق ملتزم وحافلة نظيفة. خيار ممتاز للشركات.", author: "عميل شركات، كيلتسه", stars: 5 },
-    { text: "هذه المرة الثالثة التي نستخدم فيها Muszkieter لرحلة مدرسية. دائمًا ممتاز.", author: "معلم، مدرسة ابتدائية رقم 14 كيلتسه", stars: 5 },
+    { text: "هذه المرة الثالثة التي نستخدم فيها Autokar Busko لرحلة مدرسية. دائمًا ممتاز.", author: "معلم، مدرسة ابتدائية رقم 14 كيلتسه", stars: 5 },
     { text: "حافلة الزفاف وصلت في الوقت المحدد والسائق كان مهذبًا جدًا.", author: "عميل زفاف، ضواحي كيلتسه", stars: 5 },
   ],
   es: [
     { text: "Servicio profesional, conductor puntual y autocar limpio. Recomendado para empresas.", author: "Cliente corporativo, Krakow", stars: 5 },
-    { text: "Ya es la tercera vez que usamos Muszkieter para una salida escolar. Siempre perfecto.", author: "Docente, Escuela Primaria No. 14 Krakow", stars: 5 },
+    { text: "Ya es la tercera vez que usamos Autokar Busko para una salida escolar. Siempre perfecto.", author: "Docente, Escuela Primaria No. 14 Krakow", stars: 5 },
     { text: "El bus de boda llego puntual y el conductor fue muy amable.", author: "Cliente de boda, area de Krakow", stars: 5 },
   ],
   fr: [
     { text: "Service professionnel, chauffeur ponctuel, autocar propre. Recommande pour entreprises.", author: "Client entreprise, Krakow", stars: 5 },
-    { text: "Troisieme fois avec Muszkieter pour une sortie scolaire. Toujours impeccable.", author: "Enseignant, Ecole Primaire No. 14 Krakow", stars: 5 },
+    { text: "Troisieme fois avec Autokar Busko pour une sortie scolaire. Toujours impeccable.", author: "Enseignant, Ecole Primaire No. 14 Krakow", stars: 5 },
     { text: "Le bus mariage est arrive a l'heure, chauffeur tres courtois. Invites satisfaits.", author: "Client mariage, region de Krakow", stars: 5 },
   ],
 };
@@ -342,7 +342,7 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
 
   return (
     <>
-      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:601076652" />
+      <HeroSection title={heroTitles[l]} subtitle={heroSubtitles[l]} ctaText={ctaTexts[l]} ctaHref="tel:413453225" />
 
       <section className="py-16 px-4 max-w-4xl mx-auto">
         <h2 className="text-3xl font-black text-[#1a1a1a] mb-6">{sectionTitles.history[l]}</h2>
@@ -436,8 +436,8 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
 
       <section className="py-16 px-4 bg-[#f59e0b] text-center">
         <h2 className="text-3xl font-black text-[#1a1a1a] mb-6">{sectionTitles.finalCta[l]}</h2>
-        <CTAButton href="tel:601076652" variant="secondary">
-          📞 +48 601 076 652 lub 
+        <CTAButton href="tel:413453225" variant="secondary">
+          📞 +48 41 345 32 25 lub +48 609 69 19 12
         </CTAButton>
       </section>
     </>

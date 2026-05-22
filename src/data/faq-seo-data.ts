@@ -18,7 +18,7 @@ export type FaqPage = {
 export const faqData: Record<string, FaqPage> = {
   wesele: {
     pageTitle: "Wynajem autokaru na wesele",
-    targetPhrases: ["wynajem autokaru na wesele Kielce", "autokar ślubny Kielce"],
+    targetPhrases: ["wynajem autokaru na wesele Busko-Zdrój", "autokar ślubny Busko-Zdrój"],
     categories: [
       {
         name: "Ceny i organizacja",
@@ -84,7 +84,7 @@ W cenie zawsze masz:
 - ✅ Ubezpieczenie OC + NNW + AC pasażerów
 - ✅ Ozdobienie autokaru białą wstążką (gratis, Twoje dekoracje też mogą być przyklejone)
 
-Dokładną wycenę dla Twojego wesela otrzymasz w 24 godziny - zadzwoń +48 601 076 652 lub wypełnij formularz (/kontakt).`,
+Dokładną wycenę dla Twojego wesela otrzymasz w 24 godziny - zadzwoń +48 41 345 32 25 lub wypełnij formularz (/kontakt).`,
           },
           {
             q: `Czy autokar może być ozdobiony białą wstążką?`,
@@ -107,7 +107,7 @@ Czego NIE robimy:
 - ❌ Otwierania szampana w trakcie jazdy (jak żartują w SPB-Bus: „nikomu jeszcze nie udało się otworzyć szampana w jadącym autokarze, nie brudząc tapicerki" - fakt, mamy podobne doświadczenia). Toast szampanem na postojach - jak najbardziej.
 - ❌ Naklejek z silnym klejem które zniszczyłyby lakier - używamy delikatnych taśm dwustronnych usuwalnych
 
-Czas montażu dekoracji: Twoje dekoracje przyklejamy 30 minut przed pierwszym kursem. Jeśli przywieziesz dekoracje wcześniej do biura przy ul. Kolberga 9, 25-516 Kielce - zamontujemy zawczasu.`,
+Czas montażu dekoracji: Twoje dekoracje przyklejamy 30 minut przed pierwszym kursem. Jeśli przywieziesz dekoracje wcześniej do biura przy ul. Poprzeczna 1, 28-100 Busko-Zdrój - zamontujemy zawczasu.`,
           },
           {
             q: `Co jeśli wesele kończy się o 4 rano? Jak rozliczamy nocne odwozy?`,
@@ -182,7 +182,7 @@ Mniejsze grupy:
 Procedura wyboru:
 
 1. Pokażemy Ci zdjęcia wszystkich modeli pasujących do Twojego wesela
-2. Możesz przyjść do biura przy ul. Kolberga 9, 25-516 Kielce i obejrzeć autokar na żywo (wcześniejsze umówienie konieczne)
+2. Możesz przyjść do biura przy ul. Poprzeczna 1, 28-100 Busko-Zdrój i obejrzeć autokar na żywo (wcześniejsze umówienie konieczne)
 3. Wybrany model wpisujemy do umowy z numerem rejestracyjnym
 4. Co jeśli autokar się zepsuje przed weselem? - Mamy politykę "zastępczy o tym samym lub wyższym standardzie". Nigdy nie podstawiamy gorszego modelu. Jeśli nasz Setra byłaby niedostępna (awaria, kolizja itp.) - dostajesz inny Setra lub Mercedes Tourismo o tym samym standardzie.
 
@@ -199,7 +199,7 @@ Pamiętaj: ten konkretny autokar musimy zablokować na cały dzień Twojego wese
   },
   wycieczki_szkolne: {
     pageTitle: "Wynajem autokaru na wycieczkę szkolną",
-    targetPhrases: ["autokar wycieczka szkolna Kielce", "transport szkolny"],
+    targetPhrases: ["autokar wycieczka szkolna Busko-Zdrój", "transport szkolny"],
     categories: [
       {
         name: "Bezpieczeństwo",
@@ -271,7 +271,7 @@ Co kontroluje ITD/Policja przed wycieczką szkolną?
 
 Nasza praktyka:
 
-W Muszkieter zachęcamy do takich kontroli. To dla nas darmowy „audyt" potwierdzający, że gramy fair. Współpracujemy z Komendą Miejską Policji w Kielcach od 2008 roku - kontrola nigdy nie wykazała żadnych nieprawidłowości.
+W Autokar Busko zachęcamy do takich kontroli. To dla nas darmowy „audyt" potwierdzający, że gramy fair. Współpracujemy z Komendą Miejską Policji w Kielcach od 2008 roku - kontrola nigdy nie wykazała żadnych nieprawidłowości.
 
 Dla każdego wyjazdu szkolnego dosyłamy mailem komplet skanów:
 - Dowód rejestracyjny autokaru
@@ -299,11 +299,11 @@ Dokument potwierdzający, że kierowca przeszedł 35-godzinny kurs co 5 lat (mod
 Dodatkowe wymogi dla wycieczek szkolnych (nie wszyscy kierowcy je spełniają!):
 - Zaświadczenie o niekaralności z KRK (Krajowy Rejestr Karny) - ważne 6 miesięcy
 - Doświadczenie minimum 3 lata za kierownicą autokaru
-- Brak punktów karnych powyżej 8 (wewnętrzny standard Muszkieter)
+- Brak punktów karnych powyżej 8 (wewnętrzny standard Autokar Busko)
 
 Jak my to weryfikujemy:
 
-W Muszkieter wszystkim kierowcom robimy:
+W Autokar Busko wszystkim kierowcom robimy:
 - Coroczne odświeżenie zaświadczenia o niekaralności
 - Szkolenia z pierwszej pomocy (co 2 lata)
 - Szkolenia z obsługi grup szkolnych (specyficzne - np. jak reagować na atak paniki dziecka, jak rozpoznać problemy zdrowotne)
@@ -355,7 +355,7 @@ Praktyczne wskazówki dla nauczyciela:
           },
           {
             q: `Co jeśli na wycieczce szkolnej dzieci się rozchorują? Apteczka? Awaria?`,
-            a: `To pytanie zadają sobie wszyscy nauczyciele, ale rzadko jest publicznie odpowiadane. W Muszkieter mamy konkretne procedury.
+            a: `To pytanie zadają sobie wszyscy nauczyciele, ale rzadko jest publicznie odpowiadane. W Autokar Busko mamy konkretne procedury.
 
 Apteczka w autokarze:
 
@@ -392,9 +392,9 @@ Awaria autokaru w trasie:
 To rzadkość - nasze autokary przechodzą kontrolę przed każdym wyjazdem (badania okresowe co 6 miesięcy + przedwyjazdowa). Ale jak coś się stanie:
 
 1. Kierowca zjeżdża na pobocze i zabezpiecza pojazd (trójkąt, kamizelki)
-2. Dzwoni na +48 601 076 652 (24h dyspozytor)
+2. Dzwoni na +48 41 345 32 25 (24h dyspozytor)
 3. Podstawiamy zastępczy autokar w ciągu 1-3 godzin (nie 8-9 jak konkurencja)
-4. Mechanicy z naszego serwisu (ul. Kolberga 9, 25-516 Kielce) reagują w pierwszej kolejności
+4. Mechanicy z naszego serwisu (ul. Poprzeczna 1, 28-100 Busko-Zdrój) reagują w pierwszej kolejności
 
 Podczas oczekiwania:
 - Dzieci NIE wychodzą z autokaru na drogę
@@ -461,7 +461,7 @@ Dla stałych szkół-klientów mamy rabat 5-10% na drugą i kolejną wycieczkę 
   },
   impreza_firmowa: {
     pageTitle: "Wynajem autokaru na imprezę firmową",
-    targetPhrases: ["bus na imprezę firmową Kielce", "transport pracowniczy"],
+    targetPhrases: ["bus na imprezę firmową Busko-Zdrój", "transport pracowniczy"],
     categories: [
       {
         name: "Organizacja transportu",
@@ -601,7 +601,7 @@ Wystawiamy także e-faktury w formacie XML (Krajowy System e-Faktur od 2026 obow
   },
   pielgrzymki: {
     pageTitle: "Wynajem autokaru na pielgrzymkę",
-    targetPhrases: ["autokar pielgrzymka Kielce", "transport parafii"],
+    targetPhrases: ["autokar pielgrzymka Busko-Zdrój", "transport parafii"],
     categories: [
       {
         name: "Trasy i koszty",
@@ -699,7 +699,7 @@ Jesteśmy partnerem strategicznym 6 parafii w świętokrzyskim - proboszczowie z
 
 Co możemy zrobić dodatkowo:
 - Ksiądz na pokładzie z mikrofonem (część autokarów ma indywidualne nagłośnienie)
-- Kierownik pielgrzymki (pracownik Muszkieter z doświadczeniem) - opcja płatna 300 zł/dzień
+- Kierownik pielgrzymki (pracownik Autokar Busko z doświadczeniem) - opcja płatna 300 zł/dzień
 - Pomoc przy wsiadaniu seniorów - gratis
 - Dekoracja autokaru (różańce, wstążki) - gratis dla parafii`,
           },
@@ -727,7 +727,7 @@ Wskazówki dla księdza/lektora:
 4. Czas modlitwy - dla 200 km trasy do Częstochowy: różaniec ze wszystkimi tajemnicami zajmuje ok. 1h 15 min - idealnie na połowę drogi
 
 Co możemy dodatkowo:
-- Lektor profesjonalny (pracownik Muszkieter z przygotowaniem) - 300 zł za dzień. Czyta modlitwy, wprowadza w intencje, prowadzi pieśni.
+- Lektor profesjonalny (pracownik Autokar Busko z przygotowaniem) - 300 zł za dzień. Czyta modlitwy, wprowadza w intencje, prowadzi pieśni.
 - Przewodnik duchowy (świecki, ze świadectwem) - 400 zł za dzień
 - Drukowane materiały modlitewne - gratis, mamy magazyn 200+ książeczek z modlitwami pielgrzymkowymi
 
@@ -747,8 +747,8 @@ Zgodnie z prawem kościelnym, msza święta nie może być odprawiana w środku 
     ],
   },
   narty: {
-    pageTitle: "Bus na narty z Kielc",
-    targetPhrases: ["bus na narty Kielce", "transport narciarski Zakopane"],
+    pageTitle: "Bus na narty z Busko-Zdroju",
+    targetPhrases: ["bus na narty Busko-Zdrój", "transport narciarski Zakopane"],
     categories: [
       {
         name: "Wyjazdy narciarskie",
@@ -890,11 +890,11 @@ Rozwiązanie:
 Rozwiązanie:
 - Kierowca monitoruje Yanosik / Google Maps w czasie rzeczywistym
 - Jeśli zablokowanie >2h - zmiana trasy lub zawrócenie (rzadkość, ale możliwe)
-- Komunikacja z biurem - dyspozytor 24h pod +48 601 076 552
+- Komunikacja z biurem - dyspozytor 24h pod +48 41 345 32 25
 
 4. Awaria autokaru w trasie
 Rozwiązanie:
-- Zastępczy autokar podstawiamy w 2-3 godziny (nasz serwis na ul. Kolberga 9)
+- Zastępczy autokar podstawiamy w 2-3 godziny (nasz serwis na ul. Poprzeczna 1)
 - W trasie Kielce -> Zakopane mamy partnerów logistycznych: warsztaty w Włoszczowie, Skomielnej, Krakowie
 - Polisa AC i Assistance pokrywa koszty
 
@@ -925,8 +925,8 @@ Ważne: Klient ma prawo do anulowania bez kosztów jeśli prognoza pogody na dzi
     ],
   },
   lotnisko: {
-    pageTitle: "Transfer grupowy na lotnisko z Kielc",
-    targetPhrases: ["transfer lotnisko Kielce", "bus Kielce Balice Kielce", "transport MSPO Kielce"],
+    pageTitle: "Transfer grupowy na lotnisko z Busko-Zdroju",
+    targetPhrases: ["transfer lotnisko Busko-Zdrój", "bus Busko-Zdrój Balice Busko-Zdrój", "transport MSPO Busko-Zdrój"],
     categories: [
       {
         name: "Transfer lotniskowy",
@@ -1011,7 +1011,7 @@ Inne lotniska z Kielc:
           },
           {
             q: `Co jeśli mój lot ma opóźnienie 3 godziny?`,
-            a: `To najczęstszy stres klientów lotniskowych. W Muszkieter mamy konkretną procedurę - nie zostawiamy Cię na lodzie.
+            a: `To najczęstszy stres klientów lotniskowych. W Autokar Busko mamy konkretną procedurę - nie zostawiamy Cię na lodzie.
 
 Procedura standardowa:
 
@@ -1121,7 +1121,7 @@ Najczęstsze wydarzenia, które obsługujemy:
   },
   cennik: {
     pageTitle: "Cennik wynajmu autokaru i busa",
-    targetPhrases: ["cennik wynajem autokaru Kielce", "ile kosztuje bus z kierowca"],
+    targetPhrases: ["cennik wynajem autokaru Busko-Zdrój", "ile kosztuje bus z kierowca"],
     categories: [
       {
         name: "Pytania o ceny",
@@ -1220,7 +1220,7 @@ Poziom Złoto (16+ zleceń rocznie):
 - Dedykowany dyspozytor (1 osoba, telefonu nie zmienia)
 - Faktura kwartalna (zbiorcze zestawienie)
 - Dostęp do autokarów premium w cenie standard
-- Zaproszenia na firmowe eventy Muszkieter
+- Zaproszenia na firmowe eventy Autokar Busko
 
 Poziom Platynowy (umowa ramowa, 50+ zleceń rocznie):
 - 20-25% rabat (zależnie od wolumenu)
@@ -1263,7 +1263,7 @@ Co NIE jest "rabatem", ale daje oszczędności:
 Jak zapisać się do programu lojalnościowego?
 
 Po trzecim zleceniu automatycznie kwalifikujesz się do Poziomu Brąz. Wystarczy:
-- Zadzwonić +48 601 076 652
+- Zadzwonić +48 41 345 32 25
 - Powiedzieć: "Chcę być w programie stałych klientów"
 - Otrzymasz kartę lojalnościową (numerek do podawania przy każdym zamówieniu).`,
           },
@@ -1272,8 +1272,8 @@ Po trzecim zleceniu automatycznie kwalifikujesz się do Poziomu Brąz. Wystarczy
     ],
   },
   landing: {
-    pageTitle: "Wynajem autokaru z Kielc",
-    targetPhrases: ["wynajem autokaru Kielce", "autokar Kielce cena"],
+    pageTitle: "Wynajem autokaru z Busko-Zdroju",
+    targetPhrases: ["wynajem autokaru Busko-Zdrój", "autokar Busko-Zdrój cena"],
     categories: [
       {
         name: "FAQ rozszerzone",
@@ -1293,9 +1293,9 @@ W praktyce, dla najczęstszych zleceń z Kielc, ceny orientacyjne wyglądają ta
 
 Na cenę wpływa kilka czynników: długość trasy, liczba godzin pracy kierowcy, standard pojazdu (autokar standard vs. premium z fotelami rozkładanymi i WiFi), termin (sezon weselny czerwiec-wrzesień droższy o 15-20%) oraz kierunek (jazda na zachód do Krakowa jest tańsza niż na wschód do Lublina ze względu na infrastrukturę dróg).
 
-W Muszkieter dysponujemy 180 pojazdami od 19 do 80 miejsc - od kameralnych busów Mercedes Sprinter po pełnowymiarowe Setra i Volvo. Dzięki temu dobieramy autokar dopasowany do wielkości grupy, a nie odwrotnie. Mniejsza grupa = mniejszy autokar = niższa cena.
+W Autokar Busko dysponujemy 180 pojazdami od 19 do 80 miejsc - od kameralnych busów Mercedes Sprinter po pełnowymiarowe Setra i Volvo. Dzięki temu dobieramy autokar dopasowany do wielkości grupy, a nie odwrotnie. Mniejsza grupa = mniejszy autokar = niższa cena.
 
-Dokładną wycenę otrzymasz w ciągu 24 godzin - wystarczy zadzwonić pod +48 601 076 652 lub wypełnić formularz kontaktowy (/kontakt). Wycena jest bezpłatna i niezobowiązująca.`,
+Dokładną wycenę otrzymasz w ciągu 24 godzin - wystarczy zadzwonić pod +48 41 345 32 25 lub wypełnić formularz kontaktowy (/kontakt). Wycena jest bezpłatna i niezobowiązująca.`,
           },
           {
             q: `Czy obsługujecie wycieczki z całego województwa świętokrzyskiego?`,
@@ -1317,7 +1317,7 @@ Obsługujemy także atrakcje turystyczne województwa świętokrzyskiego dla gru
 - Pałac Krzyżtopór w Ujeździe (XVII-wieczna ruina, ikona regionu)
 - Sandomierz (Stare Miasto, Wąwóz Królowej Jadwigi)
 
-Zadzwoń pod +48 601 076 652 - pomożemy także zaplanować trasę zwiedzania.`,
+Zadzwoń pod +48 41 345 32 25 - pomożemy także zaplanować trasę zwiedzania.`,
           },
           {
             q: `Jak szybko otrzymam wycenę?`,
@@ -1332,28 +1332,28 @@ Co potrzebujemy do wyceny?
 
 Trzy sposoby kontaktu:
 
-1. Telefon: +48 601 076 652 - najszybszy. Wycena ustna w 5 minut, mailowe potwierdzenie tego samego dnia.
+1. Telefon: +48 41 345 32 25 - najszybszy. Wycena ustna w 5 minut, mailowe potwierdzenie tego samego dnia.
 
 2. Formularz na stronie - Kalkulator (/kalkulator) podaje cenę orientacyjną od ręki, a precyzyjną wycenę dosyłamy mailem.
 
-3. Email: biuro@muszkieter.pl - odpowiedź zwykle w ciągu 4 godzin w godzinach pracy.
+3. Email: biuro@autokar-busko.pl - odpowiedź zwykle w ciągu 4 godzin w godzinach pracy.
 
 Dla zleceń pilnych (wyjazd w ciągu 24-48 godzin) - zadzwoń bezpośrednio. Mamy 3 autokary w gotowości operacyjnej na nagłe zlecenia (awarie konkurencji, anulowane przewozy, pilne transfery).
 
 Wycena jest bezpłatna i niezobowiązująca - nie zobowiązuje Cię do niczego. Możesz porównać ją z innymi ofertami i zdecydować w spokoju.`,
           },
           {
-            q: `Czym Muszkieter różni się od konkurencji w Kielcach?`,
-            a: `Kielce mają około 15 firm wynajmujących autokary. Większość z nich ma 3-8 pojazdów i jest aktywna głównie w sezonie. Muszkieter to inna kategoria.
+            q: `Czym Autokar Busko różni się od konkurencji w Kielcach?`,
+            a: `Kielce mają około 15 firm wynajmujących autokary. Większość z nich ma 3-8 pojazdów i jest aktywna głównie w sezonie. Autokar Busko to inna kategoria.
 
 1. Skala floty: 180 pojazdów
 Większość konkurencji w regionie ma 3-15 pojazdów. My mamy 180 - od busów 19-osobowych po piętrowe autokary 80-osobowe. To oznacza, że nawet w szczycie sezonu (czerwiec, MSPO we wrześniu) mamy wolne autokary, kiedy konkurencja już nie ma.
 
 2. 24 lata doświadczenia w branży
-Muszkieter (Grupa UHT Anna Chmiel + Alfa Bus Sp. z o.o.) działa na rynku od 1997 roku. Obsłużyliśmy ponad 10 000 wesel, 5 000 wycieczek szkolnych, 2 000 pielgrzymek i niezliczone transfery firmowe. Doświadczenie liczy się w sytuacjach awaryjnych - kierowca z 15-letnim stażem inaczej reaguje na korek na A4 niż student na pierwszej trasie.
+Autokar Busko (Grupa UHT Anna Chmiel + Alfa Bus Sp. z o.o.) działa na rynku od 1997 roku. Obsłużyliśmy ponad 10 000 wesel, 5 000 wycieczek szkolnych, 2 000 pielgrzymek i niezliczone transfery firmowe. Doświadczenie liczy się w sytuacjach awaryjnych - kierowca z 15-letnim stażem inaczej reaguje na korek na A4 niż student na pierwszej trasie.
 
 3. Własny serwis i magazyn części
-Mamy własny warsztat techniczny przy ul. Kolberga 9, 25-516 Kielce. To znaczy, że jeśli autokar zepsuje się w trasie, podstawiamy zastępczy w ciągu 1-2 godzin, a nie czekamy 8 godzin na pomoc drogową. Mamy także magazyn części eksploatacyjnych dla najpopularniejszych modeli (Setra, Volvo, MAN, Mercedes).
+Mamy własny warsztat techniczny przy ul. Poprzeczna 1, 28-100 Busko-Zdrój. To znaczy, że jeśli autokar zepsuje się w trasie, podstawiamy zastępczy w ciągu 1-2 godzin, a nie czekamy 8 godzin na pomoc drogową. Mamy także magazyn części eksploatacyjnych dla najpopularniejszych modeli (Setra, Volvo, MAN, Mercedes).
 
 4. Pełna licencja krajowa i międzynarodowa ITD
 Możemy jeździć po całej Unii Europejskiej legalnie, z pełną dokumentacją. Wiele firm z regionu ma tylko licencję krajową - wycieczka do Pragi czy Wiednia jest dla nich niemożliwa.
@@ -1399,7 +1399,7 @@ Dla stałych klientów (firmy, biura podróży, parafie, szkoły) trzymamy „ka
   },
   flota: {
     pageTitle: "Nasza flota autokarów",
-    targetPhrases: ["flota autokarów Kielce", "Setra Mercedes Volvo wynajem"],
+    targetPhrases: ["flota autokarów Busko-Zdrój", "Setra Mercedes Volvo wynajem"],
     categories: [
       {
         name: "FAQ rozszerzone",
@@ -1450,7 +1450,7 @@ Roczniki:
 
 Wszystkie autokary spełniają normę Euro 5 lub Euro 6 (wymóg do wjazdu w strefy LEZ - Niskoemisyjne - w niemieckich i francuskich miastach).
 
-Możesz wybrać model przy rezerwacji. Pokażemy Ci zdjęcia, możesz przyjść do biura ul. Kolberga 9, 25-516 Kielce i obejrzeć autokar na żywo (umów się 24h wcześniej).`,
+Możesz wybrać model przy rezerwacji. Pokażemy Ci zdjęcia, możesz przyjść do biura ul. Poprzeczna 1, 28-100 Busko-Zdrój i obejrzeć autokar na żywo (umów się 24h wcześniej).`,
           },
           {
             q: `Co znaczą „4 gwiazdki" przy autokarze? Klasyfikacja IRU.`,

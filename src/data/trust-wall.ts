@@ -8,7 +8,7 @@ type TrustWallContent = {
 
 type Language = "pl" | "en" | "de" | "ru" | "ar" | "es" | "fr";
 
-const REVIEW_HREF = "https://www.google.com/search?q=Muszkieter+Krakow+opinie+Google";
+const REVIEW_HREF = "https://www.google.com/search?q=Autokar+Busko+opinie+Google";
 
 export const trustWallByLang: Record<Language, TrustWallContent> = {
   pl: {

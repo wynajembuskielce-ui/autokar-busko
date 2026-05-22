@@ -94,7 +94,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Kasprowy Wierch bez rozczarowań</h2>
 <p>Kasprowy Wierch to klasyk, ale wymaga planu. Bilety na kolejkę najlepiej kupić wcześniej online, bo zimą miejsca znikają szybko. Pogoda zmienia się błyskawicznie, dlatego warstwowe ubranie i dobre buty to podstawa nawet dla osób, które nie zamierzają jeździć na nartach. Widok z góry potrafi wynagrodzić każdy poranny pośpiech.</p>
 <p>Zakopane zimą najlepiej działa wtedy, gdy nie próbujesz "zaliczyć" wszystkiego naraz. Lepiej wybrać kilka mocnych punktów: spacer, regionalną kolację, jeden dzień na stoku i jeden wieczór przy muzyce. Dla grup z Krakowa to około 2,5 godziny drogi autokarem, więc kierunek świetnie sprawdza się nawet na weekend.</p>
-<p><strong>Organizujesz wyjazd do Zakopanego? Zadzwoń: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Organizujesz wyjazd do Zakopanego? Zadzwoń: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Zakopane in Winter — Highland Culture, Oscypek Cheese and Real Rest",
@@ -106,7 +106,7 @@ const articleDrafts: ArticleDraft[] = [
         content: `<p>Zakopane in winter is where culture and landscape meet. You can spend the morning in the mountains and the evening in a traditional wooden inn listening to live highland music. It is one of the few destinations where local identity is still visible in architecture, language and food.</p>
 <p>For visitors, the key is balance: one active day, one slower day, and enough time to enjoy the place beyond crowded streets. Original oscypek cheese, regional meals, sleigh rides and the Kasprowy Wierch cable car are all worth planning in advance.</p>
 <p>For groups from Krakow, this is an easy weekend route by coach and a reliable choice for winter travel.</p>
-<p><strong>Planning a Zakopane trip? Call us: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Planning a Zakopane trip? Call us: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Zakopane im Winter — Highlander-Kultur, Oscypek-Käse und echter Urlaub",
@@ -117,7 +117,7 @@ const articleDrafts: ArticleDraft[] = [
           "Erleben Sie Zakopane im Winter mit Highlander-Kultur, Kulig und regionaler Küche. Praktische Tipps für Gruppen.",
         content: `<p>Zakopane ist im Winter ein Klassiker in Polen. Neben dem Skifahren erleben Besucher eine starke lokale Kultur: traditionelle Musik, regionale Speisen und den unverwechselbaren Baustil der Podhale-Region.</p>
 <p>Besonders beliebt sind Kulig-Fahrten, der Besuch von Kasprowy Wierch und Abende in regionalen Gasthäusern. Für Gruppen lohnt sich eine gute Planung, damit Wartezeiten und Menschenmengen reduziert werden.</p>
-<p><strong>Sie organisieren eine Reise nach Zakopane? Rufen Sie an: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Sie organisieren eine Reise nach Zakopane? Rufen Sie an: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ar: {
         title: "زاكوبانه في الشتاء — ثقافة المرتفعات والجبن التقليدي والراحة الحقيقية",
@@ -128,7 +128,7 @@ const articleDrafts: ArticleDraft[] = [
           "تعرف على زاكوبانه في الشتاء: ثقافة المرتفعات، جبن أوسكيبك، جولة بالعربات الثلجية ونصائح للرحلات الجماعية.",
         content: `<p>زاكوبانه في الشتاء وجهة تجمع بين الجبال والثقافة المحلية. يمكنكم قضاء يوم في الثلج ثم الاستمتاع بعشاء تقليدي وموسيقى جبلية حية في المساء.</p>
 <p>من أبرز التجارب: تذوق جبن أوسكيبك الأصلي، جولات العربات الثلجية، والصعود إلى كاسبرُوفي فيرخ. التخطيط المسبق يجعل الرحلة الجماعية أكثر راحة.</p>
-<p><strong>تخططون لرحلة إلى زاكوبانه؟ اتصلوا: +48 601 076 652 lub .</strong></p>`,
+<p><strong>تخططون لرحلة إلى زاكوبانه؟ اتصلوا: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -158,7 +158,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Co zobaczyć w Częstochowie poza klasztorem</h2>
 <p>Warto zaplanować również spacer po centrum miasta, Alejach Najświętszej Maryi Panny i lokalnych muzeach. Grupy szkolne i parafialne często łączą wizytę w sanktuarium z krótkim programem edukacyjnym lub historycznym. Dzięki temu wyjazd staje się pełniejszy i bardziej angażujący dla uczestników.</p>
 <p>Jasna Góra to miejsce, które działa niezależnie od wieku i doświadczeń. Jedni wracają dla ciszy, inni dla tradycji, jeszcze inni dla poczucia wspólnoty. W każdym przypadku to podróż, która ma sens.</p>
-<p><strong>Organizujemy transport pielgrzymi z Krakowa do Częstochowy. Tel: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Organizujemy transport pielgrzymi z Krakowa do Częstochowy. Tel: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Jasna Góra — Heart of Polish Catholicism and 600 Years of History",
@@ -170,7 +170,7 @@ const articleDrafts: ArticleDraft[] = [
         content: `<p>Founded in 1382, Jasna Góra has become a core symbol of Polish religious life and identity. The monastery attracts pilgrims, history enthusiasts and international visitors who want to understand why this site matters so much to generations of Poles.</p>
 <p>The Black Madonna icon is central to that story. For believers it is a place of prayer and personal trust. For cultural visitors it is a living part of Polish heritage. The site also gained symbolic significance during the Swedish Deluge, when the defense of the monastery became a national legend.</p>
 <p>Walking pilgrimages to Częstochowa remain a vibrant tradition today. For groups, a well-planned day can include the sanctuary, city center and selected historical stops.</p>
-<p><strong>We organize pilgrim transport from Krakow to Częstochowa. Call: +48 601 076 652 lub .</strong></p>`,
+<p><strong>We organize pilgrim transport from Krakow to Częstochowa. Call: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Jasna Góra — Herz des polnischen Katholizismus und 600 Jahre Geschichte",
@@ -181,7 +181,7 @@ const articleDrafts: ArticleDraft[] = [
           "Geschichte des Klosters, Schwarze Madonna und praktische Hinweise für Gruppenreisen nach Częstochowa.",
         content: `<p>Seit dem 14. Jahrhundert ist Jasna Góra ein wichtiger religiöser und kultureller Ort in Polen. Die Schwarze Madonna und die historische Bedeutung des Klosters machen Częstochowa zu einem besonderen Reiseziel für Gruppen.</p>
 <p>Besonders eindrucksvoll ist die Kombination aus stiller Spiritualität, monumentaler Architektur und lebendiger Pilgertradition. Auch heute kommen jedes Jahr Tausende zu Fuß nach Jasna Góra.</p>
-<p><strong>Pilgerfahrt aus Krakow organisieren? Tel.: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Pilgerfahrt aus Krakow organisieren? Tel.: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ar: {
         title: "ياسنا غورا — قلب الكاثوليكية البولندية و600 عام من التاريخ",
@@ -192,7 +192,7 @@ const articleDrafts: ArticleDraft[] = [
           "تعرف على تاريخ دير ياسنا غورا وأيقونة مادونا السوداء وأهم النصائح للزيارات الجماعية.",
         content: `<p>تأسس دير ياسنا غورا في القرن الرابع عشر وأصبح مع الوقت رمزًا دينيًا وثقافيًا في بولندا. بالنسبة للكثير من الزوار، الرحلة إلى تشيستوخوفا ليست زيارة عادية، بل تجربة روحية وتاريخية.</p>
 <p>أيقونة مادونا السوداء لها مكانة كبيرة لدى البولنديين. كما أن قصة صمود الدير في فترات الحرب جعلت الموقع رمزًا للثبات والأمل.</p>
-<p><strong>ننظم نقل مجموعات الحج من كيلتسه إلى تشيستوخوفا: +48 601 076 652 lub .</strong></p>`,
+<p><strong>ننظم نقل مجموعات الحج من كيلتسه إلى تشيستوخوفا: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ru: {
         title: "Ясна Гура — сердце польского католицизма и 600 лет истории",
@@ -203,7 +203,7 @@ const articleDrafts: ArticleDraft[] = [
           "Узнайте об истории монастыря, иконе Черной Мадонны и организации групповой поездки в Ченстохову.",
         content: `<p>Монастырь Ясна Гура основан в 1382 году и остается одним из самых важных религиозных центров Польши. Икона Черной Мадонны привлекает паломников со всей страны и из-за рубежа.</p>
 <p>История об осаде во времена Шведского потопа стала символом стойкости. Сегодня сюда приходят пешие паломничества, а для групп поездка может сочетать духовную и познавательную программу.</p>
-<p><strong>Транспорт для паломников из Кельце в Ченстохову: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Транспорт для паломников из Кельце в Ченстохову: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -237,7 +237,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Praktyczne informacje dla opiekunów</h2>
 <p>Na jednodniową wycieczkę warto zaplanować 4-5 głównych punktów, na dwudniową 7-8. Obiad grupowy najlepiej rezerwować wcześniej, szczególnie w sezonie. Dobrze działa też jasny podział: czas zwiedzania, czas wolny i miejsce zbiórki. Kraków bywa zatłoczony, więc dyscyplina logistyczna oszczędza stres.</p>
 <p>Kraków uczy, wzrusza i zaciekawia. Jeśli program jest dobrze ułożony, uczniowie wracają z poczuciem, że historia to coś żywego, a nie tylko temat w podręczniku.</p>
-<p><strong>Autokar dla klasy z Krakowa do Krakowa — zadzwoń: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Autokar dla klasy z Krakowa do Krakowa — zadzwoń: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Krakow School Trip — 10 Places You Should See with Your Class",
@@ -248,7 +248,7 @@ const articleDrafts: ArticleDraft[] = [
           "Top Krakow attractions for school groups, from Wawel Castle to Kazimierz and Schindler's Factory.",
         content: `<p>Krakow is one of the best school-trip cities in Poland. Students can connect legends, architecture and modern history in a single route. The most effective program mixes iconic places with clear storytelling.</p>
 <p>Core stops include Wawel Castle, Main Market Square, the Wawel Dragon, Kazimierz district, Schindler's Factory Museum and Kościuszko Mound. For younger classes, keep the narrative visual and dynamic. For older students, add context on identity, memory and cultural diversity.</p>
-<p><strong>Coach for a class trip from Krakow to Krakow: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Coach for a class trip from Krakow to Krakow: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Krakau für die Klassenfahrt — 10 Orte, die man sehen sollte",
@@ -259,7 +259,7 @@ const articleDrafts: ArticleDraft[] = [
           "Wawel, Hauptmarkt, Kazimierz und praktische Tipps für eine gelungene Klassenfahrt nach Krakau.",
         content: `<p>Krakau eignet sich hervorragend für Klassenfahrten. Die Stadt bietet viele Orte, an denen Geschichte greifbar wird: Wawel, der Hauptmarkt, Kazimierz oder das Schindler-Museum.</p>
 <p>Mit einer klaren Tagesstruktur, festen Treffpunkten und vorab reservierten Mahlzeiten läuft die Reise deutlich entspannter. So bleibt mehr Zeit für Inhalte und Eindrücke.</p>
-<p><strong>Reisebus von Krakow nach Krakau buchen: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Reisebus von Krakow nach Krakau buchen: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -289,7 +289,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Logistyka grupy</h2>
 <p>Najważniejsze elementy to: wcześniejsza rezerwacja karnetów, jasny podział grupy według poziomu, stały punkt zbiórki i plan awaryjny na zmianę pogody. Warto także od początku ustalić, czy grupa chce jeden długi dzień na stoku, czy dwa krótsze dni z dodatkowymi atrakcjami.</p>
 <p>Białka Tatrzańska jest kierunkiem, który łączy sport, odpoczynek i dobrą organizację. To przepis na wyjazd, po którym uczestnicy naprawdę chcą wrócić za rok.</p>
-<p><strong>Bus na narty z Krakowa — +48 601 076 652 lub .</strong></p>`,
+<p><strong>Bus na narty z Krakowa — +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Białka Tatrzańska — Group Ski Slopes Guide",
@@ -300,7 +300,7 @@ const articleDrafts: ArticleDraft[] = [
           "Plan a winter group trip to Białka Tatrzańska: slopes, thermal pools and practical organization tips.",
         content: `<p>Białka Tatrzańska is a practical winter destination for groups. You get diverse slopes, good lift infrastructure and easier day planning compared with very crowded city-based resorts.</p>
 <p>The area works for beginners and advanced skiers in one shared location. After skiing, thermal pools and regional food create a balanced program for teams and school groups.</p>
-<p><strong>Need a ski bus from Krakow? Call: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Need a ski bus from Krakow? Call: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Białka Tatrzańska — Pistenführer für Gruppen",
@@ -311,7 +311,7 @@ const articleDrafts: ArticleDraft[] = [
           "Pisten, Thermen und Organisationstipps für gelungene Gruppenreisen nach Białka Tatrzańska.",
         content: `<p>Białka Tatrzańska ist für Gruppen oft die beste Wahl im Winter. Unterschiedliche Schwierigkeitsgrade, moderne Anlagen und gute Planbarkeit erleichtern die Organisation deutlich.</p>
 <p>Mit Thermen und regionaler Küche lässt sich ein kompletter Tagesablauf ohne Hektik aufbauen.</p>
-<p><strong>Skibus aus Krakow buchen: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Skibus aus Krakow buchen: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ru: {
         title: "Бялка-Татшаньска — гид по лыжным склонам для групп",
@@ -321,7 +321,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Как организовать групповую поездку в Бялку: склоны, термы и практические советы.",
         content: `<p>Бялка-Татшаньска хорошо подходит для групповых зимних поездок. Здесь удобно сочетать обучение новичков, катание опытных участников и вечерний отдых в термах.</p>
-<p><strong>Автобус на горнолыжный выезд из Кельце: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Автобус на горнолыжный выезд из Кельце: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -349,7 +349,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Transport jako element sukcesu wesela</h2>
 <p>Goście zapamiętują nie tylko dekoracje i jedzenie, ale też to, czy całość była wygodna. Bezpieczny transport rozwiązuje wiele problemów: punktualność przy kościele i sali, dowóz starszych osób, spokojny powrót po nocy. Przy większych weselach dobrze zaplanowany bus lub autokar jest jednym z kluczowych elementów logistyki.</p>
 <p>Najlepsze wesela to te, w których tradycja spotyka się z rozsądną organizacją. Wtedy energia wydarzenia zostaje z rodziną na lata.</p>
-<p><strong>Bus weselny dla Twoich gości — +48 601 076 652 lub .</strong></p>`,
+<p><strong>Bus weselny dla Twoich gości — +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Polish Wedding — Traditions, Oczepiny and Why It Lasts Two Days",
@@ -360,7 +360,7 @@ const articleDrafts: ArticleDraft[] = [
           "Learn about Polish wedding customs, oczepiny and practical transport planning for guests.",
         content: `<p>Polish weddings combine celebration and tradition. Customs like oczepiny and poprawiny still shape the flow of the event, even in modern venues.</p>
 <p>For international guests, this two-day format can be a surprise, but it reflects a strong community culture. Practical logistics, especially transport, make the celebration smoother and safer for everyone.</p>
-<p><strong>Need a wedding bus for your guests? Call: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Need a wedding bus for your guests? Call: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Polnische Hochzeit — Traditionen, Oczepiny und zwei Tage Feier",
@@ -371,7 +371,7 @@ const articleDrafts: ArticleDraft[] = [
           "Oczepiny, poprawiny und Organisation: So gelingt eine polnische Hochzeit mit guter Logistik.",
         content: `<p>Die polnische Hochzeit lebt von Ritualen und Gemeinschaft. Oczepiny und der zweite Tag, die sogenannten poprawiny, sind für viele Familien weiterhin wichtig.</p>
 <p>Ein geplanter Gästetransport erhöht Sicherheit und Komfort und nimmt dem Brautpaar viel Stress ab.</p>
-<p><strong>Hochzeitsbus buchen: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Hochzeitsbus buchen: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ar: {
         title: "الزفاف البولندي — التقاليد والاحتفالات ولماذا يستمر يومين",
@@ -382,7 +382,7 @@ const articleDrafts: ArticleDraft[] = [
           "تعرف على طقوس الزفاف البولندي وأهمية تنظيم نقل الضيوف بشكل مريح وآمن.",
         content: `<p>الزفاف البولندي ليس مجرد حفل، بل تجربة اجتماعية مليئة بالتقاليد مثل فقرة الأوتشيبيني وحفل اليوم التالي.</p>
 <p>تنظيم النقل الجماعي للضيوف يساعد على الالتزام بالمواعيد ويزيد راحة العائلات طوال الاحتفال.</p>
-<p><strong>حافلة زفاف لضيوفكم: +48 601 076 652 lub .</strong></p>`,
+<p><strong>حافلة زفاف لضيوفكم: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -414,7 +414,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Praktyczny plan pobytu</h2>
 <p>Na jednodniowy pobyt dobrze sprawdza się połączenie: centrum + pałac + jeden punkt przyrodniczy. Na dwa dni można dołożyć Jaskinię Raj i krótki trekking. Warto wcześniej ustalić nocleg blisko trasy przejazdu i zaplanować czas na wspólny posiłek.</p>
 <p>Krakow są idealne dla tych, którzy szukają czegoś prawdziwego: historii bez patosu, natury bez tłoku i miasta, które nie udaje nikogo innego.</p>
-<p><strong>Transfer z lotniska do Krakowa i po mieście — +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transfer z lotniska do Krakowa i po mieście — +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Krakow — What Is Worth Seeing in the Heart of Świętokrzyskie?",
@@ -425,7 +425,7 @@ const articleDrafts: ArticleDraft[] = [
           "Discover Krakow highlights: Palace of Krakow Bishops, Świętokrzyskie Mountains, Raj Cave and practical group travel tips.",
         content: `<p>Krakow is one of Poland's most underrated destinations. It offers rich culture, nature access and easy planning for group programs.</p>
 <p>Top stops include the Palace of Krakow Bishops, Raj Cave and nearby Świętokrzyskie Mountains. International groups often appreciate the authenticity and lower crowds compared with major tourist hubs.</p>
-<p><strong>Airport and city transfer in Krakow: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Airport and city transfer in Krakow: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Krakow — Sehenswürdigkeiten in der Hauptstadt der Region Świętokrzyskie",
@@ -436,7 +436,7 @@ const articleDrafts: ArticleDraft[] = [
           "Die besten Orte in Krakow für Gruppen: Bischofspalast, Świętokrzyskie-Gebirge und Jaskinia Raj.",
         content: `<p>Krakow ist kompakt, gut erreichbar und inhaltlich stark. Für Gruppen lässt sich Kultur mit Natur problemlos kombinieren.</p>
 <p>Empfehlenswert sind der Bischofspalast, die Raj-Höhle und ein leichter Ausflug ins Świętokrzyskie-Gebirge.</p>
-<p><strong>Transfer nach Krakow und in der Region: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transfer nach Krakow und in der Region: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ar: {
         title: "كيلتسه — ماذا يستحق الزيارة في عاصمة إقليم شفيتوكشيسكي؟",
@@ -446,7 +446,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "تعرف على أهم معالم كيلتسه: قصر الأساقفة، جبال شفيتوكشيسكي وكهف راي.",
         content: `<p>كيلتسه مدينة مميزة لمن يريد اكتشاف بولندا بعيدًا عن الازدحام. فيها تاريخ غني ومعالم طبيعية قريبة وسهولة في التنظيم للمجموعات.</p>
-<p><strong>نقل من المطار إلى كيلتسه وداخل المدينة: +48 601 076 652 lub .</strong></p>`,
+<p><strong>نقل من المطار إلى كيلتسه وداخل المدينة: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ru: {
         title: "Кельце — что посмотреть в столице Свентокшиского региона?",
@@ -456,7 +456,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Дворец краковских епископов, пещера Рай и Свентокшиские горы: практичный гид по Кельце.",
         content: `<p>Кельце отлично подходит для групповых маршрутов. Здесь можно совместить культуру, природу и спокойный темп путешествия.</p>
-<p><strong>Трансфер из аэропорта в Кельце: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Трансфер из аэропорта в Кельце: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       es: {
         title: "Krakow — ¿Qué ver en la capital de Świętokrzyskie?",
@@ -466,7 +466,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Palacio barroco, montañas antiguas y cueva histórica: descubre Krakow con consejos prácticos.",
         content: `<p>Krakow es un destino cómodo y sorprendente para grupos. Puedes combinar patrimonio histórico con naturaleza en un programa de uno o dos días.</p>
-<p><strong>Transfer al aeropuerto y por la ciudad: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transfer al aeropuerto y por la ciudad: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       fr: {
         title: "Krakow — que voir dans la capitale de la région Świętokrzyskie ?",
@@ -476,7 +476,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Palais des évêques, grotte Raj et montagnes Świętokrzyskie: découvrez Krakow en groupe.",
         content: `<p>Krakow est une destination pratique et authentique pour les groupes. La ville permet de relier culture et nature sans logistique compliquée.</p>
-<p><strong>Transfert aéroport et déplacements à Krakow: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transfert aéroport et déplacements à Krakow: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -506,7 +506,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Trekking dla grup</h2>
 <p>Trasy na Święty Krzyż są dostępne dla osób o przeciętnej kondycji. Dla szkół i grup senioralnych najlepiej sprawdza się spokojne tempo, częstsze postoje i czytelny plan przejścia. Jesienią i zimą obowiązkowe są odpowiednie buty i warstwy odzieży, bo warunki potrafią się szybko zmieniać.</p>
 <p>Łysa Góra uczy, że historia regionu nie jest prostą linią, lecz rozmową różnych tradycji. To idealny kierunek dla grup, które chcą połączyć naturę z opowieścią, która naprawdę zostaje w głowie.</p>
-<p><strong>Wycieczka w Góry Świętokrzyskie z Krakowa — zadzwoń: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Wycieczka w Góry Świętokrzyskie z Krakowa — zadzwoń: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Łysa Góra and Święty Krzyż — Where Witch Legends Meet Monastic History",
@@ -517,7 +517,7 @@ const articleDrafts: ArticleDraft[] = [
           "Explore Łysa Góra myths, Holy Cross monastery history and practical group trekking information.",
         content: `<p>Łysa Góra is one of the most symbolic places in the Świętokrzyskie region. Visitors discover a rare mix of pre-Christian legends, Christian heritage and striking stone fields called gołoborza.</p>
 <p>For groups, the route is manageable and educational, especially with clear pacing and short interpretation stops.</p>
-<p><strong>Group trip from Krakow to Świętokrzyskie Mountains: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Group trip from Krakow to Świętokrzyskie Mountains: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Łysa Góra und Święty Krzyż — Legenden, Kloster und Natur",
@@ -527,7 +527,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Entdecken Sie Łysa Góra, den Heiligkreuz-Ort und praktische Wandertipps für Gruppenreisen.",
         content: `<p>Łysa Góra verbindet Legenden über Hexensabbate mit der Geschichte des Klosters auf dem Heiligen Kreuz. Dazu kommen beeindruckende geologische Formationen.</p>
-<p><strong>Ausflug aus Krakow organisieren: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Ausflug aus Krakow organisieren: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -559,7 +559,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Checklist przed wyjazdem</h2>
 <p>Na 48 godzin przed startem warto potwierdzić: godzinę podstawienia, numer kontaktowy do kierowcy, listę uczestników i plan postojów. Dzień wcześniej dobrze wysłać uczestnikom krótką wiadomość z miejscem zbiórki i godziną odjazdu.</p>
 <p>Dobrze zaplanowany transport jest niewidoczny: wszystko działa, grupa jedzie spokojnie, a organizator może skupić się na celu wyjazdu. Taki efekt da się osiągnąć, jeśli myślisz o całym procesie, nie tylko o samym przejeździe.</p>
-<p><strong>Masz pytania? Zadzwoń: +48 601 076 652 lub  — odpowiemy w 5 minut.</strong></p>`,
+<p><strong>Masz pytania? Zadzwoń: +48 41 345 32 25 lub  — odpowiemy w 5 minut.</strong></p>`,
       },
       en: {
         title: "How to Plan Group Transport? Complete 2026 Guide",
@@ -570,7 +570,7 @@ const articleDrafts: ArticleDraft[] = [
           "Learn how to book a coach, verify a carrier, choose vehicle size and prepare group travel documents.",
         content: `<p>Good group transport planning means balancing budget, comfort and safety. Start with trip goals and group profile, then define vehicle size and schedule.</p>
 <p>Always verify licenses, insurance, vehicle condition and emergency procedures. Compare full-service quotes, not only top-line prices.</p>
-<p><strong>Questions? Call +48 601 076 652 lub  and get a fast answer.</strong></p>`,
+<p><strong>Questions? Call +48 41 345 32 25 lub  and get a fast answer.</strong></p>`,
       },
       de: {
         title: "Gruppentransport planen — Kompletter Leitfaden 2026",
@@ -581,7 +581,7 @@ const articleDrafts: ArticleDraft[] = [
           "Schritt-für-Schritt-Anleitung zur Buchung von Reisebussen für Schulen, Firmen und private Gruppen.",
         content: `<p>Bei Gruppentransporten entscheiden Details. Früh buchen, passende Fahrzeuggröße wählen und Sicherheitsdokumente prüfen.</p>
 <p>Ein klarer Ablaufplan vor der Abfahrt reduziert Stress und verhindert Verzögerungen.</p>
-<p><strong>Fragen? Telefon: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Fragen? Telefon: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ar: {
         title: "كيف تخطط للنقل الجماعي؟ الدليل الكامل 2026",
@@ -592,7 +592,7 @@ const articleDrafts: ArticleDraft[] = [
           "تعرف على طريقة حجز الحافلة المناسبة، فحص الترخيص، وتجهيز المستندات للمجموعات.",
         content: `<p>ابدأ بتحديد عدد المشاركين ونوع الرحلة، ثم اختر حجم المركبة المناسب. تحقق من الترخيص والتأمين والحالة الفنية قبل تأكيد الحجز.</p>
 <p>المراجعة قبل يومين من الرحلة مهمة جدًا: وقت الانطلاق، نقطة التجمع، وخطة التوقفات.</p>
-<p><strong>للاستفسار السريع: +48 601 076 652 lub .</strong></p>`,
+<p><strong>للاستفسار السريع: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -622,7 +622,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Pamiątki z sensem</h2>
 <p>W Częstochowie można kupić wiele pamiątek, ale najlepiej wybierać te, które mają znaczenie dla uczestników: książeczki, różańce, obrazy i drobne dewocjonalia związane z intencją pielgrzymki.</p>
 <p>Dobrze przygotowany wyjazd pomaga skupić się na tym, po co naprawdę jedziemy. A to jest największa wartość pielgrzymki.</p>
-<p><strong>Transport parafialny z Krakowa do Częstochowy — +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transport parafialny z Krakowa do Częstochowy — +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ru: {
         title: "Паломничество в Ченстохову — как подготовиться и что взять?",
@@ -632,7 +632,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Что взять в паломничество, как построить день и на что обратить внимание группе в Ченстохове.",
         content: `<p>Поездка в Ченстохову имеет духовный смысл, но требует и практического плана. Удобная обувь, вода, документы и четкий график помогают сохранить спокойный ритм дня.</p>
-<p><strong>Приходской транспорт из Кельце в Ченстохову: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Приходской транспорт из Кельце в Ченстохову: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ar: {
         title: "رحلة حج إلى تشيستوخوفا — كيف تستعد وماذا تأخذ معك؟",
@@ -642,7 +642,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "نصائح عملية للتجهيز لرحلة الحج: ماذا تحزم، كيف تنظم اليوم، وأفضل طريقة لتنقل المجموعة.",
         content: `<p>الرحلة إلى تشيستوخوفا تجربة روحانية تحتاج إلى تنظيم بسيط: أحذية مريحة، ملابس مناسبة، ومياه كافية. تنظيم الوقت بين الصلاة والراحة مهم جدًا للمجموعة.</p>
-<p><strong>نقل رعية من كيلتسه إلى تشيستوخوفا: +48 601 076 652 lub .</strong></p>`,
+<p><strong>نقل رعية من كيلتسه إلى تشيستوخوفا: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -672,7 +672,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Lublin dla różnych grup wiekowych</h2>
 <p>Młodsze klasy skorzystają na spacerze i prostych opowieściach miejskich, starsze na muzeach i punktach pamięci. Dla organizatorów najważniejszy jest rytm dnia: nie za dużo punktów, ale każdy dobrze opowiedziany.</p>
 <p>Lublin zostaje w pamięci dzięki temu, że jest autentyczny. To miasto, które uczy, ale nie moralizuje; porusza, ale nie przytłacza.</p>
-<p><strong>Autokar z Krakowa do Lublina — zadzwoń: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Autokar z Krakowa do Lublina — zadzwoń: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Lublin — A City at the Crossroads of Cultures, History and Modern Life",
@@ -683,7 +683,7 @@ const articleDrafts: ArticleDraft[] = [
           "Explore Lublin Old Town, Lublin Castle and the city's multicultural heritage with practical group travel tips.",
         content: `<p>Lublin is a strong destination for educational and cultural groups. It combines Renaissance urban beauty, complex 20th-century memory and a modern student atmosphere.</p>
 <p>With a balanced itinerary, groups can experience history in a way that feels personal and relevant.</p>
-<p><strong>Coach from Krakow to Lublin: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Coach from Krakow to Lublin: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Lublin — Stadt zwischen Kulturen, Geschichte und Moderne",
@@ -693,7 +693,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Altstadt, Schloss und historische Perspektiven: Lublin als Ziel für Schul- und Kulturfahrten.",
         content: `<p>Lublin ist ein vielseitiges Reiseziel für Gruppen. Die Stadt vereint historische Tiefe mit modernem Alltag und eignet sich sehr gut für Bildungsprogramme.</p>
-<p><strong>Reisebus Krakow-Lublin: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Reisebus Krakow-Lublin: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ru: {
         title: "Люблин — город на стыке культур, истории и современности",
@@ -703,7 +703,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Старый город, Люблинский замок и многоуровневая история города в одном маршруте.",
         content: `<p>Люблин отлично подходит для школьных и культурных групп. Маршрут можно построить так, чтобы сочетать историю, архитектуру и современную городскую атмосферу.</p>
-<p><strong>Автобус из Кельце в Люблин: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Автобус из Кельце в Люблин: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -735,7 +735,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>Why the Krakow region works so well</h2>
 <p>Many visitors focus only on Warsaw and Krakow, but the Świętokrzyskie region around Krakow offers something different: quieter landscapes, meaningful history and less crowded attractions. Raj Cave, Holy Cross sites and local cultural routes provide depth without the pressure of mass tourism. For families and community groups, this often creates a more comfortable experience.</p>
 <p>The best trips are not just efficient; they are culturally aware. When travelers understand local habits and hosts understand visitor expectations, the journey becomes smoother, warmer and more memorable for everyone.</p>
-<p><strong>Arabic-speaking driver available. WhatsApp: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Arabic-speaking driver available. WhatsApp: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       pl: {
         title: "Polska oczami arabskiego turysty — co zaskakuje, zachwyca i różni",
@@ -747,7 +747,7 @@ const articleDrafts: ArticleDraft[] = [
         content: `<p>Polska dla wielu arabskich turystów jest kierunkiem nowym i właśnie dlatego ciekawym. Zaskakuje krajobrazem, klimatem i stylem codziennego życia. Warto znać kilka różnic kulturowych, które pomagają lepiej zaplanować podróż.</p>
 <p>Największe różnice dotyczą pogody, stylu komunikacji i jedzenia. Polska ma wyraźne pory roku, a to oznacza konieczność przygotowania ubrań warstwowych. W kwestii jedzenia najlepiej wcześniej ustalać opcje halal lub wybory rybne i wegetariańskie.</p>
 <p>Goście z krajów arabskich często doceniają historyczne miasta, spokojniejsze regiony i autentyczną atmosferę poza głównymi kurortami. Dobrym przykładem jest region świętokrzyski.</p>
-<p><strong>Dostępny kierowca mówiący po arabsku. WhatsApp: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Dostępny kierowca mówiący po arabsku. WhatsApp: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ar: {
         title: "بولندا وطقوس السفر الجماعي — ما الذي يفاجئ الزوار العرب؟",
@@ -759,7 +759,7 @@ const articleDrafts: ArticleDraft[] = [
         content: `<p>بولندا أصبحت خيارًا متزايدًا للزوار العرب الباحثين عن تجربة أوروبية مختلفة. ما يميزها هو الطبيعة الهادئة، التاريخ العريق، وتنوع المدن بين الكبير والصغير.</p>
 <p>من أهم النقاط: الطقس المتغير بين الفصول، أسلوب الضيافة البولندي الهادئ، وضرورة التخطيط المسبق للطعام الحلال. كما أن الالتزام بالمواعيد مهم جدًا أثناء الرحلات الجماعية.</p>
 <p>منطقة كيلتسه مناسبة للعائلات والمجموعات لأنها أقل ازدحامًا وتمنح تجربة أكثر راحة.</p>
-<p><strong>سائق يتحدث العربية متاح. واتساب: +48 601 076 652 lub .</strong></p>`,
+<p><strong>سائق يتحدث العربية متاح. واتساب: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -793,7 +793,7 @@ const articleDrafts: ArticleDraft[] = [
 <h2>7. Warsztaty garncarskie w Chęcinach</h2>
 <p>Spokojniejsza, kreatywna aktywność, która pomaga wyhamować i uruchamia zupełnie inny rodzaj współpracy.</p>
 <p>Klucz do udanej integracji to nie ilość atrakcji, ale ich dobry dobór do ludzi. Wtedy wyjazd zostaje z zespołem na długo i przekłada się na codzienną współpracę.</p>
-<p><strong>Transport dla Twojego zespołu — +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transport dla Twojego zespołu — +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       en: {
         title: "Corporate Team Event — 7 Ideas in the Świętokrzyskie Region",
@@ -804,7 +804,7 @@ const articleDrafts: ArticleDraft[] = [
           "Paintball, kayaking, caves and workshops: team-building inspiration in the Świętokrzyskie region.",
         content: `<p>The best team events mix challenge, conversation and shared experiences. In the Krakow region you can build a strong one- or two-day format with outdoor and indoor activities.</p>
 <p>From paintball and kayaking to workshops and local evenings, each idea can be adapted to your team's profile and energy level.</p>
-<p><strong>Transport for your team: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transport for your team: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       de: {
         title: "Firmenevent zur Teamintegration — 7 Ideen in der Region Świętokrzyskie",
@@ -814,7 +814,7 @@ const articleDrafts: ArticleDraft[] = [
         metaDescription:
           "Aktive und kreative Teamformate in der Region: von Kajak bis Workshop.",
         content: `<p>Für wirksame Teamintegration braucht es Abwechslung und gute Organisation. Die Region um Krakow bietet dafür ideale Voraussetzungen.</p>
-<p><strong>Transport für Ihr Team: +48 601 076 652 lub .</strong></p>`,
+<p><strong>Transport für Ihr Team: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -830,7 +830,7 @@ const articleDrafts: ArticleDraft[] = [
         excerpt: "A practical route for heritage groups visiting key Jewish history sites in southern and eastern Poland.",
         metaTitle: "Jewish Heritage Tours from Krakow - Transport Guide",
         metaDescription: "Plan a Jewish heritage group tour from Krakow to Lezajsk, Lublin and Krakow with reliable private coach transport.",
-        content: `<p>For heritage-focused groups, Krakow is a practical base for day routes to Lezajsk, Lublin and Krakow. The key to a successful itinerary is timing and direct transfers between visits.</p><p>We help coordinate route order, pick-up points and realistic travel windows so your group can focus on meaningful visits, not logistics.</p><p><strong>Need heritage route transport? Call: +48 601 076 652 lub .</strong></p>`,
+        content: `<p>For heritage-focused groups, Krakow is a practical base for day routes to Lezajsk, Lublin and Krakow. The key to a successful itinerary is timing and direct transfers between visits.</p><p>We help coordinate route order, pick-up points and realistic travel windows so your group can focus on meaningful visits, not logistics.</p><p><strong>Need heritage route transport? Call: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -846,14 +846,14 @@ const articleDrafts: ArticleDraft[] = [
         excerpt: "Airport arrivals, hotel shuttles and fairground runs: how to organize transport during MSPO week.",
         metaTitle: "MSPO Krakow Transport Guide for Exhibitors and Delegations",
         metaDescription: "Complete group transport guide for MSPO in Krakow: airport pick-up, exhibitor shuttles and daily logistics.",
-        content: `<p>MSPO week requires strict timing. Exhibitors and delegations often need coordinated airport pick-up, hotel loops and fixed returns from Targi Krakow.</p><p>The most reliable model is one transport coordinator, one schedule owner and one backup vehicle option for peak hours.</p><p><strong>MSPO transport support: +48 601 076 652 lub .</strong></p>`,
+        content: `<p>MSPO week requires strict timing. Exhibitors and delegations often need coordinated airport pick-up, hotel loops and fixed returns from Targi Krakow.</p><p>The most reliable model is one transport coordinator, one schedule owner and one backup vehicle option for peak hours.</p><p><strong>MSPO transport support: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
       ru: {
         title: "MSPO в Кельце - как организовать транспорт для делегаций",
         excerpt: "Практическая схема трансферов на выставку MSPO: аэропорт, отели и павильоны Targi Krakow.",
         metaTitle: "MSPO Krakow - транспорт для участников и делегаций",
         metaDescription: "Организация группового транспорта на выставку MSPO в Кельце: трансферы из аэропорта и маршруты отель-выставка.",
-        content: `<p>Во время MSPO особенно важны точные тайминги. Группам нужны согласованные трансферы из аэропорта, регулярные рейсы отель-выставка и резерв по времени.</p><p>Мы выстраиваем логистику так, чтобы участники и гости прибывали без задержек.</p><p><strong>Транспорт для MSPO: +48 601 076 652 lub .</strong></p>`,
+        content: `<p>Во время MSPO особенно важны точные тайминги. Группам нужны согласованные трансферы из аэропорта, регулярные рейсы отель-выставка и резерв по времени.</p><p>Мы выстраиваем логистику так, чтобы участники и гости прибывали без задержек.</p><p><strong>Транспорт для MSPO: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -869,7 +869,7 @@ const articleDrafts: ArticleDraft[] = [
         excerpt: "KRK, KTW, WAW or RDO? Compare transfer time and choose the best arrival airport for your group.",
         metaTitle: "Best Airport for Krakow - Transfer Time Comparison",
         metaDescription: "Compare KRK, KTW, WAW and RDO airports for travel to Krakow and choose the best group transfer option.",
-        content: `<p>For many groups, Krakow (KRK) and Katowice (KTW) are the most practical. Warsaw (WAW) offers wider flight choices, while Radom (RDO) may work for selected routes.</p><p>Choose airport by full door-to-door timing, not just ticket price.</p><p><strong>Need direct transfer to Krakow? +48 601 076 652 lub .</strong></p>`,
+        content: `<p>For many groups, Krakow (KRK) and Katowice (KTW) are the most practical. Warsaw (WAW) offers wider flight choices, while Radom (RDO) may work for selected routes.</p><p>Choose airport by full door-to-door timing, not just ticket price.</p><p><strong>Need direct transfer to Krakow? +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -885,7 +885,7 @@ const articleDrafts: ArticleDraft[] = [
         excerpt: "Praxisleitfaden fur Gruppenfahrten aus Deutschland nach Polen mit Fokus auf Zeitfenster, Pausen und Routenplanung.",
         metaTitle: "Gruppenreise Deutschland-Polen - Transporttipps",
         metaDescription: "Tipps fur komfortable Gruppenreisen von Deutschland nach Polen: Route, Pausen, Fahrzeugwahl und Zeitplanung.",
-        content: `<p>Fur grenzuberschreitende Gruppenreisen zahlt vor allem ein klarer Ablauf: feste Treffpunkte, realistische Fahrzeiten und abgestimmte Pausenfenster.</p><p>Mit guter Vorbereitung wird die Anreise zum ruhigen Teil der gesamten Reise.</p><p><strong>Gruppentransport anfragen: +48 601 076 652 lub .</strong></p>`,
+        content: `<p>Fur grenzuberschreitende Gruppenreisen zahlt vor allem ein klarer Ablauf: feste Treffpunkte, realistische Fahrzeiten und abgestimmte Pausenfenster.</p><p>Mit guter Vorbereitung wird die Anreise zum ruhigen Teil der gesamten Reise.</p><p><strong>Gruppentransport anfragen: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -901,7 +901,7 @@ const articleDrafts: ArticleDraft[] = [
         excerpt: "Anreise zur MSPO fur Aussteller und Delegationen: Flughafentransfer, Hotelshuttle und Tageslogistik.",
         metaTitle: "MSPO Krakow - Bustransfer fur Aussteller",
         metaDescription: "So planen Sie den Bustransfer fur die MSPO Messe in Krakow: von Flughafen bis Messegelande.",
-        content: `<p>Zur MSPO sind Prazision und Pufferzeiten entscheidend. Wir empfehlen feste Shuttle-Fenster zwischen Hotel und Messe sowie klare Ansprechpartner vor Ort.</p><p><strong>MSPO Transfer buchen: +48 601 076 652 lub .</strong></p>`,
+        content: `<p>Zur MSPO sind Prazision und Pufferzeiten entscheidend. Wir empfehlen feste Shuttle-Fenster zwischen Hotel und Messe sowie klare Ansprechpartner vor Ort.</p><p><strong>MSPO Transfer buchen: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -917,7 +917,7 @@ const articleDrafts: ArticleDraft[] = [
         excerpt: "نصائح عملية للتنقل في بولندا للمجموعات العربية: من المطار إلى المدن والمعالم الرئيسية.",
         metaTitle: "دليل النقل للسائح العربي في بولندا",
         metaDescription: "تعرف على أفضل طرق النقل للمجموعات العربية في بولندا مع تخطيط مريح للرحلة.",
-        content: `<p>اختيار وسيلة النقل المناسبة يجعل الرحلة في بولندا أكثر راحة، خاصة للمجموعات العائلية أو السياحية.</p><p>النقل الخاص يختصر الوقت ويوفر مرونة في التوقفات وخطة اليوم.</p><p><strong>للاستفسار عن النقل: +48 601 076 652 lub .</strong></p>`,
+        content: `<p>اختيار وسيلة النقل المناسبة يجعل الرحلة في بولندا أكثر راحة، خاصة للمجموعات العائلية أو السياحية.</p><p>النقل الخاص يختصر الوقت ويوفر مرونة في التوقفات وخطة اليوم.</p><p><strong>للاستفسار عن النقل: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -933,7 +933,7 @@ const articleDrafts: ArticleDraft[] = [
         excerpt: "أماكن مفيدة للمجموعات العربية في كيلتسه وكراكوف مع نصائح تنظيم يوم الرحلة.",
         metaTitle: "المساجد والطعام الحلال في كيلتسه وكراكوف",
         metaDescription: "دليل سريع لأماكن الصلاة والطعام الحلال للمسافرين العرب في جنوب بولندا.",
-        content: `<p>عند التخطيط لرحلة عربية في بولندا، من المهم معرفة خيارات الطعام الحلال وأماكن الصلاة القريبة من مسار الجولة.</p><p>التخطيط المسبق يضمن تجربة مريحة للمجموعة طوال اليوم.</p><p><strong>تنسيق النقل للمجموعات العربية: +48 601 076 652 lub .</strong></p>`,
+        content: `<p>عند التخطيط لرحلة عربية في بولندا، من المهم معرفة خيارات الطعام الحلال وأماكن الصلاة القريبة من مسار الجولة.</p><p>التخطيط المسبق يضمن تجربة مريحة للمجموعة طوال اليوم.</p><p><strong>تنسيق النقل للمجموعات العربية: +48 41 345 32 25 lub +48 609 69 19 12.</strong></p>`,
       },
     },
   },
@@ -966,7 +966,7 @@ const articleDrafts: ArticleDraft[] = [
 <p><strong>Czy trzeba wpłacać zaliczkę?</strong><br />Tak, standardem jest około 30% przy rezerwacji, a reszta przed wyjazdem albo według ustaleń w umowie.</p>
 <p><strong>Ile kosztuje autokar na wesele w Krakowie?</strong><br />Najprostsze lokalne kursy zaczynają się od około 600 zł, a całodniowa obsługa z kilkoma powrotami może dojść do 1500 zł i więcej.</p>
 <p>Jeżeli chcesz konkretną wycenę pod swoją trasę, najprościej podać datę, liczbę osób i plan przejazdu. Wtedy dostajesz realną odpowiedź, a nie ogólnik.</p>
-<p><strong>Potrzebujesz dokładnej wyceny? Zadzwoń: 601 076 652 — odpowiadamy w ciągu godziny.</strong></p>`,
+<p><strong>Potrzebujesz dokładnej wyceny? Zadzwoń: 41 345 32 25 — odpowiadamy w ciągu godziny.</strong></p>`,
       },
     },
   },
@@ -999,7 +999,7 @@ const articleDrafts: ArticleDraft[] = [
 <p><strong>Czy autokar może wjechać na parking szkoły?</strong><br />To zależy od miejsca i gabarytów pojazdu. Jeśli parking jest za ciasny, ustalamy najbliższy bezpieczny punkt odbioru.</p>
 <p><strong>Co jeśli uczeń źle się poczuje w trasie?</strong><br />Każdy pojazd ma apteczkę, a kierowca w razie potrzeby może zatrzymać się w bezpiecznym miejscu lub przy placówce medycznej.</p>
 <p><strong>Czy można zmienić trasę w dniu wyjazdu?</strong><br />Drobne korekty są zwykle możliwe, większe zmiany trzeba potwierdzić z biurem.</p>
-<p><strong>Zaplanuj wycieczkę bez stresu — zadzwoń: 601 076 652.</strong></p>`,
+<p><strong>Zaplanuj wycieczkę bez stresu — zadzwoń: 41 345 32 25.</strong></p>`,
       },
     },
   },
@@ -1032,7 +1032,7 @@ const articleDrafts: ArticleDraft[] = [
 <p><strong>Can you arrange transport for 100+ passengers?</strong><br />Yes. We coordinate multiple vehicles and one transport schedule.</p>
 <p><strong>Do coaches have a PA system for guides?</strong><br />Yes, touring coaches can be assigned with microphone and speaker support.</p>
 <p><strong>Can scheduling respect religious requirements?</strong><br />Yes. Departure and arrival windows can be planned around Shabbat and pilgrimage needs.</p>
-<p><strong>Contact us: +48 601 076 652 or biuro@muszkieter.pl.</strong></p>`,
+<p><strong>Contact us: +48 41 345 32 25 or biuro@autokar-busko.pl.</strong></p>`,
       },
     },
   },
@@ -1065,7 +1065,7 @@ const articleDrafts: ArticleDraft[] = [
 <p><strong>Czy autokar może mieć dekoracje?</strong><br />Tak, ale trzeba to uzgodnić wcześniej, żeby dekoracje były bezpieczne i estetyczne.</p>
 <p><strong>Czy można pić alkohol w autokarze?</strong><br />To zależy od zasad przewoźnika. Najczęściej nie jest to rekomendowane przy standardowej obsłudze weselnej.</p>
 <p><strong>Ile trwa rezerwacja?</strong><br />Po akceptacji ceny i wpłacie zaliczki termin jest blokowany praktycznie od razu.</p>
-<p><strong>Potrzebujesz pomocy z planem transportu? Zadzwoń: +48 601 076 652.</strong></p>`,
+<p><strong>Potrzebujesz pomocy z planem transportu? Zadzwoń: +48 41 345 32 25.</strong></p>`,
       },
     },
   },
@@ -1092,7 +1092,7 @@ const articleDrafts: ArticleDraft[] = [
 <p>VIP movement during MSPO needs discretion, time buffers and one clear coordinator. A direct transfer from airport to hotel or fairground is usually safer than relying on mixed mobility plans. If several meetings happen across the city, a vehicle on standby is often the best solution.</p>
 <h2>Indicative pricing</h2>
 <p>Airport transfers are usually quoted in EUR for foreign exhibitors. Minibus services typically start around EUR 280-350 depending on airport. Full-size coaches and dedicated shuttle loops require a custom schedule-based quote.</p>
-<p><strong>Need MSPO transport planning? Contact us: +48 601 076 652.</strong></p>`,
+<p><strong>Need MSPO transport planning? Contact us: +48 41 345 32 25.</strong></p>`,
       },
       de: {
         title: "MSPO Messe Krakow — Bustransfer für Aussteller und Delegationen",
@@ -1106,7 +1106,7 @@ const articleDrafts: ArticleDraft[] = [
 <p>Für Aussteller empfehlen sich feste Shuttle-Zeiten am Morgen und Abend. Ergänzend kann ein separates Fahrzeug für VIP-Gäste oder kurzfristige Termine sinnvoll sein.</p>
 <h2>VIP-Transport</h2>
 <p>Delegationen und Management benötigen meist direkte Fahrten ohne Umwege. Ein dediziertes Fahrzeug mit klarer Einsatzplanung reduziert unnötigen Stress.</p>
-<p><strong>MSPO Transport anfragen: +48 601 076 652.</strong></p>`,
+<p><strong>MSPO Transport anfragen: +48 41 345 32 25.</strong></p>`,
       },
     },
   },
