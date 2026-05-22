@@ -7,8 +7,8 @@ function toLang(lang: string): Language {
   return (["en", "de", "ru", "ar", "es", "fr"].includes(lang) ? lang : "pl") as Language;
 }
 
-const title = "Wynajem autokaru na wesele - 500+ wesel, kursy nocne | MUSZKIETER";
-const description = "Wynajem autokaru na wesele z kierowcą. 500+ wesel obsłużonych, bus 19 lub autokar 49-67 os, kursy nocne, biały autokar na życzenie. Tel: 601 076 652 lub 41 345 32 25.";
+const title = "Wynajem autokaru na wesele - 500+ wesel, kursy nocne | Autokar Busko";
+const description = "Wynajem autokaru na wesele z kierowcą. 500+ wesel obsłużonych, bus 19 lub autokar 49-67 os, kursy nocne, biały autokar na życzenie. Tel: 41 345 32 25 lub +48 609 69 19 12.";
 const canonical = "https://www.autokar-busko.pl/pl/wynajem-autokaru-na-wesele";
 
 const breadcrumbSchema = {
@@ -39,22 +39,22 @@ const serviceSchema = {
   provider: {
     "@type": "LocalBusiness",
     "@id": "https://www.autokar-busko.pl/#organization",
-    name: "MUSZKIETER",
+    name: "Autokar Busko",
     legalName: "Alfa Bus Sp. z o.o.",
-    telephone: "+48601076652",
-    email: "biuro@muszkieter.pl",
+    telephone: "+48413453225",
+    email: "biuro@autokar-busko.pl",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "ul. Kolberga 9",
+      streetAddress: "ul. Poprzeczna 1",
       addressLocality: "Krakow",
-      postalCode: "25-516",
+      postalCode: "28-100",
       addressCountry: "PL",
     },
     url: "https://www.autokar-busko.pl",
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "+48601076652",
+        telephone: "+48413453225",
         contactType: "customer service",
         areaServed: "PL",
         availableLanguage: "pl",
@@ -374,13 +374,13 @@ export default async function WynajemAutokaruNaWeselePage({ params }: { params: 
       <main className="bg-gray-50 text-gray-900">
         <section className="bg-gray-900 text-white">
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-            <p className="text-sm uppercase tracking-[0.25em] text-gray-300">MUSZKIETER</p>
+            <p className="text-sm uppercase tracking-[0.25em] text-gray-300">Autokar Busko</p>
             <h1 className="mt-4 max-w-4xl text-4xl font-black leading-tight sm:text-5xl">Wynajem autokaru na wesele - transport gości, bez stresu, z klasą</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-200">500+ wesel obsłużonych od 2003 roku. Bus 19-osobowy dla bliskiej rodziny, autokar 49-67 miejsc dla pełnego wesela. Kursy nocne bez dopłat, biały autokar na życzenie, kierowca w odpowiednim stroju.</p>
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a href="#kontakt" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">Sprawdź wycenę w 15 min</a>
-              <a href="tel:+48601076652" className="inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">+48 601 076 652</a>
+              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">+48 41 345 32 25</a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-gray-400 px-4 py-2 text-xs font-semibold text-gray-200 hover:border-white hover:text-white"></a>
             </div>
 
@@ -526,11 +526,11 @@ export default async function WynajemAutokaruNaWeselePage({ params }: { params: 
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold">Twoje wesele zasługuje na transport bez stresu. Pomożemy.</h2>
             <div className="mt-8 space-y-3 text-base leading-7 text-gray-200">
-              <p><a href="tel:+48601076652" className="text-amber-500">Telefon główny: +48 601 076 652</a></p>
+              <p><a href="tel:+48413453225" className="text-amber-500">Telefon główny: +48 41 345 32 25</a></p>
               <p><a href="tel:+48413453225" className="text-amber-500">Telefon zapasowy: </a></p>
-              <p><a href="mailto:biuro@muszkieter.pl" className="text-amber-500">Email: biuro@muszkieter.pl</a></p>
+              <p><a href="mailto:biuro@autokar-busko.pl" className="text-amber-500">Email: biuro@autokar-busko.pl</a></p>
               <p><a href="/pl/kontakt" className="text-amber-500">Formularz: Wyślij zapytanie</a></p>
-              <p>MUSZKIETER · Alfa Bus Sp. z o.o. · ul. Kolberga 9, 25-516 Kielce</p>
+              <p>Autokar Busko · Alfa Bus Sp. z o.o. · ul. Poprzeczna 1, 28-100 Busko-Zdrój</p>
             </div>
           </div>
         </section>

@@ -7,8 +7,8 @@ function toLang(lang: string): Language {
   return (["en", "de", "ru", "ar", "es", "fr"].includes(lang) ? lang : "pl") as Language;
 }
 
-const title = "Autokar na pogrzeb - dyskretny transport rodziny | MUSZKIETER";
-const description = "Wynajem autokaru i busa na pogrzeb. 100+ pogrzebów obsłużonych dyskretnie. Bus 19 os lub autokar 49 os. Pomoc w 24h. Tel: 601 076 652.";
+const title = "Autokar na pogrzeb - dyskretny transport rodziny | Autokar Busko";
+const description = "Wynajem autokaru i busa na pogrzeb. 100+ pogrzebów obsłużonych dyskretnie. Bus 19 os lub autokar 49 os. Pomoc w 24h. Tel: 41 345 32 25.";
 const canonical = "https://www.autokar-busko.pl/pl/autokar-na-pogrzeb";
 
 const breadcrumbSchema = {
@@ -39,10 +39,10 @@ const serviceSchema = {
   provider: {
     "@type": "LocalBusiness",
     "@id": "https://www.autokar-busko.pl/#organization",
-    name: "MUSZKIETER",
+    name: "Autokar Busko",
     legalName: "Alfa Bus 26 Sp. z o.o.",
-    telephone: "+48601076652",
-    email: "biuro@muszkieter.pl",
+    telephone: "+48413453225",
+    email: "biuro@autokar-busko.pl",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Mielczarskiego 121",
@@ -81,7 +81,7 @@ const faqSchema = {
       name: "Jak szybko można zarezerwować autokar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Pomagamy w 24-48 godzin od pierwszego kontaktu. W pilnych przypadkach - do 12 godzin, jeśli mamy wolny pojazd na daną datę. Zadzwoń pod 601 076 652 albo wyślij formularz - odzywamy się w ciągu godziny.",
+        text: "Pomagamy w 24-48 godzin od pierwszego kontaktu. W pilnych przypadkach - do 12 godzin, jeśli mamy wolny pojazd na daną datę. Zadzwoń pod 41 345 32 25 albo wyślij formularz - odzywamy się w ciągu godziny.",
       },
     },
     {
@@ -251,7 +251,7 @@ const faqItems = [
   {
     question: "Jak szybko można zarezerwować autokar?",
     answer:
-      "Pomagamy w 24-48 godzin od pierwszego kontaktu. W pilnych przypadkach - do 12 godzin, jeśli mamy wolny pojazd na daną datę. Zadzwoń pod 601 076 652 albo wyślij formularz - odzywamy się w ciągu godziny.",
+      "Pomagamy w 24-48 godzin od pierwszego kontaktu. W pilnych przypadkach - do 12 godzin, jeśli mamy wolny pojazd na daną datę. Zadzwoń pod 41 345 32 25 albo wyślij formularz - odzywamy się w ciągu godziny.",
   },
   {
     question: "Czy macie pojazdy bez agresywnej reklamy?",
@@ -349,13 +349,13 @@ export default async function AutokarNaPogrzebPage({ params }: { params: Promise
       <main className="bg-gray-50 text-gray-900">
         <section className="bg-gray-900 text-white">
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-            <p className="text-sm uppercase tracking-[0.25em] text-gray-300">MUSZKIETER</p>
+            <p className="text-sm uppercase tracking-[0.25em] text-gray-300">Autokar Busko</p>
             <h1 className="mt-4 max-w-4xl text-4xl font-black leading-tight sm:text-5xl">Autokar na pogrzeb - dyskretny, godny transport rodziny</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-200">Pomagamy zorganizować transport dla rodziny i przyjaciół w trudnym czasie. Bez stresu, w 24 godziny.</p>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a href="#kontakt" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">Skontaktuj się - pomożemy w 24h</a>
-              <a href="tel:+48601076652" className="inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">tel:+48601076652</a>
+              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">tel:+48413453225</a>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-gray-200">
@@ -500,10 +500,10 @@ export default async function AutokarNaPogrzebPage({ params }: { params: Promise
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold">Pogrzeb wymaga spokoju, nie organizacji. Pomożemy.</h2>
             <div className="mt-8 space-y-3 text-base leading-7 text-gray-200">
-              <p><a href="tel:+48601076652" className="text-amber-500">Telefon: +48 601 076 652</a></p>
-              <p><a href="mailto:biuro@muszkieter.pl" className="text-amber-500">Email: biuro@muszkieter.pl</a></p>
+              <p><a href="tel:+48413453225" className="text-amber-500">Telefon: +48 41 345 32 25</a></p>
+              <p><a href="mailto:biuro@autokar-busko.pl" className="text-amber-500">Email: biuro@autokar-busko.pl</a></p>
               <p><a href="/pl/kontakt" className="text-amber-500">Formularz: Wyślij zapytanie -&gt;</a></p>
-              <p>MUSZKIETER · Alfa Bus 26 Sp. z o.o. · Mielczarskiego 121, 25-611 Krakow</p>
+              <p>Autokar Busko · Alfa Bus 26 Sp. z o.o. · Mielczarskiego 121, 25-611 Krakow</p>
             </div>
           </div>
         </section>

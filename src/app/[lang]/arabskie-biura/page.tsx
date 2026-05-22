@@ -52,8 +52,8 @@ export default function ArabskieBiuraPage() {
       hero_title: 'Your Trusted Partner in the Heart of Poland',
       hero_sub: 'We are not just a transport company — we are your complete partner in Poland',
       hero_quote: '"Cooperate in righteousness and piety" — values we share',
-      intro: 'You are looking for a reliable partner in Poland who understands Arab travelers. We are Muszkieter Group — 27+ years experience, 180 vehicles, a team that says: All for one and one for all.',
-      why_title: 'Why Muszkieter Group?',
+      intro: 'You are looking for a reliable partner in Poland who understands Arab travelers. We are Autokar Busko — 27+ years experience, 180 vehicles, a team that says: All for one and one for all.',
+      why_title: 'Why Autokar Busko?',
       why_items: [
         '🕌 We understand Arab culture and special needs',
         '🚌 180 vehicles — from 8 to 50 passengers',
@@ -173,7 +173,7 @@ export default function ArabskieBiuraPage() {
           <p className="text-xl text-gray-200 leading-relaxed mb-8">{c.partner_desc}</p>
           <div className="bg-[#f59e0b]/10 border border-[#f59e0b]/40 rounded-2xl p-6">
             <p className="text-[#f59e0b] text-lg font-semibold">
-              {isAr ? '🦁 موسكيتير — واحد للجميع والجميع لواحد' : '🦁 Muszkieter — All for one, one for all'}
+              {isAr ? '🦁 موسكيتير — واحد للجميع والجميع لواحد' : '🦁 Autokar Busko — All for one, one for all'}
             </p>
             <p className="text-gray-300 mt-2">
               {isAr ? 'منذ عام 1997 — الشريك الأكثر موثوقية في كيلتسه، بولندا' : 'Since 1997 — the most trusted partner in Krakow, Poland'}
@@ -192,7 +192,7 @@ export default function ArabskieBiuraPage() {
               className="inline-flex items-center justify-center gap-3 rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] transition-all duration-200 hover:bg-[#f59e0b] hover:text-black">
               <span className="text-2xl">💬</span> {c.whatsapp_text}
             </a>
-            <a href="mailto:biuro@muszkieter.pl"
+            <a href="mailto:biuro@autokar-busko.pl"
               className="inline-flex items-center justify-center gap-3 rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
               <span className="text-2xl">📧</span> {c.email_text}
             </a>

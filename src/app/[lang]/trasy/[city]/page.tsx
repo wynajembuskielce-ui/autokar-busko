@@ -27,7 +27,7 @@ const translations = {
     ],
   },
   en: {
-    tag: "Wynajem Autokar Kielce",
+    tag: "Autokar Busko",
     h1: (city: string) => `Coach Hire ${city} from Krakow`,
     desc: (city: string) => `Professional group transport from Krakow to ${city}. VDL, Scania, Mercedes-Benz coaches. 24 years of experience.`,
     routeH2: (city: string) => `Route Krakow — ${city}`,
@@ -171,13 +171,13 @@ export async function generateMetadata({
   if (!city) return {};
   if (lang === "pl") {
     return {
-      title: `Wynajem autokaru ${city.name} | MUSZKIETER Group`,
-      description: `Profesjonalny wynajem autokarów z Krakowa do ${city.name}. Autokary VDL, Scania, Mercedes. Zadzwoń: +48 601 076 652`,
+      title: `Wynajem autokaru ${city.name} | Autokar Busko`,
+      description: `Profesjonalny wynajem autokarów z Krakowa do ${city.name}. Autokary VDL, Scania, Mercedes. Zadzwoń: +48 41 345 32 25`,
     };
   }
   return {
-    title: `Coach Hire ${city.nameEn} from Krakow | MUSZKIETER Group`,
-    description: `Professional coach hire from Krakow to ${city.nameEn}. VDL, Scania, Mercedes coaches. Call: +48 601 076 652`,
+    title: `Coach Hire ${city.nameEn} from Krakow | Autokar Busko`,
+    description: `Professional coach hire from Krakow to ${city.nameEn}. VDL, Scania, Mercedes coaches. Call: +48 41 345 32 25`,
   };
 }
 
@@ -206,8 +206,8 @@ export default async function CityPage({
             {t.desc(cityLabel)}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="tel:601076652" variant="phone">
-              📞 +48 601 076 652
+            <CTAButton href="tel:413453225" variant="phone">
+              📞 +48 41 345 32 25
             </CTAButton>
             <CTAButton href={`/${lang}/kontakt`} variant="secondary">
               {t.phone}
@@ -261,8 +261,8 @@ export default async function CityPage({
             <p className="text-gray-300 mb-6">
               {t.ctaDesc}
             </p>
-            <CTAButton href="tel:601076652" variant="phone">
-              📞 +48 601 076 652
+            <CTAButton href="tel:413453225" variant="phone">
+              📞 +48 41 345 32 25
             </CTAButton>
           </div>
         </div>
@@ -274,9 +274,9 @@ export default async function CityPage({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "MUSZKIETER Group — Coach Rental Kielce",
+            name: "Autokar Busko",
             url: "https://www.autokar-busko.pl",
-            telephone: "+48601076652",
+            telephone: "+48413453225",
             address: {
               "@type": "PostalAddress",
               streetAddress: "ul. Czarnowiejska 43",

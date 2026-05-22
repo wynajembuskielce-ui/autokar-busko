@@ -28,9 +28,9 @@ const HREFLANG_MAP: Record<Lang, string> = {
 };
 
 const SITE_URL = 'https://www.autokar-busko.pl';
-const PHONE = '+48 601 076 652';
-const PHONE_HREF = 'tel:+48601076652';
-const EMAIL = 'biuro@muszkieter.pl';
+const PHONE = '+48 41 345 32 25';
+const PHONE_HREF = 'tel:+48413453225';
+const EMAIL = 'biuro@autokar-busko.pl';
 
 const cities = citiesData as City[];
 
@@ -69,11 +69,11 @@ export async function generateMetadata({
 
   if (!city) {
     return {
-      title: 'Strona nie znaleziona — MUSZKIETER Group',
+      title: 'Strona nie znaleziona — Autokar Busko',
     };
   }
 
-  const title = `Wynajem autokaru ${city.name} — MUSZKIETER Group | Kielce`;
+  const title = `Wynajem autokaru ${city.name} — Autokar Busko`;
   const description = `Profesjonalny wynajem autokarów z Kielc do ${city.name}. Obsługujemy trasy w województwie ${city.region} i całej Polsce. 23 lata doświadczenia, 180 pojazdów. Tel. ${PHONE}.`;
 
   const canonical = `${SITE_URL}/${lang}/miasta/${city.slug}`;
@@ -94,7 +94,7 @@ export async function generateMetadata({
       title,
       description,
       url: canonical,
-      siteName: 'MUSZKIETER Group — wynajem autokaru Kielce',
+      siteName: 'Autokar Busko',
       locale: HREFLANG_MAP[lang as Lang] ?? 'pl_PL',
       type: 'website',
     },
@@ -127,7 +127,7 @@ export default async function MiastoPage({ params }: PageProps) {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': `${SITE_URL}/${lang}/miasta/${city.slug}#business`,
-    name: `MUSZKIETER Group — wynajem autokaru ${city.name}`,
+    name: `Autokar Busko — wynajem autokaru ${city.name}`,
     description: `Profesjonalny wynajem autokarów z Kielc do ${city.name}. Województwo ${city.region}.`,
     url: `${SITE_URL}/${lang}/miasta/${city.slug}`,
     telephone: PHONE,
@@ -135,9 +135,9 @@ export default async function MiastoPage({ params }: PageProps) {
     priceRange: 'PLN',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'ul. Kolberga 9',
-      addressLocality: 'Kielce',
-      postalCode: '25-516',
+      streetAddress: 'ul. Poprzeczna 1',
+      addressLocality: 'Busko-Zdrój',
+      postalCode: '28-100',
       addressRegion: 'świętokrzyskie',
       addressCountry: 'PL',
     },
@@ -227,7 +227,7 @@ export default async function MiastoPage({ params }: PageProps) {
         <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
           Wynajem autokaru{' '}
           <span className="text-[#f59e0b]">{city.name}</span> —{' '}
-          MUSZKIETER&nbsp;Group
+          Autokar Busko
         </h1>
 
         {/* Opis */}
@@ -243,7 +243,7 @@ export default async function MiastoPage({ params }: PageProps) {
         {/* CTA */}
         <div className="mt-10 rounded-2xl border border-[#f59e0b]/30 bg-gradient-to-br from-[#2a2a2a] to-[#1a1a1a] p-6 sm:p-8">
           <h2 className="text-2xl font-semibold text-[#f59e0b]">
-            Zamów wycenę trasy Kielce → {city.name}
+            Zamów wycenę trasy Busko-Zdrój → {city.name}
           </h2>
           <p className="mt-3 text-gray-300">
             Zadzwoń lub wyślij zapytanie — odpowiadamy w ciągu 60 minut w
@@ -294,8 +294,8 @@ export default async function MiastoPage({ params }: PageProps) {
         {/* Trust signals */}
         <div className="mt-12 border-t border-gray-800 pt-8 text-sm text-gray-400">
           <p>
-            <strong className="text-white">MUSZKIETER Group</strong> ·
-            Alfa Bus Sp. z o.o. · ul. Kolberga 9, 25-516 Kielce ·
+            <strong className="text-white">Autokar Busko</strong> ·
+            Alfa Bus Sp. z o.o. · ul. Poprzeczna 1, 28-100 Busko-Zdrój ·
             licencja transport krajowy i międzynarodowy WITD ·{' '}
             <a
               href={`mailto:${EMAIL}`}
