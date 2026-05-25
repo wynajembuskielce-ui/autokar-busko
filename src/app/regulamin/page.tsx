@@ -5,7 +5,7 @@ import path from 'path';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Regulamin świadczenia usług | Wynajem Autobus Krakow',
+  title: 'Regulamin świadczenia usług | Autokar Busko',
 };
 
 export default function RegulaminPage() {

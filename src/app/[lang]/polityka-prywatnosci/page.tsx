@@ -9,10 +9,10 @@ type Props = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   const titles: Record<string, string> = {
-    en: 'Privacy Policy | Wynajem Autobus Krakow',
-    de: 'Datenschutzerklärung | Wynajem Autobus Krakow',
+    en: 'Privacy Policy | Autokar Busko',
+    de: 'Datenschutzerklärung | Autokar Busko',
   };
-  return { title: titles[lang] ?? 'Polityka prywatności | Wynajem Autobus Krakow' };
+  return { title: titles[lang] ?? 'Polityka prywatności | Autokar Busko' };
 }
 
 export default async function LangPolitykaPrywatnosci({ params }: Props) {

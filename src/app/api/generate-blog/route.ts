@@ -269,7 +269,7 @@ async function generateWithClaude(topic: Topic): Promise<GeneratedArticle> {
 
   const prompt = `Jesteś copywriterem firmy transportowej Autokar Busko z Krakowa, Polska.
 Firma: 24 lata doświadczenia, 180 pojazdów (8-57 miejsc), CASCO, NNW, licencja ITD.
-Telefon: +48 41 345 32 25. Adres: ul. Poprzeczna 1, Krakow.
+Telefon: +48 41 345 32 25. Adres: ul. Poprzeczna 1, Busko-Zdrój.
 
 Napisz artykuł blogowy:
 Temat: "${topic.topic}"

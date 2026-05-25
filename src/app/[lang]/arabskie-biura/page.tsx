@@ -59,7 +59,7 @@ export default function ArabskieBiuraPage() {
         '🚌 180 vehicles — from 8 to 50 passengers',
         '👩 Female driver for women-only groups',
         '🗣️ Arabic-speaking service available (small surcharge)',
-        '📍 Strategic location — 1 hour from Krakow',
+        '📍 Strategic location — in the heart of Ponidzie',
         '🤝 We help you find local partners',
         '🎫 We book tickets, hotels and halal restaurants',
         '✅ Quality guarantee and punctuality'
@@ -176,7 +176,7 @@ export default function ArabskieBiuraPage() {
               {isAr ? '🦁 موسكيتير — واحد للجميع والجميع لواحد' : '🦁 Autokar Busko — All for one, one for all'}
             </p>
             <p className="text-gray-300 mt-2">
-              {isAr ? 'منذ عام 1997 — الشريك الأكثر موثوقية في كيلتسه، بولندا' : 'Since 1997 — the most trusted partner in Krakow, Poland'}
+              {isAr ? 'منذ عام 1997 — الشريك الأكثر موثوقية في كيلتسه، بولندا' : 'Since 1997 — the most trusted partner in Ponidzie, Poland'}
             </p>
           </div>
         </div>
@@ -201,7 +201,7 @@ export default function ArabskieBiuraPage() {
             <a href="https://muszkieter.pl" target="_blank" rel="noopener noreferrer" className="text-[#639922] underline transition-colors duration-200 hover:text-[#97C459]">
               muszkieter.pl
             </a>
-            {isAr ? ' — كيلتسه، بولندا' : ' — Krakow, Poland'}
+            {isAr ? ' — كيلتسه، بولندا' : ' — Busko-Zdrój, Poland'}
           </div>
         </div>
       </section>

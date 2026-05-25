@@ -45,9 +45,9 @@ const serviceSchema = {
     email: "biuro@autokar-busko.pl",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Mielczarskiego 121",
-      addressLocality: "Krakow",
-      postalCode: "25-611",
+      streetAddress: "Poprzeczna 1",
+      addressLocality: "Busko-Zdrój",
+      postalCode: "28-100",
       addressCountry: "PL",
     },
     url: "https://www.autokar-busko.pl",
@@ -503,7 +503,7 @@ export default async function AutokarNaPogrzebPage({ params }: { params: Promise
               <p><a href="tel:+48413453225" className="text-[#639922]">Telefon: +48 41 345 32 25</a></p>
               <p><a href="mailto:biuro@autokar-busko.pl" className="text-[#639922]">Email: biuro@autokar-busko.pl</a></p>
               <p><a href="/pl/kontakt" className="text-[#639922]">Formularz: Wyślij zapytanie -&gt;</a></p>
-              <p>Autokar Busko · Alfa Bus 26 Sp. z o.o. · Mielczarskiego 121, 25-611 Krakow</p>
+              <p>Autokar Busko · Alfa Bus 26 Sp. z o.o. · ul. Poprzeczna 1, 28-100 Busko-Zdrój</p>
             </div>
           </div>
         </section>

@@ -11,13 +11,13 @@ function toLang(lang: string): Language {
 }
 
 const metaTitles: Record<Language, string> = {
-  pl: "Cennik orientacyjny wynajmu | Krakow",
-  en: "Estimated rental pricing | Krakow",
-  de: "Orientierende Mietpreise | Krakow",
+  pl: "Cennik orientacyjny wynajmu | Busko-Zdrój",
+  en: "Estimated rental pricing | Busko-Zdrój",
+  de: "Orientierende Mietpreise | Busko-Zdrój",
   ru: "Ориентировочные цены аренды | Кельце",
   ar: "أسعار تأجير تقريبية | كيلتسه",
-  es: "Precios orientativos de alquiler | Krakow",
-  fr: "Tarifs indicatifs de location | Krakow",
+  es: "Precios orientativos de alquiler | Busko-Zdrój",
+  fr: "Tarifs indicatifs de location | Busko-Zdrój",
 };
 
 const metaDescriptions: Record<Language, string> = {

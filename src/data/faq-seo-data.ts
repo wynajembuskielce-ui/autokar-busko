@@ -61,8 +61,8 @@ export const faqData: Record<string, FaqPage> = {
         name: "FAQ rozszerzone",
         questions: [
           {
-            q: `Ile kosztuje autokar na wesele w Kielcach?`,
-            a: `Wynajem autokaru na wesele w Kielcach to koszt od 1 200 do 3 500 zł w zależności od trasy, czasu pracy i standardu pojazdu. Konkretnie:
+            q: `Ile kosztuje autokar na wesele na Ponidziu?`,
+            a: `Wynajem autokaru na wesele na Ponidziu to koszt od 1 200 do 3 500 zł w zależności od trasy, czasu pracy i standardu pojazdu. Konkretnie:
 
 Krótki transport gości (kościół-sala) - trasa 10-30 km, czas pracy 4-6 godzin: 1 200-1 800 zł. Najczęstszy scenariusz - autokar zabiera gości z kościoła w Kielcach, wiezie do sali weselnej w Bałtowie/Tokarni/Końskich, a po godzinie 23:00 wraca po nocnych gości.
 
@@ -271,7 +271,7 @@ Co kontroluje ITD/Policja przed wycieczką szkolną?
 
 Nasza praktyka:
 
-W Autokar Busko zachęcamy do takich kontroli. To dla nas darmowy „audyt" potwierdzający, że gramy fair. Współpracujemy z Komendą Miejską Policji w Kielcach od 2008 roku - kontrola nigdy nie wykazała żadnych nieprawidłowości.
+W Autokar Busko zachęcamy do takich kontroli. To dla nas darmowy „audyt" potwierdzający, że gramy fair.
 
 Dla każdego wyjazdu szkolnego dosyłamy mailem komplet skanów:
 - Dowód rejestracyjny autokaru
@@ -480,7 +480,7 @@ Dla stałych szkół-klientów mamy rabat 5-10% na drugą i kolejną wycieczkę 
         name: "FAQ rozszerzone",
         questions: [
           {
-            q: `Czy obsługujemy targi MSPO i Inter Cars w Kielcach?`,
+            q: `Czy obsługujecie duże eventy i targi?`,
             a: `Tak - MSPO to nasze największe wydarzenie roku. W 2025 obsłużyliśmy 18 delegacji wojskowych z 12 krajów (USA, Niemcy, Francja, Włochy, Korea Płd., Izrael, Turcja, Czechy, Rumunia, Hiszpania, Norwegia, Holandia).
 
 MSPO (Międzynarodowy Salon Przemysłu Obronnego) - wrzesień, Targi Kielce:
@@ -691,11 +691,11 @@ Wszystkich Świętych (1-2 listopada):
 
 Dlaczego tak wcześnie rezerwować?
 
-W okolicach świąt wszystkie polskie firmy autokarowe mają obłożenie 100%. Konkurencja w Kielcach kasuje rezerwacje już 6 miesięcy wcześniej. Jeśli zadzwonisz miesiąc przed świętem - odpowiemy uczciwie: "Niestety, pełne obłożenie".
+W okolicach świąt wszystkie polskie firmy autokarowe mają obłożenie 100%. Konkurencja kasuje rezerwacje już 6 miesięcy wcześniej. Jeśli zadzwonisz miesiąc przed świętem - odpowiemy uczciwie: "Niestety, pełne obłożenie".
 
 Specjalna oferta dla parafii:
 
-Jesteśmy partnerem strategicznym 6 parafii w świętokrzyskim - proboszczowie z Kielc, Skarżyska, Końskich, Sandomierza, Pińczowa i Buska-Zdroju mają z nami stałą umowę z preferencyjnymi cenami.
+Jesteśmy partnerem strategicznym 6 parafii w świętokrzyskim - proboszczowie z Buska, Pińczowa, Kazimierzy Wielkiej, Sandomierza i Końskich mają z nami stałą umowę z preferencyjnymi cenami.
 
 Co możemy zrobić dodatkowo:
 - Ksiądz na pokładzie z mikrofonem (część autokarów ma indywidualne nagłośnienie)
@@ -940,11 +940,11 @@ Ważne: Klient ma prawo do anulowania bez kosztów jeśli prognoza pogody na dzi
             a: "Cena zależy od liczby pasażerów i typu pojazdu. Minibusy zaczynają się orientacyjnie od ok. 800 PLN, a autokary od ok. 1200 PLN.",
           },
           {
-            q: "Czy organizujecie transport na targi MSPO w Kielcach?",
-            a: "Tak. Obsługujemy transfery lotniskowe i hotelowe dla wystawców, delegacji i gości Targów Kielce.",
+            q: "Czy organizujecie transport na targi i eventy?",
+            a: "Tak. Obsługujemy transfery lotniskowe i hotelowe dla wystawców, delegacji i gości targów i eventów.",
           },
           {
-            q: "Jak dojechać z lotniska do Targów Kielce?",
+            q: "Jak dojechać z lotniska na targi?",
             a: "Najwygodniejsza opcja dla grupy to bezpośredni transfer pod halę targową bez przesiadek.",
           },
           {
@@ -1110,9 +1110,9 @@ Pakiet rozszerzony (premium):
 
 Najczęstsze wydarzenia, które obsługujemy:
 
-- MSPO (Targi Kielce) - wrzesień, dziesiątki delegacji wojskowych z całego świata
+- targi i eventy - wrzesień, dziesiątki delegacji wojskowych z całego świata
 - Inter Cars Exhibition - listopad
-- Konferencje hotelowe w Kielcach (Hotel Łysogóry, Best Western)
+- Konferencje hotelowe na Ponidziu
 - Delegacje rządowe (Sejm, MSZ - z lotniska Warszawa-Chopina)`,
           },
         ],
@@ -1289,7 +1289,7 @@ W praktyce, dla najczęstszych zleceń z Kielc, ceny orientacyjne wyglądają ta
 - Kielce -> Zakopane (transfer 250 km) - od 2 200 zł autokar 50-osobowy
 - Kielce -> Częstochowa (pielgrzymka jednodniowa) - od 1 000 zł
 - Wycieczka szkolna jednodniowa po świętokrzyskim - od 800 zł
-- Wesele w Kielcach (8-12 godzin pracy) - 1 500-2 800 zł
+- Wesele na Ponidziu (8-12 godzin pracy) - 1 500-2 800 zł
 
 Na cenę wpływa kilka czynników: długość trasy, liczba godzin pracy kierowcy, standard pojazdu (autokar standard vs. premium z fotelami rozkładanymi i WiFi), termin (sezon weselny czerwiec-wrzesień droższy o 15-20%) oraz kierunek (jazda na zachód do Krakowa jest tańsza niż na wschód do Lublina ze względu na infrastrukturę dróg).
 
@@ -1298,19 +1298,19 @@ W Autokar Busko dysponujemy 180 pojazdami od 19 do 80 miejsc - od kameralnych bu
 Dokładną wycenę otrzymasz w ciągu 24 godzin - wystarczy zadzwonić pod +48 41 345 32 25 lub wypełnić formularz kontaktowy (/kontakt). Wycena jest bezpłatna i niezobowiązująca.`,
           },
           {
-            q: `Czy obsługujecie wycieczki z całego województwa świętokrzyskiego?`,
-            a: `Tak - obsługujemy całe województwo świętokrzyskie i nie pobieramy dodatkowej opłaty za podstawienie pojazdu w obrębie 50 km od Kielc. To oznacza, że odbieramy grupę bezpośrednio spod szkoły, kościoła, hotelu lub firmy w takich miejscowościach jak:
+            q: `Czy obsługujecie wycieczki z całego Ponidzia i okolic?`,
+            a: `Tak - obsługujemy całe Ponidzie i okolice i nie pobieramy dodatkowej opłaty za podstawienie pojazdu w obrębie 50 km od Buska-Zdroju. To oznacza, że odbieramy grupę bezpośrednio spod szkoły, kościoła, hotelu lub firmy w takich miejscowościach jak:
 
 - Końskie, Skarżysko-Kamienna, Starachowice - północna część województwa
 - Ostrowiec Świętokrzyski, Sandomierz, Opatów - wschodnie świętokrzyskie
 - Busko-Zdrój, Pińczów, Jędrzejów - południowe świętokrzyskie
 - Włoszczowa, Kazimierza Wielka - zachodnia część regionu
 
-Dla miejscowości oddalonych powyżej 50 km od Kielc (np. Sandomierz 90 km) doliczamy symboliczną opłatę za podstawienie - zazwyczaj 150-300 zł w zależności od dystansu.
+Dla miejscowości oddalonych powyżej 50 km od Buska-Zdroju (np. Sandomierz 90 km) doliczamy symboliczną opłatę za podstawienie - zazwyczaj 150-300 zł w zależności od dystansu.
 
 Dlaczego warto zamówić autokar od lokalnego przewoźnika? Znamy region jak własną kieszeń. Wiemy, że na trasie Kielce-Sandomierz zimą ślisko, że na DK74 do Końskich są zwężenia, że na drogę dojazdową do Świętej Katarzyny w Łysogórach autokar 12-metrowy nie wjedzie (potrzebny mniejszy). Te szczegóły decydują o tym, czy wycieczka odbędzie się punktualnie.
 
-Obsługujemy także atrakcje turystyczne województwa świętokrzyskiego dla grup z całej Polski:
+Obsługujemy także atrakcje turystyczne Ponidzia dla grup z całej Polski:
 - Łysica i Święty Krzyż (Łysogóry, najwyższy szczyt regionu)
 - Jaskinia Raj w Chęcinach (jedna z najpiękniejszych w Polsce)
 - Skansen w Tokarni (Muzeum Wsi Kieleckiej)
@@ -1321,7 +1321,7 @@ Zadzwoń pod +48 41 345 32 25 - pomożemy także zaplanować trasę zwiedzania.`
           },
           {
             q: `Jak szybko otrzymam wycenę?`,
-            a: `Wycenę przygotowujemy w ciągu 24 godzin od otrzymania zapytania - w godzinach pracy biura (poniedziałek-piątek 7:00-18:00, sobota 8:00-14:00) zwykle w 2-4 godziny. To jedna z naszych najmocniejszych przewag konkurencyjnych - większość firm w Kielcach każe czekać 2-3 dni, my odpowiadamy tego samego dnia.
+            a: `Wycenę przygotowujemy w ciągu 24 godzin od otrzymania zapytania - w godzinach pracy biura (poniedziałek-piątek 7:00-18:00, sobota 8:00-14:00) zwykle w 2-4 godziny. To jedna z naszych najmocniejszych przewag konkurencyjnych - większość firm każe czekać 2-3 dni, my odpowiadamy tego samego dnia.
 
 Co potrzebujemy do wyceny?
 - Trasa (skąd-dokąd, planowane postoje)
@@ -1344,7 +1344,7 @@ Wycena jest bezpłatna i niezobowiązująca - nie zobowiązuje Cię do niczego. 
           },
           {
             q: `Czym Autokar Busko różni się od konkurencji na Ponidziu?`,
-            a: `Kielce mają około 15 firm wynajmujących autokary. Większość z nich ma 3-8 pojazdów i jest aktywna głównie w sezonie. Autokar Busko to inna kategoria.
+            a: `Ponidzie ma kilka firm wynajmujących autokary. Większość z nich ma 3-8 pojazdów i jest aktywna głównie w sezonie. Autokar Busko to inna kategoria.
 
 1. Skala floty: 180 pojazdów
 Większość konkurencji w regionie ma 3-15 pojazdów. My mamy 180 - od busów 19-osobowych po piętrowe autokary 80-osobowe. To oznacza, że nawet w szczycie sezonu (czerwiec, MSPO we wrześniu) mamy wolne autokary, kiedy konkurencja już nie ma.
@@ -1380,7 +1380,7 @@ Pielgrzymki:
 - Boże Ciało, Wszystkich Świętych, 3 maja, 15 sierpnia (Matki Bożej Zielnej) - 3-4 miesiące wcześniej.
 - Pozostałe terminy - 4-6 tygodni.
 
-Transfery firmowe i targowe (MSPO, Targi Kielce):
+Transfery firmowe i targowe:
 - MSPO (wrzesień) - autokary znikają już w czerwcu. 6 miesięcy wcześniej minimum.
 - Pozostałe targi - 4-8 tygodni.
 
@@ -1406,7 +1406,7 @@ Dla stałych klientów (firmy, biura podróży, parafie, szkoły) trzymamy „ka
         questions: [
           {
             q: `Jakie modele autokarów posiadacie? Setra, Mercedes, Volvo?`,
-            a: `W naszej flocie 180 pojazdów - to największa flota w świętokrzyskim. Marki europejskich liderów:
+            a: `W naszej flocie 180 pojazdów - to największa flota na Ponidziu. Marki europejskich liderów:
 
 Autokary Premium (klasa 4-gwiazdkowa IRU):
 

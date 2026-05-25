@@ -6,9 +6,9 @@
   },
   "common": {
     "company_name": {
-      "pl": "Wynajem Autokarów Kielce",
-      "en": "Coach Rental Kielce",
-      "de": "Busmiete Kielce"
+      "pl": "Autokar Busko",
+      "en": "Coach Rental Busko",
+      "de": "Busmiete Busko"
     },
     "phone": {
       "pl": "+48 41 345 32 25 lub +48 609 69 19 12",
@@ -92,9 +92,9 @@
   },
   "hero": {
     "title": {
-      "pl": "Wynajem autokarów Kielce — Komfort i Niezawodność",
-      "en": "Coach Rental Kielce — Comfort & Reliability",
-      "de": "Busmiete Kielce — Komfort und Zuverlässigkeit"
+      "pl": "Autokar Busko — Komfort i Niezawodność",
+      "en": "Autokar Busko — Comfort & Reliability",
+      "de": "Autokar Busko — Komfort und Zuverlässigkeit"
     },
     "subtitle": {
       "pl": "Busy, minibusy i autokary na wesela, wycieczki szkolne, pielgrzymki, imprezy firmowe i transfery",
@@ -183,8 +183,8 @@
       "title_en": "Skiing",
       "title_de": "Skifahren",
       "subtitle_pl": "Wyjazdy na narty z Kielc",
-      "subtitle_en": "Ski trips from Kielce",
-      "subtitle_de": "Skiausflüge von Kielce",
+      "subtitle_en": "Ski trips from Busko-Zdrój",
+      "subtitle_de": "Skiausflüge von Busko-Zdrój",
       "description_pl": "Wyjazdy narciarskie do Zakopane, Białki, Wisły. Specjalne przystosowanie dla sprzętu narciarskiego. Gwarancja bezpieczeństwa.",
       "description_en": "Ski trips to Zakopane, Białka, Wisła. Special accommodation for ski equipment. Safety guaranteed.",
       "description_de": "Skiausflüge nach Zakopane, Białka, Wisła. Spezielle Unterbringung für Skiausrüstung. Sicherheit garantiert.",
@@ -304,9 +304,9 @@
     }
   ],
   "footer": {
-    "copyright_pl": "© 2026 Wynajem Autokarów Kielce. Wszystkie prawa zastrzeżone.",
-    "copyright_en": "© 2026 Coach Rental Kielce. All rights reserved.",
-    "copyright_de": "© 2026 Busmiete Kielce. Alle Rechte vorbehalten.",
+    "copyright_pl": "© 2026 Autokar Busko. Wszystkie prawa zastrzeżone.",
+    "copyright_en": "© 2026 Autokar Busko. All rights reserved.",
+    "copyright_de": "© 2026 Autokar Busko. Alle Rechte vorbehalten.",
     "privacy_pl": "Polityka prywatności",
     "privacy_en": "Privacy Policy",
     "privacy_de": "Datenschutzrichtlinie",

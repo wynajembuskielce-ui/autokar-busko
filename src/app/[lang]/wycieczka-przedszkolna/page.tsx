@@ -46,7 +46,7 @@ const serviceSchema = {
     address: {
       "@type": "PostalAddress",
       streetAddress: "ul. Poprzeczna 1",
-      addressLocality: "Krakow",
+      addressLocality: "Busko-Zdrój",
       postalCode: "28-100",
       addressCountry: "PL",
     },

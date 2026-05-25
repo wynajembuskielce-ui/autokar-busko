@@ -11,13 +11,13 @@ function toLang(lang: string): Language {
 }
 
 const metaTitles: Record<Language, string> = {
-  pl: "Transport na imprezy firmowe Krakow | B2B",
-  en: "Corporate event transport Krakow | B2B",
-  de: "Firmenevent Transport Krakow | B2B",
+  pl: "Transport na imprezy firmowe Busko-Zdrój | B2B",
+  en: "Corporate event transport Busko-Zdrój | B2B",
+  de: "Firmenevent Transport Busko-Zdrój | B2B",
   ru: "Транспорт для корпоративных мероприятий Кельце",
   ar: "نقل الفعاليات للشركات كيلتسه",
-  es: "Transporte para eventos corporativos Krakow",
-  fr: "Transport evenements entreprise Krakow",
+  es: "Transporte para eventos corporativos Busko-Zdrój",
+  fr: "Transport evenements entreprise Busko-Zdrój",
 };
 
 const metaDescriptions: Record<Language, string> = {

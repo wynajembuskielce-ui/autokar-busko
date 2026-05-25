@@ -12,12 +12,12 @@ function toLang(lang: string): Language {
 
 const metaTitles: Record<Language, string> = {
   pl: "Bus na narty z Krakowa | Zakopane, Białka, Szczyrk",
-  en: "Ski bus from Krakow | Zakopane, Bialka, Szczyrk",
-  de: "Skibus ab Krakow | Zakopane, Bialka, Szczyrk",
+  en: "Ski bus from Busko-Zdrój | Zakopane, Bialka, Szczyrk",
+  de: "Skibus ab Busko-Zdrój | Zakopane, Bialka, Szczyrk",
   ru: "Автобус на лыжи из Кельце | Закопане, Бялка, Щирк",
   ar: "حافلة تزلج من كيلتسه | زاكوبانه وبيالكا",
-  es: "Bus de esqui desde Krakow | Zakopane, Bialka",
-  fr: "Bus ski depuis Krakow | Zakopane, Bialka",
+  es: "Bus de esqui desde Busko-Zdrój | Zakopane, Bialka",
+  fr: "Bus ski depuis Busko-Zdrój | Zakopane, Bialka",
 };
 
 const metaDescriptions: Record<Language, string> = {
@@ -32,12 +32,12 @@ const metaDescriptions: Record<Language, string> = {
 
 const heroTitles: Record<Language, string> = {
   pl: "Bus na Narty z Krakowa",
-  en: "Ski Bus from Krakow",
-  de: "Skibus ab Krakow",
+  en: "Ski Bus from Busko-Zdrój",
+  de: "Skibus ab Busko-Zdrój",
   ru: "Автобус на лыжи из Кельце",
   ar: "حافلة تزلج من كيلتسه",
-  es: "Bus para esqui desde Krakow",
-  fr: "Bus ski depuis Krakow",
+  es: "Bus para esqui desde Busko-Zdrój",
+  fr: "Bus ski depuis Busko-Zdrój",
 };
 
 const heroSubtitles: Record<Language, string> = {
@@ -77,12 +77,12 @@ const featuresByLang: Record<Language, Array<{ icon: string; title: string; desc
     { icon: "❄️", title: "Sezon zimowy bez chaosu", description: "Plan wyjazdu, postoje, powrót i kontakt z opiekunem grupy - wszystko w jednym miejscu." },
   ],
   en: [
-    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "We serve the most popular ski destinations for groups from Krakow region." },
+    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "We serve the most popular ski destinations for groups from Ponidzie region." },
     { icon: "🎿", title: "Szczyrk and Krynica-Zdroj", description: "Route and timing are optimized so your team can spend more time on slopes." },
     { icon: "❄️", title: "Smooth winter operations", description: "Departure plan, stops, return and coordinator contact in one clear process." },
   ],
   de: [
-    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "Wir bedienen die beliebtesten Skiorte fur Gruppen aus Krakow." },
+    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "Wir bedienen die beliebtesten Skiorte fur Gruppen aus Ponidzie." },
     { icon: "🎿", title: "Szczyrk und Krynica-Zdroj", description: "Route und Zeiten werden so geplant, dass mehr Zeit auf der Piste bleibt." },
     { icon: "❄️", title: "Winterbetrieb ohne Chaos", description: "Abfahrtsplan, Pausen, Ruckfahrt und Ansprechpartner aus einer Hand." },
   ],
@@ -97,12 +97,12 @@ const featuresByLang: Record<Language, Array<{ icon: string; title: string; desc
     { icon: "❄️", title: "موسم شتوي منظم", description: "خطة انطلاق وتوقفات وعودة وتواصل مباشر مع منسق المجموعة." },
   ],
   es: [
-    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "Cubrimos los destinos de esqui mas demandados para grupos de Krakow." },
+    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "Cubrimos los destinos de esqui mas demandados para grupos de Ponidzie." },
     { icon: "🎿", title: "Szczyrk y Krynica-Zdroj", description: "Ajustamos ruta y horarios para aprovechar mas tiempo en pista." },
     { icon: "❄️", title: "Temporada invernal ordenada", description: "Plan de salida, paradas, regreso y coordinacion clara en un solo flujo." },
   ],
   fr: [
-    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "Nous desservons les stations les plus demandees pour les groupes de Krakow." },
+    { icon: "⛷️", title: "Bialka, Zakopane, Wisla", description: "Nous desservons les stations les plus demandees pour les groupes de Ponidzie." },
     { icon: "🎿", title: "Szczyrk et Krynica-Zdroj", description: "Nous optimisons route et horaires pour maximiser le temps sur les pistes." },
     { icon: "❄️", title: "Saison hiver bien organisee", description: "Plan de depart, pauses, retour et coordination centralisee." },
   ],

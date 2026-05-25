@@ -233,7 +233,7 @@ const schemaObject = {
         address: {
           "@type": "PostalAddress",
           streetAddress: "ul. Poprzeczna 1",
-          addressLocality: "Krakow",
+          addressLocality: "Busko-Zdrój",
           postalCode: "25-516",
           addressCountry: "PL",
         },

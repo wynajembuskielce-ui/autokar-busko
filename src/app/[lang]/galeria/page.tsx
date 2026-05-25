@@ -8,13 +8,13 @@ function toLang(lang: string): Language {
 }
 
 const metaTitleByLang: Record<Language, string> = {
-  pl: "Flota autokarow do wynajecia Krakow - galeria 180 pojazdow",
-  en: "Coach fleet for hire Krakow - gallery of 180 vehicles",
-  de: "Busflotte zur Miete Krakow - Galerie von 180 Fahrzeugen",
+  pl: "Flota autokarów do wynajęcia Busko-Zdrój - galeria 180 pojazdow",
+  en: "Coach fleet for hire Busko-Zdrój - gallery of 180 vehicles",
+  de: "Busflotte zur Miete Busko-Zdrój - Galerie von 180 Fahrzeugen",
   ru: "Avtopark v arendu Kelce - galereya 180 mashin",
   ar: "asatyl alhafilat lilijar fi kiltsah - maerad 180 markaba",
-  es: "Flota de autocares en alquiler Krakow - galeria de 180 vehiculos",
-  fr: "Flotte d'autocars a louer Krakow - galerie de 180 vehicules",
+  es: "Flota de autocares en alquiler Busko-Zdrój - galeria de 180 vehiculos",
+  fr: "Flotte d'autocars a louer Busko-Zdrój - galerie de 180 vehicules",
 };
 
 const metaDescriptionByLang: Record<Language, string> = {
