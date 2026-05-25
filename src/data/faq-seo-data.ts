@@ -1343,7 +1343,7 @@ Dla zleceń pilnych (wyjazd w ciągu 24-48 godzin) - zadzwoń bezpośrednio. Mam
 Wycena jest bezpłatna i niezobowiązująca - nie zobowiązuje Cię do niczego. Możesz porównać ją z innymi ofertami i zdecydować w spokoju.`,
           },
           {
-            q: `Czym Autokar Busko różni się od konkurencji w Kielcach?`,
+            q: `Czym Autokar Busko różni się od konkurencji na Ponidziu?`,
             a: `Kielce mają około 15 firm wynajmujących autokary. Większość z nich ma 3-8 pojazdów i jest aktywna głównie w sezonie. Autokar Busko to inna kategoria.
 
 1. Skala floty: 180 pojazdów

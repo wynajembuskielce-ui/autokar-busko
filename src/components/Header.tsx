@@ -59,10 +59,10 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
   const isContactPath = pathname?.startsWith(`/${lang}/kontakt`);
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200 text-gray-900 shadow-sm whitespace-nowrap">
+    <header className="sticky top-0 z-50 bg-[#27500A] border-b border-[#1a3d06] text-white shadow-sm whitespace-nowrap">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
         <Link href={`/${lang}`} className="flex items-center gap-2" aria-label="Strona glowna">
-          <span className="text-brand-gold text-2xl font-black tracking-tight">Autokar Busko</span>
+          <span className="text-[#97C459] text-2xl font-black tracking-tight">Autokar Busko</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold" role="navigation" aria-label="Primary navigation">
@@ -71,14 +71,14 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
               href={`/${lang}/cennik`}
               aria-label={ui.services}
               aria-haspopup="true"
-              className={`px-3 py-2 transition-colors duration-200 ${isServicePath ? "text-brand-gold" : "text-gray-900 hover:text-brand-gold"}`}
+              className={`px-3 py-2 transition-colors duration-200 ${isServicePath ? "text-[#97C459]" : "text-white hover:text-[#97C459]"}`}
             >
               {ui.services} ▼
             </Link>
             <div className="absolute left-0 top-full z-[100] w-52 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-150">
-              <div className="rounded-lg border border-gray-200 bg-white py-2 shadow-2xl">
+              <div className="rounded-lg border border-[#1a3d06] bg-[#27500A] py-2 shadow-2xl">
                 {serviceLinks.map((item) => (
-                  <Link key={item.href} href={item.href} className="block px-4 py-2 text-sm text-gray-900 hover:text-brand-gold hover:bg-gray-50 transition-colors duration-200">
+                  <Link key={item.href} href={item.href} className="block px-4 py-2 text-sm text-white hover:text-[#97C459] hover:bg-[#1a3d06] transition-colors duration-200">
                     {item.label}
                   </Link>
                 ))}
@@ -88,35 +88,35 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
           <Link
             href={`/${lang}/flota`}
             aria-label={ui.fleet}
-            className={`transition-colors duration-200 ${isFleetPath ? "text-brand-gold" : "text-gray-900 hover:text-brand-gold"}`}
+            className={`transition-colors duration-200 ${isFleetPath ? "text-[#97C459]" : "text-white hover:text-[#97C459]"}`}
           >
             {ui.fleet}
           </Link>
           <Link
             href={`/${lang}/galeria`}
             aria-label={ui.gallery}
-            className={`transition-colors duration-200 ${isGalleryPath ? "text-brand-gold" : "text-gray-900 hover:text-brand-gold"}`}
+            className={`transition-colors duration-200 ${isGalleryPath ? "text-[#97C459]" : "text-white hover:text-[#97C459]"}`}
           >
             {ui.gallery}
           </Link>
           <Link
             href={`/${lang}/kontakt`}
             aria-label={ui.contact}
-            className={`transition-colors duration-200 ${isContactPath ? "text-brand-gold" : "text-gray-900 hover:text-brand-gold"}`}
+            className={`transition-colors duration-200 ${isContactPath ? "text-[#97C459]" : "text-white hover:text-[#97C459]"}`}
           >
             {ui.contact}
           </Link>
         </nav>
 
         <div className="flex items-center gap-2">
-          <div className="hidden lg:flex items-center rounded-lg border border-gray-200 overflow-hidden">
+          <div className="hidden lg:flex items-center rounded-lg border border-white/30 overflow-hidden">
             {LANGUAGES.map((item) => (
               <Link
                 key={item.code}
                 href={`/${item.code}`}
                 aria-label={`Switch language to ${item.code}`}
                 className={`px-2 py-1 text-xs font-semibold transition-colors duration-200 ${
-                  lang === item.code ? "bg-brand-gold text-white" : "bg-white text-gray-900 hover:bg-gray-100"
+                  lang === item.code ? "bg-[#1D9E75] text-white" : "bg-transparent text-white hover:bg-white/10"
                 }`}
               >
                 {item.label}
@@ -129,7 +129,7 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp kontakt"
-            className="hidden sm:inline-flex h-10 w-10 items-center justify-center rounded-lg border border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-white transition-all duration-200"
+            className="hidden sm:inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/50 text-white hover:bg-white hover:text-[#27500A] transition-all duration-200"
           >
             💬
           </a>
@@ -137,7 +137,7 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
           <a
             href="tel:413453225"
             aria-label="Zadzwoń +48 41 345 32 25"
-            className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-brand-gold px-4 py-2 text-sm font-black text-white shadow-lg transition-all duration-200 hover:bg-brand-gold-dark hover:shadow-xl"
+            className="hidden sm:inline-flex items-center gap-2 rounded-lg bg-[#1D9E75] px-4 py-2 text-sm font-black text-white shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl"
           >
             📞 {ui.phone}
           </a>
@@ -146,7 +146,7 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
             type="button"
             aria-label={ui.menu}
             onClick={() => setIsMobileOpen((prev) => !prev)}
-            className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-gray-200 text-gray-900 hover:text-brand-gold hover:border-brand-gold transition-all duration-200"
+            className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/30 text-white hover:text-[#97C459] hover:border-[#97C459] transition-all duration-200"
           >
             ☰
           </button>
@@ -165,4 +165,3 @@ export default function Header({ lang = "pl" }: { lang?: Lang }) {
     </header>
   );
 }
-
