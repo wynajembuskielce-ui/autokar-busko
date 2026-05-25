@@ -1362,7 +1362,7 @@ Możemy jeździć po całej Unii Europejskiej legalnie, z pełną dokumentacją.
 Wszystkie nasze autokary przechodzą kontrolę WITD co 6 miesięcy (norma to 12). Każdy kierowca robi kontrolę przedwyjazdową przed każdą trasą. Zero wypadków od 2018 roku - to fakt, nie marketing.
 
 6. Lokalność
-Jesteśmy z Kielc, dla Kielc. Znamy świętokrzyskie. Znamy każdą szkołę, każdy kościół, każdą salę weselną w województwie świętokrzyskim. To nie Excel, to relacje.`,
+Jesteśmy z Buska, dla Ponidzia. Znamy Ponidzie. Znamy każdą szkołę, każdy kościół, każdą salę weselną na Ponidziu. To nie Excel, to relacje.`,
           },
           {
             q: `Z jakim wyprzedzeniem rezerwować autokar?`,

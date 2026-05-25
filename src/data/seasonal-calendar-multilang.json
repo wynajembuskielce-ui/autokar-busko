@@ -192,11 +192,11 @@
           "segments": {
             "primary": "wycieczki-szkolne",
             "secondary": "komunie-chrzcinki",
-            "tertiary": "targi-mspo"
+            "tertiary": "imprezy-firmowe"
           },
-          "keywords_pl": ["autokar wycieczka szkolna", "transport na komunię", "wycieczka szkolna maj PEAK", "MSPO Krakow transport"],
-          "keywords_en": ["coach school trip", "communion transport", "school trip may peak", "MSPO Krakow transportation"],
-          "keywords_de": ["Schulausflug Bus", "Kommunionstransport", "Schulausflug Mai Peak", "MSPO Krakow Transport"],
+          "keywords_pl": ["autokar wycieczka szkolna", "transport na komunię", "wycieczka szkolna maj PEAK", "transport na targi Kraków"],
+          "keywords_en": ["coach school trip", "communion transport", "school trip may peak", "Krakow trade fair transport"],
+          "keywords_de": ["Schulausflug Bus", "Kommunionstransport", "Schulausflug Mai Peak", "Krakow Messe Transport"],
           "featured_cta_pl": "REZERWUJ WYCIECZKĘ / KOMUNIĘ",
           "featured_cta_en": "BOOK TRIP / COMMUNION",
           "featured_cta_de": "AUSFLUG / KOMMUNION BUCHEN",
@@ -210,11 +210,11 @@
           "segments": {
             "primary": "wesele",
             "secondary": "wyjazd-firmowy",
-            "tertiary": "targi-mspo"
+            "tertiary": "imprezy-firmowe"
           },
-          "keywords_pl": ["wynajem autokaru wesele", "wyjazd firmowy transport", "transfer do hotelu targi", "MSPO delegacja transport"],
-          "keywords_en": ["wedding coach rental", "corporate trip transport", "hotel transfer trade fair", "MSPO delegation transport"],
-          "keywords_de": ["Hochzeitsbusmiete", "Firmenwagen Transport", "Hoteltransfer Handelsmesse", "MSPO Delegationstransport"],
+          "keywords_pl": ["wynajem autokaru wesele", "wyjazd firmowy transport", "transfer do hotelu targi", "delegacja transport targi Kraków"],
+          "keywords_en": ["wedding coach rental", "corporate trip transport", "hotel transfer trade fair", "delegation transport trade fair"],
+          "keywords_de": ["Hochzeitsbusmiete", "Firmenwagen Transport", "Hoteltransfer Handelsmesse", "Delegationstransport Handelsmesse"],
           "featured_cta_pl": "REZERWUJ WESELE / TARGI",
           "featured_cta_en": "BOOK WEDDING / TRADE FAIR",
           "featured_cta_de": "HOCHZEIT / HANDELSMESSE BUCHEN",
