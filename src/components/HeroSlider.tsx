@@ -396,8 +396,11 @@ export default function HeroSlider({ lang }: { lang: Language }) {
         return (
           <div
             key={slide.title}
-            className={`absolute inset-0 hero-slide transition-opacity duration-[1200ms] ease-in-out ${
-              isActive ? "opacity-100" : "opacity-0 pointer-events-none"
+            style={{ willChange: "opacity" }}
+            className={`absolute inset-0 ${
+              isActive
+                ? "z-10 opacity-100 transition-opacity duration-700 ease-in-out"
+                : "z-0 opacity-0 pointer-events-none"
             }`}
             aria-hidden={!isActive}
           >
@@ -485,11 +488,7 @@ export default function HeroSlider({ lang }: { lang: Language }) {
         })}
       </div>
 
-      <style jsx>{`
-        .hero-slide {
-          will-change: opacity;
-        }
-      `}</style>
+
     </section>
   );
 }
