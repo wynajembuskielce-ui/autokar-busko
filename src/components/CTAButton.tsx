@@ -11,12 +11,12 @@ export default function CTAButton({ href, children, variant = "primary", classNa
   const base = "inline-flex items-center justify-center text-center transition-all duration-200";
   const variants = {
     primary:
-      "rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl",
+      "rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl",
     secondary:
-      "rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] hover:bg-[#f59e0b] hover:text-black",
-    tertiary: "text-sm font-bold text-[#f59e0b] underline hover:text-[#f6c15a] md:text-base",
+      "rounded-lg border-2 border-[#639922] px-6 py-3 text-base font-bold text-[#639922] hover:bg-[#5DCAA5] hover:text-black",
+    tertiary: "text-sm font-bold text-[#639922] underline hover:text-[#97C459] md:text-base",
     phone:
-      "rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl",
+      "rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl",
   };
 
   const isExternal = href.startsWith("tel:") || href.startsWith("mailto:");

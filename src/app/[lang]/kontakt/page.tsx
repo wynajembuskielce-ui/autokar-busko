@@ -290,33 +290,33 @@ export default async function KontaktPage({ params }: { params: Promise<{ lang: 
               name="name"
               required
               placeholder={formText.name}
-              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#f59e0b]"
+              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#639922]"
             />
             <input
               type="email"
               name="email"
               required
               placeholder={formText.email}
-              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#f59e0b]"
+              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#639922]"
             />
             <input
               type="tel"
               name="phone"
               placeholder={formText.phone}
-              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#f59e0b]"
+              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#639922]"
             />
             <textarea
               name="message"
               required
               rows={5}
               placeholder={formText.message}
-              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#f59e0b]"
+              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-[#1a1a1a] outline-none transition-colors focus:border-[#639922]"
             />
 
             <label className="flex items-start gap-3 text-sm text-gray-700">
-              <input type="checkbox" name="privacy_consent" required className="mt-1 h-4 w-4 accent-[#f59e0b]" />
+              <input type="checkbox" name="privacy_consent" required className="mt-1 h-4 w-4 accent-[#1D9E75]" />
               <span>
-                {formText.consentPrefix} <Link href="/polityka-prywatnosci" className="font-semibold text-[#1a1a1a] underline hover:text-[#f59e0b]">{formText.privacy}</Link>.
+                {formText.consentPrefix} <Link href="/polityka-prywatnosci" className="font-semibold text-[#1a1a1a] underline hover:text-[#639922]">{formText.privacy}</Link>.
               </span>
             </label>
 
@@ -329,7 +329,7 @@ export default async function KontaktPage({ params }: { params: Promise<{ lang: 
           </form>
         </div>
       </section>
-      <section className="py-12 px-4 bg-[#f59e0b] text-center">
+      <section className="py-12 px-4 bg-[#1D9E75] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
         <div className="flex flex-col gap-3 items-center">
           <CTAButton href="tel:413453225" variant="secondary">📞 +48 41 345 32 25 lub +48 609 69 19 12</CTAButton>

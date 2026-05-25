@@ -236,7 +236,7 @@ export default function HowItWorks({ lang }: { lang: Language }) {
       dir={isRtl ? "rtl" : "ltr"}
     >
       <div className="mx-auto max-w-[1200px]">
-        <p className="mb-2 text-center text-xs font-bold uppercase tracking-widest text-[#f59e0b]">
+        <p className="mb-2 text-center text-xs font-bold uppercase tracking-widest text-[#639922]">
           Step by step
         </p>
         <h2 className="mb-2 text-center text-3xl font-black text-[#1a1a1a]">{c.sectionTitle}</h2>
@@ -245,15 +245,15 @@ export default function HowItWorks({ lang }: { lang: Language }) {
         {/* Steps grid with connector line */}
         <div className="relative">
           {/* Desktop horizontal line */}
-          <div className="absolute left-[12.5%] right-[12.5%] top-[24px] hidden h-[2px] bg-[#f59e0b] md:block" />
+          <div className="absolute left-[12.5%] right-[12.5%] top-[24px] hidden h-[2px] bg-[#1D9E75] md:block" />
           {/* Mobile vertical line */}
-          <div className="absolute bottom-0 left-[24px] top-0 w-[2px] bg-[#f59e0b] md:hidden" />
+          <div className="absolute bottom-0 left-[24px] top-0 w-[2px] bg-[#1D9E75] md:hidden" />
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-4 md:gap-8">
             {c.steps.map((step, i) => (
               <div key={i} className="relative flex flex-col pl-14 md:pl-0">
                 {/* Step number circle (sits on the connector line) */}
-                <div className="absolute left-0 top-0 z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#f59e0b] text-lg font-black text-black shadow-md md:relative md:left-auto md:top-auto md:mb-4 md:mx-auto">
+                <div className="absolute left-0 top-0 z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#1D9E75] text-lg font-black text-black shadow-md md:relative md:left-auto md:top-auto md:mb-4 md:mx-auto">
                   {i + 1}
                 </div>
 

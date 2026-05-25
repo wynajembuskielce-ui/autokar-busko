@@ -14,7 +14,7 @@ export default function RegulaminPage() {
     'utf-8'
   );
   return (
-    <main className="max-w-4xl mx-auto px-4 py-12 prose prose-lg prose-headings:text-[#1a1a1a] prose-a:text-[#f59e0b]">
+    <main className="max-w-4xl mx-auto px-4 py-12 prose prose-lg prose-headings:text-[#1a1a1a] prose-a:text-[#639922]">
       <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
     </main>
   );

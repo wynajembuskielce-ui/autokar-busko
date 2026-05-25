@@ -354,7 +354,7 @@ export default async function AutokarNaPogrzebPage({ params }: { params: Promise
             <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-200">Pomagamy zorganizować transport dla rodziny i przyjaciół w trudnym czasie. Bez stresu, w 24 godziny.</p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="#kontakt" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">Skontaktuj się - pomożemy w 24h</a>
+              <a href="#kontakt" className="inline-flex items-center justify-center rounded-md bg-[#EAF3DE]0 px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-[#5DCAA5]">Skontaktuj się - pomożemy w 24h</a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">tel:+48413453225</a>
             </div>
 
@@ -500,9 +500,9 @@ export default async function AutokarNaPogrzebPage({ params }: { params: Promise
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold">Pogrzeb wymaga spokoju, nie organizacji. Pomożemy.</h2>
             <div className="mt-8 space-y-3 text-base leading-7 text-gray-200">
-              <p><a href="tel:+48413453225" className="text-amber-500">Telefon: +48 41 345 32 25</a></p>
-              <p><a href="mailto:biuro@autokar-busko.pl" className="text-amber-500">Email: biuro@autokar-busko.pl</a></p>
-              <p><a href="/pl/kontakt" className="text-amber-500">Formularz: Wyślij zapytanie -&gt;</a></p>
+              <p><a href="tel:+48413453225" className="text-[#639922]">Telefon: +48 41 345 32 25</a></p>
+              <p><a href="mailto:biuro@autokar-busko.pl" className="text-[#639922]">Email: biuro@autokar-busko.pl</a></p>
+              <p><a href="/pl/kontakt" className="text-[#639922]">Formularz: Wyślij zapytanie -&gt;</a></p>
               <p>Autokar Busko · Alfa Bus 26 Sp. z o.o. · Mielczarskiego 121, 25-611 Krakow</p>
             </div>
           </div>

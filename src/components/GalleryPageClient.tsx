@@ -159,7 +159,7 @@ export default function GalleryPageClient({ lang }: { lang: Language }) {
               type="button"
               onClick={() => setActiveFilter(filterKey)}
               className={`px-4 py-2 rounded-full text-sm font-bold border transition-colors ${
-                activeFilter === filterKey ? "bg-[#1a1a1a] text-white border-[#1a1a1a]" : "bg-white text-[#1a1a1a] border-gray-300 hover:border-[#f59e0b]"
+                activeFilter === filterKey ? "bg-[#1a1a1a] text-white border-[#1a1a1a]" : "bg-white text-[#1a1a1a] border-gray-300 hover:border-[#639922]"
               }`}
             >
               {labels[filterKey]}
@@ -199,9 +199,9 @@ export default function GalleryPageClient({ lang }: { lang: Language }) {
           </div>
         </section>
 
-        <section className="mt-12 bg-[#f59e0b] rounded-2xl p-8 text-center">
+        <section className="mt-12 bg-[#1D9E75] rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ui.cta}</h2>
-          <a href="tel:413453225" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+          <a href="tel:413453225" className="inline-block rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
             {ui.ctaButton}
           </a>
         </section>

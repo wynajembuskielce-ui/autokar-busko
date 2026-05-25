@@ -223,7 +223,7 @@ export default function CardCategory({ lang }: { lang: Language }) {
               />
               <div className="absolute inset-0 bg-gradient-to-br from-[rgba(26,26,26,0.92)] to-[rgba(45,45,45,0.86)]" />
               <div className="relative z-10 p-7 h-full flex flex-col">
-                <div className="text-[40px] leading-none text-[#f59e0b] mb-4" aria-hidden="true">
+                <div className="text-[40px] leading-none text-[#639922] mb-4" aria-hidden="true">
                   {card.icon}
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">{card.title}</h3>
@@ -235,7 +235,7 @@ export default function CardCategory({ lang }: { lang: Language }) {
                       <Link
                         key={extra.href}
                         href={extra.href}
-                        className="text-xs text-white/90 border border-white/25 px-2 py-1 rounded-md hover:border-[#f59e0b] hover:text-[#f59e0b] transition-colors duration-200"
+                        className="text-xs text-white/90 border border-white/25 px-2 py-1 rounded-md hover:border-[#639922] hover:text-[#639922] transition-colors duration-200"
                       >
                         {extra.label}
                       </Link>
@@ -245,7 +245,7 @@ export default function CardCategory({ lang }: { lang: Language }) {
 
                 <Link
                   href={card.href}
-                  className="mt-auto inline-flex w-fit rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] transition-all duration-200 hover:bg-[#f59e0b] hover:text-black"
+                  className="mt-auto inline-flex w-fit rounded-lg border-2 border-[#639922] px-6 py-3 text-base font-bold text-[#639922] transition-all duration-200 hover:bg-[#5DCAA5] hover:text-black"
                 >
                   {card.cta} {"->"}
                 </Link>

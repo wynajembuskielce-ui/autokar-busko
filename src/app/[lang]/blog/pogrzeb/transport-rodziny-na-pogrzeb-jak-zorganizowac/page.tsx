@@ -208,7 +208,7 @@ export default async function TransportRodzinyNaPogrzebJakZorganizowacPage({ par
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">
+              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-[#EAF3DE]0 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-[#5DCAA5]">
                 +48 41 345 32 25
               </a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-gray-300 px-5 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">
@@ -219,7 +219,7 @@ export default async function TransportRodzinyNaPogrzebJakZorganizowacPage({ par
         </section>
 
         <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-          <article className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-amber-700">
+          <article className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-[#639922]">
             <p>
               Pogrzeb to ostatnia rzecz, którą chce się planować logistycznie. Zarazem transport rodziny i przyjaciół jest jedną z pierwszych
               spraw do załatwienia po ustaleniu daty ceremonii z zakładem pogrzebowym. Ten artykuł pomaga uporządkować decyzje krok po kroku,
@@ -358,17 +358,17 @@ export default async function TransportRodzinyNaPogrzebJakZorganizowacPage({ par
           <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-black">Potrzebujesz autokaru na pogrzeb?</h2>
             <p className="mt-4 text-base leading-7 text-gray-200">
-              Sprawdź pełną ofertę usługi i scenariusze organizacji transportu: <a href="/pl/autokar-na-pogrzeb" className="text-amber-400">Autokar na pogrzeb</a>.
+              Sprawdź pełną ofertę usługi i scenariusze organizacji transportu: <a href="/pl/autokar-na-pogrzeb" className="text-[#97C459]">Autokar na pogrzeb</a>.
             </p>
             <div className="mt-6 space-y-2 text-base">
               <p>
-                Telefon główny: <a href="tel:+48413453225" className="text-amber-400">+48 41 345 32 25</a>
+                Telefon główny: <a href="tel:+48413453225" className="text-[#97C459]">+48 41 345 32 25</a>
               </p>
               <p>
-                Telefon zapasowy: <a href="tel:+48413453225" className="text-amber-400"></a>
+                Telefon zapasowy: <a href="tel:+48413453225" className="text-[#97C459]"></a>
               </p>
               <p>
-                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-amber-400">biuro@autokar-busko.pl</a>
+                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-[#97C459]">biuro@autokar-busko.pl</a>
               </p>
             </div>
             <p className="mt-6 text-sm text-gray-400">

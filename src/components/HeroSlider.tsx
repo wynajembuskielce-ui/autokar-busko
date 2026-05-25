@@ -422,7 +422,7 @@ export default function HeroSlider({ lang }: { lang: Language }) {
             <div className="relative z-10 flex h-full items-center px-5 md:px-10 lg:px-16">
               <div className="mx-auto w-full max-w-7xl">
                 <div className={`max-w-3xl text-white ${isRtl ? "ml-auto text-right" : "text-left"}`}>
-                  <p className="mb-4 text-xs font-bold uppercase tracking-[0.28em] text-[#f6c15a] md:text-sm">
+                  <p className="mb-4 text-xs font-bold uppercase tracking-[0.28em] text-[#97C459] md:text-sm">
                     {slide.eyebrow}
                   </p>
                   <h1 className="max-w-4xl text-[32px] font-black leading-[1.08] text-white drop-shadow-[0_4px_18px_rgba(0,0,0,0.55)] md:text-[48px]">
@@ -433,7 +433,7 @@ export default function HeroSlider({ lang }: { lang: Language }) {
                   </p>
                   <Link
                     href={slide.href}
-                    className="mt-8 inline-flex w-full items-center justify-center rounded-lg bg-[#f59e0b] px-8 py-4 text-center text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a1a1a] md:w-auto md:px-12 md:py-5 md:text-xl"
+                    className="mt-8 inline-flex w-full items-center justify-center rounded-lg bg-[#1D9E75] px-8 py-4 text-center text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a1a1a] md:w-auto md:px-12 md:py-5 md:text-xl"
                   >
                     {slide.cta}
                   </Link>
@@ -447,7 +447,7 @@ export default function HeroSlider({ lang }: { lang: Language }) {
       <button
         type="button"
         onClick={goToPrevious}
-        className={`absolute top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-black/25 text-3xl text-white transition-colors duration-300 hover:text-[#f59e0b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f59e0b] ${
+        className={`absolute top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-black/25 text-3xl text-white transition-colors duration-300 hover:text-[#639922] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#639922] ${
           isRtl ? "right-4 md:right-6" : "left-4 md:left-6"
         }`}
         aria-label="Previous slide"
@@ -458,7 +458,7 @@ export default function HeroSlider({ lang }: { lang: Language }) {
       <button
         type="button"
         onClick={goToNext}
-        className={`absolute top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-black/25 text-3xl text-white transition-colors duration-300 hover:text-[#f59e0b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f59e0b] ${
+        className={`absolute top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-black/25 text-3xl text-white transition-colors duration-300 hover:text-[#639922] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#639922] ${
           isRtl ? "left-4 md:left-6" : "right-4 md:right-6"
         }`}
         aria-label="Next slide"
@@ -476,7 +476,7 @@ export default function HeroSlider({ lang }: { lang: Language }) {
               type="button"
               onClick={() => goToSlide(index)}
               className={`h-2.5 rounded-full transition-all duration-300 ${
-                isActive ? "w-8 bg-[#f59e0b]" : "w-2.5 bg-white/80 hover:bg-white"
+                isActive ? "w-8 bg-[#1D9E75]" : "w-2.5 bg-white/80 hover:bg-white"
               }`}
               aria-label={`Go to slide ${index + 1}`}
               aria-pressed={isActive}

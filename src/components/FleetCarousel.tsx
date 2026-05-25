@@ -54,7 +54,7 @@ export default function FleetCarousel() {
             key={index}
             onClick={() => setCurrentIndex(index)}
             className={`h-2 rounded-full transition-all duration-300 ${
-              index === currentIndex ? 'w-6 bg-[#f59e0b]' : 'h-2 w-2 bg-gray-400 hover:bg-[#f59e0b]'
+              index === currentIndex ? 'w-6 bg-[#1D9E75]' : 'h-2 w-2 bg-gray-400 hover:bg-[#5DCAA5]'
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />

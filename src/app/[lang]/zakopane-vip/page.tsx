@@ -60,18 +60,18 @@ export default async function ZakopaneVipPage({params}:{params:Promise<{lang:str
   return (
     <div dir={isAr ? 'rtl' : 'ltr'} className="min-h-screen bg-[#1a1a1a] text-white">
       <div className="max-w-4xl mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-[#f59e0b] mb-4">{c.title}</h1>
+        <h1 className="text-4xl font-bold text-[#639922] mb-4">{c.title}</h1>
         <p className="text-xl text-gray-300 mb-6">{c.subtitle}</p>
         <p className="text-lg text-gray-200 mb-10">{c.desc}</p>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
           {c.features.map((f,i) => (
             <li key={i} className="flex items-center gap-3 bg-gray-800 rounded-lg p-4">
-              <span className="text-[#f59e0b] text-xl">✓</span>
+              <span className="text-[#639922] text-xl">✓</span>
               <span>{f}</span>
             </li>
           ))}
         </ul>
-        <a href="tel:+48413453225" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+        <a href="tel:+48413453225" className="inline-block rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
           {c.cta}
         </a>
       </div>

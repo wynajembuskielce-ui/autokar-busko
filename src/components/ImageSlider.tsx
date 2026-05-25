@@ -51,7 +51,7 @@ export default function ImageSlider() {
           <button key={i} onClick={() => setCur(i)}
             style={{ width: '10px', height: '10px', borderRadius: '50%',
               border: 'none', cursor: 'pointer',
-              background: i === cur ? '#f59e0b' : 'rgba(255,255,255,0.5)' }} />
+              background: i === cur ? '#639922' : 'rgba(255,255,255,0.5)' }} />
         ))}
       </div>
     </div>

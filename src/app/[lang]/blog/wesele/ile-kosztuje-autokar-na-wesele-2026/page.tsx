@@ -208,7 +208,7 @@ export default async function IleKosztujeAutokarNaWesele2026Page({ params }: { p
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">
+              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-[#EAF3DE]0 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-[#5DCAA5]">
                 +48 41 345 32 25
               </a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-gray-300 px-5 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">
@@ -219,7 +219,7 @@ export default async function IleKosztujeAutokarNaWesele2026Page({ params }: { p
         </section>
 
         <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-          <article className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-amber-700">
+          <article className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-[#639922]">
             <p>
               Jedno z pierwszych pytań przy planowaniu wesela brzmi: ile kosztuje autokar dla gości? Wiele ofert podaje tylko hasło od
               konkretnej kwoty, bez wskazania czasu, kursów nocnych i limitu kilometrów. Dlatego w tym materiale masz konkretne widełki na
@@ -363,17 +363,17 @@ export default async function IleKosztujeAutokarNaWesele2026Page({ params }: { p
           <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-black">Sprawdź wycenę dla swojego wesela</h2>
             <p className="mt-4 text-base leading-7 text-gray-200">
-              Pełna oferta i scenariusze transportu gości: <a href="/pl/wynajem-autokaru-na-wesele" className="text-amber-400">Wynajem autokaru na wesele</a>.
+              Pełna oferta i scenariusze transportu gości: <a href="/pl/wynajem-autokaru-na-wesele" className="text-[#97C459]">Wynajem autokaru na wesele</a>.
             </p>
             <div className="mt-6 space-y-2 text-base">
               <p>
-                Telefon główny: <a href="tel:+48413453225" className="text-amber-400">+48 41 345 32 25</a>
+                Telefon główny: <a href="tel:+48413453225" className="text-[#97C459]">+48 41 345 32 25</a>
               </p>
               <p>
-                Telefon zapasowy: <a href="tel:+48413453225" className="text-amber-400"></a>
+                Telefon zapasowy: <a href="tel:+48413453225" className="text-[#97C459]"></a>
               </p>
               <p>
-                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-amber-400">biuro@autokar-busko.pl</a>
+                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-[#97C459]">biuro@autokar-busko.pl</a>
               </p>
             </div>
             <p className="mt-6 text-sm text-gray-400">Autor: Rafał Chmiel, Autokar Busko. 500+ wesel obsłużonych.</p>

@@ -20,7 +20,7 @@ export default function TrustWall({ lang }: { lang: Language }) {
           {content.stats.map((item) => (
             <article
               key={item.title}
-              className="rounded-xl border-2 border-[#f59e0b] bg-white p-[30px] text-center shadow-[0_8px_24px_rgba(15,23,42,0.06)]"
+              className="rounded-xl border-2 border-[#639922] bg-white p-[30px] text-center shadow-[0_8px_24px_rgba(15,23,42,0.06)]"
             >
               <div className="mb-5 text-[40px] leading-none text-amber-text" aria-hidden="true">
                 {item.icon}
@@ -48,7 +48,7 @@ export default function TrustWall({ lang }: { lang: Language }) {
         </div>
 
         <div className="mt-10 rounded-2xl bg-[#1a1a1a] px-6 py-8 text-center text-white shadow-[0_14px_40px_rgba(15,23,42,0.16)] md:px-10">
-          <div className="text-3xl tracking-[0.3em] text-[#f59e0b]" aria-label="5 gwiazdek">
+          <div className="text-3xl tracking-[0.3em] text-[#639922]" aria-label="5 gwiazdek">
             {content.reviews.stars}
           </div>
           <p className="mt-4 text-3xl font-black md:text-4xl">{content.reviews.rating}</p>
@@ -57,7 +57,7 @@ export default function TrustWall({ lang }: { lang: Language }) {
             href={content.reviews.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-flex items-center justify-center text-sm font-bold text-[#f59e0b] underline transition-colors duration-200 hover:text-[#f6c15a] md:text-base"
+            className="mt-5 inline-flex items-center justify-center text-sm font-bold text-[#639922] underline transition-colors duration-200 hover:text-[#97C459] md:text-base"
           >
             {content.reviews.cta}
           </Link>

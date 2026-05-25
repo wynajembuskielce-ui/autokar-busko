@@ -165,7 +165,7 @@ export default function ReferencesPageClient({ lang }: { lang: Language }) {
           <ul className="space-y-3">
             {pressLinks.map((link, index) => (
               <li key={`${link.href}-${index}`}>
-                <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-[#1a1a1a] font-semibold hover:text-[#f59e0b] transition-colors underline">
+                <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-[#1a1a1a] font-semibold hover:text-[#639922] transition-colors underline">
                   {link.label}
                 </a>
               </li>
@@ -195,9 +195,9 @@ export default function ReferencesPageClient({ lang }: { lang: Language }) {
           </ul>
         </section>
 
-        <section className="bg-[#f59e0b] rounded-2xl p-8 text-center">
+        <section className="bg-[#1D9E75] rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ui.cta}</h2>
-          <a href="tel:413453225" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+          <a href="tel:413453225" className="inline-block rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
             +48 41 345 32 25
           </a>
         </section>

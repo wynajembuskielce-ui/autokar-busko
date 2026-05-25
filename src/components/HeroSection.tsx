@@ -33,7 +33,7 @@ export default function HeroSection({
         )}
         <a
           href={ctaHref}
-          className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl"
+          className="inline-block rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl"
         >
           {ctaText}
         </a>

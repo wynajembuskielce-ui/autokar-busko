@@ -207,9 +207,9 @@ export default async function CennikPage({ params }: { params: Promise<{ lang: s
             {vehicleCards.map((card) => (
               <div
                 key={card.name}
-                className="group flex flex-col rounded-xl border-2 border-[#e5e5e5] border-l-4 border-l-[#f59e0b] bg-white p-[30px] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group flex flex-col rounded-xl border-2 border-[#e5e5e5] border-l-4 border-l-[#639922] bg-white p-[30px] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
-                <div className="mb-4 text-[40px] leading-none text-[#f59e0b]">{card.icon}</div>
+                <div className="mb-4 text-[40px] leading-none text-[#639922]">{card.icon}</div>
                 <h3 className="mb-3 text-xl font-bold text-[#1a1a1a]">{card.name}</h3>
                 <dl className="mb-5 space-y-1 text-sm text-gray-600">
                   <div className="flex gap-1">
@@ -224,7 +224,7 @@ export default async function CennikPage({ params }: { params: Promise<{ lang: s
                 <div className="mb-6 rounded-lg bg-gray-50 px-4 py-3 font-mono text-sm text-[#1a1a1a]">
                   <div className="flex justify-between border-b border-gray-200 pb-2 mb-2">
                     <span className="text-gray-500">{vehicleCardLabels[l].perKm}</span>
-                    <span className="font-bold text-[#f59e0b]">{card.pricePerKm}</span>
+                    <span className="font-bold text-[#639922]">{card.pricePerKm}</span>
                   </div>
                   <div className="flex justify-between text-xs py-1">
                     <span className="text-gray-500">{vehicleCardLabels[l].min}</span>
@@ -245,7 +245,7 @@ export default async function CennikPage({ params }: { params: Promise<{ lang: s
       </section>
 
       {l === "pl" && <FAQAccordion items={faqItems} heading={faqHeadings[l]} />}
-      <section className="py-12 px-4 bg-[#f59e0b] text-center">
+      <section className="py-12 px-4 bg-[#1D9E75] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
         <CTAButton href="https://wa.me/48413453225" variant="secondary">💬 WhatsApp: +48 41 345 32 25 lub </CTAButton>
       </section>

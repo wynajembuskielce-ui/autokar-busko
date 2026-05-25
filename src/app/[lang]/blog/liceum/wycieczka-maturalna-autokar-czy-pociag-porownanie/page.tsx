@@ -207,7 +207,7 @@ export default async function WycieczkaMaturalnaAutokarCzyPociagPage({ params }:
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">
+              <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md bg-[#EAF3DE]0 px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-[#5DCAA5]">
                 +48 41 345 32 25
               </a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-gray-300 px-5 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">
@@ -218,7 +218,7 @@ export default async function WycieczkaMaturalnaAutokarCzyPociagPage({ params }:
         </section>
 
         <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-          <article className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-amber-700">
+          <article className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-[#639922]">
             <p>
               Przy wycieczce maturalnej koordynator zwykle porównuje dwie opcje: autokar i pociąg. Tu liczą się nie tylko bilety, ale też
               czas dojazdu na dworzec, przesiadki, bagaż i przemieszczanie grupy po miejscu docelowym.
@@ -365,17 +365,17 @@ export default async function WycieczkaMaturalnaAutokarCzyPociagPage({ params }:
           <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-black">Sprawdź wycenę dla swojej klasy</h2>
             <p className="mt-4 text-base leading-7 text-gray-200">
-              Pełna oferta i warianty tras: <a href="/pl/wycieczka-licealna" className="text-amber-400">Autokar na wycieczkę licealną</a>.
+              Pełna oferta i warianty tras: <a href="/pl/wycieczka-licealna" className="text-[#97C459]">Autokar na wycieczkę licealną</a>.
             </p>
             <div className="mt-6 space-y-2 text-base">
               <p>
-                Telefon główny: <a href="tel:+48413453225" className="text-amber-400">+48 41 345 32 25</a>
+                Telefon główny: <a href="tel:+48413453225" className="text-[#97C459]">+48 41 345 32 25</a>
               </p>
               <p>
-                Telefon zapasowy: <a href="tel:+48413453225" className="text-amber-400"></a>
+                Telefon zapasowy: <a href="tel:+48413453225" className="text-[#97C459]"></a>
               </p>
               <p>
-                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-amber-400">biuro@autokar-busko.pl</a>
+                Email: <a href="mailto:biuro@autokar-busko.pl" className="text-[#97C459]">biuro@autokar-busko.pl</a>
               </p>
             </div>
             <p className="mt-6 text-sm text-gray-400">Autor: Rafał Chmiel, Autokar Busko. 40+ liceów rocznie.</p>

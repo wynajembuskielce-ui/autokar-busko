@@ -388,16 +388,16 @@ function ResponsivePricingTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Cena wynajmu autokaru Krakow-Chorzów (cennik 2026)</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Cena wynajmu autokaru Krakow-Chorzów (cennik 2026)</h2>
         <p className="mb-8 text-gray-300">
-          Ceny brutto (8% VAT), zawierają: paliwo, kierowcę z licencją D, <strong className="text-white">wszystkie opłaty A4 (~52 zł w obie strony)</strong>, ubezpieczenie OC/AC/NNW 100 000 EUR, <strong className="text-amber-400">parking w Parku Śląskim do 12h (gratis!)</strong>, 2 postoje kawowe.
+          Ceny brutto (8% VAT), zawierają: paliwo, kierowcę z licencją D, <strong className="text-white">wszystkie opłaty A4 (~52 zł w obie strony)</strong>, ubezpieczenie OC/AC/NNW 100 000 EUR, <strong className="text-[#97C459]">parking w Parku Śląskim do 12h (gratis!)</strong>, 2 postoje kawowe.
         </p>
 
         {/* Mobile cards */}
         <div className="space-y-4 md:hidden">
           {routePricingRows.map((row) => (
             <div key={row.vehicle} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <h3 className="text-lg font-bold text-[#f59e0b]">{row.vehicle}</h3>
+              <h3 className="text-lg font-bold text-[#639922]">{row.vehicle}</h3>
               <p className="mt-1 text-sm text-gray-300">Pasażerów: {row.passengers}</p>
               <dl className="mt-4 space-y-2 text-sm">
                 <div className="flex justify-between gap-3"><dt>One-way</dt><dd className="font-bold">{row.oneWay}</dd></div>
@@ -411,7 +411,7 @@ function ResponsivePricingTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pojazd</th>
                 <th className="px-4 py-3">Pasażerów</th>
@@ -464,7 +464,7 @@ function TravelTimeTable() {
   return (
     <section className="bg-[#111111] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Czas przejazdu i trasa Krakow-Chorzów</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Czas przejazdu i trasa Krakow-Chorzów</h2>
         <p className="mb-6 text-gray-300">
           <strong className="text-white">Trasa standardowa:</strong> A4 Krakow → Katowice → DK86 do Chorzowa. 170 km, pełna autostrada + droga krajowa. Obowiązkowa przerwa kierowcy: MOP Brzezie (92 km, pierwsza kawa) lub MOP Wojkowice (155 km, przed celem).
         </p>
@@ -473,7 +473,7 @@ function TravelTimeTable() {
         <div className="space-y-3 md:hidden">
           {travelTimeRows.map((row) => (
             <div key={row.timeOfDay} className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-4">
-              <p className="font-bold text-[#f59e0b]">{row.timeOfDay}</p>
+              <p className="font-bold text-[#639922]">{row.timeOfDay}</p>
               <p className="text-lg font-black">{row.duration}</p>
               <p className="text-sm text-gray-400">{row.note}</p>
             </div>
@@ -483,7 +483,7 @@ function TravelTimeTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#1a1a1a] text-left text-[#f59e0b]">
+            <thead className="bg-[#1a1a1a] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pora dnia</th>
                 <th className="px-4 py-3">Czas Krakow → Chorzów</th>
@@ -517,11 +517,11 @@ function AttractionsSection() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">4 atrakcje w jednym Chorzowie</h2>
+        <h2 className="mb-6 text-3xl font-black text-[#639922]">4 atrakcje w jednym Chorzowie</h2>
 
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-            <h3 className="mb-3 text-base font-bold text-[#f59e0b]">🌳 Park Śląski (WSTĘP GRATIS)</h3>
+            <h3 className="mb-3 text-base font-bold text-[#639922]">🌳 Park Śląski (WSTĘP GRATIS)</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">5 km² zieleni</strong> — 6. największy park miejski w Europie</li>
               <li><strong className="text-white">Parking autokarów:</strong> ul. Chorzowska 99 — GRATIS do 12h</li>
@@ -531,18 +531,18 @@ function AttractionsSection() {
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-            <h3 className="mb-3 text-base font-bold text-[#f59e0b]">🎢 Legendia</h3>
+            <h3 className="mb-3 text-base font-bold text-[#639922]">🎢 Legendia</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">38 atrakcji,</strong> w tym największa kolejka "Lech" (40 m)</li>
               <li><strong className="text-white">Bilet standard:</strong> 99 zł | <strong className="text-white">Grupowy szkolny:</strong> od 65 zł/os (rabat dla 25+)</li>
               <li><strong className="text-white">Otwarte:</strong> maj-wrzesień (weekendy + wakacje), 11:00-19:00</li>
               <li><strong className="text-white">Czas potrzebny:</strong> 4-5h dla pełnego programu</li>
-              <li className="text-amber-400"><strong>Pomagamy z rezerwacją grupową — oszczędzacie 30 zł/dziecko!</strong></li>
+              <li className="text-[#97C459]"><strong>Pomagamy z rezerwacją grupową — oszczędzacie 30 zł/dziecko!</strong></li>
             </ul>
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-            <h3 className="mb-3 text-base font-bold text-[#f59e0b]">⚽ Stadion Śląski</h3>
+            <h3 className="mb-3 text-base font-bold text-[#639922]">⚽ Stadion Śląski</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">35 000 miejsc</strong> — drugi największy stadion w Polsce</li>
               <li><strong className="text-white">Mecze reprezentacji Polski,</strong> koncerty (Coldplay, Imagine Dragons)</li>
@@ -552,7 +552,7 @@ function AttractionsSection() {
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-            <h3 className="mb-3 text-base font-bold text-[#f59e0b]">🦁 ZOO i Planetarium</h3>
+            <h3 className="mb-3 text-base font-bold text-[#639922]">🦁 ZOO i Planetarium</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">ZOO Śląskie:</strong> 1 600 zwierząt, bilet 30 zł dorosły / 20 zł dziecko</li>
               <li><strong className="text-white">Planetarium Śląskie:</strong> nowoczesne (remont 2022), bilet 28 zł, pokazy co godzinę</li>
@@ -569,11 +569,11 @@ function TripSchemesSection() {
   return (
     <section className="bg-[#111111] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">4 najpopularniejsze schematy wycieczek do Chorzowa</h2>
+        <h2 className="mb-6 text-3xl font-black text-[#639922]">4 najpopularniejsze schematy wycieczek do Chorzowa</h2>
 
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-            <h3 className="mb-1 text-lg font-bold text-[#f59e0b]">Schemat A — Klasy 4-8: Park + Legendia</h3>
+            <h3 className="mb-1 text-lg font-bold text-[#639922]">Schemat A — Klasy 4-8: Park + Legendia</h3>
             <p className="text-xs text-gray-400 mb-3">najpopularniejszy, 62 razy w 2025</p>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">06:00</strong> — odjazd z Krakowa</li>
@@ -583,11 +583,11 @@ function TripSchemesSection() {
               <li><strong className="text-white">17:30</strong> — odjazd</li>
               <li><strong className="text-white">19:45</strong> — powrót Krakow</li>
             </ul>
-            <p className="mt-4 text-sm font-bold text-[#f59e0b]">Autokar 50-os: 3 000 zł + bilety Legendia (65 zł × 25 dzieci = 1 625 zł osobno)</p>
+            <p className="mt-4 text-sm font-bold text-[#639922]">Autokar 50-os: 3 000 zł + bilety Legendia (65 zł × 25 dzieci = 1 625 zł osobno)</p>
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-            <h3 className="mb-1 text-lg font-bold text-[#f59e0b]">Schemat B — Klasy młodsze: Park + ZOO + Planetarium</h3>
+            <h3 className="mb-1 text-lg font-bold text-[#639922]">Schemat B — Klasy młodsze: Park + ZOO + Planetarium</h3>
             <p className="text-xs text-gray-400 mb-3">dla klas 1-3, bez Legendii</p>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">07:00</strong> — odjazd z Krakowa</li>
@@ -598,11 +598,11 @@ function TripSchemesSection() {
               <li><strong className="text-white">17:30</strong> — odjazd</li>
               <li><strong className="text-white">19:45</strong> — powrót Krakow</li>
             </ul>
-            <p className="mt-4 text-sm font-bold text-[#f59e0b]">Autokar 50-os: 3 000 zł + bilety (ZOO ~25 zł, Planetarium ~25 zł/dziecko)</p>
+            <p className="mt-4 text-sm font-bold text-[#639922]">Autokar 50-os: 3 000 zł + bilety (ZOO ~25 zł, Planetarium ~25 zł/dziecko)</p>
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-            <h3 className="mb-1 text-lg font-bold text-[#f59e0b]">Schemat C — Mecz reprezentacji Polski</h3>
+            <h3 className="mb-1 text-lg font-bold text-[#639922]">Schemat C — Mecz reprezentacji Polski</h3>
             <p className="text-xs text-gray-400 mb-3">pojedynczy kierowca, mieści się w limicie 11h</p>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">14:00</strong> — odjazd z Krakowa</li>
@@ -612,11 +612,11 @@ function TripSchemesSection() {
               <li><strong className="text-white">23:00</strong> — odjazd</li>
               <li><strong className="text-white">01:15</strong> — powrót Krakow</li>
             </ul>
-            <p className="mt-4 text-sm font-bold text-[#f59e0b]">Autokar 50-os: 3 600 zł (1 kierowca, fit w 11h limicie)</p>
+            <p className="mt-4 text-sm font-bold text-[#639922]">Autokar 50-os: 3 600 zł (1 kierowca, fit w 11h limicie)</p>
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-            <h3 className="mb-1 text-lg font-bold text-[#f59e0b]">Schemat D — Koncert na Stadionie Śląskim</h3>
+            <h3 className="mb-1 text-lg font-bold text-[#639922]">Schemat D — Koncert na Stadionie Śląskim</h3>
             <p className="text-xs text-gray-400 mb-3">Coldplay, Imagine Dragons, Taylor Swift</p>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">14:00</strong> — odjazd z Krakowa</li>
@@ -625,7 +625,7 @@ function TripSchemesSection() {
               <li><strong className="text-white">23:30</strong> — odjazd</li>
               <li><strong className="text-white">02:00</strong> — powrót Krakow</li>
             </ul>
-            <p className="mt-4 text-sm font-bold text-[#f59e0b]">Autokar 50-os: 3 600 zł (granicznie 1 kierowca) lub 4 100 zł z 2 kierowcami (bezpieczniej)</p>
+            <p className="mt-4 text-sm font-bold text-[#639922]">Autokar 50-os: 3 600 zł (granicznie 1 kierowca) lub 4 100 zł z 2 kierowcami (bezpieczniej)</p>
           </div>
         </div>
       </div>
@@ -637,7 +637,7 @@ function GroupVehicleTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Jaki autokar dla jakiej grupy — trasa 170 km</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Jaki autokar dla jakiej grupy — trasa 170 km</h2>
         <p className="mb-6 text-gray-300">
           2h 15min jazdy — dla wycieczek szkolnych <strong className="text-white">WC w autokarze obowiązkowe</strong> (wymóg MEN). Dla klas mniejszych mikrofon kierowcy jest standard w klasie ★★★★.
         </p>
@@ -646,7 +646,7 @@ function GroupVehicleTable() {
         <div className="space-y-4 md:hidden">
           {groupVehicleRows.map((row) => (
             <div key={row.groupSize} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <p className="font-bold text-[#f59e0b]">{row.groupSize}</p>
+              <p className="font-bold text-[#639922]">{row.groupSize}</p>
               <p className="mt-1 font-semibold">{row.vehicle}</p>
               <p className="mt-2 text-sm text-gray-300">{row.reason}</p>
             </div>
@@ -656,7 +656,7 @@ function GroupVehicleTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Wielkość grupy</th>
                 <th className="px-4 py-3">Rekomendowany pojazd</th>
@@ -666,7 +666,7 @@ function GroupVehicleTable() {
             <tbody>
               {groupVehicleRows.map((row) => (
                 <tr key={row.groupSize} className="border-t border-[#2a2a2a] bg-[#141414]">
-                  <td className="px-4 py-3 font-semibold text-[#f59e0b]">{row.groupSize}</td>
+                  <td className="px-4 py-3 font-semibold text-[#639922]">{row.groupSize}</td>
                   <td className="px-4 py-3 font-semibold">{row.vehicle}</td>
                   <td className="px-4 py-3 text-gray-300">{row.reason}</td>
                 </tr>
@@ -733,7 +733,7 @@ export default async function KrakowChorzowPage({
 
       {/* CTA #1 */}
       {l === "pl" && (
-        <section className="bg-[#f59e0b] px-4 py-10 text-black">
+        <section className="bg-[#1D9E75] px-4 py-10 text-black">
           <div className="mx-auto max-w-3xl text-center">
             <h3 className="mb-2 text-2xl font-black">{ctaSectionHeadings[l]}</h3>
             <p className="mb-6 text-sm">
@@ -767,11 +767,11 @@ export default async function KrakowChorzowPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Miejsca odbioru w Krakowie</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Miejsca odbioru w Krakowie</h2>
             <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {pickupPoints.map((point, idx) => (
                 <li key={idx} className="flex items-start gap-3 rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-4 text-sm">
-                  <span className="mt-0.5 text-[#f59e0b] font-bold">{idx + 1}.</span>
+                  <span className="mt-0.5 text-[#639922] font-bold">{idx + 1}.</span>
                   <span className="text-gray-300">{point}</span>
                 </li>
               ))}
@@ -787,7 +787,7 @@ export default async function KrakowChorzowPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Co jest w cenie — bez ukrytych kosztów</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Co jest w cenie — bez ukrytych kosztów</h2>
             <div className="grid gap-6 lg:grid-cols-2">
               <div>
                 <h3 className="mb-3 font-bold text-green-400">W cenie:</h3>
@@ -820,7 +820,7 @@ export default async function KrakowChorzowPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Jak rezerwować</h2>
             <ol className="space-y-4">
               {[
                 { step: "1", text: "Zadzwoń (41 345 32 25) lub wyślij formularz z datą + liczbą osób + sygna ł em atrakcji (Park / Legendia / ZOO / Stadion). Pn-pt 7-18, sob 8-14." },
@@ -830,7 +830,7 @@ export default async function KrakowChorzowPage({
                 { step: "5", text: "Dzień przed wyjazdem: pełna płatność + potwierdzenie liczby osób. Komplet dokumentów (KREPTD, badania, polisa) na życzenie." },
               ].map((item) => (
                 <li key={item.step} className="flex items-start gap-4">
-                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f59e0b] font-black text-black text-sm">
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#1D9E75] font-black text-black text-sm">
                     {item.step}
                   </span>
                   <p className="text-gray-300 text-sm pt-1">{item.text}</p>
@@ -860,7 +860,7 @@ export default async function KrakowChorzowPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Popularne trasy z Krakowa</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Popularne trasy z Krakowa</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 { href: "/pl/trasy/krakow-krakow-autokar", label: "Kraków", detail: "115 km / 1h 40min" },
@@ -871,9 +871,9 @@ export default async function KrakowChorzowPage({
                 <a
                   key={item.href}
                   href={item.href}
-                  className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 hover:border-[#f59e0b] transition-colors"
+                  className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 hover:border-[#639922] transition-colors"
                 >
-                  <p className="font-bold text-[#f59e0b]">{item.label}</p>
+                  <p className="font-bold text-[#639922]">{item.label}</p>
                   <p className="text-sm text-gray-400 mt-1">{item.detail}</p>
                 </a>
               ))}
@@ -889,7 +889,7 @@ export default async function KrakowChorzowPage({
       />
 
       {/* CTA FINAL */}
-      <section className="bg-[#f59e0b] px-4 py-12 text-black">
+      <section className="bg-[#1D9E75] px-4 py-12 text-black">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-2 text-3xl font-black">{ctaSectionHeadings[l]}</h2>
           {l === "pl" && (

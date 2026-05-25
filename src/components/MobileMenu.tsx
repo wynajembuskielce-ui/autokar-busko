@@ -56,7 +56,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
             <Link
               href={`/${lang}/cennik`}
               onClick={onClose}
-              className="text-xs uppercase tracking-wide text-gray-400 mb-2 block hover:text-[#f59e0b] transition-colors duration-200"
+              className="text-xs uppercase tracking-wide text-gray-400 mb-2 block hover:text-[#639922] transition-colors duration-200"
             >
               {labels.services} ›
             </Link>
@@ -67,7 +67,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
                     href={item.href}
                     onClick={onClose}
                     className={`block rounded-md px-3 py-2 transition-all duration-200 ${
-                      currentPath.startsWith(item.href) ? "text-[#f59e0b] bg-black/20" : "hover:text-[#f59e0b] hover:bg-black/20"
+                      currentPath.startsWith(item.href) ? "text-[#639922] bg-black/20" : "hover:text-[#639922] hover:bg-black/20"
                     }`}
                   >
                     {item.label}
@@ -81,7 +81,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
               href={`/${lang}/flota`}
               onClick={onClose}
               className={`block rounded-md px-3 py-2 transition-all duration-200 ${
-                currentPath.startsWith(`/${lang}/flota`) ? "text-[#f59e0b] bg-black/20" : "hover:text-[#f59e0b] hover:bg-black/20"
+                currentPath.startsWith(`/${lang}/flota`) ? "text-[#639922] bg-black/20" : "hover:text-[#639922] hover:bg-black/20"
               }`}
             >
               {labels.fleet}
@@ -92,7 +92,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
               href={`/${lang}/galeria`}
               onClick={onClose}
               className={`block rounded-md px-3 py-2 transition-all duration-200 ${
-                currentPath.startsWith(`/${lang}/galeria`) ? "text-[#f59e0b] bg-black/20" : "hover:text-[#f59e0b] hover:bg-black/20"
+                currentPath.startsWith(`/${lang}/galeria`) ? "text-[#639922] bg-black/20" : "hover:text-[#639922] hover:bg-black/20"
               }`}
             >
               {labels.gallery}
@@ -103,7 +103,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
               href={`/${lang}/kontakt`}
               onClick={onClose}
               className={`block rounded-md px-3 py-2 transition-all duration-200 ${
-                currentPath.startsWith(`/${lang}/kontakt`) ? "text-[#f59e0b] bg-black/20" : "hover:text-[#f59e0b] hover:bg-black/20"
+                currentPath.startsWith(`/${lang}/kontakt`) ? "text-[#639922] bg-black/20" : "hover:text-[#639922] hover:bg-black/20"
               }`}
             >
               {labels.contact}
@@ -112,7 +112,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
           <li>
             <a
               href="tel:413453225"
-              className="mt-2 block rounded-lg bg-[#f59e0b] px-4 py-3 text-center font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl whitespace-nowrap"
+              className="mt-2 block rounded-lg bg-[#1D9E75] px-4 py-3 text-center font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl whitespace-nowrap"
             >
               {labels.phone}
             </a>
@@ -127,7 +127,7 @@ export default function MobileMenu({ lang, isOpen, onClose, currentPath, labels,
                 href={`/${item.code}`}
                 onClick={onClose}
                 className={`rounded-md px-2 py-1 text-xs text-center font-semibold whitespace-nowrap transition-colors duration-200 ${
-                  lang === item.code ? "bg-[#f59e0b] text-[#1a1a1a]" : "bg-black/20 text-white hover:bg-black/40"
+                  lang === item.code ? "bg-[#1D9E75] text-[#1a1a1a]" : "bg-black/20 text-white hover:bg-black/40"
                 }`}
               >
                 {item.label}

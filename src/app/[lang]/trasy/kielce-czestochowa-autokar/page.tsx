@@ -404,7 +404,7 @@ function ResponsivePricingTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Cena wynajmu autokaru Krakow-Częstochowa (cennik 2026)</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Cena wynajmu autokaru Krakow-Częstochowa (cennik 2026)</h2>
         <p className="mb-8 text-gray-300">
           Ceny brutto (8% VAT), zawierają: paliwo, kierowcę, brak opłat drogowych (DK78 bezpłatna), ubezpieczenie OC/AC/NNW 100 000 EUR, parking u Jasnej Góry do 3h, mikrofon do różańca.
         </p>
@@ -413,7 +413,7 @@ function ResponsivePricingTable() {
         <div className="space-y-4 md:hidden">
           {routePricingRows.map((row) => (
             <div key={row.vehicle} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <h3 className="text-lg font-bold text-[#f59e0b]">{row.vehicle}</h3>
+              <h3 className="text-lg font-bold text-[#639922]">{row.vehicle}</h3>
               <p className="mt-1 text-sm text-gray-300">Pasażerów: {row.passengers}</p>
               <dl className="mt-4 space-y-2 text-sm">
                 <div className="flex justify-between gap-3"><dt>One-way</dt><dd className="font-bold">{row.oneWay}</dd></div>
@@ -427,7 +427,7 @@ function ResponsivePricingTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pojazd</th>
                 <th className="px-4 py-3">Pasażerów</th>
@@ -464,7 +464,7 @@ function ResponsiveTravelTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Czas przejazdu i trasa</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Czas przejazdu i trasa</h2>
         <p className="mb-6 text-gray-300">
           Trasa standardowa to <strong>DK78</strong> przez Włoszczowę i Koniecpol — dwupasmowa droga krajowa, bez opłat, 130 km. Czas typowy: 1 godzina 50 minut.
         </p>
@@ -474,7 +474,7 @@ function ResponsiveTravelTable() {
           {travelTimeRows.map((row) => (
             <div key={row.timeOfDay} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
               <p className="text-sm text-gray-300">{row.timeOfDay}</p>
-              <p className="mt-1 text-lg font-black text-[#f59e0b]">{row.duration}</p>
+              <p className="mt-1 text-lg font-black text-[#639922]">{row.duration}</p>
               <p className="mt-2 text-sm text-gray-300">{row.note}</p>
             </div>
           ))}
@@ -483,7 +483,7 @@ function ResponsiveTravelTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pora dnia</th>
                 <th className="px-4 py-3">Czas Krakow → Częstochowa</th>
@@ -503,7 +503,7 @@ function ResponsiveTravelTable() {
         </div>
 
         <div className="mt-6 rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-          <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Postoje pielgrzymkowe</h3>
+          <h3 className="mb-3 text-lg font-bold text-[#639922]">Postoje pielgrzymkowe</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>🛑 <strong>MOP Włoszczowa</strong> (43 km od Krakowa) — 15 min, modlitwa różańcowa, toaleta, kawa. Dla pielgrzymek z dziećmi — obowiązkowy.</li>
             <li>🛑 <strong>MOP Koniecpol</strong> (88 km od Krakowa) — przed wjazdem do Częstochowy, ostatnia szansa przed mszą.</li>
@@ -521,10 +521,10 @@ function GroupVehicleTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jaki autokar dla jakiej pielgrzymki</h2>
+        <h2 className="mb-6 text-3xl font-black text-[#639922]">Jaki autokar dla jakiej pielgrzymki</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Wielkość grupy</th>
                 <th className="px-4 py-3">Rekomendowany pojazd</th>
@@ -552,7 +552,7 @@ function GroupVehicleTable() {
 
 function CTABlock() {
   return (
-    <section className="bg-[#f59e0b] px-4 py-12 text-center">
+    <section className="bg-[#1D9E75] px-4 py-12 text-center">
       <h3 className="mb-2 text-2xl font-black text-[#1a1a1a]">Zaplanuj pielgrzymkę na Jasną Górę</h3>
       <p className="mb-6 text-[#1a1a1a]">Faktura proforma dla parafii, bez zaliczki. Odpowiadamy w 15-30 min w godzinach biurowych.</p>
       <div className="flex flex-wrap items-center justify-center gap-4">
@@ -645,14 +645,14 @@ export default async function KrakowCzestochowaRoutePage({
       {/* Pickup points */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Miejsca odbioru w Krakowie i okolicach</h2>
+          <h2 className="mb-4 text-3xl font-black text-[#639922]">Miejsca odbioru w Krakowie i okolicach</h2>
           <p className="mb-4 text-gray-300">
             Dla pielgrzymek parafialnych podstawiamy <strong>bezpośrednio pod kościół</strong> w obrębie 35 km od centrum Krakowa bez dopłaty. Standardowe punkty zbiórki:
           </p>
           <ol className="grid gap-3 md:grid-cols-2">
             {pickupPoints.map((point, index) => (
               <li key={point} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4 text-gray-200">
-                <span className="mr-2 font-black text-[#f59e0b]">{index + 1}.</span>
+                <span className="mr-2 font-black text-[#639922]">{index + 1}.</span>
                 {point}
               </li>
             ))}
@@ -663,7 +663,7 @@ export default async function KrakowCzestochowaRoutePage({
       {/* Jasna Góra info */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl space-y-8">
-          <h2 className="text-3xl font-black text-[#f59e0b]">Jasna Góra — co warto wiedzieć przed wyjazdem</h2>
+          <h2 className="text-3xl font-black text-[#639922]">Jasna Góra — co warto wiedzieć przed wyjazdem</h2>
 
           <div>
             <h3 className="mb-3 text-xl font-bold text-white">Parking dla autokarów</h3>
@@ -705,7 +705,7 @@ export default async function KrakowCzestochowaRoutePage({
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">
           <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-            <h2 className="mb-4 text-2xl font-black text-[#f59e0b]">Co jest w cenie</h2>
+            <h2 className="mb-4 text-2xl font-black text-[#639922]">Co jest w cenie</h2>
             <ul className="space-y-2 text-gray-300">
               {includedItems.map((item) => (
                 <li key={item}>✅ {item}</li>
@@ -713,7 +713,7 @@ export default async function KrakowCzestochowaRoutePage({
             </ul>
           </div>
           <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-            <h2 className="mb-4 text-2xl font-black text-[#f59e0b]">Czego nie obejmuje cena</h2>
+            <h2 className="mb-4 text-2xl font-black text-[#639922]">Czego nie obejmuje cena</h2>
             <ul className="space-y-2 text-gray-300">
               {excludedItems.map((item) => (
                 <li key={item}>❌ {item}</li>
@@ -726,11 +726,11 @@ export default async function KrakowCzestochowaRoutePage({
       {/* Multi-day pilgrimages */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Pielgrzymki 2-dniowe i wielodniowe</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Pielgrzymki 2-dniowe i wielodniowe</h2>
 
           <div className="grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-              <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Wariant A — weekend rekolekcyjny</h3>
+              <h3 className="mb-3 text-lg font-bold text-[#639922]">Wariant A — weekend rekolekcyjny</h3>
               <ul className="space-y-1 text-sm text-gray-300">
                 <li>Sob 7:00 — wyjazd z Krakowa</li>
                 <li>9:00 — Jasna Góra, msza</li>
@@ -739,18 +739,18 @@ export default async function KrakowCzestochowaRoutePage({
                 <li>Niedz 9:30 — msza zamykająca</li>
                 <li>14:00 — powrót do Krakowa</li>
               </ul>
-              <p className="mt-4 font-bold text-[#f59e0b]">3 500 zł (autokar 50-os)</p>
+              <p className="mt-4 font-bold text-[#639922]">3 500 zł (autokar 50-os)</p>
               <p className="text-xs text-gray-400">Z noclegiem kierowcy w Domu Pielgrzyma (220 zł).</p>
             </div>
 
             <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-              <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Wariant B — Święty Krzyż + Jasna Góra</h3>
+              <h3 className="mb-3 text-lg font-bold text-[#639922]">Wariant B — Święty Krzyż + Jasna Góra</h3>
               <p className="text-sm text-gray-300">Pielgrzymka 2-stacjowa: Święty Krzyż (24 km od Krakowa) → Jasna Góra → Krakow. 290 km łącznie, 1 dzień, 2 200 zł autokar 50-os.</p>
               <p className="mt-3 text-sm text-gray-300">Najczęstszy wybór parafii z diecezji kieleckiej łączących oba sanktuaria.</p>
             </div>
 
             <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-              <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Wariant C — Jasna Góra + Wadowice + Kalwaria</h3>
+              <h3 className="mb-3 text-lg font-bold text-[#639922]">Wariant C — Jasna Góra + Wadowice + Kalwaria</h3>
               <p className="text-sm text-gray-300">3 dni, 380 km łącznie. Autokar 50-os: 5 800 zł. Dla parafii z silnym duszpasterstwem dorosłych.</p>
               <p className="mt-3 text-sm text-gray-300">Wielkie pielgrzymki diecezjalne (200-300 osób, 4-6 autokarów w konwoju) — cena indywidualna po rozmowie z duszpasterzem.</p>
             </div>
@@ -761,7 +761,7 @@ export default async function KrakowCzestochowaRoutePage({
       {/* How to book — parish */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-5xl rounded-2xl border border-[#2a2a2a] bg-[#111111] p-8">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować — pielgrzymka parafialna</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Jak rezerwować — pielgrzymka parafialna</h2>
           <ol className="space-y-3 text-gray-300">
             <li>1. Zadzwoń (41 345 32 25) lub wyślij e-mail z datą, liczbą osób i opisem programu (msza, Apel, dodatkowe stacje).</li>
             <li>2. Wycena pisemna w 15-30 minut (pn-pt 7:00-18:00, sob 8:00-14:00) — e-mail lub WhatsApp.</li>
@@ -784,7 +784,7 @@ export default async function KrakowCzestochowaRoutePage({
       {/* Popular route variations */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Popularne wariacje trasy</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Popularne wariacje trasy</h2>
           <ul className="space-y-3 text-gray-300">
             <li className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
               ✝️ <strong>Krakow → Jasna Góra → Krakow</strong> (klasyk parafialny, 1 dzień) — 260 km łącznie, 1 700 zł autokar 50-os
@@ -805,37 +805,37 @@ export default async function KrakowCzestochowaRoutePage({
       {/* Related routes */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Inne popularne trasy z Krakowa</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Inne popularne trasy z Krakowa</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a
               href="/pl/trasy/krakow-krakow-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Kraków</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Kraków</p>
               <p className="mt-1 text-sm text-gray-400">115 km · 1h 40min · A4</p>
               <p className="mt-2 text-sm text-gray-300">od 1 050 zł</p>
             </a>
             <a
               href="/pl/trasy/krakow-warszawa-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Warszawa</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Warszawa</p>
               <p className="mt-1 text-sm text-gray-400">180 km · 2h 30min · S7</p>
               <p className="mt-2 text-sm text-gray-300">od 1 050 zł</p>
             </a>
             <a
               href="/pl/trasy/krakow-zakopane-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Zakopane</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Zakopane</p>
               <p className="mt-1 text-sm text-gray-400">210 km · 3h · przez Kraków</p>
               <p className="mt-2 text-sm text-gray-300">od 1 600 zł</p>
             </a>
             <a
               href="/pl/trasy/krakow-wroclaw-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Wrocław</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Wrocław</p>
               <p className="mt-1 text-sm text-gray-400">330 km · 3h 45min</p>
               <p className="mt-2 text-sm text-gray-300">od 2 200 zł</p>
             </a>
@@ -845,7 +845,7 @@ export default async function KrakowCzestochowaRoutePage({
 
       {/* Final CTA */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-center text-white">
-        <h2 className="mb-3 text-3xl font-black text-[#f59e0b]">Gotowi na pielgrzymkę Krakow → Jasna Góra?</h2>
+        <h2 className="mb-3 text-3xl font-black text-[#639922]">Gotowi na pielgrzymkę Krakow → Jasna Góra?</h2>
         <p className="mx-auto mb-6 max-w-2xl text-gray-300">
           Wybierz dogodny kanał kontaktu i otrzymaj pisemną wycenę bez zobowiązań. Faktura proforma dla parafii, bez zaliczki.
         </p>

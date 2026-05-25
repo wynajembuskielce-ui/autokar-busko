@@ -151,14 +151,14 @@ export default async function BlogPostPage({
             {ui.blog}
           </Link>
           <span>/</span>
-          <span className="text-[#f59e0b] uppercase font-semibold">{categories[article.category]}</span>
+          <span className="text-[#639922] uppercase font-semibold">{categories[article.category]}</span>
           <span>/</span>
           <span className="text-[#1a1a1a] truncate">{tr.title}</span>
         </nav>
 
         <header className="mb-8">
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-xs font-bold uppercase text-[#f59e0b] tracking-wide">{categories[article.category]}</span>
+            <span className="text-xs font-bold uppercase text-[#639922] tracking-wide">{categories[article.category]}</span>
             <span className="text-xs text-gray-400">{article.readingTime} {ui.reading}</span>
             <span className="text-xs text-gray-400">{formatDate(article.publishedAt, lang)}</span>
           </div>
@@ -167,7 +167,7 @@ export default async function BlogPostPage({
         </header>
 
         <article
-          className="prose prose-lg max-w-none prose-headings:font-black prose-headings:text-[#1a1a1a] prose-a:text-[#f59e0b] prose-a:no-underline prose-strong:text-[#1a1a1a]"
+          className="prose prose-lg max-w-none prose-headings:font-black prose-headings:text-[#1a1a1a] prose-a:text-[#639922] prose-a:no-underline prose-strong:text-[#1a1a1a]"
           dangerouslySetInnerHTML={{ __html: tr.content }}
         />
 
@@ -176,7 +176,7 @@ export default async function BlogPostPage({
         <div className="my-12 bg-[#1a1a1a] text-white rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-black mb-2">{ui.ctaTitle}</h3>
           <p className="text-gray-300 mb-6">{ui.ctaDescription}</p>
-          <a href="tel:413453225" className="inline-block rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+          <a href="tel:413453225" className="inline-block rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
             📞 +48 41 345 32 25 lub 
           </a>
         </div>
@@ -190,12 +190,12 @@ export default async function BlogPostPage({
                 <Link
                   key={item.slug}
                   href={`/${lang}/blog/${item.slug}`}
-                  className="bg-white rounded-xl border border-gray-200 p-4 hover:border-[#f59e0b] transition-all"
+                  className="bg-white rounded-xl border border-gray-200 p-4 hover:border-[#639922] transition-all"
                 >
-                  <span className="text-xs font-bold uppercase text-[#f59e0b]">{categories[item.category]}</span>
+                  <span className="text-xs font-bold uppercase text-[#639922]">{categories[item.category]}</span>
                   <h3 className="font-black text-base text-[#1a1a1a] mt-2 mb-2 leading-snug">{relatedTr.title}</h3>
                   <p className="text-sm text-gray-600 line-clamp-3">{relatedTr.excerpt}</p>
-                  <span className="text-sm text-[#f59e0b] font-bold mt-4 inline-block">{ui.read}</span>
+                  <span className="text-sm text-[#639922] font-bold mt-4 inline-block">{ui.read}</span>
                 </Link>
               );
             })}

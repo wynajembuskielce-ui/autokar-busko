@@ -100,10 +100,10 @@ export default function ArabskieBiuraPage() {
       <section className="relative bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="text-5xl mb-6">🌙</div>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#f59e0b] mb-4">{c.hero_title}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#639922] mb-4">{c.hero_title}</h1>
           <p className="text-xl text-gray-300 mb-6">{c.hero_sub}</p>
-          <div className="bg-[#f59e0b]/10 border border-[#f59e0b]/30 rounded-xl p-4 inline-block">
-            <p className="text-[#f59e0b] text-lg italic">{c.hero_quote}</p>
+          <div className="bg-[#1D9E75]/10 border border-[#639922]/30 rounded-xl p-4 inline-block">
+            <p className="text-[#639922] text-lg italic">{c.hero_quote}</p>
           </div>
         </div>
       </section>
@@ -113,9 +113,9 @@ export default function ArabskieBiuraPage() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-xl text-gray-200 leading-relaxed">{c.intro}</p>
           <div className="mt-6 flex justify-center gap-8 text-center">
-            <div><div className="text-4xl font-bold text-[#f59e0b]">27+</div><div className="text-gray-400">{isAr ? 'سنة خبرة' : 'Years Experience'}</div></div>
-            <div><div className="text-4xl font-bold text-[#f59e0b]">180</div><div className="text-gray-400">{isAr ? 'مركبة' : 'Vehicles'}</div></div>
-            <div><div className="text-4xl font-bold text-[#f59e0b]">24/7</div><div className="text-gray-400">{isAr ? 'متاحون دائماً' : 'Available'}</div></div>
+            <div><div className="text-4xl font-bold text-[#639922]">27+</div><div className="text-gray-400">{isAr ? 'سنة خبرة' : 'Years Experience'}</div></div>
+            <div><div className="text-4xl font-bold text-[#639922]">180</div><div className="text-gray-400">{isAr ? 'مركبة' : 'Vehicles'}</div></div>
+            <div><div className="text-4xl font-bold text-[#639922]">24/7</div><div className="text-gray-400">{isAr ? 'متاحون دائماً' : 'Available'}</div></div>
           </div>
         </div>
       </section>
@@ -123,10 +123,10 @@ export default function ArabskieBiuraPage() {
       {/* WHY US */}
       <section className="py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#f59e0b] text-center mb-10">{c.why_title}</h2>
+          <h2 className="text-3xl font-bold text-[#639922] text-center mb-10">{c.why_title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {c.why_items.map((item, i) => (
-              <div key={i} className="bg-[#1a1a2e] rounded-xl p-4 border border-[#f59e0b]/20 text-lg">{item}</div>
+              <div key={i} className="bg-[#1a1a2e] rounded-xl p-4 border border-[#639922]/20 text-lg">{item}</div>
             ))}
           </div>
         </div>
@@ -135,12 +135,12 @@ export default function ArabskieBiuraPage() {
       {/* DESTINATIONS */}
       <section className="py-16 px-4 bg-[#1a1a2e]">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#f59e0b] text-center mb-10">{c.destinations_title}</h2>
+          <h2 className="text-3xl font-bold text-[#639922] text-center mb-10">{c.destinations_title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {c.destinations.map((d, i) => (
-              <div key={i} className="bg-[#0f0f1a] rounded-xl p-6 border border-[#f59e0b]/20 hover:border-[#f59e0b]/60 transition">
+              <div key={i} className="bg-[#0f0f1a] rounded-xl p-6 border border-[#639922]/20 hover:border-[#639922]/60 transition">
                 <div className="text-4xl mb-3">{d.icon}</div>
-                <h3 className="text-xl font-bold text-[#f59e0b] mb-1">{d.name}</h3>
+                <h3 className="text-xl font-bold text-[#639922] mb-1">{d.name}</h3>
                 <div className="text-sm text-gray-400 mb-3">⏱ {d.dist}</div>
                 <p className="text-gray-300">{d.desc}</p>
               </div>
@@ -152,10 +152,10 @@ export default function ArabskieBiuraPage() {
       {/* SERVICES */}
       <section className="py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#f59e0b] text-center mb-10">{c.services_title}</h2>
+          <h2 className="text-3xl font-bold text-[#639922] text-center mb-10">{c.services_title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {c.services.map((s, i) => (
-              <div key={i} className="bg-[#1a1a2e] rounded-xl p-6 border border-[#f59e0b]/20">
+              <div key={i} className="bg-[#1a1a2e] rounded-xl p-6 border border-[#639922]/20">
                 <div className="text-3xl mb-3">{s.icon}</div>
                 <h3 className="text-lg font-bold text-white mb-2">{s.title}</h3>
                 <p className="text-gray-400">{s.desc}</p>
@@ -169,10 +169,10 @@ export default function ArabskieBiuraPage() {
       <section className="py-16 px-4 bg-gradient-to-r from-[#1a1a2e] to-[#0f3460]">
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-5xl mb-4">🤝</div>
-          <h2 className="text-3xl font-bold text-[#f59e0b] mb-6">{c.partner_title}</h2>
+          <h2 className="text-3xl font-bold text-[#639922] mb-6">{c.partner_title}</h2>
           <p className="text-xl text-gray-200 leading-relaxed mb-8">{c.partner_desc}</p>
-          <div className="bg-[#f59e0b]/10 border border-[#f59e0b]/40 rounded-2xl p-6">
-            <p className="text-[#f59e0b] text-lg font-semibold">
+          <div className="bg-[#1D9E75]/10 border border-[#639922]/40 rounded-2xl p-6">
+            <p className="text-[#639922] text-lg font-semibold">
               {isAr ? '🦁 موسكيتير — واحد للجميع والجميع لواحد' : '🦁 Autokar Busko — All for one, one for all'}
             </p>
             <p className="text-gray-300 mt-2">
@@ -189,16 +189,16 @@ export default function ArabskieBiuraPage() {
           <p className="text-gray-300 mb-8">{c.cta_desc}</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="https://wa.me/48601076652" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-3 rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] transition-all duration-200 hover:bg-[#f59e0b] hover:text-black">
+              className="inline-flex items-center justify-center gap-3 rounded-lg border-2 border-[#639922] px-6 py-3 text-base font-bold text-[#639922] transition-all duration-200 hover:bg-[#5DCAA5] hover:text-black">
               <span className="text-2xl">💬</span> {c.whatsapp_text}
             </a>
             <a href="mailto:biuro@autokar-busko.pl"
-              className="inline-flex items-center justify-center gap-3 rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+              className="inline-flex items-center justify-center gap-3 rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
               <span className="text-2xl">📧</span> {c.email_text}
             </a>
           </div>
           <div className="mt-8 text-gray-400">
-            <a href="https://muszkieter.pl" target="_blank" rel="noopener noreferrer" className="text-[#f59e0b] underline transition-colors duration-200 hover:text-[#f6c15a]">
+            <a href="https://muszkieter.pl" target="_blank" rel="noopener noreferrer" className="text-[#639922] underline transition-colors duration-200 hover:text-[#97C459]">
               muszkieter.pl
             </a>
             {isAr ? ' — كيلتسه، بولندا' : ' — Krakow, Poland'}

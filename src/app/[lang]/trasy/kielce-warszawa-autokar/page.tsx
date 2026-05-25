@@ -407,7 +407,7 @@ function ResponsivePricingTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Cena wynajmu autokaru Krakow-Warszawa (cennik 2026)</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Cena wynajmu autokaru Krakow-Warszawa (cennik 2026)</h2>
         <p className="mb-8 text-gray-300">
           Cennik orientacyjny dla rezerwacji 30-90 dni przed wyjazdem. Wszystkie ceny brutto (8% VAT), zawierają paliwo, kierowcę, ubezpieczenie, parking u celu do 3h. S7 na tej trasie jest bezpłatna.
         </p>
@@ -416,7 +416,7 @@ function ResponsivePricingTable() {
         <div className="space-y-4 md:hidden">
           {routePricingRows.map((row) => (
             <div key={row.vehicle} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <h3 className="text-lg font-bold text-[#f59e0b]">{row.vehicle}</h3>
+              <h3 className="text-lg font-bold text-[#639922]">{row.vehicle}</h3>
               <p className="mt-1 text-sm text-gray-300">Pasażerów: {row.passengers}</p>
               <dl className="mt-4 space-y-2 text-sm">
                 <div className="flex justify-between gap-3"><dt>One-way</dt><dd className="font-bold">{row.oneWay}</dd></div>
@@ -431,7 +431,7 @@ function ResponsivePricingTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pojazd</th>
                 <th className="px-4 py-3">Pasażerów</th>
@@ -469,7 +469,7 @@ function ResponsiveTravelTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Czas przejazdu i trasa</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Czas przejazdu i trasa</h2>
         <p className="mb-6 text-gray-300">
           Trasa standardowa to <strong>S7 Krakow-Warszawa</strong> — droga ekspresowa, bez opłat, ukończona w 2023 r. Jedziemy całą trasą bez świateł, średnia prędkość autokaru 85 km/h.
         </p>
@@ -479,7 +479,7 @@ function ResponsiveTravelTable() {
           {travelTimeRows.map((row) => (
             <div key={row.timeOfDay} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
               <p className="text-sm text-gray-300">{row.timeOfDay}</p>
-              <p className="mt-1 text-lg font-black text-[#f59e0b]">{row.duration}</p>
+              <p className="mt-1 text-lg font-black text-[#639922]">{row.duration}</p>
               <p className="mt-2 text-sm text-gray-300">{row.note}</p>
             </div>
           ))}
@@ -488,7 +488,7 @@ function ResponsiveTravelTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pora dnia</th>
                 <th className="px-4 py-3">Czas Krakow → Warszawa</th>
@@ -508,7 +508,7 @@ function ResponsiveTravelTable() {
         </div>
 
         <div className="mt-6 rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-          <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Wąskie gardła trasy</h3>
+          <h3 className="mb-3 text-lg font-bold text-[#639922]">Wąskie gardła trasy</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>🚧 <strong>Janki / Raszyn</strong> — wjazd do Warszawy od południa. W piątki po 14:00 i niedziele po 16:00 korek na 12-18 km.</li>
             <li>☕ <strong>MOP Borucza</strong> (110 km od Krakowa) — standardowy postój kawowy, parking dla 40 autokarów.</li>
@@ -524,10 +524,10 @@ function GroupVehicleTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jaki autokar dla jakiej grupy — trasa Warszawa</h2>
+        <h2 className="mb-6 text-3xl font-black text-[#639922]">Jaki autokar dla jakiej grupy — trasa Warszawa</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Wielkość grupy</th>
                 <th className="px-4 py-3">Rekomendowany pojazd</th>
@@ -556,7 +556,7 @@ function GroupVehicleTable() {
 
 function CTABlock() {
   return (
-    <section className="bg-[#f59e0b] px-4 py-12 text-center">
+    <section className="bg-[#1D9E75] px-4 py-12 text-center">
       <h3 className="mb-2 text-2xl font-black text-[#1a1a1a]">Sprawdź dostępność na Twoją datę</h3>
       <p className="mb-6 text-[#1a1a1a]">Odpowiadamy w 15-30 min w godzinach biurowych. Wycena pisemna, bez zobowiązań.</p>
       <div className="flex flex-wrap items-center justify-center gap-4">
@@ -649,12 +649,12 @@ export default async function KrakowWarszawaRoutePage({
       {/* Pickup points */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Miejsca odbioru w Krakowie</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Miejsca odbioru w Krakowie</h2>
           <p className="mb-4 text-gray-300">6 punktów standardowych bez dopłat:</p>
           <ol className="grid gap-3 md:grid-cols-2">
             {pickupPoints.map((point, index) => (
               <li key={point} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4 text-gray-200">
-                <span className="mr-2 font-black text-[#f59e0b]">{index + 1}.</span>
+                <span className="mr-2 font-black text-[#639922]">{index + 1}.</span>
                 {point}
               </li>
             ))}
@@ -668,7 +668,7 @@ export default async function KrakowWarszawaRoutePage({
       {/* Destinations in Warsaw */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl space-y-8">
-          <h2 className="text-3xl font-black text-[#f59e0b]">Miejsca docelowe w Warszawie</h2>
+          <h2 className="text-3xl font-black text-[#639922]">Miejsca docelowe w Warszawie</h2>
 
           <div>
             <h3 className="mb-3 text-xl font-bold text-white">Centrum</h3>
@@ -711,7 +711,7 @@ export default async function KrakowWarszawaRoutePage({
             </ul>
             <p className="mt-3 text-sm text-gray-400">
               Transfer Krakow → lotnisko to osobna usługa z osobnym cennikiem —{" "}
-              <a href="/pl/lotnisko" className="text-[#f59e0b] underline hover:no-underline">
+              <a href="/pl/lotnisko" className="text-[#639922] underline hover:no-underline">
                 zobacz /pl/lotnisko
               </a>.
             </p>
@@ -725,7 +725,7 @@ export default async function KrakowWarszawaRoutePage({
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">
           <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-            <h2 className="mb-4 text-2xl font-black text-[#f59e0b]">Co jest w cenie</h2>
+            <h2 className="mb-4 text-2xl font-black text-[#639922]">Co jest w cenie</h2>
             <ul className="space-y-2 text-gray-300">
               {includedItems.map((item) => (
                 <li key={item}>✅ {item}</li>
@@ -733,7 +733,7 @@ export default async function KrakowWarszawaRoutePage({
             </ul>
           </div>
           <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-            <h2 className="mb-4 text-2xl font-black text-[#f59e0b]">Czego nie obejmuje cena</h2>
+            <h2 className="mb-4 text-2xl font-black text-[#639922]">Czego nie obejmuje cena</h2>
             <ul className="space-y-2 text-gray-300">
               {excludedItems.map((item) => (
                 <li key={item}>❌ {item}</li>
@@ -746,32 +746,32 @@ export default async function KrakowWarszawaRoutePage({
       {/* Same-day return section */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-5xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Powrót tego samego dnia — czy to się opłaca?</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Powrót tego samego dnia — czy to się opłaca?</h2>
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
               <h3 className="mb-4 text-lg font-bold text-white">Schemat standardowy</h3>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li><span className="font-bold text-[#f59e0b]">06:30</span> — odjazd z Krakowa</li>
-                <li><span className="font-bold text-[#f59e0b]">09:00</span> — przyjazd Warszawa</li>
-                <li><span className="font-bold text-[#f59e0b]">09:00 – 19:00</span> — 10h pobytu, kierowca czeka</li>
-                <li><span className="font-bold text-[#f59e0b]">19:00</span> — odjazd z Warszawy</li>
-                <li><span className="font-bold text-[#f59e0b]">21:30</span> — powrót do Krakowa</li>
+                <li><span className="font-bold text-[#639922]">06:30</span> — odjazd z Krakowa</li>
+                <li><span className="font-bold text-[#639922]">09:00</span> — przyjazd Warszawa</li>
+                <li><span className="font-bold text-[#639922]">09:00 – 19:00</span> — 10h pobytu, kierowca czeka</li>
+                <li><span className="font-bold text-[#639922]">19:00</span> — odjazd z Warszawy</li>
+                <li><span className="font-bold text-[#639922]">21:30</span> — powrót do Krakowa</li>
               </ul>
-              <p className="mt-4 text-sm text-[#f59e0b] font-bold">Cena: 2 550 zł (autokar 50-os)</p>
+              <p className="mt-4 text-sm text-[#639922] font-bold">Cena: 2 550 zł (autokar 50-os)</p>
               <p className="mt-1 text-xs text-gray-400">Jeden kierowca, wszystko w limicie 15h czasu pracy.</p>
             </div>
 
             <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
               <h3 className="mb-4 text-lg font-bold text-white">Schemat powrót po koncercie</h3>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li><span className="font-bold text-[#f59e0b]">16:00</span> — odjazd z Krakowa</li>
-                <li><span className="font-bold text-[#f59e0b]">18:30</span> — przyjazd PGE Narodowy</li>
-                <li><span className="font-bold text-[#f59e0b]">22:00–23:30</span> — koniec eventu, zbiórka grupy</li>
-                <li><span className="font-bold text-[#f59e0b]">23:30</span> — odjazd z Warszawy</li>
-                <li><span className="font-bold text-[#f59e0b]">02:00</span> — powrót do Krakowa</li>
+                <li><span className="font-bold text-[#639922]">16:00</span> — odjazd z Krakowa</li>
+                <li><span className="font-bold text-[#639922]">18:30</span> — przyjazd PGE Narodowy</li>
+                <li><span className="font-bold text-[#639922]">22:00–23:30</span> — koniec eventu, zbiórka grupy</li>
+                <li><span className="font-bold text-[#639922]">23:30</span> — odjazd z Warszawy</li>
+                <li><span className="font-bold text-[#639922]">02:00</span> — powrót do Krakowa</li>
               </ul>
-              <p className="mt-4 text-sm text-[#f59e0b] font-bold">Cena: 3 050 zł (+ 500 zł drugi kierowca)</p>
+              <p className="mt-4 text-sm text-[#639922] font-bold">Cena: 3 050 zł (+ 500 zł drugi kierowca)</p>
               <p className="mt-1 text-xs text-gray-400">Wymagany drugi kierowca (rozp. WE 561/2006) — 0% ryzyka mandatu ITD.</p>
             </div>
           </div>
@@ -781,7 +781,7 @@ export default async function KrakowWarszawaRoutePage({
       {/* SCT Warsaw section */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-5xl rounded-2xl border border-[#2a2a2a] bg-[#111111] p-8">
-          <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Strefa Czystego Transportu Warszawa — co zmieniło się od 2024 r.</h2>
+          <h2 className="mb-4 text-3xl font-black text-[#639922]">Strefa Czystego Transportu Warszawa — co zmieniło się od 2024 r.</h2>
           <p className="mb-4 text-gray-300">
             Od <strong>1 lipca 2024</strong> w centrum Warszawy (obwodnica śródmiejska) obowiązuje SCT. Wymóg dla pojazdów ciężkich: norma <strong>Euro 6</strong>.
           </p>
@@ -800,7 +800,7 @@ export default async function KrakowWarszawaRoutePage({
       {/* How to book */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-5xl rounded-2xl border border-[#2a2a2a] bg-[#111111] p-8">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Jak rezerwować</h2>
           <ol className="space-y-3 text-gray-300">
             <li>1. Zadzwoń (41 345 32 25) lub wyślij formularz z trasą, datą i liczbą osób.</li>
             <li>2. Otrzymujesz wycenę w 15-30 minut (pn-pt 7:00-18:00, sob 8:00-14:00) — e-mail lub WhatsApp.</li>
@@ -821,7 +821,7 @@ export default async function KrakowWarszawaRoutePage({
       {/* Popular route variations */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Popularne wariacje trasy</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Popularne wariacje trasy</h2>
           <ul className="space-y-3 text-gray-300">
             <li className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
               ✈️ <strong>Krakow → Warszawa → Lotnisko Chopina</strong> — 195 km, cena od 2 200 zł (autokar 50-os)
@@ -842,37 +842,37 @@ export default async function KrakowWarszawaRoutePage({
       {/* Related routes */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Inne popularne trasy z Krakowa</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Inne popularne trasy z Krakowa</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a
               href="/pl/trasy/krakow-krakow-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Kraków</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Kraków</p>
               <p className="mt-1 text-sm text-gray-400">115 km · 1h 40min · A4</p>
               <p className="mt-2 text-sm text-gray-300">od 1 050 zł</p>
             </a>
             <a
               href="/pl/trasy/krakow-zakopane-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Zakopane</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Zakopane</p>
               <p className="mt-1 text-sm text-gray-400">210 km · 3h · przez Kraków</p>
               <p className="mt-2 text-sm text-gray-300">od 1 600 zł</p>
             </a>
             <a
               href="/pl/trasy/krakow-czestochowa-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Częstochowa</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Częstochowa</p>
               <p className="mt-1 text-sm text-gray-400">120 km · 1h 50min</p>
               <p className="mt-2 text-sm text-gray-300">od 900 zł</p>
             </a>
             <a
               href="/pl/trasy/krakow-wroclaw-autokar"
-              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#f59e0b]"
+              className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 transition-colors hover:border-[#639922]"
             >
-              <p className="text-lg font-black text-[#f59e0b]">Krakow → Wrocław</p>
+              <p className="text-lg font-black text-[#639922]">Krakow → Wrocław</p>
               <p className="mt-1 text-sm text-gray-400">330 km · 3h 45min</p>
               <p className="mt-2 text-sm text-gray-300">od 2 200 zł</p>
             </a>
@@ -882,7 +882,7 @@ export default async function KrakowWarszawaRoutePage({
 
       {/* Final CTA */}
       <section className="bg-[#1a1a1a] px-4 py-12 text-center text-white">
-        <h2 className="mb-3 text-3xl font-black text-[#f59e0b]">Gotowi na trasę Krakow → Warszawa?</h2>
+        <h2 className="mb-3 text-3xl font-black text-[#639922]">Gotowi na trasę Krakow → Warszawa?</h2>
         <p className="mx-auto mb-6 max-w-2xl text-gray-300">
           Wybierz dogodny kanał kontaktu i otrzymaj pisemną wycenę bez zobowiązań.
         </p>

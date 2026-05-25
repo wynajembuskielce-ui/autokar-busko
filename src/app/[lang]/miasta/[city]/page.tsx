@@ -209,13 +209,13 @@ export default async function MiastoPage({ params }: PageProps) {
           aria-label="Breadcrumb"
           className="mb-8 text-sm text-gray-400"
         >
-          <a href={`/${lang}`} className="hover:text-[#f59e0b]">
+          <a href={`/${lang}`} className="hover:text-[#639922]">
             Strona główna
           </a>
           <span className="mx-2">/</span>
           <a
             href={`/${lang}/miasta`}
-            className="hover:text-[#f59e0b]"
+            className="hover:text-[#639922]"
           >
             Miasta
           </a>
@@ -226,7 +226,7 @@ export default async function MiastoPage({ params }: PageProps) {
         {/* H1 */}
         <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
           Wynajem autokaru{' '}
-          <span className="text-[#f59e0b]">{city.name}</span> —{' '}
+          <span className="text-[#639922]">{city.name}</span> —{' '}
           Autokar Busko
         </h1>
 
@@ -241,8 +241,8 @@ export default async function MiastoPage({ params }: PageProps) {
         </p>
 
         {/* CTA */}
-        <div className="mt-10 rounded-2xl border border-[#f59e0b]/30 bg-gradient-to-br from-[#2a2a2a] to-[#1a1a1a] p-6 sm:p-8">
-          <h2 className="text-2xl font-semibold text-[#f59e0b]">
+        <div className="mt-10 rounded-2xl border border-[#639922]/30 bg-gradient-to-br from-[#2a2a2a] to-[#1a1a1a] p-6 sm:p-8">
+          <h2 className="text-2xl font-semibold text-[#639922]">
             Zamów wycenę trasy Busko-Zdrój → {city.name}
           </h2>
           <p className="mt-3 text-gray-300">
@@ -253,14 +253,14 @@ export default async function MiastoPage({ params }: PageProps) {
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#f59e0b] px-6 py-3 font-semibold text-black transition-colors hover:bg-[#e0890a]"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#1D9E75] px-6 py-3 font-semibold text-black transition-colors hover:bg-[#e0890a]"
               aria-label={`Zadzwoń pod numer ${PHONE}`}
             >
               <span aria-hidden="true">📞</span> {PHONE}
             </a>
             <a
               href={`/${lang}/kontakt`}
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-[#f59e0b] bg-transparent px-6 py-3 font-semibold text-[#f59e0b] transition-colors hover:bg-[#f59e0b]/10"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-[#639922] bg-transparent px-6 py-3 font-semibold text-[#639922] transition-colors hover:bg-[#5DCAA5]/10"
             >
               Formularz zapytania
             </a>
@@ -299,7 +299,7 @@ export default async function MiastoPage({ params }: PageProps) {
             licencja transport krajowy i międzynarodowy WITD ·{' '}
             <a
               href={`mailto:${EMAIL}`}
-              className="text-[#f59e0b] hover:underline"
+              className="text-[#639922] hover:underline"
             >
               {EMAIL}
             </a>

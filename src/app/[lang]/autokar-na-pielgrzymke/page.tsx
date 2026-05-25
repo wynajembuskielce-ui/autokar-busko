@@ -385,7 +385,7 @@ export default async function AutokarNaPielgrzymkePage({ params }: { params: Pro
             <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-200">200+ parafii obsłużonych od 2003 roku. Pielgrzymki krajowe i zagraniczne. Kierowca rozumiejący rytm pielgrzymki: postoje przy sanktuariach, miejsce na ołtarz polowy, cisza w czasie różańca.</p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="#kontakt" className="inline-flex items-center justify-center rounded-md bg-amber-500 px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-amber-600">Sprawdź wycenę w 15 min</a>
+              <a href="#kontakt" className="inline-flex items-center justify-center rounded-md bg-[#EAF3DE]0 px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-[#5DCAA5]">Sprawdź wycenę w 15 min</a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-gray-900">+48 41 345 32 25</a>
               <a href="tel:+48413453225" className="inline-flex items-center justify-center rounded-md border border-gray-400 px-4 py-2 text-xs font-semibold text-gray-200 hover:border-white hover:text-white"></a>
             </div>
@@ -532,10 +532,10 @@ export default async function AutokarNaPielgrzymkePage({ params }: { params: Pro
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold">Pielgrzymka to nie wycieczka. Rozumiemy różnicę. Pomożemy.</h2>
             <div className="mt-8 space-y-3 text-base leading-7 text-gray-200">
-              <p><a href="tel:+48413453225" className="text-amber-500">Telefon główny: +48 41 345 32 25</a></p>
-              <p><a href="tel:+48413453225" className="text-amber-500">Telefon zapasowy: </a></p>
-              <p><a href="mailto:biuro@autokar-busko.pl" className="text-amber-500">Email: biuro@autokar-busko.pl</a></p>
-              <p><a href="/pl/kontakt" className="text-amber-500">Formularz: Wyślij zapytanie</a></p>
+              <p><a href="tel:+48413453225" className="text-[#639922]">Telefon główny: +48 41 345 32 25</a></p>
+              <p><a href="tel:+48413453225" className="text-[#639922]">Telefon zapasowy: </a></p>
+              <p><a href="mailto:biuro@autokar-busko.pl" className="text-[#639922]">Email: biuro@autokar-busko.pl</a></p>
+              <p><a href="/pl/kontakt" className="text-[#639922]">Formularz: Wyślij zapytanie</a></p>
               <p>Autokar Busko · Alfa Bus Sp. z o.o. · ul. Poprzeczna 1, 28-100 Busko-Zdrój</p>
             </div>
           </div>

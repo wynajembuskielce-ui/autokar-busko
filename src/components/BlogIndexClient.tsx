@@ -139,7 +139,7 @@ export default function BlogIndexClient({ lang }: { lang: string }) {
             type="button"
             onClick={() => setActiveFilter("all")}
             className={`px-4 py-2 rounded-full text-sm font-bold border transition-all ${
-              activeFilter === "all" ? "bg-[#1a1a1a] text-white border-[#1a1a1a]" : "bg-white text-[#1a1a1a] border-gray-200 hover:border-[#f59e0b]"
+              activeFilter === "all" ? "bg-[#1a1a1a] text-white border-[#1a1a1a]" : "bg-white text-[#1a1a1a] border-gray-200 hover:border-[#639922]"
             }`}
           >
             {t.all}
@@ -152,7 +152,7 @@ export default function BlogIndexClient({ lang }: { lang: string }) {
               className={`px-4 py-2 rounded-full text-sm font-bold border transition-all ${
                 activeFilter === category
                   ? "bg-[#1a1a1a] text-white border-[#1a1a1a]"
-                  : "bg-white text-[#1a1a1a] border-gray-200 hover:border-[#f59e0b]"
+                  : "bg-white text-[#1a1a1a] border-gray-200 hover:border-[#639922]"
               }`}
             >
               {catLabels[category]}
@@ -188,9 +188,9 @@ export default function BlogIndexClient({ lang }: { lang: string }) {
                   </div>
                   <div className="p-6">
                     <div className="flex items-center justify-between gap-3 mb-1">
-                      <span className="text-xs font-bold text-[#f59e0b] uppercase">{badge}</span>
+                      <span className="text-xs font-bold text-[#639922] uppercase">{badge}</span>
                       {article.featured ? (
-                        <span className="text-[10px] font-bold uppercase tracking-wide text-[#1a1a1a] bg-[#f59e0b]/25 px-2 py-1 rounded-full">
+                        <span className="text-[10px] font-bold uppercase tracking-wide text-[#1a1a1a] bg-[#1D9E75]/25 px-2 py-1 rounded-full">
                           {t.featured}
                         </span>
                       ) : null}
@@ -201,7 +201,7 @@ export default function BlogIndexClient({ lang }: { lang: string }) {
                       <span className="text-xs text-gray-400">
                         {article.readingTime} {t.reading}
                       </span>
-                      <span className="text-[#f59e0b] font-bold text-sm">{t.read}</span>
+                      <span className="text-[#639922] font-bold text-sm">{t.read}</span>
                     </div>
                   </div>
                 </Link>

@@ -397,7 +397,7 @@ function ResponsivePricingTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Cena wynajmu autokaru Krakow-Wrocław (cennik 2026)</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Cena wynajmu autokaru Krakow-Wrocław (cennik 2026)</h2>
         <p className="mb-8 text-gray-300">
           Ceny brutto (8% VAT), zawierają: paliwo, kierowcę (lub dwóch na pełnym dniu), <strong className="text-white">wszystkie opłaty A4 (~156 zł w obie strony)</strong>, ubezpieczenie OC/AC/NNW 100 000 EUR, parking u celu do 3h.
         </p>
@@ -406,7 +406,7 @@ function ResponsivePricingTable() {
         <div className="space-y-4 md:hidden">
           {routePricingRows.map((row) => (
             <div key={row.vehicle} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <h3 className="text-lg font-bold text-[#f59e0b]">{row.vehicle}</h3>
+              <h3 className="text-lg font-bold text-[#639922]">{row.vehicle}</h3>
               <p className="mt-1 text-sm text-gray-300">Pasażerów: {row.passengers}</p>
               <dl className="mt-4 space-y-2 text-sm">
                 <div className="flex justify-between gap-3"><dt>One-way</dt><dd className="font-bold">{row.oneWay}</dd></div>
@@ -420,7 +420,7 @@ function ResponsivePricingTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pojazd</th>
                 <th className="px-4 py-3">Pasażerów</th>
@@ -444,8 +444,8 @@ function ResponsivePricingTable() {
         </div>
 
         {/* 2-driver explanation */}
-        <div className="mt-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm">
-          <p className="font-semibold text-amber-400 mb-2">Dlaczego "tam i z powrotem" kosztuje więcej niż 2× one-way?</p>
+        <div className="mt-6 rounded-xl border border-[#639922]/30 bg-[#EAF3DE]0/10 p-5 text-sm">
+          <p className="font-semibold text-[#97C459] mb-2">Dlaczego "tam i z powrotem" kosztuje więcej niż 2× one-way?</p>
           <p className="text-gray-300">
             Na pełnym dniu Krakow-Wrocław-Krakow łączny czas pracy kierowcy to 16-18h (8h jazdy + 8-10h czekania), co przekracza limit jednego kierowcy według rozp. WE 561/2006 (max 9h jazdy + wymagana 11h przerwa dobowa). <strong className="text-white">Drugi kierowca = +700 zł</strong> — wliczamy to w cenę tam-i-z-powrotem wprost, bez ukrywania w gwiazdkach.
           </p>
@@ -474,7 +474,7 @@ function TravelTimeTable() {
   return (
     <section className="bg-[#111111] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Czas przejazdu i trasa Krakow-Wrocław</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Czas przejazdu i trasa Krakow-Wrocław</h2>
         <p className="mb-6 text-gray-300">
           <strong className="text-white">Trasa standardowa:</strong> A4 Krakow → Kraków → Wrocław (Bielany Wrocławskie). 330 km, pełna autostrada płatna od Krakowa do Wrocławia. Obowiązkowa 45-min przerwa kierowcy: MOP Brzeg (260 km, 70 km przed Wrocławiem).
         </p>
@@ -486,7 +486,7 @@ function TravelTimeTable() {
         <div className="space-y-3 md:hidden">
           {travelTimeRows.map((row) => (
             <div key={row.timeOfDay} className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-4">
-              <p className="font-bold text-[#f59e0b]">{row.timeOfDay}</p>
+              <p className="font-bold text-[#639922]">{row.timeOfDay}</p>
               <p className="text-lg font-black">{row.duration}</p>
               <p className="text-sm text-gray-400">{row.note}</p>
             </div>
@@ -496,7 +496,7 @@ function TravelTimeTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#1a1a1a] text-left text-[#f59e0b]">
+            <thead className="bg-[#1a1a1a] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pora dnia</th>
                 <th className="px-4 py-3">Czas Krakow → Wrocław</th>
@@ -520,7 +520,7 @@ function TravelTimeTable() {
           <ul className="space-y-1">
             <li><strong className="text-white">MOP Brzezie</strong> (Wieliczka, 92 km) — pierwsza przerwa kawowa, 15 min</li>
             <li><strong className="text-white">MOP Balice</strong> (Kraków-zachód, 130 km) — alternatywa</li>
-            <li><strong className="text-white">MOP Brzeg</strong> (260 km) — <span className="text-amber-400 font-medium">obowiązkowa 45-min przerwa</span> kierowcy przed wjazdem do Wrocławia</li>
+            <li><strong className="text-white">MOP Brzeg</strong> (260 km) — <span className="text-[#97C459] font-medium">obowiązkowa 45-min przerwa</span> kierowcy przed wjazdem do Wrocławia</li>
             <li><strong className="text-white">MOP Bielany Wrocławskie</strong> (320 km) — ostatnia toaleta przed centrum</li>
           </ul>
         </div>
@@ -533,11 +533,11 @@ function DestinationsSection() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Miejsca docelowe we Wrocławiu</h2>
+        <h2 className="mb-6 text-3xl font-black text-[#639922]">Miejsca docelowe we Wrocławiu</h2>
 
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-            <h3 className="mb-3 text-base font-bold text-[#f59e0b]">Centrum i kultura</h3>
+            <h3 className="mb-3 text-base font-bold text-[#639922]">Centrum i kultura</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">Rynek Wrocławski</strong> — parking autokarów ul. Kazimierza Wielkiego (6 zł/h), zatoka od ul. Świdnickiej</li>
               <li><strong className="text-white">Hala Stulecia (UNESCO)</strong> — własny parking ul. Wystawowa, darmowy dla wystawców i grup</li>
@@ -548,7 +548,7 @@ function DestinationsSection() {
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-            <h3 className="mb-3 text-base font-bold text-[#f59e0b]">Stadiony i koncerty</h3>
+            <h3 className="mb-3 text-base font-bold text-[#639922]">Stadiony i koncerty</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">Stadion Wrocław</strong> (ul. Królewska) — UEFA Euro 2012, koncerty, mecze. Parking P1 dla autokarów: pierwsze 3h gratis, potem 35 zł/dzień. Przy dużym evencie rezerwujemy 6 tygodni wcześniej</li>
               <li><strong className="text-white">Hala Stulecia / Centennial Hall</strong> — koncerty kameralne i konferencje do 6 tys. osób</li>
@@ -557,7 +557,7 @@ function DestinationsSection() {
           </div>
 
           <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5">
-            <h3 className="mb-3 text-base font-bold text-[#f59e0b]">Wycieczki szkolne i biznes</h3>
+            <h3 className="mb-3 text-base font-bold text-[#639922]">Wycieczki szkolne i biznes</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li><strong className="text-white">ZOO Wrocław + Afrykarium</strong> — kl. 1-6, parking własny</li>
               <li><strong className="text-white">Centrum Historii Zajezdnia</strong></li>
@@ -577,7 +577,7 @@ function GroupVehicleTable() {
   return (
     <section className="bg-[#111111] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Jaki autokar dla jakiej grupy — trasa 330 km</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Jaki autokar dla jakiej grupy — trasa 330 km</h2>
         <p className="mb-6 text-gray-300">
           Trasa długa — <strong className="text-white">komfort liczy się bardziej</strong> niż na krótszych dystansach. Dla wycieczek szkolnych <strong className="text-white">WC w autokarze jest obowiązkowe</strong>. Pasy bezpieczeństwa 3-punktowe w każdym fotelu (wymóg MEN).
         </p>
@@ -586,7 +586,7 @@ function GroupVehicleTable() {
         <div className="space-y-4 md:hidden">
           {groupVehicleRows.map((row) => (
             <div key={row.groupSize} className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-4">
-              <p className="font-bold text-[#f59e0b]">{row.groupSize}</p>
+              <p className="font-bold text-[#639922]">{row.groupSize}</p>
               <p className="mt-1 font-semibold">{row.vehicle}</p>
               <p className="mt-2 text-sm text-gray-300">{row.reason}</p>
             </div>
@@ -596,7 +596,7 @@ function GroupVehicleTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#1a1a1a] text-left text-[#f59e0b]">
+            <thead className="bg-[#1a1a1a] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Wielkość grupy</th>
                 <th className="px-4 py-3">Rekomendowany pojazd</th>
@@ -606,7 +606,7 @@ function GroupVehicleTable() {
             <tbody>
               {groupVehicleRows.map((row) => (
                 <tr key={row.groupSize} className="border-t border-[#2a2a2a] bg-[#141414]">
-                  <td className="px-4 py-3 font-semibold text-[#f59e0b]">{row.groupSize}</td>
+                  <td className="px-4 py-3 font-semibold text-[#639922]">{row.groupSize}</td>
                   <td className="px-4 py-3 font-semibold">{row.vehicle}</td>
                   <td className="px-4 py-3 text-gray-300">{row.reason}</td>
                 </tr>
@@ -677,7 +677,7 @@ export default async function KrakowWroclawPage({
 
       {/* CTA #1 */}
       {l === "pl" && (
-        <section className="bg-[#f59e0b] px-4 py-10 text-black">
+        <section className="bg-[#1D9E75] px-4 py-10 text-black">
           <div className="mx-auto max-w-3xl text-center">
             <h3 className="mb-2 text-2xl font-black">{ctaSectionHeadings[l]}</h3>
             <p className="mb-6 text-sm">
@@ -705,11 +705,11 @@ export default async function KrakowWroclawPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Miejsca odbioru w Krakowie</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Miejsca odbioru w Krakowie</h2>
             <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {pickupPoints.map((point, idx) => (
                 <li key={idx} className="flex items-start gap-3 rounded-xl border border-[#2a2a2a] bg-[#111111] p-4 text-sm">
-                  <span className="mt-0.5 text-[#f59e0b] font-bold">{idx + 1}.</span>
+                  <span className="mt-0.5 text-[#639922] font-bold">{idx + 1}.</span>
                   <span className="text-gray-300">{point}</span>
                 </li>
               ))}
@@ -728,7 +728,7 @@ export default async function KrakowWroclawPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Co jest w cenie — bez ukrytych kosztów</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Co jest w cenie — bez ukrytych kosztów</h2>
             <div className="grid gap-6 lg:grid-cols-2">
               <div>
                 <h3 className="mb-3 font-bold text-green-400">W cenie:</h3>
@@ -761,10 +761,10 @@ export default async function KrakowWroclawPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Pełen dzień we Wrocławiu — typowe schematy</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Pełen dzień we Wrocławiu — typowe schematy</h2>
             <div className="grid gap-6 lg:grid-cols-3">
               <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-5">
-                <h3 className="mb-3 text-base font-bold text-[#f59e0b]">Wycieczka szkolna 1-dniowa</h3>
+                <h3 className="mb-3 text-base font-bold text-[#639922]">Wycieczka szkolna 1-dniowa</h3>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">05:30</strong> — odjazd z Krakowa</li>
                   <li><strong className="text-white">09:15</strong> — przyjazd Wrocław (przerwa MOP Brzeg)</li>
@@ -772,11 +772,11 @@ export default async function KrakowWroclawPage({
                   <li><strong className="text-white">17:00</strong> — odjazd</li>
                   <li><strong className="text-white">20:45</strong> — powrót Krakow</li>
                 </ul>
-                <p className="mt-3 text-xs text-amber-400">2 kierowców obowiązkowych — łączny czas jazdy 7,5h. Cena: <strong>4 100 zł autokar 50-os.</strong></p>
+                <p className="mt-3 text-xs text-[#97C459]">2 kierowców obowiązkowych — łączny czas jazdy 7,5h. Cena: <strong>4 100 zł autokar 50-os.</strong></p>
               </div>
 
               <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-5">
-                <h3 className="mb-3 text-base font-bold text-[#f59e0b]">Delegacja firmowa 1-dniowa</h3>
+                <h3 className="mb-3 text-base font-bold text-[#639922]">Delegacja firmowa 1-dniowa</h3>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">06:00</strong> — odjazd</li>
                   <li><strong className="text-white">10:00</strong> — Wrocław, spotkanie (4h)</li>
@@ -785,11 +785,11 @@ export default async function KrakowWroclawPage({
                   <li><strong className="text-white">18:00</strong> — odjazd</li>
                   <li><strong className="text-white">22:00</strong> — Krakow</li>
                 </ul>
-                <p className="mt-3 text-xs text-amber-400">2 kierowców obowiązkowych. Cena: <strong>4 100 zł autokar 50-os.</strong></p>
+                <p className="mt-3 text-xs text-[#97C459]">2 kierowców obowiązkowych. Cena: <strong>4 100 zł autokar 50-os.</strong></p>
               </div>
 
               <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-5">
-                <h3 className="mb-3 text-base font-bold text-[#f59e0b]">Koncert na Stadionie Wrocław</h3>
+                <h3 className="mb-3 text-base font-bold text-[#639922]">Koncert na Stadionie Wrocław</h3>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">13:00</strong> — odjazd z Krakowa</li>
                   <li><strong className="text-white">17:00</strong> — Wrocław, postój pod stadionem, kolacja</li>
@@ -797,7 +797,7 @@ export default async function KrakowWroclawPage({
                   <li><strong className="text-white">23:45</strong> — odjazd (+1h korek wyjazdowy)</li>
                   <li><strong className="text-white">04:30</strong> — powrót Krakow</li>
                 </ul>
-                <p className="mt-3 text-xs text-amber-400">Coldplay, Taylor Swift, mecze UEFA. Cena: <strong>4 600 zł autokar 50-os</strong> (nocny dodatek).</p>
+                <p className="mt-3 text-xs text-[#97C459]">Coldplay, Taylor Swift, mecze UEFA. Cena: <strong>4 600 zł autokar 50-os</strong> (nocny dodatek).</p>
               </div>
             </div>
           </div>
@@ -808,31 +808,31 @@ export default async function KrakowWroclawPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Wyjazd 2-dniowy — schematy biznesowe</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Wyjazd 2-dniowy — schematy biznesowe</h2>
             <p className="mb-6 text-gray-300">
               Dla konferencji 2-dniowych i wyjazdów integracyjnych mamy dwa warianty — wybierasz po obejrzeniu obu wycen.
             </p>
             <div className="grid gap-6 lg:grid-cols-2">
               <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-6">
-                <h3 className="mb-1 text-lg font-bold text-[#f59e0b]">Wariant A — Drop-off + powrót pusty</h3>
+                <h3 className="mb-1 text-lg font-bold text-[#639922]">Wariant A — Drop-off + powrót pusty</h3>
                 <p className="text-xs text-gray-400 mb-3">Tańszy o ~300 zł, ale kierowca nie nocuje we Wrocławiu</p>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">Dzień 1:</strong> 6:00 odjazd Krakow → 10:00 Wrocław, zostawiamy grupę w hotelu → 11:00 powrót pusty (Krakow 14:45)</li>
                   <li><strong className="text-white">Dzień 2:</strong> 8:00 kierowca wyjeżdża do Wrocławia (sam, pusty autokar) → 11:45 odbiera grupę → 15:30 Krakow</li>
                 </ul>
-                <p className="mt-4 text-sm font-bold text-[#f59e0b]">Cena: 5 500 zł autokar 50-os</p>
+                <p className="mt-4 text-sm font-bold text-[#639922]">Cena: 5 500 zł autokar 50-os</p>
                 <p className="text-xs text-gray-400">(2× 2 600 zł trasy − 25% zniżki za pustą stronę)</p>
               </div>
 
               <div className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-6">
-                <h3 className="mb-1 text-lg font-bold text-[#f59e0b]">Wariant B — Kierowca nocuje na miejscu</h3>
+                <h3 className="mb-1 text-lg font-bold text-[#639922]">Wariant B — Kierowca nocuje na miejscu</h3>
                 <p className="text-xs text-gray-400 mb-3">Jeden kierowca przez cały wyjazd, wyższy komfort organizacyjny</p>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">Dzień 1:</strong> odjazd + dotarcie do Wrocławia, kierowca nocuje przy hotelu grupy</li>
                   <li><strong className="text-white">Nocleg kierowcy:</strong> 220-280 zł/noc (hotel pod Wrocławiem) — wliczone w cenę</li>
                   <li><strong className="text-white">Dzień 2:</strong> powrót z grupą do Krakowa</li>
                 </ul>
-                <p className="mt-4 text-sm font-bold text-[#f59e0b]">Cena: 5 200 zł autokar 50-os</p>
+                <p className="mt-4 text-sm font-bold text-[#639922]">Cena: 5 200 zł autokar 50-os</p>
                 <p className="text-xs text-gray-400">(1× kierowca cały czas + nocleg)</p>
               </div>
             </div>
@@ -844,7 +844,7 @@ export default async function KrakowWroclawPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Jak rezerwować</h2>
             <ol className="space-y-4">
               {[
                 { step: "1", text: "Zadzwoń (41 345 32 25) lub wyślij formularz z trasą + datą + liczbą osób. Pn-pt 7-18, sob 8-14." },
@@ -854,7 +854,7 @@ export default async function KrakowWroclawPage({
                 { step: "5", text: "Przed wyjazdem: komplet dokumentów (KREPTD, polisa, badania kierowcy) na życzenie." },
               ].map((item) => (
                 <li key={item.step} className="flex items-start gap-4">
-                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f59e0b] font-black text-black text-sm">
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#1D9E75] font-black text-black text-sm">
                     {item.step}
                   </span>
                   <p className="text-gray-300 text-sm pt-1">{item.text}</p>
@@ -884,7 +884,7 @@ export default async function KrakowWroclawPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Popularne wariacje trasy</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Popularne wariacje trasy</h2>
             <ul className="grid gap-3 sm:grid-cols-2">
               {[
                 { label: "Krakow → Wrocław → Krakow (1 dzień, 2 kierowców)", detail: "660 km, 4 100 zł autokar 50-os" },
@@ -894,7 +894,7 @@ export default async function KrakowWroclawPage({
               ].map((item, idx) => (
                 <li key={idx} className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-4">
                   <p className="font-semibold text-sm">{item.label}</p>
-                  <p className="text-sm text-[#f59e0b] mt-1">{item.detail}</p>
+                  <p className="text-sm text-[#639922] mt-1">{item.detail}</p>
                 </li>
               ))}
             </ul>
@@ -906,7 +906,7 @@ export default async function KrakowWroclawPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Popularne trasy z Krakowa</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Popularne trasy z Krakowa</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 { href: "/pl/trasy/krakow-krakow-autokar", label: "Kraków", detail: "115 km / 1h 40min" },
@@ -917,9 +917,9 @@ export default async function KrakowWroclawPage({
                 <a
                   key={item.href}
                   href={item.href}
-                  className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 hover:border-[#f59e0b] transition-colors"
+                  className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 hover:border-[#639922] transition-colors"
                 >
-                  <p className="font-bold text-[#f59e0b]">{item.label}</p>
+                  <p className="font-bold text-[#639922]">{item.label}</p>
                   <p className="text-sm text-gray-400 mt-1">{item.detail}</p>
                 </a>
               ))}
@@ -935,7 +935,7 @@ export default async function KrakowWroclawPage({
       />
 
       {/* CTA FINAL */}
-      <section className="bg-[#f59e0b] px-4 py-12 text-black">
+      <section className="bg-[#1D9E75] px-4 py-12 text-black">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-2 text-3xl font-black">{ctaSectionHeadings[l]}</h2>
           {l === "pl" && (

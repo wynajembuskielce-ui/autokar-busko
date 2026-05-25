@@ -407,39 +407,39 @@ export default async function HomePage({
               <div className="border border-gray-200 rounded-lg p-6 flex flex-col">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Wesele</h3>
                 <p className="text-gray-600 text-sm flex-1">Transport gości weselnych - 500+ wesel obsłużonych, ocena 4.9/5</p>
-                <a href="/pl/wynajem-autokaru-na-wesele" className="mt-4 text-[#f59e0b] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
+                <a href="/pl/wynajem-autokaru-na-wesele" className="mt-4 text-[#639922] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
               </div>
               <div className="border border-gray-200 rounded-lg p-6 flex flex-col">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Wycieczka licealna</h3>
                 <p className="text-gray-600 text-sm flex-1">Wycieczki maturalne krajowe i zagraniczne - 40+ liceów rocznie</p>
-                <a href="/pl/wycieczka-licealna" className="mt-4 text-[#f59e0b] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
+                <a href="/pl/wycieczka-licealna" className="mt-4 text-[#639922] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
               </div>
               <div className="border border-gray-200 rounded-lg p-6 flex flex-col">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Wycieczka przedszkolna</h3>
                 <p className="text-gray-600 text-sm flex-1">Bezpieczna podróż dla najmłodszych - 80+ przedszkoli rocznie</p>
-                <a href="/pl/wycieczka-przedszkolna" className="mt-4 text-[#f59e0b] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
+                <a href="/pl/wycieczka-przedszkolna" className="mt-4 text-[#639922] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
               </div>
               <div className="border border-gray-200 rounded-lg p-6 flex flex-col">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Pielgrzymka</h3>
                 <p className="text-gray-600 text-sm flex-1">Pielgrzymki krajowe i zagraniczne - 200+ parafii rocznie</p>
-                <a href="/pl/autokar-na-pielgrzymke" className="mt-4 text-[#f59e0b] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
+                <a href="/pl/autokar-na-pielgrzymke" className="mt-4 text-[#639922] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
               </div>
               <div className="border border-gray-200 rounded-lg p-6 flex flex-col">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Pogrzeb</h3>
                 <p className="text-gray-600 text-sm flex-1">Dyskretny transport rodziny - 100+ pogrzebów obsłużonych</p>
-                <a href="/pl/autokar-na-pogrzeb" className="mt-4 text-[#f59e0b] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
+                <a href="/pl/autokar-na-pogrzeb" className="mt-4 text-[#639922] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
               </div>
               <div className="border border-gray-200 rounded-lg p-6 flex flex-col">
                 <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">Przysięga wojskowa</h3>
                 <p className="text-gray-600 text-sm flex-1">Transport rodziny żołnierza - 30+ przysiąg rocznie</p>
-                <a href="/pl/przysiega-wojskowa" className="mt-4 text-[#f59e0b] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
+                <a href="/pl/przysiega-wojskowa" className="mt-4 text-[#639922] font-semibold text-sm hover:underline">Sprawdź ofertę →</a>
               </div>
             </div>
           </div>
         </section>
       )}
 
-      <section className="py-16 px-4 bg-[#f59e0b] text-[#1a1a1a] text-center">
+      <section className="py-16 px-4 bg-[#1D9E75] text-[#1a1a1a] text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-black mb-4">{finalHeading[activeLang]}</h2>
           <p className="text-lg mb-8 font-medium">{finalBody[activeLang]}</p>

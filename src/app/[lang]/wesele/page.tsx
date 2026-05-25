@@ -166,7 +166,7 @@ export default async function WeselePage({
       />
       <FeatureBox features={featuresByLang[l]} heading={featureHeadings[l]} />
       {l === "pl" && <FAQAccordion items={faqItems} heading={faqHeadings[l]} />}
-      <section className="py-12 px-4 bg-[#f59e0b] text-center">
+      <section className="py-12 px-4 bg-[#1D9E75] text-center">
         <h2 className="text-2xl font-black text-[#1a1a1a] mb-4">{ctaSectionHeadings[l]}</h2>
         <CTAButton href="tel:413453225" variant="secondary">📞 +48 41 345 32 25 lub </CTAButton>
       </section>

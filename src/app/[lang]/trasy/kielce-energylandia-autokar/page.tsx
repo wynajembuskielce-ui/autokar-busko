@@ -395,7 +395,7 @@ function ResponsivePricingTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Cena wynajmu autokaru Krakow-Energylandia (cennik 2026)</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Cena wynajmu autokaru Krakow-Energylandia (cennik 2026)</h2>
         <p className="mb-8 text-gray-300">
           Ceny brutto (8% VAT), zawierają: paliwo, kierowcę, opłaty A4 (~52 zł w obie strony), ubezpieczenie OC/AC/NNW 100 000 EUR, parking w Energylandii (darmowy), 2 postoje kawowe. Bilety do parku kupujecie osobno.
         </p>
@@ -404,7 +404,7 @@ function ResponsivePricingTable() {
         <div className="space-y-4 md:hidden">
           {routePricingRows.map((row) => (
             <div key={row.vehicle} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <h3 className="text-lg font-bold text-[#f59e0b]">{row.vehicle}</h3>
+              <h3 className="text-lg font-bold text-[#639922]">{row.vehicle}</h3>
               <p className="mt-1 text-sm text-gray-300">Pasażerów: {row.passengers}</p>
               <dl className="mt-4 space-y-2 text-sm">
                 <div className="flex justify-between gap-3"><dt>One-way</dt><dd className="font-bold">{row.oneWay}</dd></div>
@@ -418,7 +418,7 @@ function ResponsivePricingTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pojazd</th>
                 <th className="px-4 py-3">Pasażerów</th>
@@ -463,7 +463,7 @@ function TravelTimeTable() {
   return (
     <section className="bg-[#111111] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Czas przejazdu i trasa Krakow-Energylandia</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Czas przejazdu i trasa Krakow-Energylandia</h2>
         <p className="mb-6 text-gray-300">
           <strong className="text-white">Trasa standardowa:</strong> A4 Krakow → Kraków → S52 Wadowice → DW781 → Zator (ul. Parkowa 1). 155 km, typowy czas 2h 10min. Postój obowiązkowy: MOP Brzezie (Wieliczka, 92 km od Krakowa) — 15 min.
         </p>
@@ -472,7 +472,7 @@ function TravelTimeTable() {
         <div className="space-y-3 md:hidden">
           {travelTimeRows.map((row) => (
             <div key={row.timeOfDay} className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-4">
-              <p className="font-bold text-[#f59e0b]">{row.timeOfDay}</p>
+              <p className="font-bold text-[#639922]">{row.timeOfDay}</p>
               <p className="text-lg font-black">{row.duration}</p>
               <p className="text-sm text-gray-400">{row.note}</p>
             </div>
@@ -482,7 +482,7 @@ function TravelTimeTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#1a1a1a] text-left text-[#f59e0b]">
+            <thead className="bg-[#1a1a1a] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pora dnia</th>
                 <th className="px-4 py-3">Czas Krakow → Energylandia</th>
@@ -501,8 +501,8 @@ function TravelTimeTable() {
           </table>
         </div>
 
-        <div className="mt-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm">
-          <p className="font-semibold text-amber-400 mb-1">Zoptymalizowany dzień w Energylandii:</p>
+        <div className="mt-6 rounded-xl border border-[#639922]/30 bg-[#EAF3DE]0/10 p-5 text-sm">
+          <p className="font-semibold text-[#97C459] mb-1">Zoptymalizowany dzień w Energylandii:</p>
           <ul className="space-y-1 text-gray-300">
             <li><strong className="text-white">05:30</strong> — odjazd z Krakowa</li>
             <li><strong className="text-white">06:30</strong> — postój MOP Brzezie (15 min)</li>
@@ -522,7 +522,7 @@ function GroupVehicleTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Jaki autokar dla wycieczki do Energylandii</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Jaki autokar dla wycieczki do Energylandii</h2>
         <p className="mb-6 text-gray-300">
           Wycieczki szkolne to 90% klas 4-8 — dzieci podekscytowane, organizacja kluczowa. <strong className="text-white">WC w autokarze jest obowiązkowe</strong> dla 2h 10min trasy. Pasy bezpieczeństwa 3-punktowe w każdym fotelu (wymóg MEN).
         </p>
@@ -531,7 +531,7 @@ function GroupVehicleTable() {
         <div className="space-y-4 md:hidden">
           {groupVehicleRows.map((row) => (
             <div key={row.groupSize} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <p className="font-bold text-[#f59e0b]">{row.groupSize}</p>
+              <p className="font-bold text-[#639922]">{row.groupSize}</p>
               <p className="mt-1 font-semibold">{row.vehicle}</p>
               <p className="mt-2 text-sm text-gray-300">{row.reason}</p>
             </div>
@@ -541,7 +541,7 @@ function GroupVehicleTable() {
         {/* Desktop table */}
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Wielkość grupy</th>
                 <th className="px-4 py-3">Rekomendowany pojazd</th>
@@ -551,7 +551,7 @@ function GroupVehicleTable() {
             <tbody>
               {groupVehicleRows.map((row) => (
                 <tr key={row.groupSize} className="border-t border-[#2a2a2a] bg-[#141414]">
-                  <td className="px-4 py-3 font-semibold text-[#f59e0b]">{row.groupSize}</td>
+                  <td className="px-4 py-3 font-semibold text-[#639922]">{row.groupSize}</td>
                   <td className="px-4 py-3 font-semibold">{row.vehicle}</td>
                   <td className="px-4 py-3 text-gray-300">{row.reason}</td>
                 </tr>
@@ -618,7 +618,7 @@ export default async function KrakowEnergylandiaPage({
 
       {/* CTA #1 */}
       {l === "pl" && (
-        <section className="bg-[#f59e0b] px-4 py-10 text-black">
+        <section className="bg-[#1D9E75] px-4 py-10 text-black">
           <div className="mx-auto max-w-3xl text-center">
             <h3 className="mb-2 text-2xl font-black">{ctaSectionHeadings[l]}</h3>
             <p className="mb-6 text-sm">
@@ -646,14 +646,14 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Miejsca odbioru w Krakowie</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Miejsca odbioru w Krakowie</h2>
             <p className="mb-6 text-gray-300">
               Dla wycieczek szkolnych podstawiamy <strong className="text-white">bezpośrednio pod szkołę</strong> w obrębie 30 km od centrum Krakowa bez dopłaty.
             </p>
             <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {pickupPoints.map((point, idx) => (
                 <li key={idx} className="flex items-start gap-3 rounded-xl border border-[#2a2a2a] bg-[#111111] p-4 text-sm">
-                  <span className="mt-0.5 text-[#f59e0b] font-bold">{idx + 1}.</span>
+                  <span className="mt-0.5 text-[#639922] font-bold">{idx + 1}.</span>
                   <span className="text-gray-300">{point}</span>
                 </li>
               ))}
@@ -666,11 +666,11 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Energylandia — co warto wiedzieć przed wyjazdem</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Energylandia — co warto wiedzieć przed wyjazdem</h2>
 
             <div className="grid gap-6 lg:grid-cols-2">
               <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-                <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Godziny otwarcia 2026</h3>
+                <h3 className="mb-3 text-lg font-bold text-[#639922]">Godziny otwarcia 2026</h3>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">Sezon główny (czerwiec-sierpień):</strong> 10:00 – 21:00 (Aqualantis: 10:00-19:00)</li>
                   <li><strong className="text-white">Pre/post sezon (kwiecień-maj, wrzesień-październik):</strong> 10:00 – 18:00 (niektóre dni 11:00–17:00)</li>
@@ -680,7 +680,7 @@ export default async function KrakowEnergylandiaPage({
               </div>
 
               <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-                <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Co warto rezerwować z wyprzedzeniem</h3>
+                <h3 className="mb-3 text-lg font-bold text-[#639922]">Co warto rezerwować z wyprzedzeniem</h3>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">Bilety grupowe</strong> — dla grup 25+ osób zniżki -40%. Zgłoszenie 14 dni przed: grupowy@energylandia.pl</li>
                   <li><strong className="text-white">Wejście do Aqualantis</strong> — w soboty wakacje limity, lepiej kupić online</li>
@@ -699,7 +699,7 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Bezpieczeństwo dla dzieci — co dokumentujemy</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Bezpieczeństwo dla dzieci — co dokumentujemy</h2>
             <p className="mb-6 text-gray-300">
               Wycieczki szkolne to nasz najbardziej wrażliwy segment. Co przekazujemy szkole <strong className="text-white">na piśmie przed wyjazdem</strong>:
             </p>
@@ -733,7 +733,7 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Co jest w cenie — bez ukrytych kosztów</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Co jest w cenie — bez ukrytych kosztów</h2>
             <div className="grid gap-6 lg:grid-cols-2">
               <div>
                 <h3 className="mb-3 font-bold text-green-400">W cenie:</h3>
@@ -766,20 +766,20 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Wycieczka 2-dniowa z noclegiem w Energylandii</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Wycieczka 2-dniowa z noclegiem w Energylandii</h2>
             <p className="mb-6 text-gray-300">
               Coraz częściej rodzice / szkoły wybierają wycieczkę 2-dniową — w 1 dzień nie zdąży się zobaczyć wszystkich 75+ atrakcji.
             </p>
             <div className="grid gap-6 lg:grid-cols-2">
               <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-                <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Standardowy schemat 2-dniowy</h3>
+                <h3 className="mb-3 text-lg font-bold text-[#639922]">Standardowy schemat 2-dniowy</h3>
                 <ul className="space-y-2 text-sm text-gray-300">
                   <li><strong className="text-white">Dzień 1:</strong> odjazd Krakow 6:00 → przyjazd 8:30 → cały dzień w parku (Strefa Bajek + Smoków) → kolacja w hotelu 19:00 → nocleg</li>
                   <li><strong className="text-white">Dzień 2:</strong> śniadanie 8:00 → Aqualantis 10:00-15:00 → lunch 15:30 → odjazd 17:00 → Krakow 19:30</li>
                 </ul>
               </div>
               <div className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-6">
-                <h3 className="mb-3 text-lg font-bold text-[#f59e0b]">Cena i co jest w cenie</h3>
+                <h3 className="mb-3 text-lg font-bold text-[#639922]">Cena i co jest w cenie</h3>
                 <p className="text-sm text-gray-300 mb-3">
                   <strong className="text-white">4 500 zł autokar 50-os</strong> — wliczone: 2× przejazd + parking + nocleg kierowcy (220 zł/noc w hotelu parku).
                 </p>
@@ -796,17 +796,17 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Imprezy urodzinowe w Energylandii</h2>
+            <h2 className="mb-4 text-3xl font-black text-[#639922]">Imprezy urodzinowe w Energylandii</h2>
             <p className="mb-4 text-gray-300">
               Bardzo popularny scenariusz: rodzice rezerwują autokar dla 15-25 dzieci na urodziny. Wynajem <strong className="text-white">busa 20-os</strong> (Mercedes Sprinter 19+2): <strong className="text-white">1 700 zł na cały dzień</strong> — kierowca jedzie, czeka, wraca.
             </p>
-            <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm">
-              <p className="font-semibold text-amber-400 mb-2">Przykładowy budżet dla 25 dzieci:</p>
+            <div className="rounded-xl border border-[#639922]/30 bg-[#EAF3DE]0/10 p-5 text-sm">
+              <p className="font-semibold text-[#97C459] mb-2">Przykładowy budżet dla 25 dzieci:</p>
               <ul className="space-y-1 text-gray-300">
                 <li>Wynajem busa 20-os: <strong className="text-white">1 700 zł</strong></li>
                 <li>Bilety do Energylandii 25 × ~169 zł: <strong className="text-white">~4 225 zł</strong></li>
                 <li>Pizza w restauracji parku: <strong className="text-white">~750 zł</strong></li>
-                <li className="border-t border-amber-500/30 pt-1 font-bold text-white">Razem: ~6 700 zł → ~270 zł / dziecko za pełen dzień</li>
+                <li className="border-t border-[#639922]/30 pt-1 font-bold text-white">Razem: ~6 700 zł → ~270 zł / dziecko za pełen dzień</li>
               </ul>
             </div>
             <p className="mt-4 text-sm text-gray-300">
@@ -820,7 +820,7 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować — wycieczka do Energylandii</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Jak rezerwować — wycieczka do Energylandii</h2>
             <ol className="space-y-4">
               {[
                 { step: "1", text: "Zadzwoń (41 345 32 25) lub wyślij formularz z datą + liczbą dzieci/dorosłych + sygnałem czy chcecie wjazd na otwarcie 10:00, czy później." },
@@ -830,7 +830,7 @@ export default async function KrakowEnergylandiaPage({
                 { step: "5", text: "Przed wyjazdem: komplet dokumentów bezpieczeństwa (KREPTD, polisa, badania kierowcy) wysyłamy do szkoły mailem." },
               ].map((item) => (
                 <li key={item.step} className="flex items-start gap-4">
-                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f59e0b] font-black text-black text-sm">
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#1D9E75] font-black text-black text-sm">
                     {item.step}
                   </span>
                   <p className="text-gray-300 text-sm pt-1">{item.text}</p>
@@ -844,7 +844,7 @@ export default async function KrakowEnergylandiaPage({
                 <li>7-29 dni: 50% zaliczki</li>
                 <li>48h-7 dni: 100% zaliczki</li>
                 <li>&lt;48h: 100% wartości zlecenia</li>
-                <li className="text-amber-400 font-medium">Wyjątek pogodowy: zamknięcie parku z powodu burz — pełny zwrot, bez kosztów.</li>
+                <li className="text-[#97C459] font-medium">Wyjątek pogodowy: zamknięcie parku z powodu burz — pełny zwrot, bez kosztów.</li>
               </ul>
             </div>
           </div>
@@ -861,7 +861,7 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#111111] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Popularne wariacje trasy</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Popularne wariacje trasy</h2>
             <ul className="grid gap-3 sm:grid-cols-2">
               {[
                 { label: "Krakow → Energylandia → Krakow (klasyk 1-dniowy)", detail: "310 km, 2 800 zł autokar 50-os" },
@@ -872,7 +872,7 @@ export default async function KrakowEnergylandiaPage({
               ].map((item, idx) => (
                 <li key={idx} className="rounded-xl border border-[#2a2a2a] bg-[#1a1a1a] p-4">
                   <p className="font-semibold text-sm">{item.label}</p>
-                  <p className="text-sm text-[#f59e0b] mt-1">{item.detail}</p>
+                  <p className="text-sm text-[#639922] mt-1">{item.detail}</p>
                 </li>
               ))}
             </ul>
@@ -884,7 +884,7 @@ export default async function KrakowEnergylandiaPage({
       {l === "pl" && (
         <section className="bg-[#1a1a1a] px-4 py-12 text-white">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Popularne trasy z Krakowa</h2>
+            <h2 className="mb-6 text-3xl font-black text-[#639922]">Popularne trasy z Krakowa</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 { href: "/pl/trasy/krakow-krakow-autokar", label: "Kraków", detail: "115 km / 1h 40min" },
@@ -895,9 +895,9 @@ export default async function KrakowEnergylandiaPage({
                 <a
                   key={item.href}
                   href={item.href}
-                  className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 hover:border-[#f59e0b] transition-colors"
+                  className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-5 hover:border-[#639922] transition-colors"
                 >
-                  <p className="font-bold text-[#f59e0b]">{item.label}</p>
+                  <p className="font-bold text-[#639922]">{item.label}</p>
                   <p className="text-sm text-gray-400 mt-1">{item.detail}</p>
                 </a>
               ))}
@@ -913,7 +913,7 @@ export default async function KrakowEnergylandiaPage({
       />
 
       {/* CTA FINAL */}
-      <section className="bg-[#f59e0b] px-4 py-12 text-black">
+      <section className="bg-[#1D9E75] px-4 py-12 text-black">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-2 text-3xl font-black">{ctaSectionHeadings[l]}</h2>
           {l === "pl" && (

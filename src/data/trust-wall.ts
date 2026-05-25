@@ -22,7 +22,7 @@ export const trustWallByLang: Record<Language, TrustWallContent> = {
     guarantees: [
       { icon: "✅", iconClassName: "text-green-600", title: "LICENCJA WITD", text: "Transport krajowy i międzynarodowy" },
       { icon: "🛡️", iconClassName: "text-teal-600", title: "UBEZPIECZENIE OC", text: "Pełne pokrycie dla wszystkich pasażerów" },
-      { icon: "👨‍💼", iconClassName: "text-[#f59e0b]", title: "KIEROWCY PRZESZKOLENI", text: "Kursy bezpieczeństwa i CPR" },
+      { icon: "👨‍💼", iconClassName: "text-[#639922]", title: "KIEROWCY PRZESZKOLENI", text: "Kursy bezpieczeństwa i CPR" },
     ],
     reviews: { stars: "★★★★★", rating: "4.8/5 na Google", count: "(250+ opinii od klientów)", cta: "Czytaj opinie →", href: REVIEW_HREF },
   },
@@ -37,7 +37,7 @@ export const trustWallByLang: Record<Language, TrustWallContent> = {
     guarantees: [
       { icon: "✅", iconClassName: "text-green-600", title: "WITD LICENSE", text: "Domestic and international transport" },
       { icon: "🛡️", iconClassName: "text-teal-600", title: "OC INSURANCE", text: "Full coverage for all passengers" },
-      { icon: "👨‍💼", iconClassName: "text-[#f59e0b]", title: "TRAINED DRIVERS", text: "Safety courses and CPR" },
+      { icon: "👨‍💼", iconClassName: "text-[#639922]", title: "TRAINED DRIVERS", text: "Safety courses and CPR" },
     ],
     reviews: { stars: "★★★★★", rating: "4.8/5 on Google", count: "(250+ reviews from clients)", cta: "Read reviews →", href: REVIEW_HREF },
   },
@@ -52,7 +52,7 @@ export const trustWallByLang: Record<Language, TrustWallContent> = {
     guarantees: [
       { icon: "✅", iconClassName: "text-green-600", title: "WITD-LIZENZ", text: "Inlands- und Auslandstransport" },
       { icon: "🛡️", iconClassName: "text-teal-600", title: "HAFTPFLICHTVERSICHERUNG", text: "Vollständige Deckung für alle Fahrgäste" },
-      { icon: "👨‍💼", iconClassName: "text-[#f59e0b]", title: "AUSGEBILDETE FAHRER", text: "Sicherheitskurse und Erste Hilfe" },
+      { icon: "👨‍💼", iconClassName: "text-[#639922]", title: "AUSGEBILDETE FAHRER", text: "Sicherheitskurse und Erste Hilfe" },
     ],
     reviews: { stars: "★★★★★", rating: "4,8/5 bei Google", count: "(250+ Kundenbewertungen)", cta: "Bewertungen lesen →", href: REVIEW_HREF },
   },
@@ -67,7 +67,7 @@ export const trustWallByLang: Record<Language, TrustWallContent> = {
     guarantees: [
       { icon: "✅", iconClassName: "text-green-600", title: "ЛИЦЕНЗИЯ WITD", text: "Внутренние и международные перевозки" },
       { icon: "🛡️", iconClassName: "text-teal-600", title: "СТРАХОВАНИЕ OC", text: "Полное покрытие для всех пассажиров" },
-      { icon: "👨‍💼", iconClassName: "text-[#f59e0b]", title: "ОБУЧЕННЫЕ ВОДИТЕЛИ", text: "Курсы безопасности и первой помощи" },
+      { icon: "👨‍💼", iconClassName: "text-[#639922]", title: "ОБУЧЕННЫЕ ВОДИТЕЛИ", text: "Курсы безопасности и первой помощи" },
     ],
     reviews: { stars: "★★★★★", rating: "4,8/5 в Google", count: "(более 250 отзывов клиентов)", cta: "Читать отзывы →", href: REVIEW_HREF },
   },
@@ -82,7 +82,7 @@ export const trustWallByLang: Record<Language, TrustWallContent> = {
     guarantees: [
       { icon: "✅", iconClassName: "text-green-600", title: "ترخيص WITD", text: "النقل المحلي والدولي" },
       { icon: "🛡️", iconClassName: "text-teal-600", title: "تأمين المسؤولية", text: "تغطية كاملة لجميع الركاب" },
-      { icon: "👨‍💼", iconClassName: "text-[#f59e0b]", title: "سائقون مدرَّبون", text: "دورات السلامة والإسعافات الأولية" },
+      { icon: "👨‍💼", iconClassName: "text-[#639922]", title: "سائقون مدرَّبون", text: "دورات السلامة والإسعافات الأولية" },
     ],
     reviews: { stars: "★★★★★", rating: "4.8/5 على Google", count: "(أكثر من 250 تقييم)", cta: "اقرأ التقييمات ←", href: REVIEW_HREF },
   },
@@ -97,7 +97,7 @@ export const trustWallByLang: Record<Language, TrustWallContent> = {
     guarantees: [
       { icon: "✅", iconClassName: "text-green-600", title: "LICENCIA WITD", text: "Transporte nacional e internacional" },
       { icon: "🛡️", iconClassName: "text-teal-600", title: "SEGURO OC", text: "Cobertura total para todos los pasajeros" },
-      { icon: "👨‍💼", iconClassName: "text-[#f59e0b]", title: "CONDUCTORES FORMADOS", text: "Cursos de seguridad y RCP" },
+      { icon: "👨‍💼", iconClassName: "text-[#639922]", title: "CONDUCTORES FORMADOS", text: "Cursos de seguridad y RCP" },
     ],
     reviews: { stars: "★★★★★", rating: "4,8/5 en Google", count: "(más de 250 reseñas)", cta: "Leer reseñas →", href: REVIEW_HREF },
   },
@@ -112,7 +112,7 @@ export const trustWallByLang: Record<Language, TrustWallContent> = {
     guarantees: [
       { icon: "✅", iconClassName: "text-green-600", title: "LICENCE WITD", text: "Transport national et international" },
       { icon: "🛡️", iconClassName: "text-teal-600", title: "ASSURANCE RC", text: "Couverture totale pour tous les passagers" },
-      { icon: "👨‍💼", iconClassName: "text-[#f59e0b]", title: "CHAUFFEURS FORMÉS", text: "Cours de sécurité et secourisme" },
+      { icon: "👨‍💼", iconClassName: "text-[#639922]", title: "CHAUFFEURS FORMÉS", text: "Cours de sécurité et secourisme" },
     ],
     reviews: { stars: "★★★★★", rating: "4,8/5 sur Google", count: "(plus de 250 avis clients)", cta: "Lire les avis →", href: REVIEW_HREF },
   },

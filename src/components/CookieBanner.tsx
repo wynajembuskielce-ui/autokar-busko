@@ -69,10 +69,10 @@ export default function CookieBanner() {
               <h2 className="text-lg font-bold text-[#1a1a1a]">{text.title}</h2>
               <p className="text-sm text-gray-700">{text.description}</p>
               <div className="flex items-center gap-4 text-xs text-gray-600">
-                <Link href="/polityka-prywatnosci" className="underline transition-colors hover:text-[#f59e0b]">
+                <Link href="/polityka-prywatnosci" className="underline transition-colors hover:text-[#639922]">
                   {text.privacy}
                 </Link>
-                <Link href="/polityka-cookies" className="underline transition-colors hover:text-[#f59e0b]">
+                <Link href="/polityka-cookies" className="underline transition-colors hover:text-[#639922]">
                   {text.cookies}
                 </Link>
               </div>
@@ -120,7 +120,7 @@ export default function CookieBanner() {
                     <p className="font-semibold text-[#1a1a1a]">{text.necessaryTitle}</p>
                     <p className="text-sm text-gray-600">{text.necessaryDescription}</p>
                   </div>
-                  <input type="checkbox" checked disabled className="mt-1 h-5 w-5 accent-[#f59e0b]" />
+                  <input type="checkbox" checked disabled className="mt-1 h-5 w-5 accent-[#1D9E75]" />
                 </div>
               </div>
 
@@ -134,7 +134,7 @@ export default function CookieBanner() {
                     type="checkbox"
                     checked={analyticsEnabled}
                     onChange={(event) => setAnalyticsEnabled(event.target.checked)}
-                    className="mt-1 h-5 w-5 accent-[#f59e0b]"
+                    className="mt-1 h-5 w-5 accent-[#1D9E75]"
                   />
                 </div>
               </div>
@@ -149,7 +149,7 @@ export default function CookieBanner() {
                     type="checkbox"
                     checked={functionalEnabled}
                     onChange={(event) => setFunctionalEnabled(event.target.checked)}
-                    className="mt-1 h-5 w-5 accent-[#f59e0b]"
+                    className="mt-1 h-5 w-5 accent-[#1D9E75]"
                   />
                 </div>
               </div>

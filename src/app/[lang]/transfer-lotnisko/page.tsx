@@ -159,7 +159,7 @@ export default function TransferLotnikskoPage() {
       <section className="bg-[#1a1a1a] text-white py-16 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="text-5xl mb-4">✈️</div>
-          <h1 className="text-4xl font-bold text-[#f59e0b] mb-4">{c.title}</h1>
+          <h1 className="text-4xl font-bold text-[#639922] mb-4">{c.title}</h1>
           <p className="text-xl text-gray-300 mb-6">{c.subtitle}</p>
           <p className="text-gray-400 max-w-2xl mx-auto">{c.desc}</p>
         </div>
@@ -177,7 +177,7 @@ export default function TransferLotnikskoPage() {
                   <div className="font-semibold text-gray-900">{r.from} → {r.to}</div>
                   <div className="text-sm text-gray-500 mt-1">⏱ {r.time}</div>
                 </div>
-                <div className="text-[#f59e0b] font-bold text-lg">{r.price}</div>
+                <div className="text-[#639922] font-bold text-lg">{r.price}</div>
               </div>
             ))}
           </div>
@@ -201,11 +201,11 @@ export default function TransferLotnikskoPage() {
 
       <section className="py-16 px-4 bg-[#1a1a1a] text-white">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-[#f59e0b] mb-6">{c.faq_title}</h2>
+          <h2 className="text-3xl font-bold text-[#639922] mb-6">{c.faq_title}</h2>
           <div className="space-y-4 text-left">
             {c.faqs.map((faq, i) => (
               <div key={i} className="bg-gray-800 rounded-xl p-5">
-                <div className="font-bold text-[#f59e0b] mb-2">❓ {faq.q}</div>
+                <div className="font-bold text-[#639922] mb-2">❓ {faq.q}</div>
                 <div className="text-gray-300">{faq.a}</div>
               </div>
             ))}
@@ -213,16 +213,16 @@ export default function TransferLotnikskoPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-[#f59e0b]">
+      <section className="py-16 px-4 bg-[#1D9E75]">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#1a1a1a] mb-6">{c.cta}</h2>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="https://wa.me/48413453225" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] transition-all duration-200 hover:bg-[#f59e0b] hover:text-black">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#639922] px-6 py-3 text-base font-bold text-[#639922] transition-all duration-200 hover:bg-[#5DCAA5] hover:text-black">
               💬 {c.whatsapp}
             </a>
             <a href="tel:+48413453225"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#f59e0b] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#f6c15a] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#1D9E75] px-8 py-4 text-lg font-black text-black shadow-lg transition-all duration-200 hover:bg-[#5DCAA5] hover:shadow-xl md:px-12 md:py-5 md:text-xl">
               📞 +48 41 345 32 25 lub 
             </a>
           </div>

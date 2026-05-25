@@ -294,14 +294,14 @@ export default function Footer({ lang }: { lang?: Lang }) {
     <footer className="border-t border-[#333333] bg-[#1a1a1a] text-white" dir={isRtl ? 'rtl' : 'ltr'}>
       <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 md:py-16">
         <div className="mb-12 border-b border-[#333333] pb-12">
-          <h3 className="mb-6 text-lg font-bold text-[#f59e0b]">{c.fleetHeading}</h3>
+          <h3 className="mb-6 text-lg font-bold text-[#639922]">{c.fleetHeading}</h3>
           <FleetCarousel />
         </div>
 
         <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Kontakt */}
           <div>
-            <h4 className="mb-4 text-sm font-bold uppercase text-[#f59e0b]">{c.kontakt.title}</h4>
+            <h4 className="mb-4 text-sm font-bold uppercase text-[#639922]">{c.kontakt.title}</h4>
             <div className="mb-6 space-y-2 text-sm">
               {CONTACT_ITEMS.map((item, idx) =>
                 item.href ? (
@@ -310,7 +310,7 @@ export default function Footer({ lang }: { lang?: Lang }) {
                     href={item.href}
                     target={item.href.startsWith('https://') ? '_blank' : undefined}
                     rel={item.href.startsWith('https://') ? 'noopener noreferrer' : undefined}
-                    className="block text-gray-300 transition-colors hover:text-[#f59e0b]"
+                    className="block text-gray-300 transition-colors hover:text-[#639922]"
                   >
                     {item.label}
                   </a>
@@ -328,30 +328,30 @@ export default function Footer({ lang }: { lang?: Lang }) {
 
           {/* Usługi */}
           <div>
-            <h4 className="mb-4 text-sm font-bold uppercase text-[#f59e0b]">{c.uslugi.title}</h4>
+            <h4 className="mb-4 text-sm font-bold uppercase text-[#639922]">{c.uslugi.title}</h4>
             <div className="space-y-2 text-sm">
               {c.uslugi.items.map((item, idx) => (
-                <Link key={idx} href={`/${langStr}/${item.slug}`} className="block text-gray-300 transition-colors hover:text-[#f59e0b]">
+                <Link key={idx} href={`/${langStr}/${item.slug}`} className="block text-gray-300 transition-colors hover:text-[#639922]">
                   • {item.label}
                 </Link>
               ))}
             </div>
             <div className="mt-4 space-y-2 text-sm border-t border-[#333333] pt-4">
-              <Link href="/pl/wynajem-autokaru-na-wesele" className="block text-gray-400 transition-colors hover:text-[#f59e0b]">• Wesele</Link>
-              <Link href="/pl/wycieczka-licealna" className="block text-gray-400 transition-colors hover:text-[#f59e0b]">• Wycieczka licealna</Link>
-              <Link href="/pl/wycieczka-przedszkolna" className="block text-gray-400 transition-colors hover:text-[#f59e0b]">• Wycieczka przedszkolna</Link>
-              <Link href="/pl/autokar-na-pielgrzymke" className="block text-gray-400 transition-colors hover:text-[#f59e0b]">• Pielgrzymka</Link>
-              <Link href="/pl/autokar-na-pogrzeb" className="block text-gray-400 transition-colors hover:text-[#f59e0b]">• Pogrzeb</Link>
-              <Link href="/pl/przysiega-wojskowa" className="block text-gray-400 transition-colors hover:text-[#f59e0b]">• Przysięga wojskowa</Link>
+              <Link href="/pl/wynajem-autokaru-na-wesele" className="block text-gray-400 transition-colors hover:text-[#639922]">• Wesele</Link>
+              <Link href="/pl/wycieczka-licealna" className="block text-gray-400 transition-colors hover:text-[#639922]">• Wycieczka licealna</Link>
+              <Link href="/pl/wycieczka-przedszkolna" className="block text-gray-400 transition-colors hover:text-[#639922]">• Wycieczka przedszkolna</Link>
+              <Link href="/pl/autokar-na-pielgrzymke" className="block text-gray-400 transition-colors hover:text-[#639922]">• Pielgrzymka</Link>
+              <Link href="/pl/autokar-na-pogrzeb" className="block text-gray-400 transition-colors hover:text-[#639922]">• Pogrzeb</Link>
+              <Link href="/pl/przysiega-wojskowa" className="block text-gray-400 transition-colors hover:text-[#639922]">• Przysięga wojskowa</Link>
             </div>
           </div>
 
           {/* Informacje */}
           <div>
-            <h4 className="mb-4 text-sm font-bold uppercase text-[#f59e0b]">{c.informacje.title}</h4>
+            <h4 className="mb-4 text-sm font-bold uppercase text-[#639922]">{c.informacje.title}</h4>
             <div className="space-y-2 text-sm">
               {c.informacje.items.map((item, idx) => (
-                <Link key={idx} href={`/${langStr}/${item.slug}`} className="block text-gray-300 transition-colors hover:text-[#f59e0b]">
+                <Link key={idx} href={`/${langStr}/${item.slug}`} className="block text-gray-300 transition-colors hover:text-[#639922]">
                   • {item.label}
                 </Link>
               ))}
@@ -360,11 +360,11 @@ export default function Footer({ lang }: { lang?: Lang }) {
 
           {/* Zaufanie */}
           <div>
-            <h4 className="mb-4 text-sm font-bold uppercase text-[#f59e0b]">{c.zaufanie.title}</h4>
+            <h4 className="mb-4 text-sm font-bold uppercase text-[#639922]">{c.zaufanie.title}</h4>
             <div className="mb-6 space-y-2 text-xs">
               {c.zaufanie.stats.map((stat, idx) => (
                 <div key={idx} className="text-gray-300">
-                  <div className="font-bold text-[#f59e0b]">{stat.label}</div>
+                  <div className="font-bold text-[#639922]">{stat.label}</div>
                   <div className="text-gray-500">{stat.desc}</div>
                 </div>
               ))}
@@ -378,7 +378,7 @@ export default function Footer({ lang }: { lang?: Lang }) {
               href="https://www.google.com/search?q=Autokar+Busko+opinie"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-[#f59e0b] transition-colors hover:text-amber-400"
+              className="text-xs text-[#639922] transition-colors hover:text-[#97C459]"
             >
               {c.zaufanie.rating}
             </a>
@@ -390,7 +390,7 @@ export default function Footer({ lang }: { lang?: Lang }) {
             href="https://www.facebook.com/muszkieterprzewozy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-2xl transition-colors hover:text-[#f59e0b]"
+            className="text-2xl transition-colors hover:text-[#639922]"
             aria-label="Facebook"
           >
             f
@@ -399,12 +399,12 @@ export default function Footer({ lang }: { lang?: Lang }) {
             href="https://wa.me/48609691912"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-2xl transition-colors hover:text-[#f59e0b]"
+            className="text-2xl transition-colors hover:text-[#639922]"
             aria-label="WhatsApp"
           >
             💬
           </a>
-          <Link href={`/${langStr}/blog`} className="text-2xl transition-colors hover:text-[#f59e0b]" aria-label="Blog">
+          <Link href={`/${langStr}/blog`} className="text-2xl transition-colors hover:text-[#639922]" aria-label="Blog">
             📝
           </Link>
         </div>
@@ -417,19 +417,19 @@ export default function Footer({ lang }: { lang?: Lang }) {
           <span className="block">ul. Poprzeczna 1, 28-100 Busko-Zdrój • +48 41 345 32 25 • biuro@autokar-busko.pl</span>
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <Link href="/regulamin" className="transition-colors hover:text-[#f59e0b]">
+          <Link href="/regulamin" className="transition-colors hover:text-[#639922]">
             {c.regulamin}
           </Link>
           <span>•</span>
-          <Link href="/polityka-prywatnosci" className="transition-colors hover:text-[#f59e0b]">
+          <Link href="/polityka-prywatnosci" className="transition-colors hover:text-[#639922]">
             {c.privacy}
           </Link>
           <span>•</span>
-          <Link href="/polityka-cookies" className="transition-colors hover:text-[#f59e0b]">
+          <Link href="/polityka-cookies" className="transition-colors hover:text-[#639922]">
             {c.cookies}
           </Link>
           <span>•</span>
-          <button type="button" onClick={resetConsent} className="transition-colors hover:text-[#f59e0b]">
+          <button type="button" onClick={resetConsent} className="transition-colors hover:text-[#639922]">
             {c.cookieSettings}
           </button>
         </div>

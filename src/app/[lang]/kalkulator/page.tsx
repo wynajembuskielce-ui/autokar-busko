@@ -47,7 +47,7 @@ export default function KalkulatorPage() {
       <div className="max-w-2xl mx-auto">
         <div className="bg-[#1a1a1a] text-white rounded-2xl p-8 mb-6 text-center">
           <div className="text-4xl mb-3">🚌</div>
-          <h1 className="text-3xl font-bold text-[#f59e0b]">Kalkulator Ceny</h1>
+          <h1 className="text-3xl font-bold text-[#639922]">Kalkulator Ceny</h1>
           <p className="text-gray-400 mt-2">Orientacyjna wycena — ostateczna cena po kontakcie</p>
         </div>
 
@@ -56,7 +56,7 @@ export default function KalkulatorPage() {
           <div className="grid grid-cols-1 gap-2">
             {pricingConfig.vehicles.map(v => (
               <button key={v.id} onClick={() => { setVehicleId(v.id); if (v.id !== 'van9') { setArabicWomen(false); setArabicFemaleDriver(false); } }}
-                className={`p-3 rounded-xl border-2 text-left transition ${vehicleId === v.id ? 'border-[#f59e0b] bg-amber-50' : 'border-gray-200 hover:border-gray-300'}`}>
+                className={`p-3 rounded-xl border-2 text-left transition ${vehicleId === v.id ? 'border-[#639922] bg-[#EAF3DE]' : 'border-gray-200 hover:border-gray-300'}`}>
                 <span className="font-semibold">{v.name_pl}</span>
                 {v.vip_note && <span className="text-xs text-gray-400 ml-2">({v.vip_note})</span>}
               </button>
@@ -69,7 +69,7 @@ export default function KalkulatorPage() {
           <div className="grid grid-cols-3 gap-3">
             {['standard','biznes','vip'].map(t => (
               <button key={t} onClick={() => setTier(t)}
-                className={`p-3 rounded-xl border-2 font-bold capitalize transition ${tier === t ? 'border-[#f59e0b] bg-amber-50 text-[#f59e0b]' : 'border-gray-200 hover:border-gray-300'}`}>
+                className={`p-3 rounded-xl border-2 font-bold capitalize transition ${tier === t ? 'border-[#639922] bg-[#EAF3DE] text-[#639922]' : 'border-gray-200 hover:border-gray-300'}`}>
                 {t === 'standard' ? '⭐ Standard' : t === 'biznes' ? '⭐⭐ Biznes' : '👑 VIP'}
               </button>
             ))}
@@ -79,7 +79,7 @@ export default function KalkulatorPage() {
         <div className="bg-white rounded-2xl shadow p-6 mb-4">
           <h2 className="font-bold text-lg mb-4 text-gray-800">3. Trasa</h2>
           <select value={routeId} onChange={e => setRouteId(e.target.value)}
-            className="w-full p-3 border-2 border-gray-200 rounded-xl mb-3 focus:border-[#f59e0b] outline-none">
+            className="w-full p-3 border-2 border-gray-200 rounded-xl mb-3 focus:border-[#639922] outline-none">
             {pricingConfig.routes.map(r => (
               <option key={r.id} value={r.id}>{r.name} {r.km > 0 ? `(${r.km} km)` : ''}</option>
             ))}
@@ -88,7 +88,7 @@ export default function KalkulatorPage() {
             <div>
               <label className="text-sm text-gray-600">Km (w jedną stronę):</label>
               <input type="number" value={customKm} onChange={e => setCustomKm(Number(e.target.value))}
-                className="w-full p-3 border-2 border-gray-200 rounded-xl mt-1 focus:border-[#f59e0b] outline-none" min="1" />
+                className="w-full p-3 border-2 border-gray-200 rounded-xl mt-1 focus:border-[#639922] outline-none" min="1" />
             </div>
           )}
           <div className="mt-3 text-sm text-gray-500">
@@ -101,7 +101,7 @@ export default function KalkulatorPage() {
           <div className="flex items-center gap-4">
             <button onClick={() => setDays(Math.max(1, days-1))} className="w-10 h-10 rounded-full bg-gray-100 font-bold text-xl hover:bg-gray-200">-</button>
             <span className="text-2xl font-bold w-12 text-center">{days}</span>
-            <button onClick={() => setDays(days+1)} className="w-10 h-10 rounded-full bg-[#f59e0b] font-bold text-xl hover:opacity-90">+</button>
+            <button onClick={() => setDays(days+1)} className="w-10 h-10 rounded-full bg-[#1D9E75] font-bold text-xl hover:opacity-90">+</button>
           </div>
         </div>
 
@@ -115,7 +115,7 @@ export default function KalkulatorPage() {
               {vehicleId === 'van9' ? (
                 <label className="flex items-center gap-3 cursor-pointer">
                   <input type="checkbox" checked={arabicWomen} onChange={e => { setArabicWomen(e.target.checked); if (!e.target.checked) { setArabicFemaleDriver(false); } }}
-                    className="w-5 h-5 accent-amber-500" />
+                    className="w-5 h-5 accent-[#1D9E75]" />
                   <span>
                     👩 {isAr ? 'مجموعة النساء العربيات' : 'Group of Arab women'}
                     {' '}<span className="text-green-600 font-semibold">(+{pricingConfig.surcharges.female_driver} zł/{isAr ? 'يوم' : 'day'})</span>
@@ -133,7 +133,7 @@ export default function KalkulatorPage() {
                 </div>
               )}
               {arabicWomen && vehicleId === 'van9' && (
-                <div className="ml-8 bg-amber-50 border border-amber-200 rounded-xl p-3 text-sm text-amber-800">
+                <div className="ml-8 bg-[#EAF3DE] border border-[#EAF3DE] rounded-xl p-3 text-sm text-[#27500A]">
                   ⚠️ {pricingConfig.surcharges.women_only_policy}
                 </div>
               )}
@@ -141,7 +141,7 @@ export default function KalkulatorPage() {
               {/* --- Kierowca mówiący po arabsku --- */}
               <label className="flex items-center gap-3 cursor-pointer">
                 <input type="checkbox" checked={arabicDriver} onChange={e => setArabicDriver(e.target.checked)}
-                  className="w-5 h-5 accent-amber-500" />
+                  className="w-5 h-5 accent-[#1D9E75]" />
                 <span>
                   🗣️ {isAr ? 'سائق يتحدث العربية' : 'Arabic-speaking driver'}
                   {' '}<span className="text-green-600 font-semibold">(+{pricingConfig.surcharges.arabic_driver} zł/{isAr ? 'يوم' : 'day'})</span>
@@ -152,7 +152,7 @@ export default function KalkulatorPage() {
               {arabicWomen && arabicDriver && vehicleId === 'van9' && (
                 <label className="flex items-center gap-3 cursor-pointer ml-4">
                   <input type="checkbox" checked={arabicFemaleDriver} onChange={e => setArabicFemaleDriver(e.target.checked)}
-                    className="w-5 h-5 accent-amber-500" />
+                    className="w-5 h-5 accent-[#1D9E75]" />
                   <span>
                     👑 {isAr ? 'سائقة تتحدث العربية — PREMIUM' : 'Arabic-speaking female driver — PREMIUM'}
                     {' '}<span className="text-green-600 font-semibold">(+{pricingConfig.surcharges.arabic_female_driver} zł/{isAr ? 'يوم' : 'day'})</span>
@@ -177,14 +177,14 @@ export default function KalkulatorPage() {
           <div className="space-y-3">
             <label className="flex items-center gap-3 cursor-pointer">
               <input type="checkbox" checked={nightSurcharge} onChange={e => setNightSurcharge(e.target.checked)}
-                className="w-5 h-5 accent-amber-500" />
+                className="w-5 h-5 accent-[#1D9E75]" />
               <span>🌙 {isAr ? 'مغادرة ليلية 22:00-06:00' : lang === 'en' ? 'Night departure 22:00–06:00' : 'Wyjazd nocny 22:00–06:00'} <span className="text-green-600 font-semibold">(+{pricingConfig.surcharges.night_surcharge} zł)</span></span>
             </label>
           </div>
         </div>
 
         <div className="bg-[#1a1a1a] text-white rounded-2xl p-6 mb-4">
-          <h2 className="font-bold text-lg mb-4 text-[#f59e0b]">💰 Wycena orientacyjna</h2>
+          <h2 className="font-bold text-lg mb-4 text-[#639922]">💰 Wycena orientacyjna</h2>
           <div className="space-y-2 text-sm mb-4">
             <div className="flex justify-between"><span className="text-gray-400">⛽ Paliwo ({kmTotal} km):</span><span>{fuel.toFixed(0)} zł</span></div>
             <div className="flex justify-between"><span className="text-gray-400">👤 Kierowca ({days} dzień/dni):</span><span>{(vehicle.driver_day * days).toFixed(0)} zł</span></div>
@@ -193,12 +193,12 @@ export default function KalkulatorPage() {
             {surcharges > 0 && <div className="flex justify-between"><span className="text-gray-400">⭐ Dopłaty:</span><span>{surcharges.toFixed(0)} zł</span></div>}
             <div className="border-t border-gray-700 pt-2 mt-2">
               <div className="flex justify-between text-lg"><span className="text-gray-300">Netto:</span><span className="font-bold">{totalNetto.toFixed(0)} zł</span></div>
-              <div className="flex justify-between text-2xl mt-1"><span className="text-[#f59e0b] font-bold">BRUTTO (8% VAT):</span><span className="font-bold text-[#f59e0b]">{totalBrutto.toFixed(0)} zł</span></div>
+              <div className="flex justify-between text-2xl mt-1"><span className="text-[#639922] font-bold">BRUTTO (8% VAT):</span><span className="font-bold text-[#639922]">{totalBrutto.toFixed(0)} zł</span></div>
             </div>
           </div>
           <p className="text-xs text-gray-500 mb-4">* Cena orientacyjna. Paliwo wg {pricingConfig.fuel_price_pln} zł/l ({pricingConfig.fuel_note})</p>
           <a href="https://wa.me/48413453225" target="_blank" rel="noopener noreferrer"
-            className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-[#f59e0b] px-6 py-3 text-base font-bold text-[#f59e0b] transition-all duration-200 hover:bg-[#f59e0b] hover:text-black">
+            className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-[#639922] px-6 py-3 text-base font-bold text-[#639922] transition-all duration-200 hover:bg-[#5DCAA5] hover:text-black">
             💬 Potwierdź wycenę na WhatsApp
           </a>
         </div>

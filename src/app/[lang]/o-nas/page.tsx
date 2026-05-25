@@ -358,7 +358,7 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
               href="https://pl.linkedin.com/in/rafa%C5%82-chmiel-57782436"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-[#f59e0b] mt-4 font-semibold"
+              className="inline-flex items-center gap-2 text-[#639922] mt-4 font-semibold"
             >
               {linkedinLabels[l]}
             </a>
@@ -372,7 +372,7 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {statsByLang[l].map((item) => (
               <div key={item.label} className="rounded-2xl border border-gray-200 p-6 text-center bg-white shadow-sm">
-                <div className="text-4xl font-black text-[#f59e0b] mb-2">{item.number}</div>
+                <div className="text-4xl font-black text-[#639922] mb-2">{item.number}</div>
                 <div className="text-sm md:text-base font-semibold text-[#1a1a1a]">{item.label}</div>
               </div>
             ))}
@@ -389,9 +389,9 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block border border-gray-200 rounded-xl p-6 hover:border-[#f59e0b] hover:shadow-md transition-all"
+              className="block border border-gray-200 rounded-xl p-6 hover:border-[#639922] hover:shadow-md transition-all"
             >
-              <span className="text-sm font-bold text-[#f59e0b] uppercase">{link.source}</span>
+              <span className="text-sm font-bold text-[#639922] uppercase">{link.source}</span>
               <h3 className="font-black text-lg mt-1 mb-2 text-[#1a1a1a]">{link.title}</h3>
               <p className="text-gray-600 text-sm">{link.description}</p>
               <span className="text-sm text-gray-400 mt-3 inline-block">{sectionTitles.readPress[l]}</span>
@@ -411,9 +411,9 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 p-3 bg-white rounded-lg border hover:border-[#f59e0b] text-sm transition-all"
+                className="flex items-center gap-2 p-3 bg-white rounded-lg border hover:border-[#639922] text-sm transition-all"
               >
-                <span className="text-[#f59e0b]">✓</span>
+                <span className="text-[#639922]">✓</span>
                 {link.label}
               </a>
             ))}
@@ -426,7 +426,7 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {placeholderReviews[l].map((review, idx) => (
             <article key={`${review.author}-${idx}`} className="p-5 rounded-xl border border-gray-200 bg-white">
-              <div className="text-[#f59e0b] mb-3">{"★".repeat(review.stars)}</div>
+              <div className="text-[#639922] mb-3">{"★".repeat(review.stars)}</div>
               <p className="text-gray-700 text-sm leading-6 mb-3">{review.text}</p>
               <p className="text-xs text-gray-500 font-medium">{review.author}</p>
             </article>
@@ -434,7 +434,7 @@ export default async function ONasPage({ params }: { params: Promise<{ lang: str
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-[#f59e0b] text-center">
+      <section className="py-16 px-4 bg-[#1D9E75] text-center">
         <h2 className="text-3xl font-black text-[#1a1a1a] mb-6">{sectionTitles.finalCta[l]}</h2>
         <CTAButton href="tel:413453225" variant="secondary">
           📞 +48 41 345 32 25 lub +48 609 69 19 12

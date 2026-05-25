@@ -392,7 +392,7 @@ function ResponsivePricingTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-3xl font-black text-[#f59e0b]">Cena wynajmu autokaru Krakow-Kraków (cennik 2026)</h2>
+        <h2 className="mb-4 text-3xl font-black text-[#639922]">Cena wynajmu autokaru Krakow-Kraków (cennik 2026)</h2>
         <p className="mb-8 text-gray-300">
           Cennik orientacyjny przy zapytaniach poniżej 30 dni przed wyjazdem. Wszystkie ceny brutto i bez ukrytych dopłat.
         </p>
@@ -400,7 +400,7 @@ function ResponsivePricingTable() {
         <div className="space-y-4 md:hidden">
           {routePricingRows.map((row) => (
             <div key={row.vehicle} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
-              <h3 className="text-lg font-bold text-[#f59e0b]">{row.vehicle}</h3>
+              <h3 className="text-lg font-bold text-[#639922]">{row.vehicle}</h3>
               <p className="mt-1 text-sm text-gray-300">Pasażerów: {row.passengers}</p>
               <dl className="mt-4 space-y-2 text-sm">
                 <div className="flex justify-between gap-3"><dt>One-way</dt><dd className="font-bold">{row.oneWay}</dd></div>
@@ -414,7 +414,7 @@ function ResponsivePricingTable() {
 
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pojazd</th>
                 <th className="px-4 py-3">Pasażerów</th>
@@ -447,13 +447,13 @@ function ResponsiveTravelTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Czas przejazdu i trasa</h2>
+        <h2 className="mb-6 text-3xl font-black text-[#639922]">Czas przejazdu i trasa</h2>
 
         <div className="space-y-4 md:hidden">
           {travelTimeRows.map((row) => (
             <div key={row.timeOfDay} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4">
               <p className="text-sm text-gray-300">{row.timeOfDay}</p>
-              <p className="mt-1 text-lg font-black text-[#f59e0b]">{row.duration}</p>
+              <p className="mt-1 text-lg font-black text-[#639922]">{row.duration}</p>
               <p className="mt-2 text-sm text-gray-300">{row.note}</p>
             </div>
           ))}
@@ -461,7 +461,7 @@ function ResponsiveTravelTable() {
 
         <div className="hidden overflow-x-auto md:block">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Pora dnia</th>
                 <th className="px-4 py-3">Czas Krakow → Kraków</th>
@@ -488,10 +488,10 @@ function GroupVehicleTable() {
   return (
     <section className="bg-[#1a1a1a] px-4 py-12 text-white">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jaki autokar dla jakiej grupy</h2>
+        <h2 className="mb-6 text-3xl font-black text-[#639922]">Jaki autokar dla jakiej grupy</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full overflow-hidden rounded-xl border border-[#2a2a2a] text-sm">
-            <thead className="bg-[#111111] text-left text-[#f59e0b]">
+            <thead className="bg-[#111111] text-left text-[#639922]">
               <tr>
                 <th className="px-4 py-3">Wielkość grupy</th>
                 <th className="px-4 py-3">Rekomendowany pojazd</th>
@@ -516,7 +516,7 @@ function GroupVehicleTable() {
 
 function CTABlock() {
   return (
-    <section className="bg-[#f59e0b] px-4 py-12 text-center">
+    <section className="bg-[#1D9E75] px-4 py-12 text-center">
       <h3 className="mb-2 text-2xl font-black text-[#1a1a1a]">Sprawdź dostępność na Twoją datę</h3>
       <p className="mb-6 text-[#1a1a1a]">Odpowiadamy w 15-30 min w godzinach biurowych. Wycena pisemna, bez zobowiązań.</p>
       <div className="flex flex-wrap items-center justify-center gap-4">
@@ -608,11 +608,11 @@ export default async function KrakowKrakowRoutePage({
 
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Miejsca odbioru w Krakowie</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Miejsca odbioru w Krakowie</h2>
           <ol className="grid gap-3 md:grid-cols-2">
             {pickupPoints.map((point, index) => (
               <li key={point} className="rounded-xl border border-[#2a2a2a] bg-[#111111] p-4 text-gray-200">
-                <span className="mr-2 font-black text-[#f59e0b]">{index + 1}.</span>
+                <span className="mr-2 font-black text-[#639922]">{index + 1}.</span>
                 {point}
               </li>
             ))}
@@ -622,7 +622,7 @@ export default async function KrakowKrakowRoutePage({
 
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl space-y-8">
-          <h2 className="text-3xl font-black text-[#f59e0b]">Miejsca docelowe w Krakowie</h2>
+          <h2 className="text-3xl font-black text-[#639922]">Miejsca docelowe w Krakowie</h2>
 
           <div>
             <h3 className="mb-3 text-xl font-bold text-white">Centrum / Stare Miasto</h3>
@@ -658,7 +658,7 @@ export default async function KrakowKrakowRoutePage({
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">
           <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-            <h2 className="mb-4 text-2xl font-black text-[#f59e0b]">Co jest w cenie</h2>
+            <h2 className="mb-4 text-2xl font-black text-[#639922]">Co jest w cenie</h2>
             <ul className="space-y-2 text-gray-300">
               {includedItems.map((item) => (
                 <li key={item}>✅ {item}</li>
@@ -666,7 +666,7 @@ export default async function KrakowKrakowRoutePage({
             </ul>
           </div>
           <div className="rounded-2xl border border-[#2a2a2a] bg-[#111111] p-6">
-            <h2 className="mb-4 text-2xl font-black text-[#f59e0b]">Czego nie obejmuje cena</h2>
+            <h2 className="mb-4 text-2xl font-black text-[#639922]">Czego nie obejmuje cena</h2>
             <ul className="space-y-2 text-gray-300">
               {excludedItems.map((item) => (
                 <li key={item}>❌ {item}</li>
@@ -678,7 +678,7 @@ export default async function KrakowKrakowRoutePage({
 
       <section className="bg-[#1a1a1a] px-4 py-12 text-white">
         <div className="mx-auto max-w-5xl rounded-2xl border border-[#2a2a2a] bg-[#111111] p-8">
-          <h2 className="mb-6 text-3xl font-black text-[#f59e0b]">Jak rezerwować</h2>
+          <h2 className="mb-6 text-3xl font-black text-[#639922]">Jak rezerwować</h2>
           <ol className="space-y-3 text-gray-300">
             <li>1. Zadzwoń lub wyślij formularz z datą, trasą i liczbą osób.</li>
             <li>2. Otrzymasz wycenę w 15-30 minut.</li>
@@ -694,7 +694,7 @@ export default async function KrakowKrakowRoutePage({
       <CTABlock />
 
       <section className="bg-[#1a1a1a] px-4 py-12 text-center text-white">
-        <h2 className="mb-3 text-3xl font-black text-[#f59e0b]">Gotowi na trasę Krakow → Kraków?</h2>
+        <h2 className="mb-3 text-3xl font-black text-[#639922]">Gotowi na trasę Krakow → Kraków?</h2>
         <p className="mx-auto mb-6 max-w-2xl text-gray-300">
           Wybierz dogodny kanał kontaktu i otrzymaj pisemną wycenę bez zobowiązań.
         </p>
