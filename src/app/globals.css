@@ -4,15 +4,20 @@
 :root {
   --background: #ffffff;
   --foreground: #1a1a1a;
-  --color-primary: #1a1a1a;
-  --color-accent: #f59e0b;
+  --color-primary: #639922;
+  --color-primary-dark: #27500A;
+  --color-primary-light: #EAF3DE;
+  --color-cta: #1D9E75;
+  --color-cta-hover: #5DCAA5;
+  --color-akcent: #97C459;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-primary: #1a1a1a;
-  --color-accent: #f59e0b;
+  --color-primary: #639922;
+  --color-cta: #1D9E75;
+  --color-akcent: #97C459;
   --font-sans: var(--font-main);
 }
 

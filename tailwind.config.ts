@@ -4,13 +4,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'brand-gold': '#c9a961',
-        'brand-gold-dark': '#a18438',
-        'brand-navy': '#0a0e1a',
-        'brand-cream': '#faf8f3',
-        'brand-cream-border': '#e5e0d5',
-        'brand-text': '#0f0f1a',
-        'brand-muted': '#6b7280',
+        primary: {
+          DEFAULT: '#639922',
+          dark:    '#27500A',
+          light:   '#EAF3DE',
+        },
+        cta: {
+          DEFAULT: '#1D9E75',
+          hover:   '#5DCAA5',
+        },
+        akcent: '#97C459',
       },
       fontFamily: {
         display: ['Fraunces', 'Georgia', 'serif'],
